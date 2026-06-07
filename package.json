@@ -1,0 +1,16 @@
+{
+  "name": "daily-brief",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Internal AI news aggregator — fetched server-side on a schedule, served as a static site.",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

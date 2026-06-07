@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Daily Brief</title>
+
+<!-- Fonts: Newsreader for headlines (editorial feel), IBM Plex Sans for UI, IBM Plex Mono for labels -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper:     #f7f4ee;   /* warm page background  */
+    --card:      #fffdf9;   /* card background       */
+    --ink:       #1b1a17;   /* primary text          */
+    --ink-soft:  #57534c;   /* secondary text        */
+    --line:      #e4ded2;   /* hairline borders      */
+    --accent:    #c1361f;   /* masthead vermilion    */
+    --accent-bg: #f4e4df;   /* accent tint           */
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 24px 80px; }
+
+  /* ---------- Masthead ---------- */
+  header.masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 36px 0 18px;
+    margin-bottom: 4px;
+  }
+  .masthead-top {
+    display: flex; justify-content: space-between; align-items: baseline;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .masthead-top .live { color: var(--accent); }
+  h1.title {
+    font-family: 'Newsreader', serif;
+    font-weight: 500;
+    font-size: clamp(40px, 8vw, 64px);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin: 10px 0 6px;
+  }
+  .tagline {
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    font-size: 17px;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- Tabs ---------- */
+  nav.tabs {
+    display: flex; flex-wrap: wrap; gap: 4px;
+    border-bottom: 1px solid var(--line);
+    margin: 24px 0 8px;
+  }
+  .tab {
+    border: none; background: none; cursor: pointer;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px; font-weight: 500;
+    color: var(--ink-soft);
+    padding: 10px 12px; margin-bottom: -1px;
+    border-bottom: 2px solid transparent;
+    transition: color .15s;
+  }
+  .tab:hover { color: var(--ink); }
+  .tab.active { color: var(--ink); border-bottom-color: var(--accent); }
+
+  /* ---------- Toolbar ---------- */
+  .toolbar {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 14px 0 6px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px; color: var(--ink-soft); letter-spacing: .03em;
+  }
+  .refresh {
+    border: 1px solid var(--line); background: var(--card);
+    cursor: pointer; border-radius: 999px;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+    color: var(--ink); padding: 6px 14px;
+    transition: background .15s, border-color .15s;
+  }
+  .refresh:hover { background: var(--accent-bg); border-color: var(--accent); }
+  .refresh:disabled { opacity: .5; cursor: default; }
+
+  /* ---------- Cards ---------- */
+  .feed { display: flex; flex-direction: column; }
+  .card {
+    border-bottom: 1px solid var(--line);
+    padding: 24px 0;
+    animation: rise .5s ease both;
+  }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+
+  .card-meta {
+    display: flex; gap: 10px; align-items: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; letter-spacing: .04em; text-transform: uppercase;
+    color: var(--ink-soft); margin-bottom: 8px;
+  }
+  .card-meta .src { color: var(--accent); font-weight: 500; }
+  .card-meta .dot { opacity: .4; }
+
+  .card h2 {
+    font-family: 'Newsreader', serif;
+    font-weight: 500; font-size: 23px; line-height: 1.2;
+    letter-spacing: -0.01em; margin-bottom: 8px;
+  }
+  .card h2 a { color: var(--ink); text-decoration: none; }
+  .card h2 a:hover { color: var(--accent); }
+
+  .card p.summary { color: var(--ink-soft); font-size: 15px; margin-bottom: 12px; }
+
+  .read {
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+    color: var(--ink); text-decoration: none;
+    border-bottom: 1px solid var(--accent);
+    padding-bottom: 1px; transition: color .15s;
+  }
+  .read:hover { color: var(--accent); }
+
+  /* ---------- States ---------- */
+  .state {
+    text-align: center; padding: 60px 20px;
+    font-family: 'Newsreader', serif; font-style: italic;
+    font-size: 18px; color: var(--ink-soft);
+  }
+  .state.error { font-style: normal; font-family: 'IBM Plex Mono', monospace; font-size: 13px; line-height: 1.7; }
+  .spinner {
+    width: 20px; height: 20px; margin: 0 auto 16px;
+    border: 2px solid var(--line); border-top-color: var(--accent);
+    border-radius: 50%; animation: spin .8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .more-wrap { text-align: center; padding: 32px 0; }
+  .more {
+    border: 1px solid var(--ink); background: none; cursor: pointer;
+    font-family: 'IBM Plex Mono', monospace; font-size: 12px;
+    letter-spacing: .05em; text-transform: uppercase;
+    color: var(--ink); padding: 12px 28px;
+    transition: background .15s, color .15s;
+  }
+  .more:hover { background: var(--ink); color: var(--paper); }
+
+  .placeholder { font-size: 14px; line-height: 1.8; color: var(--ink-soft); padding: 40px 0; font-family: 'IBM Plex Sans', sans-serif; }
+  .placeholder code { background: var(--accent-bg); padding: 2px 6px; border-radius: 4px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="masthead-top">
+      <span id="date">—</span>
+      <span class="live" id="freshness">●</span>
+    </div>
+    <!-- Rename your brief here -->
+    <h1 class="title">Daily Brief</h1>
+    <p class="tagline">Internal AI intelligence, refreshed on a schedule.</p>
+  </header>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <div class="toolbar">
+    <span id="status">—</span>
+    <button class="refresh" id="refresh">↻ refresh</button>
+  </div>
+
+  <div class="feed" id="feed"></div>
+
+  <div class="more-wrap" id="moreWrap" style="display:none">
+    <button class="more" id="more">Load older</button>
+  </div>
+
+</div>
+
+<script>
+/* =========================================================================
+   The page is now a pure READER. All fetching/parsing/dedup happens in
+   build.mjs on a schedule (GitHub Actions) and is written to data.json.
+   Here we just load that one file and render it. No proxies, no CORS,
+   no live feed requests — data.json is served from the same site.
+   ========================================================================= */
+const PAGE = 8;          // how many to reveal per "Load older" click
+
+/* ---------- STATE ---------- */
+let DATA = null;         // parsed data.json: { generatedAt, categories:[{id,label,items}] }
+let activeId = null;     // currently selected category id
+let visible = PAGE;      // how many items we're currently showing
+
+/* =========================================================================
+   LOAD  —  fetch the generated data file (same origin, instant).
+   The ?t= cache-buster makes "refresh" actually pull the newest file.
+   ========================================================================= */
+async function loadData() {
+  const res = await fetch('./data.json?t=' + Date.now());
+  if (!res.ok) throw new Error('data.json not found (status ' + res.status + ')');
+  DATA = await res.json();
+  if (!DATA.categories || !DATA.categories.length) throw new Error('data.json has no categories');
+}
+
+function activeCategory() {
+  return DATA.categories.find(c => c.id === activeId) || DATA.categories[0];
+}
+
+/* =========================================================================
+   RENDER  (unchanged from v1 — same cards, same look)
+   ========================================================================= */
+function render() {
+  const feed = document.getElementById('feed');
+  const moreWrap = document.getElementById('moreWrap');
+  const items = activeCategory().items || [];
+  feed.innerHTML = '';
+
+  if (items.length === 0) {
+    showState(`<div class="placeholder">No items for this tab yet.<br>
+      Add a source to the <code>${esc(activeId)}</code> category in <code>sources.json</code>,
+      then re-run the build workflow.</div>`);
+    document.getElementById('status').textContent = 'no items';
+    return;
+  }
+
+  const slice = items.slice(0, visible);
+  slice.forEach((item, i) => {
+    const card = document.createElement('article');
+    card.className = 'card';
+    card.style.animationDelay = (i % PAGE) * 0.04 + 's';
+    card.innerHTML = `
+      <div class="card-meta">
+        <span class="src">${esc(item.src)}</span>
+        <span class="dot">•</span>
+        <span>${ago(item.date)}</span>
+      </div>
+      <h2><a href="${esc(item.link)}" target="_blank" rel="noopener">${esc(item.title)}</a></h2>
+      ${item.summary ? `<p class="summary">${esc(item.summary)}</p>` : ''}
+      <a class="read" href="${esc(item.link)}" target="_blank" rel="noopener">Read original →</a>
+    `;
+    feed.appendChild(card);
+  });
+
+  moreWrap.style.display = visible < items.length ? 'block' : 'none';
+  document.getElementById('status').textContent =
+    `showing ${slice.length} of ${items.length}`;
+}
+
+function showState(html, isError) {
+  document.getElementById('feed').innerHTML =
+    `<div class="state ${isError ? 'error' : ''}">${html}</div>`;
+  document.getElementById('moreWrap').style.display = 'none';
+}
+
+/* =========================================================================
+   TABS + SELECTION  (now just reads from DATA — no fetching)
+   ========================================================================= */
+function selectCategory(id) {
+  activeId = id;
+  visible = PAGE;
+  drawTabs();
+  render();
+}
+
+function drawTabs() {
+  const nav = document.getElementById('tabs');
+  nav.innerHTML = '';
+  DATA.categories.forEach(cat => {
+    const b = document.createElement('button');
+    b.className = 'tab' + (cat.id === activeId ? ' active' : '');
+    b.textContent = cat.label;
+    b.onclick = () => selectCategory(cat.id);
+    nav.appendChild(b);
+  });
+}
+
+/* =========================================================================
+   REFRESH  —  re-fetch data.json (cheap; it's one same-origin file)
+   ========================================================================= */
+async function refresh() {
+  const btn = document.getElementById('refresh');
+  btn.disabled = true;
+  document.getElementById('status').textContent = 'reloading…';
+  try {
+    await loadData();
+    setFreshness();
+    if (!DATA.categories.some(c => c.id === activeId)) activeId = DATA.categories[0].id;
+    drawTabs();
+    render();
+  } catch (err) {
+    document.getElementById('status').textContent = 'error';
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+function setFreshness() {
+  const el = document.getElementById('freshness');
+  el.textContent = DATA.generatedAt ? '● updated ' + ago(DATA.generatedAt) : '● ready';
+}
+
+/* =========================================================================
+   HELPERS  (esc/ago kept from v1; ago now accepts an ISO string)
+   ========================================================================= */
+function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+function ago(d) {
+  const dt = d instanceof Date ? d : new Date(d);
+  if (!dt || isNaN(dt)) return '';
+  const mins = Math.round((Date.now() - dt) / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return mins + 'm ago';
+  const hrs = Math.round(mins / 60);
+  if (hrs < 24) return hrs + 'h ago';
+  const days = Math.round(hrs / 24);
+  if (days < 30) return days + 'd ago';
+  return dt.toLocaleDateString();
+}
+
+/* =========================================================================
+   INIT
+   ========================================================================= */
+document.getElementById('date').textContent =
+  new Date().toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
+
+document.getElementById('refresh').onclick = refresh;
+document.getElementById('more').onclick = () => { visible += PAGE; render(); };
+
+(async function init() {
+  showState('<div class="spinner"></div>Loading the latest…');
+  document.getElementById('status').textContent = 'loading…';
+  try {
+    await loadData();
+    setFreshness();
+    activeId = DATA.categories[0].id;
+    drawTabs();
+    render();
+  } catch (err) {
+    document.getElementById('freshness').textContent = '● no data yet';
+    showState(`No data.json found yet.<br>
+      Run the <strong>build-and-deploy</strong> workflow once<br>
+      (Actions tab → Run workflow) to generate it.<br>
+      <br>(${esc(err.message)})`, true);
+    document.getElementById('status').textContent = 'no data';
+  }
+})();
+</script>
+</body>
+</html>

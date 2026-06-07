@@ -1,0 +1,55 @@
+{
+  "_readme": "This is the ONLY file you edit day to day. To add a competitor or feed, add one line to the relevant category's 'sources' array. Three source types: {type:'rss', name:'...', url:'...'} for a direct feed; {type:'googlenews', query:'...'} for any news/blog by keyword; {type:'arxiv', cats:['cs.AI','cs.DB']} for research papers. 'name' is optional and just sets the source label shown on the card.",
+
+  "config": {
+    "perSource": 20
+  },
+
+  "categories": [
+    {
+      "id": "ai",
+      "label": "What's new in AI 🤖",
+      "sources": [
+        { "type": "rss", "name": "OpenAI",    "url": "https://openai.com/news/rss.xml" },
+        { "type": "rss", "name": "Google AI", "url": "https://blog.google/technology/ai/rss/" },
+        { "type": "rss", "name": "Vertex AI", "url": "https://cloud.google.com/feeds/aiplatform-release-notes.xml" },
+
+        { "type": "googlenews", "query": "Anthropic Claude release OR launch OR update" },
+        { "type": "googlenews", "query": "\"Mistral AI\" model OR release OR launch" },
+        { "type": "googlenews", "query": "xAI Grok release OR launch OR update" },
+        { "type": "googlenews", "query": "DeepSeek AI model OR release OR launch" },
+        { "type": "googlenews", "query": "Nebius AI launch OR release OR funding" },
+        { "type": "googlenews", "query": "\"Azure AI\" OR \"Azure OpenAI\" launch OR update" }
+      ]
+    },
+    {
+      "id": "competitors",
+      "label": "Competitors 👀",
+      "sources": [
+        { "type": "googlenews", "query": "\"Glean\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Sana AI\" funding OR launch OR acquisition OR feature" }
+      ]
+    },
+    {
+      "id": "euro",
+      "label": "Euro Startups 🍼",
+      "sources": [
+        { "type": "googlenews", "query": "Europe AI startup enterprise OR agents -robotics -hardware" }
+      ]
+    },
+    {
+      "id": "industry",
+      "label": "More on AI 🪩",
+      "sources": [
+        { "type": "googlenews", "query": "AI funding OR acquisition OR merger Europe" }
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Researches 🔎",
+      "sources": [
+        { "type": "arxiv", "cats": ["cs.AI", "cs.CL", "cs.DB", "cs.MA"] }
+      ]
+    }
+  ]
+}

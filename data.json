@@ -1,0 +1,60 @@
+{
+  "generatedAt": "2026-06-07T16:24:36.515Z",
+  "categories": [
+    {
+      "id": "ai",
+      "label": "What's new in AI 🤖",
+      "items": [
+        {
+          "title": "Gemini update",
+          "summary": "An Atom-format summary that should also parse fine.",
+          "link": "https://blog.google/g",
+          "date": "2026-06-03T12:00:00.000Z",
+          "src": "Google AI"
+        },
+        {
+          "title": "GPT-X launches",
+          "summary": "A big new model with lots of detail that goes on and on and on so we can test trimming of the summary text down to the limit nicely yes indeed.",
+          "link": "https://openai.com/a",
+          "date": "2026-06-02T10:00:00.000Z",
+          "src": "OpenAI"
+        },
+        {
+          "title": "Older post",
+          "summary": "older one",
+          "link": "https://openai.com/b",
+          "date": "2026-06-01T08:00:00.000Z",
+          "src": "OpenAI"
+        }
+      ]
+    },
+    {
+      "id": "competitors",
+      "label": "Competitors 👀",
+      "items": [
+        {
+          "title": "Anthropic ships Claude thing - TechCrunch",
+          "summary": "news body",
+          "link": "https://news.google.com/x",
+          "date": "2026-06-03T11:00:00.000Z",
+          "src": "TechCrunch"
+        }
+      ]
+    },
+    {
+      "id": "euro",
+      "label": "Euro Startups 🍼",
+      "items": []
+    },
+    {
+      "id": "industry",
+      "label": "More on AI 🪩",
+      "items": []
+    },
+    {
+      "id": "research",
+      "label": "Researches 🔎",
+      "items": []
+    }
+  ]
+}
