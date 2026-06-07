@@ -1,0 +1,77 @@
+name: build-and-deploy
+
+# ---------------------------------------------------------------------------
+# WHEN this runs:
+#   - schedule:          every 3 hours (UTC). Cron runs can be delayed a few
+#                        minutes — fine here. Note: GitHub disables scheduled
+#                        workflows after ~60 days of repo inactivity, so an
+#                        occasional commit keeps it alive.
+#   - workflow_dispatch: the "Run workflow" button (manual "run now").
+#   - push:              only when you edit the source files below.
+# ---------------------------------------------------------------------------
+on:
+  schedule:
+    - cron: "0 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "sources.json"
+      - "build.mjs"
+      - "index.html"
+      - "package.json"
+      - ".github/workflows/build-and-deploy.yml"
+
+# Permissions the official Pages deploy action needs.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a newer run cancel an in-progress one rather than queueing.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install
+
+      # This is the old browser work, now done on GitHub's servers:
+      # fetch every feed directly (no proxy) → parse → dedup → write data.json
+      - name: Build data.json
+        run: node build.mjs
+
+      # Publish ONLY the reader + its data. sources.json and build.mjs stay
+      # off the public Pages site so the watchlist isn't exposed.
+      - name: Assemble the site
+        run: |
+          mkdir -p _site
+          cp index.html data.json _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
