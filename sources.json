@@ -1,75 +1,234 @@
 {
   "_readme": "This is the ONLY file you edit day to day. To add a competitor or feed, add one line to the relevant category's 'sources' array. Three source types: {type:'rss', name:'...', url:'...'} for a direct feed; {type:'googlenews', query:'...'} for any news/blog by keyword; {type:'arxiv', cats:['cs.AI','cs.DB']} for research papers. 'name' is optional and just sets the source label shown on the card.",
-
   "config": {
     "perSource": 20
   },
-
   "categories": [
     {
       "id": "ai",
       "label": "What's new in AI 🤖",
+      "_note": "The Anthropic/Mistral/xAI 'rss' feeds below are COMMUNITY-maintained scrapers (raw.githubusercontent.com/Olshansk/rss-feeds), updated hourly — free, no setup, but third-party, so they can lag or break if that repo stops. The durable upgrade later is to self-host RSSHub (free on Cloudflare Workers) and point these URLs at your own instance. Native vendor feeds (OpenAI, Google AI, Vertex AI) are first-party and most reliable.",
+      "_todo_feeds_with_no_native_rss": [
+        "Nebius blog (nebius.com/blog): no native feed found (only a service-status feed). Needs a scraper feed — self-hosted RSSHub or a generator like RSS.app — then add as {type:'rss', name:'Nebius', url:'<feed>'}.",
+        "Microsoft AI (microsoft.ai/news, microsoft.ai/blog) and the Azure Foundry 'what's new' Learn page: JS sites with no native feed; need a scraper feed.",
+        "Azure alternative: azure.microsoft.com/en-us/blog/feed/ IS a native feed, but covers ALL of Azure (noisy for an AI tab). Add only if you want it; relevance filtering (Phase 2) would help trim it.",
+        "For now, Anthropic/Mistral/xAI/DeepSeek/Nebius/Azure are still covered by the googlenews queries below."
+      ],
       "sources": [
-        { "type": "rss", "name": "OpenAI",    "url": "https://openai.com/news/rss.xml" },
-        { "type": "rss", "name": "Google AI", "url": "https://blog.google/technology/ai/rss/" },
-        { "type": "rss", "name": "Vertex AI", "url": "https://cloud.google.com/feeds/aiplatform-release-notes.xml" },
-
-        { "type": "googlenews", "query": "Anthropic Claude release OR launch OR update" },
-        { "type": "googlenews", "query": "\"Mistral AI\" model OR release OR launch" },
-        { "type": "googlenews", "query": "xAI Grok release OR launch OR update" },
-        { "type": "googlenews", "query": "DeepSeek AI model OR release OR launch" },
-        { "type": "googlenews", "query": "Nebius AI launch OR release OR funding" },
-        { "type": "googlenews", "query": "\"Azure AI\" OR \"Azure OpenAI\" launch OR update" }
+        {
+          "type": "rss",
+          "name": "OpenAI",
+          "url": "https://openai.com/news/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Google AI",
+          "url": "https://blog.google/technology/ai/rss/"
+        },
+        {
+          "type": "rss",
+          "name": "Vertex AI",
+          "url": "https://cloud.google.com/feeds/aiplatform-release-notes.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Anthropic",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Anthropic Research",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Anthropic Engineering",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Mistral",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_mistral.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Grok (xAI)",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml"
+        },
+        {
+          "type": "googlenews",
+          "query": "Anthropic Claude release OR launch OR update"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Mistral AI\" model OR release OR launch"
+        },
+        {
+          "type": "googlenews",
+          "query": "xAI Grok release OR launch OR update"
+        },
+        {
+          "type": "googlenews",
+          "query": "DeepSeek AI model OR release OR launch"
+        },
+        {
+          "type": "googlenews",
+          "query": "Nebius AI launch OR release OR funding"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Azure AI\" OR \"Azure OpenAI\" launch OR update"
+        }
       ]
     },
     {
       "id": "competitors",
       "label": "Competitors 👀",
+      "_note": "Per-company PRODUCT RELEASES come from changelog feeds (type:rss) where the vendor's docs platform exposes one natively: Lovable & Relevance AI (Mintlify -> /rss.xml), Cohere (Fern -> /changelog.rss), Dust (ReadMe -> /changelog.rss). The googlenews queries cover funding/growth/strategy (changelogs rarely make the news). Changelogs with NO native feed (need a scraper feed -- self-hosted RSSHub or RSS.app -- before adding as rss): Glean (Docusaurus), Langdock (Webflow), Stack AI & V7 (Framer), Nexos, Kore AI (Mintlify but no Update components = empty feed), Harvey (custom Next.js), GetGuru (ReadMe docs page + being migrated to a new platform).",
       "sources": [
-        { "type": "googlenews", "query": "\"Glean\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Sana AI\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Lovable\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Langdock\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Hebbia\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Stack AI\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Databricks\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Nexos\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Edra AI\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Dustt\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Zive\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Cohere\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Kore AI\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Relevance AI\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"V7\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Harvey\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Legora\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Ambersearch\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Sinequa\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"GetGuru\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Maia\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Genow\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Text Coretex\" funding OR launch OR acquisition OR feature" }
+        {
+          "type": "rss",
+          "name": "Lovable Changelog",
+          "url": "https://docs.lovable.dev/changelog/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Cohere Changelog",
+          "url": "https://docs.cohere.com/changelog.rss"
+        },
+        {
+          "type": "rss",
+          "name": "Dust Changelog",
+          "url": "https://docs.dust.tt/changelog.rss"
+        },
+        {
+          "type": "rss",
+          "name": "Relevance AI Changelog",
+          "url": "https://relevanceai.com/docs/changelog/rss.xml"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Glean\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Sana AI\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Lovable\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Langdock\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Hebbia\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Stack AI\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Databricks\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Nexos\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Dust\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Zive\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Cohere\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Kore AI\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Relevance AI\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"V7\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Harvey\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Legora\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Ambersearch\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Sinequa\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"GetGuru\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Maia\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"Genow\" funding OR launch OR acquisition OR feature"
+        },
+        {
+          "type": "googlenews",
+          "query": "\"TextCortex\" funding OR launch OR acquisition OR feature"
+        }
       ]
     },
     {
       "id": "euro",
       "label": "Euro Startups 🍼",
       "sources": [
-        { "type": "googlenews", "query": "Europe AI startup enterprise OR agents -robotics -hardware" }
+        {
+          "type": "googlenews",
+          "query": "Europe AI startup enterprise OR agents -robotics -hardware"
+        }
       ]
     },
     {
       "id": "industry",
       "label": "More on AI 🪩",
       "sources": [
-        { "type": "googlenews", "query": "AI funding OR acquisition OR merger Europe" }
+        {
+          "type": "googlenews",
+          "query": "AI funding OR acquisition OR merger Europe"
+        }
       ]
     },
     {
       "id": "research",
       "label": "Researches 🔎",
       "sources": [
-        { "type": "arxiv", "cats": ["cs.AI", "cs.CL", "cs.DB", "cs.MA"] }
+        {
+          "type": "arxiv",
+          "cats": [
+            "cs.AI",
+            "cs.CL",
+            "cs.DB",
+            "cs.MA"
+          ]
+        }
       ]
     }
   ]
