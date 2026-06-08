@@ -35,6 +35,32 @@ const CONCURRENCY = 5;
 // source feed. Change this one number to widen/narrow the window.
 const RETENTION_DAYS = 14;
 
+// DE-DUPLICATION
+//   Tier 1 (always on, see titleKey): strips the " - Publisher" suffix Google
+//     News tacks on, drops filler/stopwords, and sorts the remaining words — so
+//     a vendor's own headline and a news rewrite of it collapse to one key.
+//   Tier 2 (FUZZY_DEDUPE): additionally merges headlines that *mostly* overlap
+//     (e.g. "X launches Y" vs "X debuts Y model"), keeping a deterministic
+//     winner — a native/vendor RSS item beats a Google News one; ties break by
+//     earliest first-seen. Set FUZZY_DEDUPE = false to keep only Tier 1.
+const FUZZY_DEDUPE = true;
+const FUZZY_THRESHOLD = 0.8; // 0..1 — fraction of words two headlines must share to be treated as one story
+const SOURCE_PRIORITY = { rss: 0, arxiv: 1, googlenews: 2 }; // lower number wins a fuzzy tie
+
+// Filler words removed before building a de-dupe key. The launch-verb family
+// (launch/release/announce/…) is the important part: it lets "X launches Y" and
+// "X unveils Y" match. "model/models" is domain filler in an AI brief. Articles
+// and prepositions are dropped as ordinary noise. NOTE: size/variant words
+// (mini, large, small, pro, …) are deliberately NOT here — they distinguish
+// products, e.g. "GPT-5" vs "GPT-5 mini".
+const STOPWORDS = new Set(
+  ("a an the and or of to for in on with at by from as is are be this that " +
+   "new latest update updates launch launches launched release releases released " +
+   "announce announces announced announcing introducing introduces introduce " +
+   "unveil unveils unveiled debut debuts now amp model models")
+    .split(" ")
+);
+
 // Fetch a URL as text with a HARD timeout. Unlike rss-parser's own timeout, an
 // AbortController guarantees the request is cancelled, so one slow/hung feed can
 // never stall the whole build. We then hand the text to parser.parseString().
@@ -78,9 +104,16 @@ async function mapLimit(items, limit, fn) {
 // -------------------------------------------------------------------------
 // 1. BUILD FEED URLS  (one per source type).
 // -------------------------------------------------------------------------
-function googleNewsUrl(query) {
+// A source can set { gl, lang } to pick a Google News EDITION:
+//   gl   = country edition (US, DE, GB, FR…) — decides which country's stories
+//          get prioritised. Defaults to US.
+//   lang = language of the results (en, de…). Defaults to en.
+// No gl/lang on a source ⇒ US/en, i.e. byte-for-byte the original behaviour.
+function googleNewsUrl(query, opts = {}) {
+  const gl = opts.gl || "US";
+  const lang = opts.lang || "en";
   const q = encodeURIComponent(query);
-  return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
+  return `https://news.google.com/rss/search?q=${q}&hl=${lang}-${gl}&gl=${gl}&ceid=${gl}:${lang}`;
 }
 function arxivUrl(cats, max) {
   // Use arXiv's query API (Atom) rather than the rss.arxiv.org feed. The RSS
@@ -106,11 +139,14 @@ async function fetchSource(source, perSource) {
       link: (it.link || it.id || it.guid || "").trim(),
       date: toIso(it.isoDate || it.pubDate),
       src: source.name || "arXiv",
+      via: "arxiv",
     }));
   }
 
   // rss + googlenews both resolve to a single feed URL.
-  const url = source.type === "googlenews" ? googleNewsUrl(source.query) : source.url;
+  const url = source.type === "googlenews"
+    ? googleNewsUrl(source.query, { gl: source.gl, lang: source.lang })
+    : source.url;
   const feed = await fetchFeed(url);
 
   return (feed.items || []).slice(0, perSource).map((it) => ({
@@ -125,6 +161,7 @@ async function fetchSource(source, perSource) {
       clean(feed.title) ||
       hostname(url) ||
       "News",
+    via: source.type, // "rss" or "googlenews" — used to pick a fuzzy-dedupe winner
   }));
 }
 
@@ -218,8 +255,11 @@ async function loadStore() {
 // about and test: given the remembered categories and this run's fresh ones,
 // return the merged categories with stale items removed.
 //
-//   • Items are matched by normalised title (titleKey) — stable even when a
-//     Google News link changes between fetches.
+//   • Items are matched by titleKey — now a normalised, stopword-stripped,
+//     word-sorted key (Tier 1), stable even when a Google News link or the
+//     " - Publisher" suffix changes between fetches.
+//   • After the retention cutoff, near-duplicate headlines are collapsed across
+//     sources (Tier 2 fuzzy), keeping a vendor feed over a Google News rewrite.
 //   • A title we've seen before keeps its ORIGINAL firstSeen, so re-seeing an
 //     article does NOT restart its 14-day clock. Its other fields are refreshed
 //     from the latest fetch (newer summary/link/date win).
@@ -256,7 +296,13 @@ function mergeWithRetention(stored, fresh, nowIso, retentionDays) {
       return Number.isNaN(t) ? true : t >= cutoff;
     });
 
-    // 4. Newest-first by published date (unchanged behaviour).
+    // 4. TIER 2 fuzzy collapse of near-duplicate headlines across sources (e.g.
+    //    a vendor feed item and a Google News rewrite of the same story). Sort
+    //    by key first so clustering is deterministic and retention stays stable.
+    items.sort((a, b) => titleKey(a.title).localeCompare(titleKey(b.title)));
+    items = collapseFuzzy(items);
+
+    // 5. Newest-first by published date (unchanged behaviour).
     items.sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0));
 
     return { id: cat.id, label: cat.label, items };
@@ -269,11 +315,75 @@ function mergeWithRetention(stored, fresh, nowIso, retentionDays) {
 function clean(s) {
   return (s || "").replace(/\s+/g, " ").trim();
 }
-// Normalise a title into a stable de-dupe / merge key: lowercase, punctuation
-// collapsed to single spaces. The same title always maps to the same key even
-// if a Google News link or query changes between fetches.
+// Drop the " - Publisher" (or " | Publisher") suffix Google News appends, so a
+// vendor's own headline and the syndicated news copy normalise the same way.
+// Only used for KEYS — the displayed title is never altered.
+function stripPublisher(title) {
+  const t = (title || "").replace(/\s+[-|]\s+[^-|]{1,40}$/, "").trim();
+  return t || (title || "");
+}
+// The meaningful words of a headline: lowercase, no punctuation, no stopwords,
+// no 1-letter tokens.
+function significantTokens(title) {
+  return stripPublisher(title)
+    .toLowerCase()
+    .split(/[^a-z0-9]+/)
+    // keep words of 2+ chars and any all-digit token (version numbers like
+    // "4", "5" distinguish products — never drop them), minus stopwords.
+    .filter((t) => (t.length > 1 || /^\d+$/.test(t)) && !STOPWORDS.has(t));
+}
+// TIER 1 de-dupe key: significant words, de-duped and sorted, so word order and
+// filler don't matter ("X launches Y" == "Y, by X"). Falls back to a simple
+// normalised title if a headline is all filler, so we never drop such an item.
 function titleKey(title) {
-  return (title || "").toLowerCase().replace(/\W+/g, " ").trim();
+  const toks = significantTokens(title);
+  if (toks.length) return [...new Set(toks)].sort().join(" ");
+  return stripPublisher(title).toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+// Jaccard overlap of two token sets (0 = nothing in common, 1 = identical set).
+function jaccard(a, b) {
+  if (!a.size || !b.size) return 0;
+  let inter = 0;
+  for (const t of a) if (b.has(t)) inter++;
+  return inter / (a.size + b.size - inter);
+}
+// TIER 2 fuzzy collapse: greedily cluster items whose headlines overlap past
+// FUZZY_THRESHOLD, then keep one winner per cluster. Deterministic (items are
+// pre-sorted by key by the caller), so the same story resolves the same way
+// every run — important for stable retention.
+function collapseFuzzy(items) {
+  if (!FUZZY_DEDUPE || items.length < 2) return items;
+  const clusters = [];
+  for (const it of items) {
+    const toks = new Set(significantTokens(it.title));
+    const hit = clusters.find((c) => jaccard(toks, c.tokens) >= FUZZY_THRESHOLD);
+    if (hit) hit.members.push(it);
+    else clusters.push({ tokens: toks, members: [it] });
+  }
+  return clusters.map((c) => pickWinner(c.members));
+}
+// Choose the representative of a duplicate cluster: prefer a vendor/native feed
+// over Google News, then the earliest first-seen, then a stable key tiebreak.
+// The winner inherits the EARLIEST first-seen in the cluster so the retention
+// clock tracks when the story first appeared, not when the winner did.
+function pickWinner(members) {
+  if (members.length === 1) return members[0];
+  const winner = members.slice().sort((a, b) => {
+    const pa = SOURCE_PRIORITY[a.via] ?? 9;
+    const pb = SOURCE_PRIORITY[b.via] ?? 9;
+    if (pa !== pb) return pa - pb;
+    const fa = Date.parse(a.firstSeen) || Infinity;
+    const fb = Date.parse(b.firstSeen) || Infinity;
+    if (fa !== fb) return fa - fb;
+    return titleKey(a.title).localeCompare(titleKey(b.title));
+  })[0];
+  const earliest = members.reduce((min, m) => {
+    const t = Date.parse(m.firstSeen);
+    return Number.isNaN(t) ? min : Math.min(min, t);
+  }, Infinity);
+  return Number.isFinite(earliest)
+    ? { ...winner, firstSeen: new Date(earliest).toISOString() }
+    : winner;
 }
 function trim(s, n) {
   return s && s.length > n ? s.slice(0, n).trim() + "…" : s || "";
