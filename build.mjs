@@ -17,18 +17,60 @@
 import { readFile, writeFile } from "node:fs/promises";
 import Parser from "rss-parser";
 
-// rss-parser handles RSS 2.0 and Atom. We add a custom field so we can read
-// the <source> element Google News puts on each item (the publisher name).
-const parser = new Parser({
-  timeout: 20000,
-  headers: { "User-Agent": "DailyBrief/1.0 (+github actions)" },
-  customFields: { item: [["source", "source"]] },
-});
+// rss-parser turns feed XML (RSS 2.0 or Atom) into plain JS objects. We add a
+// custom field so we can read the <source> element Google News puts on items.
+const parser = new Parser({ customFields: { item: [["source", "source"]] } });
+
+// How long any single feed request may take before we give up on it, and how
+// many feeds we fetch at the same time. CONCURRENCY matters because Google News
+// throttles a machine that fires dozens of requests at once (which is what made
+// the build hang). Fetching a handful at a time stays polite and reliable, no
+// matter how many competitors you add.
+const TIMEOUT_MS = 15000;
+const CONCURRENCY = 5;
+
+// Fetch a URL as text with a HARD timeout. Unlike rss-parser's own timeout, an
+// AbortController guarantees the request is cancelled, so one slow/hung feed can
+// never stall the whole build. We then hand the text to parser.parseString().
+async function fetchFeed(url) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch(url, {
+      signal: ctrl.signal,
+      redirect: "follow",
+      headers: { "User-Agent": "DailyBrief/1.0 (+github actions)" },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return parser.parseString(await res.text());
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Run async tasks a few at a time (not all at once). Returns one result per
+// item, in order; failures are returned as { error } rather than thrown.
+async function mapLimit(items, limit, fn) {
+  const results = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      try {
+        results[i] = { value: await fn(items[i], i) };
+      } catch (err) {
+        results[i] = { error: err };
+      }
+    }
+  }
+  await Promise.all(
+    Array.from({ length: Math.min(limit, items.length) }, worker)
+  );
+  return results;
+}
 
 // -------------------------------------------------------------------------
-// 1. BUILD FEED URLS  (one per source type) — same logic as v1's buildUrl,
-//    except arXiv now uses the simpler per-category RSS endpoint
-//    (rss.arxiv.org/rss/cs.AI) instead of the Atom export API.
+// 1. BUILD FEED URLS  (one per source type).
 // -------------------------------------------------------------------------
 function googleNewsUrl(query) {
   const q = encodeURIComponent(query);
@@ -51,7 +93,7 @@ function arxivUrl(cats, max) {
 async function fetchSource(source, perSource) {
   // arXiv: one API call covering all listed categories, newest first.
   if (source.type === "arxiv") {
-    const feed = await parser.parseURL(arxivUrl(source.cats, perSource));
+    const feed = await fetchFeed(arxivUrl(source.cats, perSource));
     return (feed.items || []).slice(0, perSource).map((it) => ({
       title: clean(it.title),
       summary: trim(stripHtml(it.contentSnippet || it.content || it.summary || ""), 260),
@@ -61,9 +103,9 @@ async function fetchSource(source, perSource) {
     }));
   }
 
-  // rss + googlenews both resolve to a single feed URL that rss-parser reads.
+  // rss + googlenews both resolve to a single feed URL.
   const url = source.type === "googlenews" ? googleNewsUrl(source.query) : source.url;
-  const feed = await parser.parseURL(url);
+  const feed = await fetchFeed(url);
 
   return (feed.items || []).slice(0, perSource).map((it) => ({
     title: clean(it.title),
@@ -86,17 +128,19 @@ async function fetchSource(source, perSource) {
 //    just writes an empty list and the page shows a friendly empty state.)
 // -------------------------------------------------------------------------
 async function loadCategory(cat, perSource) {
-  const results = await Promise.allSettled(
-    cat.sources.map((s) => fetchSource(s, perSource))
+  // Fetch this category's sources a few at a time (CONCURRENCY), so a long
+  // competitor list doesn't hammer Google News all at once.
+  const results = await mapLimit(cat.sources, CONCURRENCY, (s) =>
+    fetchSource(s, perSource)
   );
 
   let all = [];
   results.forEach((r, i) => {
-    if (r.status === "fulfilled") {
-      all = all.concat(r.value);
+    if (r.error) {
+      // Log and keep going — one dead/slow feed shouldn't sink the category.
+      console.warn(`  ! source ${i} in "${cat.id}" failed: ${r.error.message || r.error}`);
     } else {
-      // Log and keep going — one dead feed shouldn't sink the category.
-      console.warn(`  ! source ${i} in "${cat.id}" failed: ${r.reason?.message || r.reason}`);
+      all = all.concat(r.value);
     }
   });
 
