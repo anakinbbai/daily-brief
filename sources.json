@@ -209,7 +209,7 @@
     {
       "id": "industry",
       "label": "More on AI 🪩",
-      "_note": "Broad AI headlines across three buckets. Native English feeds (TechCrunch AI, The Verge AI, The Decoder) carry the big US stories with clean summaries; the Google News queries add recall across funding, policy, markets and products. Queries are deliberately broad: 'AI' as the anchor token (not the full phrase, which misses too much), wide OR tails, and '-' excludes to trim noise — tune against real output. googlenews sources here set max:40 to keep more than the default perSource (Google News returns ~100/feed). gl/lang/max all require the matching build.mjs changes. Heise has no native AI-only feed, so it rides a site-scoped query (same reasoning as Azure).",
+      "_note": "Broad AI headlines across three buckets. US/global native feeds: TechCrunch AI, The Verge AI, The Decoder, VentureBeat AI (clean summaries, big stories). Europe native feeds: Sifted, Euractiv Tech, Tech.eu, Silicon Canals, Politico EU Tech. Germany: t3n native; Heise + Golem have no native AI-only feed (only firehoses) so they ride site-scoped Google News queries (same reasoning as Azure). The Google News queries add recall across funding, policy, markets, products: deliberately broad ('AI' anchor token, wide OR tails, '-' excludes) — tune against real output. googlenews sources set max:40 (Google News returns ~100/feed). gl/lang/max all require the matching build.mjs changes. Note: the US/global native feeds (TechCrunch/Verge/Decoder/VentureBeat) overlap heavily and lean US — dedup handles it; the Europe-heavy additions are there to balance.",
       "sources": [
         {
           "type": "rss",
@@ -225,6 +225,11 @@
           "type": "rss",
           "name": "The Decoder",
           "url": "https://the-decoder.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "VentureBeat AI",
+          "url": "https://venturebeat.com/category/ai/feed/"
         },
         {
           "type": "googlenews",
@@ -245,6 +250,21 @@
           "type": "rss",
           "name": "Euractiv Tech",
           "url": "https://www.euractiv.com/sections/tech/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Tech.eu",
+          "url": "https://tech.eu/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Silicon Canals",
+          "url": "https://siliconcanals.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Politico EU Tech",
+          "url": "https://www.politico.eu/section/technology/feed/"
         },
         {
           "type": "googlenews",
@@ -268,6 +288,13 @@
         {
           "type": "googlenews",
           "query": "site:heise.de KI OR \"künstliche Intelligenz\"",
+          "gl": "DE",
+          "lang": "de",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "site:golem.de KI OR \"künstliche Intelligenz\"",
           "gl": "DE",
           "lang": "de",
           "max": 40
