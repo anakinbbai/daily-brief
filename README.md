@@ -14,7 +14,7 @@ feed requests in the browser.
 | `build.mjs` | Runs on GitHub's servers: fetch → parse → dedup → write `data.json`. |
 | `package.json` | Declares the one dependency (`rss-parser`). |
 | `.github/workflows/build-and-deploy.yml` | Schedules the build + deploys to Pages. |
-| `data.json` | **Generated** each run. Not committed. |
+| `data.json` | **The retention store.** Regenerated each run by merging fresh items with the previous `data.json`, then committed back so items persist for 14 days. |
 
 ## One-time setup
 
@@ -25,6 +25,21 @@ feed requests in the browser.
 4. Open your Pages URL (shown in the deploy step) and confirm cards appear.
 
 After that it refreshes itself every 3 hours.
+
+## Retention (14 days)
+
+Each build merges the freshly-fetched items with the previous `data.json`,
+matching by headline so the same article isn't duplicated even if its link
+changes. Every item is stamped with a `firstSeen` date the first time it
+appears; anything first seen more than **14 days** ago is dropped. This means an
+article keeps showing for two weeks even after it falls out of its source feed —
+handy for quiet blogs and for the Research tab (arXiv only adds papers on certain
+days). To change the window, edit `RETENTION_DAYS` at the top of `build.mjs`.
+
+The build commits the updated `data.json` back to the repo (that committed file
+is the memory the next run reads). That commit does **not** start another build:
+the workflow's `push` trigger only watches the source files, and `data.json`
+isn't one of them.
 
 ## Adding a source
 
