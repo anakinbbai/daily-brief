@@ -1,5 +1,5 @@
 {
-  "_readme": "This is the ONLY file you edit day to day. To add a competitor or feed, add one line to the relevant category's 'sources' array. Three source types: {type:'rss', name:'...', url:'...'} for a direct feed; {type:'googlenews', query:'...'} for any news/blog by keyword; {type:'arxiv', cats:['cs.AI','cs.DB']} for research papers. 'name' is optional and just sets the source label shown on the card. A googlenews source may also set 'gl' (country edition: US default, DE, GB, FR…) and 'lang' (result language: en default, de…) to pull from a specific Google News edition — handy for regional coverage. Omit both for the default US/en.",
+  "_readme": "This is the ONLY file you edit day to day. To add a competitor or feed, add one line to the relevant category's 'sources' array. Three source types: {type:'rss', name:'...', url:'...'} for a direct feed; {type:'googlenews', query:'...'} for any news/blog by keyword; {type:'arxiv', cats:['cs.AI','cs.DB']} for research papers. 'name' is optional and just sets the source label shown on the card. A googlenews source may also set 'gl' (country edition: US default, DE, GB, FR…) and 'lang' (result language: en default, de…) to pull from a specific Google News edition — handy for regional coverage. Omit both for the default US/en. Any source may also set 'max' (e.g. max:40) to keep more or fewer items than the global perSource — useful for broad googlenews queries, since a Google News feed returns ~100 items.",
   "config": {
     "perSource": 20
   },
@@ -209,7 +209,7 @@
     {
       "id": "industry",
       "label": "More on AI 🪩",
-      "_note": "Broad AI headlines across three buckets. US/global: native English feeds (TechCrunch AI, The Verge AI, The Decoder) carry the big US stories, plus a US Google News query for funding/M&A. Europe-wide: Sifted + Euractiv native feeds, plus a GB-edition query. Germany: t3n native feed, plus two German-edition queries (gl:'DE', lang:'de'). NOTE: gl/lang only take effect with the googleNewsUrl change in build.mjs. Heise has no native AI-only feed (only all-news / broad section feeds), so its AI coverage rides a site-scoped Google News query — same reasoning as the Azure blog.",
+      "_note": "Broad AI headlines across three buckets. Native English feeds (TechCrunch AI, The Verge AI, The Decoder) carry the big US stories with clean summaries; the Google News queries add recall across funding, policy, markets and products. Queries are deliberately broad: 'AI' as the anchor token (not the full phrase, which misses too much), wide OR tails, and '-' excludes to trim noise — tune against real output. googlenews sources here set max:40 to keep more than the default perSource (Google News returns ~100/feed). gl/lang/max all require the matching build.mjs changes. Heise has no native AI-only feed, so it rides a site-scoped query (same reasoning as Azure).",
       "sources": [
         {
           "type": "rss",
@@ -228,7 +228,13 @@
         },
         {
           "type": "googlenews",
-          "query": "\"artificial intelligence\" funding OR acquisition OR launch"
+          "query": "AI funding OR raises OR acquisition OR IPO OR valuation OR hardware OR chips -crypto",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "AI regulation OR policy OR lawsuit OR safety OR \"open source\" OR agent",
+          "max": 40
         },
         {
           "type": "rss",
@@ -242,9 +248,17 @@
         },
         {
           "type": "googlenews",
-          "query": "AI Europe funding OR acquisition OR startup",
+          "query": "AI Europe OR European funding OR startup OR regulation OR sovereignty OR \"AI Act\" -crypto",
           "gl": "GB",
-          "lang": "en"
+          "lang": "en",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "European AI stocks OR semiconductor OR chips OR datacenter OR cloud",
+          "gl": "GB",
+          "lang": "en",
+          "max": 40
         },
         {
           "type": "rss",
@@ -255,13 +269,15 @@
           "type": "googlenews",
           "query": "site:heise.de KI OR \"künstliche Intelligenz\"",
           "gl": "DE",
-          "lang": "de"
+          "lang": "de",
+          "max": 40
         },
         {
           "type": "googlenews",
-          "query": "KI Startup Finanzierung OR Übernahme OR Markteinführung",
+          "query": "KI Deutschland Startup OR Finanzierung OR Förderung OR Übernahme OR Regulierung",
           "gl": "DE",
-          "lang": "de"
+          "lang": "de",
+          "max": 40
         }
       ]
     },
