@@ -27,27 +27,27 @@
       "label": "Competitors 👀",
       "sources": [
         { "type": "googlenews", "query": "\"Glean\" funding OR launch OR acquisition OR feature" },
-        { "type": "googlenews", "query": "\"Sana AI\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Lovable\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Langdock\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Hebbia\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Stack AI\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Databricks\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Nexos\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Edra AI\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Dustt\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Zive\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Cohere\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Kore AI\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Relevance AI\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"V7\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Harvey\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Legora\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Ambersearch\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Sinequa\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"GetGuru\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Maia\" funding OR launch OR acquisition OR feature" }
-        { "type": "googlenews", "query": "\"Genow\" funding OR launch OR acquisition OR feature" }
+        { "type": "googlenews", "query": "\"Sana AI\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Lovable\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Langdock\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Hebbia\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Stack AI\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Databricks\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Nexos\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Edra AI\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Dustt\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Zive\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Cohere\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Kore AI\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Relevance AI\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"V7\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Harvey\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Legora\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Ambersearch\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Sinequa\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"GetGuru\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Maia\" funding OR launch OR acquisition OR feature" },
+        { "type": "googlenews", "query": "\"Genow\" funding OR launch OR acquisition OR feature" },
         { "type": "googlenews", "query": "\"Text Coretex\" funding OR launch OR acquisition OR feature" }
       ]
     },
