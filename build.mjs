@@ -34,30 +34,31 @@ function googleNewsUrl(query) {
   const q = encodeURIComponent(query);
   return `https://news.google.com/rss/search?q=${q}&hl=en-US&gl=US&ceid=US:en`;
 }
-function arxivUrl(cat) {
-  return `https://rss.arxiv.org/rss/${cat}`;
+function arxivUrl(cats, max) {
+  // Use arXiv's query API (Atom) rather than the rss.arxiv.org feed. The RSS
+  // feed only lists papers ANNOUNCED that day and is empty on weekends / off
+  // hours; the query API always returns the latest papers, sorted by date.
+  const q = (cats || []).map((c) => `cat:${c}`).join("+OR+");
+  return (
+    `https://export.arxiv.org/api/query?search_query=${q}` +
+    `&sortBy=submittedDate&sortOrder=descending&start=0&max_results=${max}`
+  );
 }
 
 // -------------------------------------------------------------------------
 // 2. FETCH + PARSE one source  →  array of {title, summary, link, date, src}
 // -------------------------------------------------------------------------
 async function fetchSource(source, perSource) {
-  // arXiv: a source can list several categories; fetch each feed and merge.
+  // arXiv: one API call covering all listed categories, newest first.
   if (source.type === "arxiv") {
-    const cats = source.cats || [];
-    const lists = await Promise.allSettled(
-      cats.map(async (cat) => {
-        const feed = await parser.parseURL(arxivUrl(cat));
-        return (feed.items || []).slice(0, perSource).map((it) => ({
-          title: clean(it.title),
-          summary: trim(stripHtml(it.contentSnippet || it.content || it.summary), 260),
-          link: (it.link || it.guid || "").trim(),
-          date: toIso(it.isoDate || it.pubDate),
-          src: source.name || "arXiv",
-        }));
-      })
-    );
-    return lists.flatMap((r) => (r.status === "fulfilled" ? r.value : []));
+    const feed = await parser.parseURL(arxivUrl(source.cats, perSource));
+    return (feed.items || []).slice(0, perSource).map((it) => ({
+      title: clean(it.title),
+      summary: trim(stripHtml(it.contentSnippet || it.content || it.summary || ""), 260),
+      link: (it.link || it.id || it.guid || "").trim(),
+      date: toIso(it.isoDate || it.pubDate),
+      src: source.name || "arXiv",
+    }));
   }
 
   // rss + googlenews both resolve to a single feed URL that rss-parser reads.
