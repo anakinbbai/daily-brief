@@ -130,10 +130,15 @@ function arxivUrl(cats, max) {
 // 2. FETCH + PARSE one source  →  array of {title, summary, link, date, src}
 // -------------------------------------------------------------------------
 async function fetchSource(source, perSource) {
+  // A source may set its own "max" to keep more (or fewer) items than the
+  // global perSource — e.g. a broad Google News query can keep 40 while the
+  // native feeds and arXiv stay at the default. Falls back to perSource.
+  const cap = source.max || perSource;
+
   // arXiv: one API call covering all listed categories, newest first.
   if (source.type === "arxiv") {
-    const feed = await fetchFeed(arxivUrl(source.cats, perSource));
-    return (feed.items || []).slice(0, perSource).map((it) => ({
+    const feed = await fetchFeed(arxivUrl(source.cats, cap));
+    return (feed.items || []).slice(0, cap).map((it) => ({
       title: clean(it.title),
       summary: trim(stripHtml(it.contentSnippet || it.content || it.summary || ""), 260),
       link: (it.link || it.id || it.guid || "").trim(),
@@ -149,7 +154,7 @@ async function fetchSource(source, perSource) {
     : source.url;
   const feed = await fetchFeed(url);
 
-  return (feed.items || []).slice(0, perSource).map((it) => ({
+  return (feed.items || []).slice(0, cap).map((it) => ({
     title: clean(it.title),
     summary: trim(stripHtml(it.contentSnippet || it.content || it.summary || ""), 220),
     link: (it.link || it.guid || "").trim(),
