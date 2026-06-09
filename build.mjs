@@ -87,9 +87,25 @@ const MOVE_TO = "industry";
 
 // Fallback tag vocabulary, used only if sources.json doesn't define config.tags.
 const DEFAULT_TAGS = [
-  "product-launch", "product-update", "funding-or-MA",
-  "business-strategy", "research", "regulation-legal", "other",
+  "product-launch", "product-update", "funding", "m-and-a", "partnership",
+  "business-strategy", "policy", "markets", "infrastructure", "research",
+  "regulation-legal", "other",
 ];
+
+// Coerce whatever the model returned (an array, a single string, or junk) into
+// a clean list of 1-3 valid tags. Keeps only tags in the vocabulary, drops
+// dupes, preserves the model's ordering (best-fit first), caps at 3, and falls
+// back to ["other"] if nothing valid survives. Also used to migrate old cached
+// judgments that stored a single `tag` string (see buildDisplay).
+function normalizeTags(raw, vocab) {
+  const list = Array.isArray(raw) ? raw : (raw == null ? [] : [raw]);
+  const out = [];
+  for (const t of list) {
+    if (vocab.includes(t) && !out.includes(t)) out.push(t);
+    if (out.length === 3) break;
+  }
+  return out.length ? out : ["other"];
+}
 
 // Filler words removed before building a de-dupe key. The launch-verb family
 // (launch/release/announce/…) is the important part: it lets "X launches Y" and
@@ -545,8 +561,9 @@ async function enrichNewItems(retention, judgments, cfg) {
       judgments[entry.key] = {
         title: (v.title && String(v.title).trim()) || entry.item.title,
         summary: v.summary != null ? String(v.summary).trim() : entry.item.summary,
-        tag: tags.includes(v.tag) ? v.tag : "other",
+        tags: normalizeTags(v.tags ?? v.tag, tags),
         keep: v.keep !== false,                 // default to keep unless explicitly false
+        recommended: v.recommended === true,    // strict: missing/garbled => false (the ★)
         category: v.category || entry.catId,    // validated later in buildDisplay()
       };
     });
@@ -556,16 +573,30 @@ async function enrichNewItems(retention, judgments, cfg) {
 // One Claude call for a batch of items. Returns Map(indexInBatch -> verdict).
 async function callClaudeBatch(batch, catInfo, tags) {
   const system =
-    "You are the editor of an internal AI-industry news brief. For each item you receive, return a cleaned headline, a short factual summary, one tag, a keep/drop decision, and the best-fit category id.\n\n" +
+    "You are the editor of an internal AI-industry news brief. For each item you receive, return a cleaned headline, a short factual summary, one or more tags, a keep/drop decision, and the best-fit category id.\n\n" +
     "CATEGORIES (refer to them by id):\n" +
     catInfo.map((c) => `- ${c.id}: ${c.label} — ${c.description}`).join("\n") +
-    "\n\nTAGS (choose exactly one): " + tags.join(", ") +
+    "\n\nTAGS (choose 1 to 3, the single best-fit first; only add a second or third if it genuinely applies — most items need just one): " + tags.join(", ") +
+    "\n\nTAG GUIDE (use only tags from the list above; these notes disambiguate the tricky ones):\n" +
+    "  product-launch: a new product, model, feature, or company released / announced / shipped (incl. a startup coming out of stealth).\n" +
+    "  product-update: a version bump or incremental update to an existing product, incl. previewed / upcoming / leaked features not yet shipped.\n" +
+    "  funding: money going IN — a startup raising a round, an investor leading a round, grants, accelerator cohorts, or a new investment fund being set up.\n" +
+    "  m-and-a: a company being acquired or merged, a buyout, or an IPO. NOT a funding round.\n" +
+    "  partnership: an integration, alliance, supply/compute deal, or notable customer/enterprise deal between organizations.\n" +
+    "  business-strategy: a COMPANY's business move, market positioning, org/leadership change, or analysis — corporate strategy, not government action.\n" +
+    "  policy: GOVERNMENT / public-sector action that is NOT a binding law — industrial strategy, sovereignty pushes, public funding programs, national capacity plans.\n" +
+    "  markets: stock moves, share prices, valuations, investor sentiment, or sector market analysis.\n" +
+    "  infrastructure: COMPUTE infrastructure only — chips/semiconductors, datacenters, cloud capacity, or the energy that powers them. NOT consumer hardware or gadgets (those are product-launch).\n" +
+    "  regulation-legal: binding law, rules, lawsuits, court rulings, or formal regulatory action (e.g. the AI Act). Government strategy that isn't a binding rule is policy, not this.\n" +
+    "  research: papers, findings, benchmarks/evals, or technical research reports.\n" +
+    "  other: only when nothing above fits.\n" +
     "\n\nRULES:\n" +
-    "- title: concise and factual. Fix mangled or glued-together text and remove any trailing ' - Publisher' suffix. Never invent facts not present in the input.\n" +
-    "- summary: 1-2 sentences, built only from the given title/summary. If there isn't enough, paraphrase the title. No marketing language.\n" +
-    "- keep: default true. Set false ONLY for clutter — items that are off-topic, not really about AI, pure SEO/listicle spam, or an obvious rehash of the same story.\n" +
+    "- title: concise and factual. Fix mangled or glued-together text and remove any trailing ' - Publisher' or ' | Publisher' suffix, but keep version numbers, product names, and specifics exactly as given. Never invent facts not present in the input.\n" +
+    "- summary: 1-2 sentences, built only from the given title/summary; if there isn't enough, paraphrase the title. No marketing language, and do not add facts, numbers, or claims that aren't in the input.\n" +
+    "- keep: default true; when in doubt, keep. Drop (keep:false) for only two kinds of reasons: (a) universal clutter, regardless of topic — pure SEO/listicle/affiliate spam, content-farm junk, marketing fluff with no real news, or an obvious rehash or duplicate of another item; and (b) relevance, but ONLY as the item's own category description directs. Do NOT apply a blanket 'must be about AI' test — some categories intentionally keep stories that aren't explicitly about AI (e.g. funding or hiring news about a watchlisted company), while others filter on AI-relevance strictly. Follow that category's description, not a global rule.\n" +
     `- category: normally return the item's current category id unchanged. The ONLY permitted change: an item whose current category is "${MOVE_FROM}" that is a business/strategy/funding/hardware/personnel/legal story (NOT a product or model launch) should be returned as "${MOVE_TO}". Never reassign any other item.\n` +
-    '- Respond with ONLY a JSON array — no prose, no markdown code fences. One object per item: {"i": <number from the input>, "title": <string>, "summary": <string>, "tag": <string>, "keep": <boolean>, "category": <id>}.';
+    "- recommended: true ONLY for items genuinely worth the team's time — a major launch, significant funding/M&A, a landmark paper, a real shift in the competitive landscape, or a notably strong update or move. Routine-but-real news is false. Judge importance, not hype or recency; use the item's category as context for what counts as a standout. Default to false and reserve true for standouts, so the star stays meaningful.\n" +
+    '- Respond with ONLY a JSON array — no prose, no markdown code fences. One object per item: {"i": <number from the input>, "title": <string>, "summary": <string>, "tags": <array of 1-3 strings>, "keep": <boolean>, "recommended": <boolean>, "category": <id>}.';
 
   const items = batch.map((e, i) => ({
     i,
@@ -663,7 +694,12 @@ function buildDisplay(retention, judgments, cfg) {
         date: it.date,
         src: it.src,
       };
-      if (j && j.tag) display.tag = j.tag; // stored for later; the v1 reader ignores it
+      // Tags: new judgments store `tags` (array); older cached ones stored a
+      // single `tag` string. Accept either so pre-existing cache entries keep
+      // their tag without being re-sent to Claude.
+      const itemTags = Array.isArray(j?.tags) ? j.tags : (j?.tag ? [j.tag] : null);
+      if (itemTags && itemTags.length) display.tags = itemTags;
+      if (j && j.recommended) display.recommended = true; // the ★ flag; reader renders it later
       out.get(dest).items.push(display);
     }
   }
@@ -672,7 +708,34 @@ function buildDisplay(retention, judgments, cfg) {
   for (const c of out.values()) {
     c.items.sort((x, y) => (Date.parse(y.date) || 0) - (Date.parse(x.date) || 0));
   }
-  return [...out.values()];
+
+  // FEATURE 3 — derived "Highlights" tab: this week's recommended items. This is
+  // NOT a new AI call; it's a view over the `recommended` flags already cached in
+  // judgments. With no API key there are no recommendations, so `highlights` stays
+  // empty and the tab simply isn't added (same graceful fallback as enrichment).
+  const weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
+  const seenHL = new Set();
+  const highlights = [];
+  for (const c of out.values()) {
+    for (const it of c.items) {
+      if (!it.recommended) continue;                      // not flagged by the AI
+      const pub = Date.parse(it.date);
+      if (Number.isNaN(pub) || pub < weekAgo) continue;   // keep to the last 7 days
+      const key = titleKey(it.title);
+      if (key && seenHL.has(key)) continue;               // no repeats across tabs
+      if (key) seenHL.add(key);
+      highlights.push({ ...it, from: c.label });          // remember its home tab
+    }
+  }
+  highlights.sort((a, b) => (Date.parse(b.date) || 0) - (Date.parse(a.date) || 0));
+
+  const result = [...out.values()];
+  if (highlights.length) {
+    // unshift => Highlights is the first (and default) tab. Use push instead to
+    // put it last and keep "What's new in AI" as the landing tab.
+    result.unshift({ id: "highlights", label: "Highlights ⭐", items: highlights });
+  }
+  return result;
 }
 
 // Keep the judgment cache bounded: forget any key that's no longer retained.
