@@ -40,12 +40,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Install dependencies
         run: npm install
@@ -54,6 +54,8 @@ jobs:
       # fetch every feed directly (no proxy) → parse → dedup → MERGE with the
       # existing data.json (retention) → write data.json
       - name: Build data.json
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node build.mjs
 
       # Save data.json back to the repo so the NEXT run remembers these items
