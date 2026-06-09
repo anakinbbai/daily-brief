@@ -1,11 +1,26 @@
 {
   "_readme": "This is the ONLY file you edit day to day. To add a competitor or feed, add one line to the relevant category's 'sources' array. Three source types: {type:'rss', name:'...', url:'...'} for a direct feed; {type:'googlenews', query:'...'} for any news/blog by keyword; {type:'arxiv', cats:['cs.AI','cs.DB']} for research papers. 'name' is optional and just sets the source label shown on the card. A googlenews source may also set 'gl' (country edition: US default, DE, GB, FR…) and 'lang' (result language: en default, de…) to pull from a specific Google News edition — handy for regional coverage. Omit both for the default US/en. Any source may also set 'max' (e.g. max:40) to keep more or fewer items than the global perSource — useful for broad googlenews queries, since a Google News feed returns ~100 items.",
   "config": {
-    "perSource": 20
+    "perSource": 20,
+    "tags": [
+      "product-launch",
+      "product-update",
+      "funding",
+      "m-and-a",
+      "partnership",
+      "business-strategy",
+      "policy",
+      "markets",
+      "infrastructure",
+      "research",
+      "regulation-legal",
+      "other"
+    ]
   },
   "categories": [
     {
       "id": "ai",
+      "description": "Launches and updates of products, models, and features from major AI vendors — OpenAI, Google, Anthropic, Mistral, xAI, DeepSeek, Azure AI, and other organizations whose core business is building AI models or products. Keep launches, releases, version updates, and the vendors' own technical or research posts. Move to 'industry' (More on AI) any story about one of these vendors that is a business, strategy, funding, hardware-deal, personnel, or legal move rather than a launch. Drop only true clutter — items that just mention AI in passing, aren't really about an AI vendor, or are name-collisions / SEO spam; never drop a real vendor story just for not being a launch (move it instead).",
       "label": "What's new in AI 🤖",
       "_note": "The Anthropic/Claude Blog/Mistral/xAI/Google Developers AI 'rss' feeds below are COMMUNITY-maintained scrapers (raw.githubusercontent.com/Olshansk/rss-feeds), updated hourly — free, no setup, but third-party, so they can lag or break if that repo stops. The durable upgrade later is to self-host RSSHub (free on Cloudflare Workers) and point these URLs at your own instance. Native vendor feeds (OpenAI, Google AI, Vertex AI) are first-party and most reliable. 'Claude Blog' (feed_claude.xml) is the Claude PRODUCT blog, distinct from 'Anthropic' (feed_anthropic_news.xml = company newsroom); 'Google Developers AI' (developers.googleblog.com) is developer/API-facing, distinct from 'Google AI' (blog.google = company/consumer). Testing Catalog is a first-party Ghost feed (/rss/) — it leans toward leaks/rumors/early 'being-tested' signal rather than official GA, so it complements the launch feeds rather than duplicating them. NOTE: native feeds beat googlenews in build.mjs fuzzy dedup (SOURCE_PRIORITY), so each feed above automatically wins over the googlenews rewrite of the same story — the googlenews queries are kept below purely for RECALL (press write-ups, regional-availability coverage, analysis the official feeds omit), and produce near-dupes that dedup discards, not clutter.",
       "_todo_feeds_with_no_native_rss": [
@@ -101,6 +116,7 @@
     },
     {
       "id": "competitors",
+      "description": "News about the specific companies on our watchlist; membership is set by which source pulled the item, not by the headline. Keep funding, product, partnership, hiring, and strategy news about a watchlist company even when the story isn't explicitly about AI — here the test is 'is this about a watchlist company,' not 'is this about AI.' Drop name-collisions: many watchlist names are common words (Glean, Dust, Maia, Kore, Nexos, Harvey, Zive), so drop matches that are really about unrelated people, places, or old telecom / entertainment / consumer stories. Articles older than a year are already removed by the build's date floor before they reach you, so focus your drops on collisions, not age.",
       "label": "Competitors 👀",
       "_note": "Per-company PRODUCT RELEASES come from changelog feeds (type:rss) where the vendor's docs platform exposes one natively: Lovable & Relevance AI (Mintlify -> /rss.xml), Cohere (Fern -> /changelog.rss), Dust (ReadMe -> /changelog.rss), and Glean (native feed at docs.glean.com/release-notes.xml — earlier thought to be a feedless Docusaurus, but it does publish one). The googlenews queries cover funding/growth/strategy (changelogs rarely make the news). FEED AUDIT outcome: (1) Harvey has no native feed but IS tracked by the Releasebot aggregator (releasebot.io/updates/harvey) — to add it, grab the per-product RSS URL from that page's 'Get this feed: RSS' button (Releasebot's follow flow may require a free account; treat as a third-party scraper that can lag/break, same caveat as community feeds). (2) Databricks has a native docs RSS feed and a Releasebot page, but both are a data-platform firehose (runtimes/SQL/compute), not the AI launches we want — so Databricks stays on its googlenews query (consider a max cap so its volume doesn't bury smaller competitors). (3) Langdock, Sana, V7 Go, Guru, and Kore.ai each have a changelog PAGE but no native RSS, and aren't on Releasebot — we deliberately chose NOT to stand up scrapers for them (fragile, high-maintenance); they remain covered by googlenews. (4) Everyone else (Stack AI, Nexos, Zive, Ambersearch, Legora, Sinequa, Hebbia, Maia, Genow, TextCortex) has no feed-able product channel and stays news-only.",
       "sources": [
@@ -221,6 +237,7 @@
     },
     {
       "id": "euro",
+      "description": "Up-and-coming AI startups, especially in Europe and Germany — but a US early-stage query is intentional, so don't drop a story just for being American. Focus the tab on enterprise / B2B AI: AI agents and agentic systems, copilots and assistants for work, workflow and process automation, knowledge management, and vertical or developer AI tooling — think legal- and knowledge-work automation or natural-language agent builders (the kind of work Harvey, Legora, or Langdock do). Keep funding, launch, stealth-exit, accelerator/grant, and profile stories about startups whose core product is AI/ML, favoring those enterprise/agent/workflow themes — and keep ambiguous cases. Drop: startup news that isn't about an AI startup (the discovery feeds carry fintech/foodtech/biotech and every other vertical), companies that only use AI as a buzzword, and AI startups clearly outside the enterprise/agent focus (consumer apps, AI image/video/music toys, companion apps); also drop stories not really about an up-and-coming startup (e.g. a big established company), but keep genuine funding and launch announcements even when they read like press releases.",
       "label": "Euro Startups 🍼",
       "_note": "Goal: surface UP-AND-COMING AI startups, esp. Europe/Germany. Two layers. (1) Curated startup feeds for DISCOVERY: EU-Startups (+ its Germany category) and Tech.eu's AI category feed. EU-Startups' feeds are NOT AI-only — they carry all verticals (fintech/foodtech/biotech), so expect some non-AI startup noise here until Phase 2 relevance filtering lands; Tech.eu's /category/artificial-intelligence/ feed IS AI-scoped. (2) Google News queries for PRECISION, AI-keyworded and run on the right edition (gl/lang): pan-Europe (gl:GB) + Germany (gl:DE/de) + France (gl:FR/fr) + a US early-stage query. Signals beyond funding: stealth exits/launches, accelerator cohorts (Seedcamp/Antler/EF/Founders Factory/Techstars), public grants (EIC Accelerator, Horizon Europe, EXIST, France 2030), and German AI hubs (UnternehmerTUM/UVC/appliedAI, Merantix/Cyber Valley). CAVEAT: this tab now fires ~10 Google News queries; build.mjs fetches CONCURRENCY=5 at a time and Google News throttles heavy bursts — a throttled feed just logs a warning and is skipped (never sinks the tab). If you see clustered 'source N failed' warnings, drop the lowest-yield queries first (France, then a hub query). Tech.eu also lives in the industry tab; dedup is per-category, so a big EU AI story can appear in both tabs (expected).",
       "sources": [
@@ -232,7 +249,7 @@
         {
           "type": "rss",
           "name": "EU-Startups Germany",
-          "url": "https://www.eu-startups.com/category/germany/feed/"
+          "url": "https://www.eu-startups.com/category/germany-startups/feed/"
         },
         {
           "type": "rss",
@@ -311,6 +328,7 @@
     },
     {
       "id": "industry",
+      "description": "Broad AI-industry coverage — the news, business, and analysis counterpart to the vendor-launch feeds in 'What's new in AI'. Keep funding, M&A, policy, regulation, markets, business moves, analysis, and AI infrastructure (chips, datacenters, cloud), across the US/global, Europe, and Germany (don't drop a story for being non-US). This is also where vendor business/strategy stories moved from 'What's new in AI' land, so keep those even though they aren't launches. Keep anything substantively about the AI industry; drop only stories where AI is merely incidental — a general tech, business, or markets story that just name-drops AI, or off-topic noise (crypto, general stock-market chatter) the broad queries drag in.",
       "label": "More on AI 🪩",
       "_note": "Broad AI headlines across three buckets. US/global native feeds: TechCrunch AI, The Verge AI, The Decoder, VentureBeat AI (clean summaries, big stories). Europe native feeds: Sifted, Euractiv Tech, Tech.eu, Silicon Canals, Politico EU Tech. Germany: t3n native; Heise + Golem have no native AI-only feed (only firehoses) so they ride site-scoped Google News queries (same reasoning as Azure). Reuters (no native feed since 2020) also rides a site:reuters.com query in the US bucket. The Google News queries add recall across funding, policy, markets, products: deliberately broad ('AI' anchor token, wide OR tails, '-' excludes) — tune against real output. googlenews sources set max:40 (Google News returns ~100/feed). gl/lang/max are all supported by the current build.mjs (gl/lang pick the Google News edition; max overrides perSource) — no code change needed. Note: the US/global native feeds (TechCrunch/Verge/Decoder/VentureBeat) overlap heavily and lean US — dedup handles it; the Europe-heavy additions are there to balance.",
       "sources": [
@@ -418,6 +436,7 @@
     },
     {
       "id": "research",
+      "description": "AI research and papers (arXiv plus lab and academic feeds). Keep papers, findings, and research announcements. Drop general product news or press that is not about research itself.",
       "label": "Researches 🔎",
       "_note": "Two layers, same idea as the other tabs. (1) arXiv = broad RECALL: the raw firehose of new papers across the listed CS/stat categories, newest-first via the query API (so it's never empty on weekends, unlike the daily RSS). It's high-volume and uncurated — that's why 'max' is bumped to 50 so a run captures more than the last few hours. (2) Curated + first-party feeds = SIGNAL: 'Hugging Face Daily Papers' is community-upvoted 'trending' papers (the best single quality filter over arXiv); the lab feeds (DeepMind native, Google Research, Microsoft Research, Anthropic Research + Frontier Red Team, Meta AI) are first-party research; MIT News AI and BAIR (UC Berkeley) add academic coverage. CAVEAT on third-party feeds: HF Daily Papers and the Anthropic/Meta feeds are COMMUNITY-maintained SCRAPERS (raw.githubusercontent.com/...), free and no-setup but they can lag or break if those repos stop — same caveat as the scraper feeds in the 'ai' tab. Anthropic's research page (anthropic.com/research) has NO native feed, which is why the scraped one is used; DeepMind now publishes a native feed. HF Daily Papers fallback if the GitHub one breaks: https://papers.takara.ai/api/feed . Verify on first build: Microsoft Research's feed path (/en-us/research/feed/) is the standard WordPress URL but unconfirmed — if it returns nothing, try /en-us/research/blog/feed/. arXiv cats: cs.AI=general, cs.CL=NLP, cs.LG=ML core, cs.CV=vision, cs.MA=multi-agent, cs.NE=neural/evolutionary, cs.DB=databases, stat.ML=stats ML — edit 'cats'/'max' to widen or narrow.",
       "sources": [
