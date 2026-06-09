@@ -7,12 +7,15 @@
     {
       "id": "ai",
       "label": "What's new in AI 🤖",
-      "_note": "The Anthropic/Mistral/xAI 'rss' feeds below are COMMUNITY-maintained scrapers (raw.githubusercontent.com/Olshansk/rss-feeds), updated hourly — free, no setup, but third-party, so they can lag or break if that repo stops. The durable upgrade later is to self-host RSSHub (free on Cloudflare Workers) and point these URLs at your own instance. Native vendor feeds (OpenAI, Google AI, Vertex AI) are first-party and most reliable.",
+      "_note": "The Anthropic/Claude Blog/Mistral/xAI/Google Developers AI 'rss' feeds below are COMMUNITY-maintained scrapers (raw.githubusercontent.com/Olshansk/rss-feeds), updated hourly — free, no setup, but third-party, so they can lag or break if that repo stops. The durable upgrade later is to self-host RSSHub (free on Cloudflare Workers) and point these URLs at your own instance. Native vendor feeds (OpenAI, Google AI, Vertex AI) are first-party and most reliable. 'Claude Blog' (feed_claude.xml) is the Claude PRODUCT blog, distinct from 'Anthropic' (feed_anthropic_news.xml = company newsroom); 'Google Developers AI' (developers.googleblog.com) is developer/API-facing, distinct from 'Google AI' (blog.google = company/consumer). Testing Catalog is a first-party Ghost feed (/rss/) — it leans toward leaks/rumors/early 'being-tested' signal rather than official GA, so it complements the launch feeds rather than duplicating them. NOTE: native feeds beat googlenews in build.mjs fuzzy dedup (SOURCE_PRIORITY), so each feed above automatically wins over the googlenews rewrite of the same story — the googlenews queries are kept below purely for RECALL (press write-ups, regional-availability coverage, analysis the official feeds omit), and produce near-dupes that dedup discards, not clutter.",
       "_todo_feeds_with_no_native_rss": [
         "Nebius blog (nebius.com/blog): no native feed found (only a service-status feed). Needs a scraper feed — self-hosted RSSHub or a generator like RSS.app — then add as {type:'rss', name:'Nebius', url:'<feed>'}.",
         "Microsoft AI (microsoft.ai/news, microsoft.ai/blog) and the Azure Foundry 'what's new' Learn page: JS sites with no native feed; need a scraper feed.",
-        "Azure alternative: azure.microsoft.com/en-us/blog/feed/ IS a native feed, but covers ALL of Azure (noisy for an AI tab). Add only if you want it; relevance filtering (Phase 2) would help trim it.",
-        "For now, Anthropic/Mistral/xAI/DeepSeek/Nebius/Azure are still covered by the googlenews queries below."
+        "Azure native Updates feed MOVED to https://www.microsoft.com/releasecommunications/api/v2/azure/rss but LOST category filtering — it's the whole-Azure firehose now (too noisy for an AI tab), same problem as the azure.microsoft.com/blog/feed firehose. The Microsoft Foundry blog (the AI-scoped first-party option) lives on techcommunity.microsoft.com, whose RSS broke after a platform migration and needs fragile workaround URLs — NOT worth hardcoding. So Azure stays on the googlenews query below for now. Cleaner long-term: a tag-scoped third-party feed (e.g. azurefeeds.com 'AI + Machine Learning') or RSSHub.",
+        "Gemini API (AI Studio) changelog ai.google.dev/gemini-api/docs/changelog: the canonical dev-facing Gemini model GA/preview page, but no native RSS confirmed — verify, else scrape. For now Gemini launches are covered by Vertex AI (aiplatform-release-notes.xml), Google AI, and Google Developers AI feeds.",
+        "DeepSeek: maintains a real changelog (api-docs.deepseek.com/updates) + news, but the docs site exposes no native RSS — needs a scraper. Still covered by the googlenews query below.",
+        "Anthropic still publishes NO first-party feed (anthropic.com/news) — the Olshansk scraper feeds remain the best option.",
+        "For now, Mistral/DeepSeek/Nebius/Azure are still covered by the googlenews queries below."
       ],
       "sources": [
         {
@@ -56,6 +59,21 @@
           "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_xainews.xml"
         },
         {
+          "type": "rss",
+          "name": "Claude Blog",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_claude.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Google Developers AI",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_google_ai.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Testing Catalog",
+          "url": "https://www.testingcatalog.com/rss/"
+        },
+        {
           "type": "googlenews",
           "query": "Anthropic Claude release OR launch OR update"
         },
@@ -84,7 +102,7 @@
     {
       "id": "competitors",
       "label": "Competitors 👀",
-      "_note": "Per-company PRODUCT RELEASES come from changelog feeds (type:rss) where the vendor's docs platform exposes one natively: Lovable & Relevance AI (Mintlify -> /rss.xml), Cohere (Fern -> /changelog.rss), Dust (ReadMe -> /changelog.rss). The googlenews queries cover funding/growth/strategy (changelogs rarely make the news). Changelogs with NO native feed (need a scraper feed -- self-hosted RSSHub or RSS.app -- before adding as rss): Glean (Docusaurus), Langdock (Webflow), Stack AI & V7 (Framer), Nexos, Kore AI (Mintlify but no Update components = empty feed), Harvey (custom Next.js), GetGuru (ReadMe docs page + being migrated to a new platform).",
+      "_note": "Per-company PRODUCT RELEASES come from changelog feeds (type:rss) where the vendor's docs platform exposes one natively: Lovable & Relevance AI (Mintlify -> /rss.xml), Cohere (Fern -> /changelog.rss), Dust (ReadMe -> /changelog.rss), and Glean (native feed at docs.glean.com/release-notes.xml — earlier thought to be a feedless Docusaurus, but it does publish one). The googlenews queries cover funding/growth/strategy (changelogs rarely make the news). FEED AUDIT outcome: (1) Harvey has no native feed but IS tracked by the Releasebot aggregator (releasebot.io/updates/harvey) — to add it, grab the per-product RSS URL from that page's 'Get this feed: RSS' button (Releasebot's follow flow may require a free account; treat as a third-party scraper that can lag/break, same caveat as community feeds). (2) Databricks has a native docs RSS feed and a Releasebot page, but both are a data-platform firehose (runtimes/SQL/compute), not the AI launches we want — so Databricks stays on its googlenews query (consider a max cap so its volume doesn't bury smaller competitors). (3) Langdock, Sana, V7 Go, Guru, and Kore.ai each have a changelog PAGE but no native RSS, and aren't on Releasebot — we deliberately chose NOT to stand up scrapers for them (fragile, high-maintenance); they remain covered by googlenews. (4) Everyone else (Stack AI, Nexos, Zive, Ambersearch, Legora, Sinequa, Hebbia, Maia, Genow, TextCortex) has no feed-able product channel and stays news-only.",
       "sources": [
         {
           "type": "rss",
@@ -105,6 +123,11 @@
           "type": "rss",
           "name": "Relevance AI Changelog",
           "url": "https://relevanceai.com/docs/changelog/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Glean Changelog",
+          "url": "https://docs.glean.com/release-notes.xml"
         },
         {
           "type": "googlenews",
@@ -199,17 +222,97 @@
     {
       "id": "euro",
       "label": "Euro Startups 🍼",
+      "_note": "Goal: surface UP-AND-COMING AI startups, esp. Europe/Germany. Two layers. (1) Curated startup feeds for DISCOVERY: EU-Startups (+ its Germany category) and Tech.eu's AI category feed. EU-Startups' feeds are NOT AI-only — they carry all verticals (fintech/foodtech/biotech), so expect some non-AI startup noise here until Phase 2 relevance filtering lands; Tech.eu's /category/artificial-intelligence/ feed IS AI-scoped. (2) Google News queries for PRECISION, AI-keyworded and run on the right edition (gl/lang): pan-Europe (gl:GB) + Germany (gl:DE/de) + France (gl:FR/fr) + a US early-stage query. Signals beyond funding: stealth exits/launches, accelerator cohorts (Seedcamp/Antler/EF/Founders Factory/Techstars), public grants (EIC Accelerator, Horizon Europe, EXIST, France 2030), and German AI hubs (UnternehmerTUM/UVC/appliedAI, Merantix/Cyber Valley). CAVEAT: this tab now fires ~10 Google News queries; build.mjs fetches CONCURRENCY=5 at a time and Google News throttles heavy bursts — a throttled feed just logs a warning and is skipped (never sinks the tab). If you see clustered 'source N failed' warnings, drop the lowest-yield queries first (France, then a hub query). Tech.eu also lives in the industry tab; dedup is per-category, so a big EU AI story can appear in both tabs (expected).",
       "sources": [
         {
+          "type": "rss",
+          "name": "EU-Startups",
+          "url": "https://www.eu-startups.com/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "EU-Startups Germany",
+          "url": "https://www.eu-startups.com/category/germany/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "Tech.eu AI",
+          "url": "https://tech.eu/category/artificial-intelligence/feed/"
+        },
+        {
           "type": "googlenews",
-          "query": "Europe AI startup enterprise OR agents -robotics -hardware"
+          "query": "European AI startup raises OR \"Series A\" OR \"Series B\" OR seed OR \"pre-seed\" OR funding -crypto -stocks",
+          "gl": "GB",
+          "lang": "en",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "European AI startup \"out of stealth\" OR \"emerges from stealth\" OR launches OR founded",
+          "gl": "GB",
+          "lang": "en",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "KI Startup Deutschland Finanzierung OR Seed OR Millionen OR Runde OR gegründet",
+          "gl": "DE",
+          "lang": "de",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "US AI startup seed OR \"pre-seed\" OR \"Series A\" raises OR funding -crypto -stocks",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "AI startup Seedcamp OR Antler OR \"Entrepreneur First\" OR \"Founders Factory\" OR Techstars cohort OR batch OR backed",
+          "gl": "GB",
+          "lang": "en",
+          "max": 30
+        },
+        {
+          "type": "googlenews",
+          "query": "AI startup \"EIC Accelerator\" OR \"European Innovation Council\" OR \"Horizon Europe\" grant OR funding",
+          "gl": "GB",
+          "lang": "en",
+          "max": 30
+        },
+        {
+          "type": "googlenews",
+          "query": "KI Startup EXIST OR Förderung OR \"EIC Accelerator\" OR Gründungsstipendium",
+          "gl": "DE",
+          "lang": "de",
+          "max": 30
+        },
+        {
+          "type": "googlenews",
+          "query": "startup IA \"French Tech\" OR \"France 2030\" OR Bpifrance levée OR financement",
+          "gl": "FR",
+          "lang": "fr",
+          "max": 30
+        },
+        {
+          "type": "googlenews",
+          "query": "KI Startup UnternehmerTUM OR \"UVC Partners\" OR appliedAI OR \"TUM Venture Labs\"",
+          "gl": "DE",
+          "lang": "de",
+          "max": 30
+        },
+        {
+          "type": "googlenews",
+          "query": "KI Startup Merantix OR \"AI Campus Berlin\" OR \"Cyber Valley\" OR Ausgründung OR Spin-off",
+          "gl": "DE",
+          "lang": "de",
+          "max": 30
         }
       ]
     },
     {
       "id": "industry",
       "label": "More on AI 🪩",
-      "_note": "Broad AI headlines across three buckets. US/global native feeds: TechCrunch AI, The Verge AI, The Decoder, VentureBeat AI (clean summaries, big stories). Europe native feeds: Sifted, Euractiv Tech, Tech.eu, Silicon Canals, Politico EU Tech. Germany: t3n native; Heise + Golem have no native AI-only feed (only firehoses) so they ride site-scoped Google News queries (same reasoning as Azure). The Google News queries add recall across funding, policy, markets, products: deliberately broad ('AI' anchor token, wide OR tails, '-' excludes) — tune against real output. googlenews sources set max:40 (Google News returns ~100/feed). gl/lang/max all require the matching build.mjs changes. Note: the US/global native feeds (TechCrunch/Verge/Decoder/VentureBeat) overlap heavily and lean US — dedup handles it; the Europe-heavy additions are there to balance.",
+      "_note": "Broad AI headlines across three buckets. US/global native feeds: TechCrunch AI, The Verge AI, The Decoder, VentureBeat AI (clean summaries, big stories). Europe native feeds: Sifted, Euractiv Tech, Tech.eu, Silicon Canals, Politico EU Tech. Germany: t3n native; Heise + Golem have no native AI-only feed (only firehoses) so they ride site-scoped Google News queries (same reasoning as Azure). Reuters (no native feed since 2020) also rides a site:reuters.com query in the US bucket. The Google News queries add recall across funding, policy, markets, products: deliberately broad ('AI' anchor token, wide OR tails, '-' excludes) — tune against real output. googlenews sources set max:40 (Google News returns ~100/feed). gl/lang/max are all supported by the current build.mjs (gl/lang pick the Google News edition; max overrides perSource) — no code change needed. Note: the US/global native feeds (TechCrunch/Verge/Decoder/VentureBeat) overlap heavily and lean US — dedup handles it; the Europe-heavy additions are there to balance.",
       "sources": [
         {
           "type": "rss",
@@ -239,6 +342,11 @@
         {
           "type": "googlenews",
           "query": "AI regulation OR policy OR lawsuit OR safety OR \"open source\" OR agent",
+          "max": 40
+        },
+        {
+          "type": "googlenews",
+          "query": "site:reuters.com AI OR \"artificial intelligence\"",
           "max": 40
         },
         {
@@ -311,15 +419,66 @@
     {
       "id": "research",
       "label": "Researches 🔎",
+      "_note": "Two layers, same idea as the other tabs. (1) arXiv = broad RECALL: the raw firehose of new papers across the listed CS/stat categories, newest-first via the query API (so it's never empty on weekends, unlike the daily RSS). It's high-volume and uncurated — that's why 'max' is bumped to 50 so a run captures more than the last few hours. (2) Curated + first-party feeds = SIGNAL: 'Hugging Face Daily Papers' is community-upvoted 'trending' papers (the best single quality filter over arXiv); the lab feeds (DeepMind native, Google Research, Microsoft Research, Anthropic Research + Frontier Red Team, Meta AI) are first-party research; MIT News AI and BAIR (UC Berkeley) add academic coverage. CAVEAT on third-party feeds: HF Daily Papers and the Anthropic/Meta feeds are COMMUNITY-maintained SCRAPERS (raw.githubusercontent.com/...), free and no-setup but they can lag or break if those repos stop — same caveat as the scraper feeds in the 'ai' tab. Anthropic's research page (anthropic.com/research) has NO native feed, which is why the scraped one is used; DeepMind now publishes a native feed. HF Daily Papers fallback if the GitHub one breaks: https://papers.takara.ai/api/feed . Verify on first build: Microsoft Research's feed path (/en-us/research/feed/) is the standard WordPress URL but unconfirmed — if it returns nothing, try /en-us/research/blog/feed/. arXiv cats: cs.AI=general, cs.CL=NLP, cs.LG=ML core, cs.CV=vision, cs.MA=multi-agent, cs.NE=neural/evolutionary, cs.DB=databases, stat.ML=stats ML — edit 'cats'/'max' to widen or narrow.",
       "sources": [
         {
           "type": "arxiv",
           "cats": [
             "cs.AI",
             "cs.CL",
+            "cs.LG",
+            "cs.CV",
+            "cs.MA",
+            "cs.NE",
             "cs.DB",
-            "cs.MA"
-          ]
+            "stat.ML"
+          ],
+          "max": 50
+        },
+        {
+          "type": "rss",
+          "name": "Hugging Face Daily Papers",
+          "url": "https://raw.githubusercontent.com/huangboming/huggingface-daily-paper-feed/main/feed.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/rss.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Anthropic Research",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_research.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Anthropic Frontier Red Team",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_red.xml"
+        },
+        {
+          "type": "rss",
+          "name": "Meta AI",
+          "url": "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_meta_ai.xml"
+        },
+        {
+          "type": "rss",
+          "name": "MIT News AI",
+          "url": "https://news.mit.edu/rss/topic/artificial-intelligence2"
+        },
+        {
+          "type": "rss",
+          "name": "Google Research",
+          "url": "https://research.google/blog/rss/"
+        },
+        {
+          "type": "rss",
+          "name": "Microsoft Research",
+          "url": "https://www.microsoft.com/en-us/research/feed/"
+        },
+        {
+          "type": "rss",
+          "name": "BAIR",
+          "url": "https://bair.berkeley.edu/blog/feed.xml"
         }
       ]
     }
