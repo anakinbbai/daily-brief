@@ -35,6 +35,16 @@ const CONCURRENCY = 5;
 // source feed. Change this one number to widen/narrow the window.
 const RETENTION_DAYS = 14;
 
+// PUBLISH-DATE FLOOR: ignore any item whose PUBLISHED date is older than this
+// many days. This cheaply kills the "ancient junk" class — e.g. a 2009 story a
+// broad common-name query drags in — BEFORE it can enter the store or be sent
+// to the AI pass (so the one-time backlog enrichment is cheaper and cleaner).
+// Only acts on items that HAVE a real, parseable date; an item with a missing
+// or unreadable date is always kept (same rule retention already uses). The
+// tradeoff: a genuinely old article that only just resurfaced is also dropped.
+// Set to 0 to disable the floor entirely.
+const MAX_ITEM_AGE_DAYS = 365;
+
 // DE-DUPLICATION
 //   Tier 1 (always on, see titleKey): strips the " - Publisher" suffix Google
 //     News tacks on, drops filler/stopwords, and sorts the remaining words — so
@@ -334,6 +344,11 @@ async function loadJudgments() {
 //   • Anything first seen more than `retentionDays` ago is dropped.
 function mergeWithRetention(stored, fresh, nowIso, retentionDays) {
   const cutoff = Date.parse(nowIso) - retentionDays * 24 * 60 * 60 * 1000;
+  // Publish-date floor (0 disables). Items published before this instant are
+  // dropped — but only if they carry a real, parseable date (see step 3).
+  const ageFloor = MAX_ITEM_AGE_DAYS > 0
+    ? Date.parse(nowIso) - MAX_ITEM_AGE_DAYS * 24 * 60 * 60 * 1000
+    : null;
   const storedById = new Map((stored || []).map((c) => [c.id, c]));
 
   return fresh.map((cat) => {
@@ -356,10 +371,17 @@ function mergeWithRetention(stored, fresh, nowIso, retentionDays) {
     }
 
     // 3. Drop anything past the retention window (a bad/missing date is kept,
-    //    never silently dropped).
+    //    never silently dropped). If a publish-date floor is set, also drop
+    //    items whose PUBLISHED date is older than it — again, only when the
+    //    date is real and parseable; missing/unreadable dates are always kept.
     let items = [...byKey.values()].filter((it) => {
-      const t = Date.parse(it.firstSeen);
-      return Number.isNaN(t) ? true : t >= cutoff;
+      const seen = Date.parse(it.firstSeen);
+      if (!Number.isNaN(seen) && seen < cutoff) return false; // past retention window
+      if (ageFloor !== null) {
+        const pub = Date.parse(it.date);
+        if (!Number.isNaN(pub) && pub < ageFloor) return false; // older than the floor
+      }
+      return true;
     });
 
     // 4. TIER 2 fuzzy collapse of near-duplicate headlines across sources (e.g.
