@@ -1,10 +1,24 @@
 {
-  "generatedAt": "2026-07-16T16:18:54.140Z",
+  "generatedAt": "2026-07-16T19:15:58.848Z",
   "categories": [
     {
       "id": "ai",
       "label": "What's new in AI 🤖",
       "items": [
+        {
+          "title": "Introducing Grok 4.5 - X.ai",
+          "summary": "Introducing Grok 4.5 X.ai",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?oc=5",
+          "date": "2026-07-16T19:01:11.000Z",
+          "src": "X.ai"
+        },
+        {
+          "title": "SpaceXAI Open-Sources Grok Build After Privacy Backlash - TechRepublic",
+          "summary": "SpaceXAI Open-Sources Grok Build After Privacy Backlash TechRepublic",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNVAtb1cwaDBnYjJCSzJJalowUlpEMWE2VnVDYzRuQ1JGX3NoRUN5RnJCTkFvMkVJamF6Vm05YzNuQnppcE9aZUtrRXBKVi1OdmY2SnJDSnR0WE54aVk5dVNDdnF6ZTkzcXRuXy05S1J2T0pnZlZNSzliVDJ4aTBpS0VZY0NIRHVtNVE?oc=5",
+          "date": "2026-07-16T16:49:21.000Z",
+          "src": "TechRepublic"
+        },
         {
           "title": "Why teens deserve access to safe AI",
           "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
@@ -25,13 +39,6 @@
           "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
           "date": "2026-07-16T16:00:00.000Z",
           "src": "Google AI"
-        },
-        {
-          "title": "Introducing Grok 4.5 - x.ai",
-          "summary": "Introducing Grok 4.5 x.ai",
-          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?oc=5",
-          "date": "2026-07-16T15:50:18.000Z",
-          "src": "x.ai"
         },
         {
           "title": "X Vows Full Codebase Open Source After Grok Build Exfiltrated Dev Repos - Tech Times",
@@ -74,13 +81,6 @@
           "link": "https://www.testingcatalog.com/early-look-at-kimi-k3-generations-from-moonshot-ai-on-arena/",
           "date": "2026-07-16T11:17:03.000Z",
           "src": "Testing Catalog"
-        },
-        {
-          "title": "Robostral Navigate: single-camera AI navigation - mistral.ai",
-          "summary": "Robostral Navigate: single-camera AI navigation mistral.ai",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuODdfOFZITFJmb0FyNW00TkZEdUtFYzVxWnV5bWxCY1dRc3hnVjdFUVpqNHRnWDBGVUMzYXViZ1ViVEVCR216YzNOZ0lDbXZHMGNnUW93?oc=5",
-          "date": "2026-07-16T10:29:58.000Z",
-          "src": "mistral.ai"
         },
         {
           "title": "Chinese AI start-up Moonshot to launch model challenging Anthropic’s lead - Financial Times",
@@ -128,7 +128,7 @@
           "title": "Ex-OpenAI CTO Mira Murati Unveils Open-Weight AI Model 'Inkling,' Incorporating DeepSeek and Kimi Tech - finance.biggo.com",
           "summary": "Ex-OpenAI CTO Mira Murati Unveils Open-Weight AI Model 'Inkling,' Incorporating DeepSeek and Kimi Tech finance.biggo.com",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hNTB4ZjZXWDJGS1N0elBhbWlBYWd0SlgtREF6MHRLNmpOMjBEYkpTa3U0cHdraWtlbTRUQ0h2U0h0RWctbGthUGhMbTBySU1RVjIydlkwejFvNW1BQk81TmlIUmoyWmVaUkhtdGVGN3pyVVd6Y1E?oc=5",
-          "date": "2026-07-16T06:05:00.000Z",
+          "date": "2026-07-16T06:09:30.000Z",
           "src": "finance.biggo.com"
         },
         {
@@ -158,6 +158,13 @@
           "link": "https://developers.googleblog.com/building-scalable-ai-agents-with-modular-prompt-transpilation/",
           "date": "2026-07-16T00:00:00.000Z",
           "src": "Google Developers AI"
+        },
+        {
+          "title": "How Anthropic runs large-scale code migrations with Claude Code",
+          "summary": "How Anthropic runs large-scale code migrations with Claude Code",
+          "link": "https://claude.com/blog/ai-code-migration",
+          "date": "2026-07-16T00:00:00.000Z",
+          "src": "Claude Blog"
         },
         {
           "title": "How Cars24 scales conversations and builds faster with OpenAI",
@@ -263,6 +270,13 @@
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVDlhV1Zhbi1ieWRUeEJIa3ZIbTh3SF9HanFHeWEwYU05aU9hbUlDTUlCVDlPTjY2TnNtWE0zRGZWX2l6NGhQZnpOZTdGY2dlaWFyN1NFWVJfbTZ1QXdhcUp5ajhEaTZ6SlFwZVlFY2VlS25lb011dHpUQkVHd2lITGg4NlNxMTZNY3NfbVJkYzVrY1puTlRBSkNuNlREYldEVjFQMEUwZjRVSHNsRFRNZ0ozRklGdzZRQ2VnQmtDQi1KNTdzc1NWWWlR?oc=5",
           "date": "2026-07-15T09:59:43.000Z",
           "src": "Reuters"
+        },
+        {
+          "title": "American AI is expensive. Some startups are turning to cheap Chinese models - NPR",
+          "summary": "American AI is expensive. Some startups are turning to cheap Chinese models NPR",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUGlPWFM1cklNb1RseG5oN0JGbUFXZ0d5MkROVVg3eEY2UjFQdmlDT2E2dTYyUFQzeUpZWjdhMXZoWmdUanpMbWRWSUN5c2JHX0txWmswNkZSVUhWOEZBc2xSVjlyOVFHa2FYVDA0T3l3bkJzR2lGSUJaZ1EzZ2JhQTN2Yw?oc=5",
+          "date": "2026-07-15T09:00:00.000Z",
+          "src": "NPR"
         },
         {
           "title": "Anthropic Gives Teachers Free Claude Access as AI Giants Fight for Classrooms - Startup Fortune",
@@ -1476,6 +1490,13 @@
           "src": "Technology Org"
         },
         {
+          "title": "Robostral Navigate: single-camera AI navigation - mistral.ai",
+          "summary": "Robostral Navigate: single-camera AI navigation mistral.ai",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuODdfOFZITFJmb0FyNW00TkZEdUtFYzVxWnV5bWxCY1dRc3hnVjdFUVpqNHRnWDBGVUMzYXViZ1ViVEVCR216YzNOZ0lDbXZHMGNnUW93?oc=5",
+          "date": "2026-07-08T14:15:10.000Z",
+          "src": "mistral.ai"
+        },
+        {
           "title": "Anthropic brings Claude Cowork to web and mobile for Max users",
           "summary": "Anthropic expands Claude Cowork to web and mobile, allowing users to start tasks on desktop and manage them anywhere.",
           "link": "https://www.testingcatalog.com/anthropic-brings-claude-cowork-to-web-and-mobile-for-max-users/",
@@ -1560,6 +1581,13 @@
           "src": "Yahoo Finance"
         },
         {
+          "title": "China’s DeepSeek is building its own AI chip to end US reliance - Yahoo! Finance Canada",
+          "summary": "China’s DeepSeek is building its own AI chip to end US reliance Yahoo! Finance Canada",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmp4LXI3cmF4VlFtNTV6X1F6Vjc4SF90MGRjbENBWUtQYmtPRzJXb0FwUjRNXzVjN3E4azR0ZWRMT0Y2bHhYOWM4RHFycW8wc0diM2VQQ1VTUFV6cmJ1eDdvenFvQ3ZCMjhFaVZaMFZXSjJKTDNMQlpaclpDVXZJSkctXzZsQQ?oc=5",
+          "date": "2026-07-08T09:05:40.000Z",
+          "src": "Yahoo! Finance Canada"
+        },
+        {
           "title": "Elon Musk confirms Grok 4.5 public release following positive Beta feedback - The Eastleigh Voice",
           "summary": "Elon Musk confirms Grok 4.5 public release following positive Beta feedback The Eastleigh Voice",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1UydnI5dUh5dXhJLUEyNWFVV1ZPODdrV1NpejBlMFBMdDBnUXh4SC02NC10NHlDdl9Tbmsybk5kX2JudkcycGRsTDR2R2dROUFKd1l6TGZIei1QT3ZKQ202Z1IxTmNqdkExN0lIaFUtakFnVEtYSUc2alpZajNzRDdMMFNIVnkzbkhzbWdwdFdXUDVUWXRIRFhETkpMcVM5NEZCMEtJZm1OM3RCdVNBS2RwZjRNNzRCbURWQTVn?oc=5",
@@ -1614,13 +1642,6 @@
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORmdrSWI5N0ZiNHdwbXdEMkFHTzZTc2FoMHptUVl3RUtKQUJ2WXBjZjgtRGdlenNDMnBQUVdYbENxdzI5dklEVWtqQkRpSGUtVjdQNkFVbmdXbllFb1E4allfQUZleE56VWx6QXozanpLRkxaT3loUTJROXpsN1JQZkNmQlNwZndrc0dMNk03WWNXalU4RnZqZGhjOU5od1FpelVlSU1VMXJ4ck5KenBTcA?oc=5",
           "date": "2026-07-08T07:00:00.000Z",
           "src": "Reuters"
-        },
-        {
-          "title": "China’s DeepSeek is building its own AI chip to end US reliance - Yahoo Finance",
-          "summary": "China’s DeepSeek is building its own AI chip to end US reliance Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1hpcUEyYjZWNE1pRmh6eExLZllObGNQdXhPVnJSWDEtUk5hc3hoeXMzdTBzdld6SklNcDcwcVF0TG5ENGxUQUNQWklKaDZWVGktc1NicHlkd082WVBINVB5VkpMRjhkT2ZEeUwwV213c0oxTmNabER1TzBkbExEYnZIa1dJUE94dDNtbEdLTFRxSXZGQmdCLUtB?oc=5",
-          "date": "2026-07-08T07:00:00.000Z",
-          "src": "Yahoo Finance"
         },
         {
           "title": "Mistral launches first robotics model in physical AI push - Reuters",
@@ -2386,11 +2407,11 @@
           "src": "About Amazon"
         },
         {
-          "title": "Introducing the Voice Agent Builder - x.ai",
-          "summary": "Introducing the Voice Agent Builder x.ai",
+          "title": "Introducing the Voice Agent Builder - X.ai",
+          "summary": "Introducing the Voice Agent Builder X.ai",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1Z29raHh3X3JFNGRJRTJQQTRmbk5mdHRMUndpeWp4VkJfRVlydzBUMmFENDF4bWVreU9WMC1CLVdBRzRIUUphUjhzWWREeEJEdHFwWg?oc=5",
           "date": "2026-07-01T07:00:00.000Z",
-          "src": "x.ai"
+          "src": "X.ai"
         },
         {
           "title": "How DeepSeek Fits a 284B Parameter AI Model on a Single Laptop - Geeky Gadgets",
@@ -2876,6 +2897,13 @@
           "src": "Claude Blog"
         },
         {
+          "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+          "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+          "date": "2026-06-17T15:00:00.000Z",
+          "src": "Google AI"
+        },
+        {
           "title": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say - Reuters",
           "summary": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say Reuters",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeGNhcWY3emkzMTQ?oc=5",
@@ -2895,6 +2923,13 @@
           "link": "https://claude.com/blog/meet-the-winners-of-our-claude-opus-4-8-build-day-hackathon",
           "date": "2026-06-17T00:00:00.000Z",
           "src": "Claude Blog"
+        },
+        {
+          "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "summary": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "link": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+          "date": "2026-06-17T00:00:00.000Z",
+          "src": "Anthropic"
         },
         {
           "title": "Grok Imagine Video 1.5 - X.ai",
@@ -3007,6 +3042,13 @@
           "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQcy1sSmJoZnhiQVBHVjM3aG9WTXBON0xsU0ZEaU5lTWJ5aklNQnFkZ0JDSnViN2N2QldoSWZteUtMV015VHJyWnFwNmVfNFFvU1I5ZVMweEg0VlZDQlFIYndoa0RwcVZ6d0dLaUlNZUhzeS1KSUxLZWk2ZTYxcWdzV01ISGtlOVZBbWlLZW9rdWpnQVU4YWZOWDdtWERCWlZxOHdKdENnaXJMb04tb2hRNlpHbFVKZEJ3NkxIclNsREhtOVVSd3lMZk9sMFN6M3lNdDVuN1FOanBISE1CQTZhWmZlM3FVVC1oMVVwQURKdGttTWM?oc=5",
           "date": "2026-06-08T07:00:00.000Z",
           "src": "Nebius"
+        },
+        {
+          "title": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "summary": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "link": "https://www.anthropic.com/research/n-days",
+          "date": "2026-06-08T00:00:00.000Z",
+          "src": "Anthropic Research"
         },
         {
           "title": "Jun 8, 2026SciencePaving the way for agents in biology",
@@ -3946,6 +3988,20 @@
       "label": "Competitors 👀",
       "items": [
         {
+          "title": "Harvey Deepens Private Markets Push With Acquisition of Benchmark - Benzinga",
+          "summary": "Harvey Deepens Private Markets Push With Acquisition of Benchmark Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUEhGclpKWHpCblNQNE1YQlk5bENKM3REMWNOcFJ0dzJEaWtsSDIxUExlZ0dtcTdhRVVQYjZIVlpiUXRXM0JQSHBybUR0TENHeXNKaVgtYWY1eER1Z1ZTUThLaE40dk5fV21EaUg1YzJSeTJUZkY2RTRzYW1ZaThTU1FpTU9Vb3BETVlkbXVpbjJubVUzMmFvc0ZTYWpfeFBOcHlseFdIa3dGR0tIeDBWSk5yNTNGSVBqbDVDWG5DdDZUXzM2cDdSbQ?oc=5",
+          "date": "2026-07-16T17:13:49.000Z",
+          "src": "Benzinga"
+        },
+        {
+          "title": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark - Law.com",
+          "summary": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark Law.com",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlo5RjJFRGVkSExvd1NMb0taS1dEbXlKUGhELVNfaTloMVJKck9LV3NZV3d2dHhDelNZVmZzWnFGaWx6cFJzQXpSOGhQN0NiMlRteHhxRnBvUWxTaVVsYXduamRNOURkZ2ZYeFQ1b01PdHJ6OS1fOGl6MGhaT1lTMVpXUlJvR2swQkdJMFVyMmFEbGNjRC1tTkZyOVM5RGJBdXJGZGd2TFJTMERhSDN2UE9TQ204ZkNxa3dESGVTdWRydUFORHNjaQ?oc=5",
+          "date": "2026-07-16T15:42:00.000Z",
+          "src": "Law.com"
+        },
+        {
           "title": "Jul 15, 2026",
           "summary": "",
           "link": "https://docs.lovable.dev/changelog#jul-15-2026",
@@ -4212,18 +4268,18 @@
           "src": "TechCrunch"
         },
         {
-          "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Yahoo Finance",
-          "summary": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzRlMWFHbjFYN25LVUk2dFdTdEtKWEJZZzZUaUFEaEZMY1hxTlhEUU1oX2Fsb29Qd2tjdTNQLVRaTDlfbkVOUWJXbXBSUTlYT2RDWmpJVkJFSThUSUUzQ0Y2MWtRV1YtZVFqb1hpOTBwcWhfdS1RRlBxOU9xOWRUZm5iblA2dmdDYXplX3ozWEJRQQ?oc=5",
-          "date": "2026-07-07T14:48:33.000Z",
-          "src": "Yahoo Finance"
-        },
-        {
           "title": "AI law startup Norm raises $120M, hits unicorn valuation - TechCrunch",
           "summary": "AI law startup Norm raises $120M, hits unicorn valuation TechCrunch",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
           "date": "2026-07-07T14:35:42.000Z",
           "src": "TechCrunch"
+        },
+        {
+          "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Yahoo Finance",
+          "summary": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzRlMWFHbjFYN25LVUk2dFdTdEtKWEJZZzZUaUFEaEZMY1hxTlhEUU1oX2Fsb29Qd2tjdTNQLVRaTDlfbkVOUWJXbXBSUTlYT2RDWmpJVkJFSThUSUUzQ0Y2MWtRV1YtZVFqb1hpOTBwcWhfdS1RRlBxOU9xOWRUZm5iblA2dmdDYXplX3ozWEJRQQ?oc=5",
+          "date": "2026-07-07T07:00:00.000Z",
+          "src": "Yahoo Finance"
         },
         {
           "title": "Databricks Auto Upgrades debut - StartupHub.ai",
@@ -4333,7 +4389,7 @@
         {
           "title": "Legora CFO Pledges SPAC Recusal Amid Acquisition Spree - Law360",
           "summary": "Legora CFO Pledges SPAC Recusal Amid Acquisition Spree Law360",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlNEbHBIeDV6RzZaRnZWTTc5aGVjNURHeWEyQmRhLTViOVF1eUtYMTRJSWNSMnlMREdsaWFkU19BWjdjOTdJM19xdU9SSW13THRDbDBhWGxOV2ZpbGpraldOTFFZcXBPNFRhdm1UWDVObkZsbzBDclo3U1VSaVFxbWJSTmt2UXM1UkNtcnhnTjF3Vi1mT3lrcklB0gFWQVVfeXFMTnNOdlA0cTh3NE4tWVgtNWRCamttVWc0bHlWZFdXNEpGdzlJQmMxZ1lva1Q2X0kwTmtNWHhzWG9FU0x4YzE3NmxtYXZKME5yMU4xUE1hWWc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYVVQM0lXNFY4dmRfTDhVUTlkUjFTcTRJeUZ5THpReEE5Njc4RFBJd2ZraVZ1LTcwRkp4SERsX3BfODR4SXlQQmxwN3Q2QWdJN1g5TUZnSXkxRXFoanJkZVJyTG1HSTlCaHZyd1gtT094eXI3NzREZjU0dWhlMnI1Qlc3SFBCR0t1T0FlM29IUWpZSldMSTg3cWdMTlNqeW5zTWfSAV5BVV95cUxOYnFtMnA4VUVFTTdFcERDMlZLYWlTYzdqeksxTFlqNTh4RV85TXN2OW44VXQzd2Q0YmhDWXllcTVmVG1PTWwxbzV2OElZVEMxTmMwV0RKRjNrdVBrSldn?oc=5",
           "date": "2026-06-30T20:43:00.000Z",
           "src": "Law360"
         },
@@ -6135,6 +6191,13 @@
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcW83VlhSdTFiZ05GNThVai1wNWR1QmdnRVc4STVmTHhFS0gwUGpsSVBlYUgyTDRsYWUwNnllal9qcGdXaTdVeDNCMUQ1NGpBNzFKcUpEUl9nRU9UWVQ2cnpNUnZiM01zdXRkUGh0NF9LdHVkWEJYNnJVQVhUeVNpYVpLSVU4M3J3M1FNRWxnWm9EMXRNck9YdFk3LTJLSWNhQWFyMnRhdjdfQXRrMGNnOEF1WkQzNEg3TUhJenB3?oc=5",
           "date": "2026-02-09T08:00:00.000Z",
           "src": "Databricks"
+        },
+        {
+          "title": "SaaStr AI App of the Week: Relevance AI — The Platform Where Ops Teams Build Entire AI Workforces (Without Writing a Line of Code) - saastr.com",
+          "summary": "SaaStr AI App of the Week: Relevance AI — The Platform Where Ops Teams Build Entire AI Workforces (Without Writing a Line of Code) saastr.com",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQzNHVUhoTjNpYWkxMGJJLW04WDl5Tjd4VUxYSGN4b0VRdGhNdm1WcmlUNjRwbGp2VDllbmxFSXhvcUExdExvN3VFaVlpcnRnSWd4b3d3eklJNnREejExTWtvWjI1UVotUERRQk92VGZDYlpjWVRxeExYc3RHLVAtalRMaFFKenVDeU5OaWdnX1lVUXdCZkJBUW8xMDFfejRvLXp5TEdYdDBqVy1YaEVVb0NBODE2Rzc5V1o1b0ctNnlaTVRXYlQwSTJIcWtJREJ0RGlCdTc4N3FDMDlKQVVKY3VKVQ?oc=5",
+          "date": "2026-02-06T14:10:45.000Z",
+          "src": "saastr.com"
         },
         {
           "title": "The company that has wiped off trillion dollars from software stocks in less than a week, releases new AI - The Times of India",
@@ -8152,6 +8215,13 @@
           "src": "EU-Startups Germany"
         },
         {
+          "title": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June - Tech.eu",
+          "summary": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June Tech.eu",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZWdvWEJQdThWUmI1cEZ3S0pKeUg0TmRfSjhZMnVIYVRWWWZZMW1UTWpIOVpTNG1iTUhuTzBiMFk4SkpGajBwMG5rRGRBWk5abUhJdVJLQjZ2VmF2M2ZXX3ZPNURBX0lwbHFsZmJqdU0yUktGN0E2RkRkbHZobmlZTzluQ2Y1WUZyUnNMOUkzbUtsaUI5ZUYzMV8tYk9OVU1OdHl4ZnJyYTRNNGZQc3NhTEc0RDNLUFAxOVVTNUw0NEZxSGtiV0dlQnJMVWZkdk5Mbms1R1JmekpnMlNOZHNjMGl3TTl2UnVtLUdBaQ?oc=5",
+          "date": "2026-07-03T14:30:28.000Z",
+          "src": "Tech.eu"
+        },
+        {
           "title": "Sia joins €6 million investment round in agentic AI startup Lemrock - Consultancy.eu",
           "summary": "Sia joins €6 million investment round in agentic AI startup Lemrock Consultancy.eu",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjY4dGtOSVV6b0lrNnpjTDlMTTMwTmNpM05RQ0t5WUNlaXZlYjhKYUFFVmVRMHgzaE9adnlzWWR1YmdVMG8zUUUtMWVlVk9FQ1hYQTJOdU83M1NTNTl4N3Q2eUU1dkwyLTU1QWdTUno1dE10YjJXVXRtN2NIeVpVTzRGYTF4T2hsTkRTRUFYaEN1aldTaGdQVElQTjl2N0dPUS1rU3g0b9IBrAFBVV95cUxQTEJkblhjVmpzRkdCbTVIenpoSElDY2lvR1lyaWNoWVZUcVhibWt2WjVxMUE5bXNGZkMzQWJtWUx2aGg3RkFKU0NrMUNFemlSR2xLYnZHRnR1TkpjY044RFJna1BsanNzcHUzbEtqZS1OVTlNOGQ2S1RBVl9kOUx1R0c1OWNBTmpGcjFmQVNYRmZ4T2dvRjNnZlRfMlBNTkIzYk0zTjZIcjBFRlpE?oc=5",
@@ -8208,13 +8278,6 @@
           "src": "Tech.eu AI"
         },
         {
-          "title": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June - Tech.eu",
-          "summary": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June Tech.eu",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZWdvWEJQdThWUmI1cEZ3S0pKeUg0TmRfSjhZMnVIYVRWWWZZMW1UTWpIOVpTNG1iTUhuTzBiMFk4SkpGajBwMG5rRGRBWk5abUhJdVJLQjZ2VmF2M2ZXX3ZPNURBX0lwbHFsZmJqdU0yUktGN0E2RkRkbHZobmlZTzluQ2Y1WUZyUnNMOUkzbUtsaUI5ZUYzMV8tYk9OVU1OdHl4ZnJyYTRNNGZQc3NhTEc0RDNLUFAxOVVTNUw0NEZxSGtiV0dlQnJMVWZkdk5Mbms1R1JmekpnMlNOZHNjMGl3TTl2UnVtLUdBaQ?oc=5",
-          "date": "2026-07-03T07:00:00.000Z",
-          "src": "Tech.eu"
-        },
-        {
           "title": "Croatian AI startup Hypefy raises $7.2 mln in Series A - SeeNews",
           "summary": "Croatian AI startup Hypefy raises $7.2 mln in Series A SeeNews",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUE81MUM1cmU5aDhjWjRpQUlWOVBBdnZ0VHV0QkJNbUxleU9lM3VjRzBkUVZuZnVIS1hLQTVIUFR1M2Z5LTM1ZW5SYlJqRFFPNzVRbEptR0NjOE80M3VQX2JleGZiRE8yTTNDdDRiYTNtRFZnOGs5SjFTVGx4STg2ZFNPUWM2UkVMb0xsTGxaOA?oc=5",
@@ -8227,6 +8290,13 @@
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYzNfdkEzdWxvQVl0SzRvWEZGSGF3NUVOOU9vSXBuSWFKYU53WGIwWmtYR19CYmlNdUhVdVQwT01Hdm1vajVkaU5fTUF2SkgwdXRHZWJWZkFQNncxUkNuZlBxclVjUkdURmoyY2prRlJjckZCQ0pGbHNzbW13WmwzTVlrWURsOFI3SDZHbnNCczctZEU?oc=5",
           "date": "2026-07-02T14:48:28.000Z",
           "src": "EU-Startups"
+        },
+        {
+          "title": "Quantum Systems lands €1 billion Series D in one of Europe’s largest DefenceTech financings",
+          "summary": "The German powerhouse for unmanned systems, Quantum Systems, has today announced the signing of its €1 billion ($1.2 billion) Series D financing round, more than doubling the company’s valuation at around €7 billion ($8…",
+          "link": "https://www.eu-startups.com/2026/07/quantum-systems-lands-e1-billion-series-d-in-one-of-europes-largest-defencetech-financings/",
+          "date": "2026-07-02T09:12:13.000Z",
+          "src": "EU-Startups Germany"
         },
         {
           "title": "Belgian startup Visiblie raises €500K for AI search visibility",
@@ -8614,6 +8684,13 @@
           "src": "EU-Startups"
         },
         {
+          "title": "50 Millionen Dollar mit dieser Powerpoint eingesammelt - Business Insider Deutschland",
+          "summary": "50 Millionen Dollar mit dieser Powerpoint eingesammelt Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNelBBVFFmTmpKSW9BMEJpVXFoZk9RMTNxZDlxaDVaZTFsOHBqLWo4dlZoMDA1Szk4Um1iaVFkWVMxRFBHYWtNbW1RR21fY0NtdDQzLTBkODYwZGItWjlUU2ZBaERrX0VhdDJNdlJXRzlOT09nYmFGUGtPNTY0WVZYNDhxM1RuSmVLSlVYZFBZajFwTjZXdElfeVQtcjFYRVZET0drTlJhTQ?oc=5",
+          "date": "2026-06-18T07:00:00.000Z",
+          "src": "Business Insider Deutschland"
+        },
+        {
           "title": "Cispa: Bund verdoppelt Förderung trotz China-Warnung von Verfassungsschutz - Business Insider Deutschland",
           "summary": "Cispa: Bund verdoppelt Förderung trotz China-Warnung von Verfassungsschutz Business Insider Deutschland",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdDI1QjBBV0M4VVJvSDRJVEdZNHFOcUFzSWk5aDZvc050M1loNExidHJkaXBxNmlhQTZ2NnhtR2ZDaXh2U29fal9Sc3V4cV9PUWRkaXBaeDdPSURaZGJHRnduT3Q0cUdGZjg3WFF1aFJhUVc0SzEya1ZCS3p0d2Z5cVRqRUZRdmdlcUZmXzdockR6U0VLanU4bGMteXZKVEJKZ21EZ1p3TlJORktGbWQ2enRGOWpRdVI1?oc=5",
@@ -8642,11 +8719,25 @@
           "src": "Tech.eu"
         },
         {
+          "title": "Auszeichnung für junge Unternehmer: KI-Lösung für den Mittelstand – Start-up gewinnt Förderung in Meerbusch - RP Online",
+          "summary": "Auszeichnung für junge Unternehmer: KI-Lösung für den Mittelstand – Start-up gewinnt Förderung in Meerbusch RP Online",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRlpXdTFWaUJRUU5DZUFDTXVQOG5RYnQtbUNxWFRhMi1Dc2hUM01QOWY1aWZnYnFqNTd2V09JWDRGQ0kzNXp1c3BKLWEzVWU3dXdROGw2U1BPWVZ0RU9VbGd5c0xfNVJRdnVWUVM4dTcyRmJQRXdpN2hSb0pBTnk4bFFqbjJuaEZVbktvWDE5QUJvQzJGQVNaZzloYkN2ZWMtakdqaGxId2t0TlZhUUp3?oc=5",
+          "date": "2026-06-17T07:00:00.000Z",
+          "src": "RP Online"
+        },
+        {
           "title": "Bozner KI-Start-up erhält Drei-Millionen-Finanzierung - swz.it",
           "summary": "Bozner KI-Start-up erhält Drei-Millionen-Finanzierung swz.it",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vSENISjc1M3hMQ2ZlMS1NODZmNEg3ckhwQTYxVWFMNlFjeWprRktLRjFKWFYtSjRoRGVMamxubW4xWXBBMWZpZWdHaUxSTkl4clRrZUN6Z01vRVltbm4xUzN5OUYydGJ1aGN6alA5WU1ZaGFRb29wWnNn?oc=5",
           "date": "2026-06-17T07:00:00.000Z",
           "src": "swz.it"
+        },
+        {
+          "title": "International consortia deemed vital for Romanian deep tech ventures - Business Review",
+          "summary": "International consortia deemed vital for Romanian deep tech ventures Business Review",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFA5U21qMDkzYk9FVVpkWGlTbTRBMjJRekM2dy1vR1J6N1hrUVNJMnctVmZBX2NLcHRTdVp4aG5fLWtPTXVUeTJhVHh3a1o1WU5fRHpFR0xQWkxybGVXSzhmV2g1Z2FWRlVScER0NktmVmN0LXBfOTJtbDlydW95UWxnR2NNWjFUVWVqRTVvTWIwdU90SWE1eXRVeklHR0wxTllqSlhiYk5JVkFhVDRucUNzb3BkZw?oc=5",
+          "date": "2026-06-17T07:00:00.000Z",
+          "src": "Business Review"
         },
         {
           "title": "Deutsches Roboter-Startup sammelt 1,4 Milliarden Dollar ein - Business Insider Deutschland",
@@ -9286,6 +9377,13 @@
           "src": "Business Punk"
         },
         {
+          "title": "Start-ups: Deutsche Start-ups sammeln 1,7 Milliarden Euro bei Investoren ein - DIE ZEIT",
+          "summary": "Start-ups: Deutsche Start-ups sammeln 1,7 Milliarden Euro bei Investoren ein DIE ZEIT",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWpyZ01yZ1Z6U25UVi1iZTZ0dlp5WmhIZzdPMFlrQ3JOc0daYjYtNmNIUFhIUms1cXRuTjhPcEtJbktJRlJ6SzJ0WS1SLUtQdnlFU0tNMnZXU0N3cmRTZGZfdThZRmI5UGN4SVZpQ2dmTTdEcTU2RWtKYmJ2WENBSVpWRHRSVUpBNGlraTBPRUJOR1Z1aE1YQ1BCWQ?oc=5",
+          "date": "2026-05-04T07:00:00.000Z",
+          "src": "DIE ZEIT"
+        },
+        {
           "title": "SAP übernimmt KI-Startup Prior Labs, will über eine Milliarde Euro investieren - trendingtopics.eu",
           "summary": "SAP übernimmt KI-Startup Prior Labs, will über eine Milliarde Euro investieren trendingtopics.eu",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoUy1XZktSeU1KWXlZS1pSb3ZKVVNPZjZ1SFVSdWdhSkpOYjQ2M2lkcUY0aDBtT3BjcDBIX29NeGhwWlBIVXNKd1pEVERJaml6cEJMWEgyYlk?oc=5",
@@ -9431,6 +9529,13 @@
           "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQRFJ5SmFjcEIzaXU0eEdWc3dZd3gyXzN5WjQzQXJGS2tvTlBub1U4SGp4Q01EYnJTdWRwU1ppYXcxR3MxbU9XLV9pQ3J3Rm5KWlFhVGFycEVKZUt4U0JJaXkxU1BwMnZyTEFoYlg0RDhjbGRyOTViTk9TQ0F1SDY1a0E0anFRMGNfUUw5TkZQdklKOTZGREhyMWk2MGtCLU5JUFRjZlIxYld1WVdEUmlYV2swb3A2V3VsNEVidHZ5OFk4VWlURDdzYlFwMA?oc=5",
           "date": "2026-04-22T07:00:00.000Z",
           "src": "Fierce Healthcare"
+        },
+        {
+          "title": "16-Jähriger baut KI-Tool für Landwirte – und lehnt 300.000-Dollar-Deal ab - Business Insider Deutschland",
+          "summary": "16-Jähriger baut KI-Tool für Landwirte – und lehnt 300.000-Dollar-Deal ab Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTjBYVFM1Z3VtUDFyaUpWRWRLSHU4cWxwQ2I5TGMwbWpRSWFMZWN2aUd0R3FYV0xnbW12LTlLYTNMaVQ4UmtOMV9uQWpoMnFZV2xHZ05pbXVvbUxMWURSYkxfb2dyay1rcGJRanU4cWNyNHdMYzB1UkcyUUROVUdTN0FOam9VOGJCWkZnQVhUejhKeGU3NkF1ZDMyeEx3cG5KNFVzNk9SYTEtZXFEdjVLXy02U0VMRjhGQk9n?oc=5",
+          "date": "2026-04-20T07:00:00.000Z",
+          "src": "Business Insider Deutschland"
         },
         {
           "title": "Rexi raises $1.2 million in a pre-seed round and will strengthen its AI operational infrastructure - contxto.com",
@@ -10042,11 +10147,11 @@
           "src": "CTech"
         },
         {
-          "title": "AI power play: Can Europe catch up with the US and China? - Euronews",
-          "summary": "AI power play: Can Europe catch up with the US and China? Euronews",
+          "title": "AI power play: Can Europe catch up with the US and China? - Euronews.com",
+          "summary": "AI power play: Can Europe catch up with the US and China? Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVE3MXdmLTNmSzBzMkE0WmR2NlBERHJ3eFNRcVJsenc0d3A2OE1qMjR4MkYzbk5ZVlhyY0lCNlJMY2NyMkpfdERYOUNveHAyTkFFeE5CYTNaS0diNHIwU0VTRndLNUE2TlJwS1ZPX1V5UHFkUXdYeG4zQUVVci1fNl9WTUY0dWxDbEZSbGV1bGJXRnBTUmhhbVZ0c2lqUQ?oc=5",
           "date": "2026-01-27T08:00:00.000Z",
-          "src": "Euronews"
+          "src": "Euronews.com"
         },
         {
           "title": "fonio.ai: Wiener KI-Startup mit großen Zielen nach Frankreich-Expansion - brutkasten",
@@ -10930,6 +11035,160 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+          "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; o…",
+          "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+          "date": "2026-07-16T19:02:38.000Z",
+          "src": "VentureBeat AI"
+        },
+        {
+          "title": "Bunkerhill Health Raises $55 Million Series B To Scale Agentic AI Platform For Health Systems - Pulse 2.0",
+          "summary": "Bunkerhill Health Raises $55 Million Series B To Scale Agentic AI Platform For Health Systems Pulse 2.0",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXpvUXZjakZoVkotdGZBUkpmbDNPR1AxZG5CeGNEVThKX3pENHZCQTRVMlZONTh5VXhlUWtvZUJrLTJHU1ZtZVNoZENGOHg4dXkybVpJVzhJTUFEN3JHQXZ6MWhLN3pOTDVKZ3ZxSFRBaUJ5SjM1c0VHdE9FWjZSY0s0S3E4Z0M5ald3eEFFemF3Nk1uamxoY19HN0ZFWGlzV3FOTVRzR2NjcDlrRnlkVkFR0gG3AUFVX3lxTE1mS2NaRV9pdGVEaXNFaktvaU1aeFA2YWQtQTB1ZVFlRmh3dldvcVFEMlpLejN1YWRwMUJwUUJyVFJ5bEdjTDFSQW1VZ0gtRkN1aVdrTG5aeFN6YXk0NXkyVXhXZDJVMWdMVlJtQnU4cGpoUWxXU2F5LVNEWlJXN1UzenI1Z1JSTEJ3bWZqZVZEc3I0RjJTYWhJbGZsYkJRMW9EM1ZROWExQTVEbEo2M21fakFBX3Jybw?oc=5",
+          "date": "2026-07-16T18:56:15.000Z",
+          "src": "Pulse 2.0"
+        },
+        {
+          "title": "Americans are angry about data centers. Politicians are feeling the pressure - Reuters",
+          "summary": "Americans are angry about data centers. Politicians are feeling the pressure Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV0ZaZ2h4eFlxSTdXZ0NTRDQ1R0haZF9vLURjdVhraWdUbnVHZEVmTzJjdkw4ZHpFaDRSemxOTDN5VFRWTUNwZXNtY0E2bFdsWThQMDBrQlUtZzMwRVo2SFZyVTFKZ3lHQjlEZHM3NWFxSzNZcWFHZFMxbjRmb3p4SmVoNnN0WEZVWjVBZFkxWDd5S1FVYnBfNnFQdU9wZWVJVzJsbDhNQS1mRnhZeW1Yek52RFlWTHM?oc=5",
+          "date": "2026-07-16T18:45:34.000Z",
+          "src": "Reuters"
+        },
+        {
+          "title": "Most of what you do all day runs on habit, not choice — but a new study found the habits are usually working for you, not against you",
+          "summary": "Researchers tracked 105 people six times a day for a week. About two-thirds of what they did was triggered by habit, and nearly nine in ten actions were carried out on autopilot. The surprise wasn't the size of the autop…",
+          "link": "https://siliconcanals.com/s-most-of-what-you-do-all-day-runs-on-habit-not-choice-but-a-new-study-found-the-habits-are-usually-working-for-you-not-against-you/",
+          "date": "2026-07-16T18:45:00.000Z",
+          "src": "Silicon Canals"
+        },
+        {
+          "title": "Supermicro Stock Drops as AI Hardware Correction Triggers Massive Server Selloff - Benzinga",
+          "summary": "Supermicro Stock Drops as AI Hardware Correction Triggers Massive Server Selloff Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV0dvNW84LXV2SW9qanRIZ2pidmlvWk42ekE1aThaejB0Q1dreGJ3aGwwUXEyenc2d2FQaFRON2VRTy1CSU1weVN2ZDMxb1A0THN1MndnVEZxWUxQNl92UzNBc3gySGc2azF6ZEFLdmt0X29SNmZzeUcyYW12cEtwdERRb3pBVDRLZXNVN25kdXAxRENCSkdTeThfa3dXdmNZdWRPS0dwNTZUYy12SlQ4eHdaRkl6MW81VWlDOFM4X3pmUmJZV2U0YmVWQWEtQVFlbjR4RHdPa3E?oc=5",
+          "date": "2026-07-16T18:36:27.000Z",
+          "src": "Benzinga"
+        },
+        {
+          "title": "Google Vids now lets you star in your own AI videos",
+          "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference ima…",
+          "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "date": "2026-07-16T18:32:54.000Z",
+          "src": "TechCrunch AI"
+        },
+        {
+          "title": "Episches Kino: Christopher Nolan singt Homers Odyssee neu - Golem",
+          "summary": "Episches Kino: Christopher Nolan singt Homers Odyssee neu Golem",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTXZzVHBPTV9ZZ3lGQlBTUWVpZHJ2NDZjT3NYZmplQktQYmFRUlZGNUw5YWJMMXpya3MtOGZCajQwU0tOaktUMC13WjM2Tno5UHJ4UEdDeFJDYUFGd0lzX2tIbWppYXV6VGpvOXhrTVJLUExLN00wam93cnd0QmZkbTB0cVEyR1BabklZMTJNQkdTTy1zMFdZR19rOExJLWZpdFE?oc=5",
+          "date": "2026-07-16T18:29:07.000Z",
+          "src": "Golem"
+        },
+        {
+          "title": "Mira Murati Drops Her First AI Model After Leaving OpenAI—And It's Fully Open Source - Decrypt",
+          "summary": "Mira Murati Drops Her First AI Model After Leaving OpenAI—And It's Fully Open Source Decrypt",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11WEFRVVhHN1JoQkV1Vk9UbGVfQWNIa21DQWo5XzJlSUo3OGpfR2c3d085am0xVmY1ZF9COVFvcWxJeE1rRDhlTTdCZ2x2NGJjOUJLaHJjcWVGUG9GR2FHYnVJRkJvSUJoSGktOTFveWJmZThBVDJhdkpLbVROQdIBhgFBVV95cUxQNEY4OXp4MG5VUTY2RGRBRkNNVDA4RXRGSVVCS2UzMXJkNEcyUW1vSFZZSjh2RUpoN0JzUDhMUlI2NE5FR1MyZFVBQ0FPcjVDZlBVZjV4WjUxWVFDM2s2cVlJd2xrWTF0UHpCWXhzTVJIdkNHcWpHdGxzRXdXQ1loNldxZVNGZw?oc=5",
+          "date": "2026-07-16T18:27:11.000Z",
+          "src": "Decrypt"
+        },
+        {
+          "title": "Roblox launches an AI-powered game creation feature in its mobile app",
+          "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+          "link": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+          "date": "2026-07-16T18:22:06.000Z",
+          "src": "TechCrunch AI"
+        },
+        {
+          "title": "Linux Creator Plants Foot on AI Open Source Contribution Issue - Virtualization Review",
+          "summary": "Linux Creator Plants Foot on AI Open Source Contribution Issue Virtualization Review",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNURGV1FKX2J3VHEzdVlWdkxWalBxVmVtOFZKU3FMUjRDdEctWkhvZm9sNk1WeFNOWFYtMUgyWm1WUlpBeEo5Ql9CcHJqT0VEYkh1S0xYSC1TWmFrd0V2ZTF0dTFhOTZMOEZ0b210TllrbVhhakZteWtPOEVlNmxhX3F5bXVGRC1LR0Z4VklWd3VpYW9pRXdDNWhDaXZBbnJtalBMRWdPWnFOM1RqUkJITGZDN0E3Rm8?oc=5",
+          "date": "2026-07-16T18:10:17.000Z",
+          "src": "Virtualization Review"
+        },
+        {
+          "title": "Illinois Board of Education Issues AI Guidance, Written With Help From AI - WTTW News",
+          "summary": "Illinois Board of Education Issues AI Guidance, Written With Help From AI WTTW News",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZEdjbzJkdjNHRlVCeHpzWld6NFQ4cXpnd1JrMjNpSFkyeGxOV0dnTWNMN19JeWhLWmpVQ0k2RWtMYm5yejNkZkV0SUZqRTNpNzFOVzNXNHg3SlBGZ1BRVHVLNHRscU1KTnM3algzRlFsbUY1aDBaRHZRNFJtdHNrR0FaQzBVNjhJSktPZlNOckV5QXljc3Iw?oc=5",
+          "date": "2026-07-16T18:08:29.000Z",
+          "src": "WTTW News"
+        },
+        {
+          "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+          "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul sa…",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+          "date": "2026-07-16T17:58:37.000Z",
+          "src": "The Verge AI"
+        },
+        {
+          "title": "AI Is Eating All The Chips Your Next Car Needs - Carscoops",
+          "summary": "AI Is Eating All The Chips Your Next Car Needs Carscoops",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMnlFNTczMW9uaVFXR0dUX1FyYS1ab1E4clhTSTZINUVQMUFSRjhIbGdLOHBaZTJJTnUtU0xVVnlUb09iOE5SZDRZSlh0Z2w1WEJsb0tLR3BUY0syR1RhanRUekhzQU5MMTltNWdtVQ?oc=5",
+          "date": "2026-07-16T17:53:43.000Z",
+          "src": "Carscoops"
+        },
+        {
+          "title": "Fireworks AI raises $1.5 billion Series D at $17.5 billion valuation - qz.com",
+          "summary": "Fireworks AI raises $1.5 billion Series D at $17.5 billion valuation qz.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+          "date": "2026-07-16T17:46:37.000Z",
+          "src": "qz.com"
+        },
+        {
+          "title": "Whatnot acquires Madrona-backed AI startup Shaped to boost live shopping recommendations - GeekWire",
+          "summary": "Whatnot acquires Madrona-backed AI startup Shaped to boost live shopping recommendations GeekWire",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ3cwR1dOSEJJVFRyeEJWaVlfSzUwWUh5eFdXY0hzNHEyNC1XNUw2U2dMZ1J5RXRiT3l5Q0I0LVFubkNIOWZVVC1zc1FKTUY3SVlhVG9lVy03VlppQUxqaGNNWkxsel9KUWxYTWJrUmJrcFFLV3N3aF9XSVBOcGZRcTlDUU1IeHB2Tk1PUXgzMnBycHRfSUdWeDE0OENwRVpSdngtNTgyN19HdlB6T1RwOWhpR0MzZEdTcWZV?oc=5",
+          "date": "2026-07-16T17:34:11.000Z",
+          "src": "GeekWire"
+        },
+        {
+          "title": "OpenAI employees pour nearly $250K into AI safety PAC, pushing back on firm’s president - The Hill",
+          "summary": "OpenAI employees pour nearly $250K into AI safety PAC, pushing back on firm’s president The Hill",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcmwyY2N0VnlESWh3bGFfc05KaTdOUURuaWhSMXY2WHhHUGtIWTN5WTU1QWQ0ZnVVVjFDMGdINlI3THYwWWQ3clh5NHJWb0dhSUxzSGFtNEZSZEVBRklkOWc0NUtEdTJGcmpOcmVpQVc3dENPMHI5UkVsNC1HMW9Vc1dpekFNZDF40gGOAUFVX3lxTFBuYU5kYk1vSzBsX0MyMlp3Y2J2RVVqRl9ManRnRURMSGRVMElNRUVURUNHRlI1bXFvRmhxUFRrdldCOUE1V1JBdlJsSkhuUThOdkt6Rms0eEFDb0NYbENBdUZwSkI0RjFhWE5Jd3ExTWVRYU1pbmVSaTdFczh3U1Y1ZnRpVXROSk5uT0xLZnc?oc=5",
+          "date": "2026-07-16T17:26:00.000Z",
+          "src": "The Hill"
+        },
+        {
+          "title": "Google rebrands NotebookLM as Gemini Notebook and opens its search app to third-party integration",
+          "summary": "Google is renaming NotebookLM to Gemini Notebook and integrating the tool more deeply into its ecosystem. A new feature gives each notebook its own cloud computer that can write and run code, initially for AI Ultra and W…",
+          "link": "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
+          "date": "2026-07-16T17:22:18.000Z",
+          "src": "The Decoder"
+        },
+        {
+          "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+          "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-nati…",
+          "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+          "date": "2026-07-16T17:06:08.000Z",
+          "src": "VentureBeat AI"
+        },
+        {
+          "title": "Codex Micro: OpenAI stellt Mini-Tastatur vor",
+          "summary": "Die erste Hardware mit OpenAI-Branding ist da. Das Unternehmen hinter ChatGPT hat zusammen mit Work Loader die Mini-Tastatur Codex Micro vorgestellt. So soll sie den Nutzer:innen von Codex die Arbeit erleichtern. weiterl…",
+          "link": "https://t3n.de/news/codex-micro-openai-mini-tastatur-1753230/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-07-16T17:00:24.000Z",
+          "src": "t3n"
+        },
+        {
+          "title": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes - Sequoia Capital",
+          "summary": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes Sequoia Capital",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDJQTDZXaGxCUUpGYzRET0hXUTRuZU5UdFY1eERwcWZ0SmlvUmZTcnBhMzRDV2VEQkJBVE1BbUMzbzktUm9SMi1rTThTbmNiQTB6RDVCYm5YWnBfRDhYR2RDU3QydGJtdGVQOU42cGtHazZwRjg0d3JYd0hGX2hOMXpiaGh6UWkxZlc4NVFDc3pQM3ozN2ZrVW42NXhHUzdIWnY3TkN2UDE?oc=5",
+          "date": "2026-07-16T17:00:13.000Z",
+          "src": "Sequoia Capital"
+        },
+        {
+          "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+          "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and th…",
+          "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+          "date": "2026-07-16T16:40:48.000Z",
+          "src": "VentureBeat AI"
+        },
+        {
+          "title": "Sable Raises $45M to Build the First AI Employee that can Click, See, and Explain - Newswire.com",
+          "summary": "Sable Raises $45M to Build the First AI Employee that can Click, See, and Explain Newswire.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOHpucTlOc3FjVHJ3Q3NEcXFUMHNWYnZPd3RBNmdrOV9vR3pBR2JBV1RGejUxOUVpRF85X0Vnd0hTZVZLNC11azdLcVAxZjZZNThxS1RLLTZPUnI3Q21lWW1FOF9mS1l4OFlkNGkzVEd3SEhpdjMzeTdfMVptU0lRTkZJUENETXJncXdTa2M4NlBQUUVoVWdmYloyYTAtbXYzWTd4WFc4cm90Qmxl?oc=5",
+          "date": "2026-07-16T16:40:00.000Z",
+          "src": "Newswire.com"
+        },
+        {
           "title": "Germany puts Google's AI Overviews and Perplexity under media law in first-of-its-kind ruling",
           "summary": "German media regulators say Google's AI Overviews are Google's own content, not neutral search results, and that they crowd out regular links. The regulators have issued their first rulings against Google and Perplexity…",
           "link": "https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/",
@@ -10942,6 +11201,20 @@
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWXQ1azRhRXU2WGEtTjBNbG5ZMDIyN1JkdWhTdmhfWTJ4aENuUkpWREdOelZCTllxdUxNS2V1MzlaSUVwTmJRSy1VTWxyWF9kOWQyTXFzZ0tmSWgxTkZqTFdQXzI1cEJuelJzNl9xTzVIM05odjdmUmpDSGZrMlBLWHBGcFdLZ2ZPQ3RpOGczZVlRRHVyZlljRnJ5ZlhKc0ZqTjFSeTRzbVlVYTFpenlxc0VhQW1EUExyMnlqd2pMR3pLazc2MnRnN1RB?oc=5",
           "date": "2026-07-16T16:12:07.000Z",
           "src": "24/7 Wall St."
+        },
+        {
+          "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField - NVIDIA Developer",
+          "summary": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField NVIDIA Developer",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWN5QXNGTU0xSHNsNEtVcVFuNW5qZFppZERjQnNYNjRQdHc5MnNqQzhIWThUazhiby0zaFBlMVJHZ2Q5ZG13MzR1TGdHQmxHMnVaTHdDdFc0ZzNCOE1ucDZjY25oSkZPeDZiVTJPV3M5TF9VUmlySjlOMy1TdEhYc2JoRkVBNzdMWlBpeTZJWjhIUFJiTGFTQ2JDdF9ncVd5X0dralFvdUhzOGQ1YzVoYw?oc=5",
+          "date": "2026-07-16T16:05:59.000Z",
+          "src": "NVIDIA Developer"
+        },
+        {
+          "title": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows - NVIDIA Developer",
+          "summary": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows NVIDIA Developer",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWNYRVQwUG5uLTAxY1plSG1WcEJIaDZHWUZFQjB2YXVJekw5cTIwX2habVIzUzcwUGlmczUtTVRpT0VsLS13ejg4OGNpc3FpR25iLWtZcjZPenVzUDVIV3g1dmtTSWRLZDF6Z0JWMDFmb2dZSzU0djUyVXRGbktVejhhajN0ZjAzSzBTWkF2NU92ajlzX3pnZkpoZXBKR1BIaGNvUQ?oc=5",
+          "date": "2026-07-16T16:05:40.000Z",
+          "src": "NVIDIA Developer"
         },
         {
           "title": "Regulators must focus on AI implementation, enforcement – Omdia - Light Reading",
@@ -10995,6 +11268,13 @@
         {
           "title": "Nach Aufregung über Daten-Upload: SpaceXAI macht Code von Grok Build öffentlich - heise online",
           "summary": "Nach Aufregung über Daten-Upload: SpaceXAI macht Code von Grok Build öffentlich heise online",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSi14VklMTjlYNFI1ZldMajhGOHJJZHBGdWpydlBtNmM3MzJWa1dGRjBuLVJfbFMwYXZpYmZrdFctTHltSUwwSmNSRDNQUllmaWN6T3BPcVlXSTl4VmE2VThLWkZycndPQ1Z0YjZSN1RwQ21rU1F0bWhoRGxhTUYyV2dpMzlKS1phV200VmdkSEt5LUNWZEVYc1JoM3B3V2R5a3NnT3IxTFlLVzVJTVF6WHlSSGhQZ2l4VXQyeA?oc=5",
+          "date": "2026-07-16T15:55:00.000Z",
+          "src": "heise online"
+        },
+        {
+          "title": "Aufregung über Daten-Upload: SpaceXAI macht Quellcode von Grok Build öffentlich - heise online",
+          "summary": "Aufregung über Daten-Upload: SpaceXAI macht Quellcode von Grok Build öffentlich heise online",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSi14VklMTjlYNFI1ZldMajhGOHJJZHBGdWpydlBtNmM3MzJWa1dGRjBuLVJfbFMwYXZpYmZrdFctTHltSUwwSmNSRDNQUllmaWN6T3BPcVlXSTl4VmE2VThLWkZycndPQ1Z0YjZSN1RwQ21rU1F0bWhoRGxhTUYyV2dpMzlKS1phV200VmdkSEt5LUNWZEVYc1JoM3B3V2R5a3NnT3IxTFlLVzVJTVF6WHlSSGhQZ2l4VXQyeA?oc=5",
           "date": "2026-07-16T15:55:00.000Z",
           "src": "heise online"
@@ -11140,6 +11420,13 @@
           "src": "t3n"
         },
         {
+          "title": "Eye Security, founded by former Dutch intelligence-service employees, raised €60 million to build a “sovereign” European cyber defense — and two of its backers are American",
+          "summary": "A cybersecurity firm built by former employees of the Dutch intelligence services raised €60 million to sell “sovereign” European security — but part of the money behind it is American, a useful reminder of what the labe…",
+          "link": "https://siliconcanals.com/s-eye-security-founded-by-former-dutch-intelligence-service-employees-raised-e60-million-to-build-a-sovereign-european-cyber-defense-and-two-of-its-backers-are-american/",
+          "date": "2026-07-16T14:30:00.000Z",
+          "src": "Silicon Canals"
+        },
+        {
           "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
           "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
           "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
@@ -11196,6 +11483,13 @@
           "src": "t3n"
         },
         {
+          "title": "Xpeng L03 fastback crossover, with AI features, targets Tesla Model Y - Automotive News",
+          "summary": "Xpeng L03 fastback crossover, with AI features, targets Tesla Model Y Automotive News",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VbGpWNFFFckVVaTFkTDdoSFY5d2NIQjU0eF92V1RXUk1Jc0E3NGtGWF9INWlLTkp0ektoRmptSUpBX3dZSnpNMEhBSlowcXV1OFpKTWN2aGllYUIwNDJN?oc=5",
+          "date": "2026-07-16T14:00:00.000Z",
+          "src": "Automotive News"
+        },
+        {
           "title": "Food safety needs an AI upgrade - Substack",
           "summary": "Food safety needs an AI upgrade Substack",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUWd2d0EtSDNHeWJHWi1jZE0xMHFpMW5SY2x6V1BYY2dqOWx4WXBDWk4taDRTT2JlNEJxY3FDQ3dOWmw5RDVpd3Zwb0Z2czI5XzE0S3FiREgwbTEzS2wwQ1JDWWJTQzg5UndBOGNQbm9rSEdKaDh2YWlIQ3FEX2VjQQ?oc=5",
@@ -11229,13 +11523,6 @@
           "link": "https://t3n.de/news/recherche-automatisierung-ki-tools-arbeit-1753149/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
           "date": "2026-07-16T13:30:17.000Z",
           "src": "t3n"
-        },
-        {
-          "title": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) - The New York Times",
-          "summary": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01aThfM3F5OXZRWEViT3k3ODFXdzdLOWZ5dDg1NjhQSlRHRUwwVWZueGxSclppNG5HSlEzSDNpVEdhOGdTdXZyaTl4Nk5NclJyRDc1RGE0OTBxWU0yUVBwd1BzUTE3UnNLdHkxOVBMdU1Gc0lXUW8xeVF2NGc?oc=5",
-          "date": "2026-07-16T13:24:23.000Z",
-          "src": "The New York Times"
         },
         {
           "title": "We Can’t Monitor AI Agents at Scale. Here’s What It Will Take. - Tech Policy Press",
@@ -11287,6 +11574,20 @@
           "src": "Tech.eu"
         },
         {
+          "title": "Micron signs deals with Qualcomm, others for AI-powered automobile chip components - Reuters",
+          "summary": "Micron signs deals with Qualcomm, others for AI-powered automobile chip components Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRktEa3YxM192SGU2U05HS204TWMtWGtXbG1sOUdyU2U0SDBjVkl1enBVeER0c1lnYTVqaGEtUjdkR0x0Q2hoZVFlVlRaaGN2NlVPWVA0aE41VXBmUkh0c1dNTDdCcVdFdllfa3ZKTkIxbmlzcTVpcTNMT2tOdUQzcWJtd1FBb3hZVzhjRU1URUNBUjNOYkllVUI3MzFWR2hsMnhpNk01RVlEYzZyeUhxbFpISXphRWwxZFZXNGxXVQ?oc=5",
+          "date": "2026-07-16T13:02:54.000Z",
+          "src": "Reuters"
+        },
+        {
+          "title": "IDF, Oaktree to invest $1.7 billion in Bloom Energy fuel cells for AI infrastructure - Reuters",
+          "summary": "IDF, Oaktree to invest $1.7 billion in Bloom Energy fuel cells for AI infrastructure Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVBzVlg5Sm1mN3NiaWFvb3F0NklvdFNoTkNQTEZJRHpNYXE5U0xadlpaS1VFV1FsQkIwbkVHZ3hvY2RiNkZsSmI0V1VkcTdRZngyWVZlcmZ5UkpZWXBITEd1OERVdk55N2pmdnlhSURRTlFpQUwybGhPVGczaHBlcW02QTVOc0VCazlmd0VBaFZjaHpuWFJaMEhiYm9GYjFzcXQ3TzV5QXBqWFgyTmdKQXc4NDdLdzNXdll1Z1hiNWo?oc=5",
+          "date": "2026-07-16T13:02:07.000Z",
+          "src": "Reuters"
+        },
+        {
           "title": "Ledger launches Agent Stack to keep AI agents away from crypto keys - SiliconANGLE",
           "summary": "Ledger launches Agent Stack to keep AI agents away from crypto keys SiliconANGLE",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONnZtejBBZkxmQUI0dHZibVRyZU1FaUpSWHdWaDlGNC1vOXBxbW9naDlJWkdzT19nN2dFR19DWi0zakhVeDI1OFU4aHhxdFZUbFZ5RzlyNXFhdWNldXMxN2tUM2g2M2hjR3NKQVNYemlKN1FQbzN4enpoXzdvbjJrbUhvNlVDSUxnVGZvRkJVWUI5QVpNV3M4RUZDb3A?oc=5",
@@ -11301,11 +11602,11 @@
           "src": "CNBC"
         },
         {
-          "title": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model - Morningstar",
-          "summary": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model Morningstar",
-          "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPeUhnNW0xYnRNaXQ1LVpmbm13ekRQa0hteHBXSWhzREZsWDN3NkQwUm04TnJKc3pNNWt0R042b0g3N0pDT0NwZ0VGZmV1aWJ2MVlUYkRyMnlQODRsb1Qyb2dUWWRrRVZQcFl4TEs0X1ZwS1ExV294aW5Cak81bGQ4TndKRlVKcTJ6UHNscHlrZnBGY1RzU3ZSQkJUZUZSSkctY1VLYWZObkNIdFQzZkphR0NoakdpMzRDMzF6LURfR2VHc1ZXLUtEdEVRM0JnUndBVnE3QTdMdkhPYi1LQmtiQ29EclVWTWhCUUlSclRNdU93RWlKaFlQdjBlQW5SbDhLSloySWcxMEFQdU1IcjZERXpMSzd2MFExVkJCaEhMYWVKU2ZDSUYzRnVZS0ZnLWpWaG9YS1hnaw?oc=5",
+          "title": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model - Yahoo Finance",
+          "summary": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVNmOTAzVW82WUIyaGtaNWVPZE13eW5ONGZudVlDMUY0SjBTeXU0UWpac3RsNExGZGRsMGhnRzlkOTFUNVdIbnIxb3dhVUwwVjFiR1BIU1hKTlNzYjhib0hySEczTmdLUlRFWnFrRHZMejJ4SFE0MTRLcDloY2R6QVJpUTFFbW1BcTdjU2xMR1pfdk9OSFJ2UkFaeVFBS0tVcE45MC1Sb3lSSDQ?oc=5",
           "date": "2026-07-16T13:00:00.000Z",
-          "src": "Morningstar"
+          "src": "Yahoo Finance"
         },
         {
           "title": "Claude can now use your 1Password credentials for you",
@@ -11665,18 +11966,18 @@
           "src": "Reuters"
         },
         {
+          "title": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push - Axios",
+          "summary": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push Axios",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MG5QTmlJdzlDSmR1TDc2bF9lUmVvVE90b1Z6ZzZWZkFKaDNwNmZ4d2ZhOWJoS3BQejVEZ3JtOERDYlQ1UkYtdkhJWVB0U2lnUFZCTWhjbGpnMkI0TEplUVBFMGEzb2d4em1UbEpUSVJPaTBWWGc?oc=5",
+          "date": "2026-07-16T10:02:47.000Z",
+          "src": "Axios"
+        },
+        {
           "title": "AI: Why Europe is falling behind, and how it can catch up - DW.com",
           "summary": "AI: Why Europe is falling behind, and how it can catch up DW.com",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQby1lYzJXSWs4SThIZzZ1eUhQbDlMTUNDOTNSOV93cXZxbzNCb3pBdG9Ib0p4RkxrV0NDRjJkZVgyVV9PTHUtRkpRSE80UVotZzV3NGkxdmVEVFdBWmlkSVJwM2NuNDRhQ2UwV2pLRmZ2OVVneDJaeDVNTXRHZnZET1MwdjBiZWZxd0pQM044X2JYUQ?oc=5",
           "date": "2026-07-16T10:01:32.000Z",
           "src": "DW.com"
-        },
-        {
-          "title": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push - Axios",
-          "summary": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push Axios",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MG5QTmlJdzlDSmR1TDc2bF9lUmVvVE90b1Z6ZzZWZkFKaDNwNmZ4d2ZhOWJoS3BQejVEZ3JtOERDYlQ1UkYtdkhJWVB0U2lnUFZCTWhjbGpnMkI0TEplUVBFMGEzb2d4em1UbEpUSVJPaTBWWGc?oc=5",
-          "date": "2026-07-16T10:00:39.000Z",
-          "src": "Axios"
         },
         {
           "title": "Uber kauft Delivery Hero: Deutschland verliert einen globalen Plattformkonzern",
@@ -11714,6 +12015,13 @@
           "src": "The Decoder"
         },
         {
+          "title": "heise meets … Julian Kramer, AI Evangelism Leader bei Adobe - Heise Business Services",
+          "summary": "heise meets … Julian Kramer, AI Evangelism Leader bei Adobe Heise Business Services",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSFBZRjlZa1p1SlFyR1NhQllSUVh4QkQ2SU52REpieHRUNk1jNWRZTHRiNERWa1g4bUF1b3ljWTJEZmhfTDRwSUNXdy10em5CcjBtQWtnRUs4R19qdHRtdGMwV1hWMTJxR1V5UVBWSmdlVjZTakMySlJoMGhDcmcxc2IxbGRSeU4zRFJuOFpiOEstVjFXSkZHS2dZelBwM1Zxb0Z5QmRMM0lxMVFNTlc2X1g2OXZHaFZQcFpKRzBZQmFSRW94RkU5ZmdEUlFxQ21GXzA5ampTWllLSUNZUHB2d3V3?oc=5",
+          "date": "2026-07-16T09:52:06.000Z",
+          "src": "Heise Business Services"
+        },
+        {
           "title": "Can Agentic AI Work on the Pharma Plant Floor? Pharma AI Startup Katalyze Raises $10.5M to Find Out - ERP Today",
           "summary": "Can Agentic AI Work on the Pharma Plant Floor? Pharma AI Startup Katalyze Raises $10.5M to Find Out ERP Today",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tNUp1M1pMd1FIQ05MN1c3MVNRM3phUzNBWXkzSURqbFFTNmlBQjh0UXhBamVEVTdhbU9DN2I1NkVJWFYxMzZDV0NNc2pGQlV2eXVjUjBSN0RxMzQ0V2ZwY3dQTndOM1RYTHFHTlRoQVBBbk1KbUhzZHp3?oc=5",
@@ -11735,11 +12043,11 @@
           "src": "The Economist"
         },
         {
-          "title": "Detecting deepfakes with chips and AI - DW.com",
-          "summary": "Detecting deepfakes with chips and AI DW.com",
+          "title": "Detecting deepfakes with chips and AI - dw.com",
+          "summary": "Detecting deepfakes with chips and AI dw.com",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FZWxTcWV6cmdZUnUta2RNWGVsSS1ueWRUTkNrLWY1NFFwUHh1N0lINTVLeU82MjViTG5kX0E1VkFxaGw0UDd2V0hNcnNHS0UzRVdhM1Nab0xGVUN4VEdqQUJmMURPNGhKWXRkQlZTdkJ5VFdudU1MMkJ0RGJ2VzQ?oc=5",
           "date": "2026-07-16T09:37:20.000Z",
-          "src": "DW.com"
+          "src": "dw.com"
         },
         {
           "title": "Goldman’s Bell Sees More Gains for Europe’s AI Buildout Stocks - Bloomberg.com",
@@ -11810,6 +12118,13 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQldvVHNXYTJaQVY2WXFyWGlEbmdLWnllMXg4eXNuMkJnQ1J6b3hmcVR1aE1mVlRwV3hpZ21rWElwMHlURTEwM0c4VVBiaXl5SGdHQm1va2U3cDE3VHc1clpKZWc2UFJTMnlLekg2c0ZETTJLT0w3MlN3bXM4ZkZycGhBbUtmNXlNcVYzU3NMN19fRHUxSzViUWdwWnhTUjNLSGVJbVBGSUItZVU?oc=5",
           "date": "2026-07-16T09:04:08.000Z",
           "src": "digitimes"
+        },
+        {
+          "title": "Catching up in the AI race? India gets its second AI unicorn in a month - CNBC",
+          "summary": "Catching up in the AI race? India gets its second AI unicorn in a month CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObVRwZ3NseVN3ekQtUW5QSzNCdEtPbUZaZk5FeTlMZnNzR28xdnI3RTd3UXkwNEpUU0hDUUVvaGRDbWFLdU9rUENkQWxtT0p0aXc5Qk1mV05Ocm01UTF6R3d5RUFDU1JHQ2hEYlRxVW5USTBUTDJUSzk1RjVfSjh4c3V5aUFlWlF0OTdQZUlCakVuemdGVGEwOW92Szg5cXZKM0N0eUhkNy02ZFnSAbABQVVfeXFMTmc1a1BfaFU3VU5QWDU0Qm84WXF6MC01dlRESTI5MG5yMVlNZ2szQVBIX2N2c2ZMTG01LXdLaUE1Ni1xdUVEa2tlR2xKUm01T3BGQlBISTRSaW1VeUQ3VzJDQnB5LUhIM29KazVqLUZZbUh5a2M0U0pXY1U1ZGZqZVRFalF4N01VRVhLMEFRM0k3R0VhemQ1MVN0MlRWeHVZVTlMMjREX0x3SlJLNmNtemo?oc=5",
+          "date": "2026-07-16T09:03:27.000Z",
+          "src": "CNBC"
         },
         {
           "title": "KI-Manager (m/w/d) in Vollzeit- M+S Transporte GmbH & Co. KG - Golem Jobs",
@@ -12232,6 +12547,13 @@
           "src": "Reuters"
         },
         {
+          "title": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns - University of Exeter News",
+          "summary": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns University of Exeter News",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDFaWTlFeTJfbDNpWTZ4ZGNXT2JMN080aEFTSy1QOXNNTGZSbk5UdWtkVWRZRXFBOHRKTWd5ZDRGWE1jbDFGVW9NbWhmS1cwMzZSUGF6eWJiQ1hhUU9aRm9BdDJrTlBTTnRfR3g0eGdiZllJRFZROHV3MnFZTE9Jc0w5azRhQkxISURxTm9lczNTYVpfMGFMZ2tKaFgxWElOZEhWQ3UyZ2c0SWJlZ1pLTUlFcndCclAwczZZMnM3RXJJemNNMm5FQVE5THVweGNVNnRXMVo4T09iRERzdVE?oc=5",
+          "date": "2026-07-16T04:39:56.000Z",
+          "src": "University of Exeter News"
+        },
+        {
           "title": "Morning Bid: This AI, it will make a profit, right? - Reuters",
           "summary": "Morning Bid: This AI, it will make a profit, right? Reuters",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DUGNxM2VZdk55OHpRdEF5dzZiMVFETmlxa3ZBaksyTHFMYWY3SkJ3WERlTTE5V2NrYm9nM25OUFNVT0dLaElpZ2ZGVVJSN0FzR2g3a29VWTJJa0JqRDFHMGxScEJ4U0dCdEkwbHJCNjB3NEplNUFfNF9MNmtZUU0?oc=5",
@@ -12246,13 +12568,6 @@
           "src": "kmph.com"
         },
         {
-          "title": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns - University of Exeter News",
-          "summary": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns University of Exeter News",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDFaWTlFeTJfbDNpWTZ4ZGNXT2JMN080aEFTSy1QOXNNTGZSbk5UdWtkVWRZRXFBOHRKTWd5ZDRGWE1jbDFGVW9NbWhmS1cwMzZSUGF6eWJiQ1hhUU9aRm9BdDJrTlBTTnRfR3g0eGdiZllJRFZROHV3MnFZTE9Jc0w5azRhQkxISURxTm9lczNTYVpfMGFMZ2tKaFgxWElOZEhWQ3UyZ2c0SWJlZ1pLTUlFcndCclAwczZZMnM3RXJJemNNMm5FQVE5THVweGNVNnRXMVo4T09iRERzdVE?oc=5",
-          "date": "2026-07-16T04:15:10.000Z",
-          "src": "University of Exeter News"
-        },
-        {
           "title": "Donnerstag: Schufa mit umstrittener Schattendatenbank, Klage wegen KI-Kündigung - heise online",
           "summary": "Donnerstag: Schufa mit umstrittener Schattendatenbank, Klage wegen KI-Kündigung heise online",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2dMZ3BCdWlycGxmNXp2UTlSSVFySlAwQ1Y2ZkRfU2pYZ2hiSWZzOHRJTThvaElxcl8xMWM2ZXlNWGZpNndaTzkyd0Ezb1JNamNlV3BpU0pFb0l4TExJN1FlZnlrbjNrMFY1SzRIazBaWU9vVDAxcjB1ZzJhc0NMeG0wdGRmcUJHdl9seDJqRVFqVkNRSTdLTVNadjdjSEFjOVlVNG82ekdrUUlSUm44WEo0eExwZkdTdWc?oc=5",
@@ -12265,6 +12580,13 @@
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVVU1aEpPakJCTFpXOU16QWhlRlJHYVZzTzhRS0pWRjVPRGtWUERpUGtvMVZLR0RoMGwtdVphcldwWkJaenVieGpkR2Q3ek9CcDItaXQzOUhzTnRRcmFYQjQ0ZkZkTzFLc1hicFpHT3NXbHpFMFc2dThlOUlQUjRYRy1wTndNQ0RXVWZoLUJwcGEyN21SVWkwSDN2VV9kN1JITkxmRVJsbFNSZElxV0staHpIcFJfUUx4b0lYaU1FUQ?oc=5",
           "date": "2026-07-16T04:05:00.000Z",
           "src": "Reuters"
+        },
+        {
+          "title": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) - The New York Times",
+          "summary": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01aThfM3F5OXZRWEViT3k3ODFXdzdLOWZ5dDg1NjhQSlRHRUwwVWZueGxSclppNG5HSlEzSDNpVEdhOGdTdXZyaTl4Nk5NclJyRDc1RGE0OTBxWU0yUVBwd1BzUTE3UnNLdHkxOVBMdU1Gc0lXUW8xeVF2NGc?oc=5",
+          "date": "2026-07-16T04:01:09.000Z",
+          "src": "The New York Times"
         },
         {
           "title": "Psychology suggests we don’t reason toward truth so much as defend what we already believe: we seek out the facts that confirm us and quietly wave away the rest — the ‘confirmation bias’ baked into how we think",
@@ -13891,8 +14213,8 @@
           "src": "Golem"
         },
         {
-          "title": "Entlassungswelle: Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben - Golem",
-          "summary": "Entlassungswelle: Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben Golem",
+          "title": "Entlassungswelle Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben - Golem",
+          "summary": "Entlassungswelle Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben Golem",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT04wUXowa0wtdW5CbDNQRDFScVBUVjNiLU5neHEwSFlaWEV0ZE5idDVHMFI3MzFpQ1RZRDFGVE9seEF2MWhTMC1NNlViX1JvdDNrcGtrajJkSUxFc25HYXA5MUIxVUc0bUVLWldfbFY1QzEtZzVZV1BOM3BoZ3lCREhkdm5qZjFySHIzT29fQndPRDZVTXhKZHhEbXhCSFladUpWYmtGZk5hUkdzRlc4WllxT3oyUGVWWS1nM2JudGJfVFdHMXVMZVJxSjhsOGNOQ2VwTC16ejhxeHN6?oc=5",
           "date": "2026-07-15T08:19:01.000Z",
           "src": "Golem"
@@ -14885,6 +15207,13 @@
           "src": "CNBC"
         },
         {
+          "title": "Where authorities are restricting data centres amid AI boom - Reuters",
+          "summary": "Where authorities are restricting data centres amid AI boom Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFNWNVlkWG1wT2lJUzJza1JuNE9Yd3hETjg1OXFPbmREZkYyOFdKeS1JRkR3U0o1Y3pXWUZaeVRUU3ByRDRNYlYwRXBWU3dwNTZlSVdvTUs0OU5fYnp2NnR6VG4wbzRtSDk3WmpDUHR5SFdLc1NTMlpjTVpadG8xWkhReFFiMXBBRHdHZTBFMVF3OTU3Q0pFZ3RrSld1Rmc2RF95RFlmUFFlMVlWMDVkT1Z3?oc=5",
+          "date": "2026-07-14T16:59:47.000Z",
+          "src": "Reuters"
+        },
+        {
           "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China - CNBC",
           "summary": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China CNBC",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZdWd2RUZkOHBLZ3lpeVdGMFZCT1Vpd2FiUXR6c0xWMGhUMkwxLUtVY1dSdnlJNGVKMVN2aTVpNlA4UHJNQUJQSGJiNTVsemVvZ0lEakxvOG1kU2tTeXptLW91Tm1GbmtlSjg2dWlOdkXSAXZBVV95cUxQWVdMZURKQTVEMER2bE8wTmtMczA0NzBDa3NjMGV4aUdRNVdoT1Z6QlA3cFoxYnlOak8ta282ZWU1NnZLYk9oT3lYNzlPYW8xZmh3eVE2aTRmTDFxZXByU3FueERPT0wzNDg4dGpMazA1U0RjVEJn?oc=5",
@@ -15394,13 +15723,6 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcVZYUjdJMEc2S21LR2ltOXd2eDZfbk9wbFVFRW1PcHhBb0NoLV9iaklKcFVfVjNuUUIzMERQS0V3T0NnTi1zbF94cEVEYmlSWG1iMUxMYWs1MDFSaU5XZXNBMURrR1lxWU9UNFJXTEF3ZVAwalltRklvZ1VQTFl3aVN3ZlNnXzM0MXliQlF5eEhhLUxncUpmQ0JrQdIBoAFBVV95cUxPcXA5MzY4S0dpQ1FoMTA2NmREMFM1V3pqNVpLaS0xN1NGeklzMXFHNnItczlaeFpILUwxdnFrNS1tdEdoRjY1MVhvajVfOGpsc0ZjaUt5QUlsUG01NEVkZERULVdjcjljc1h4QTRiTHdsVjRxaVI5ZVJTeWJ3RXAwTExyS0p1ZmxJRy1RdHZWSGdXUmQ3TTBWeS13cl9zbFBG?oc=5",
           "date": "2026-07-14T13:14:45.000Z",
           "src": "Pulse 2.0"
-        },
-        {
-          "title": "Where authorities are restricting data centres amid AI boom - Reuters",
-          "summary": "Where authorities are restricting data centres amid AI boom Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFNWNVlkWG1wT2lJUzJza1JuNE9Yd3hETjg1OXFPbmREZkYyOFdKeS1JRkR3U0o1Y3pXWUZaeVRUU3ByRDRNYlYwRXBWU3dwNTZlSVdvTUs0OU5fYnp2NnR6VG4wbzRtSDk3WmpDUHR5SFdLc1NTMlpjTVpadG8xWkhReFFiMXBBRHdHZTBFMVF3OTU3Q0pFZ3RrSld1Rmc2RF95RFlmUFFlMVlWMDVkT1Z3?oc=5",
-          "date": "2026-07-14T13:08:00.000Z",
-          "src": "Reuters"
         },
         {
           "title": "HTG Medical raises €450k and secures MDR certification to automate ICU urine monitoring",
@@ -16042,8 +16364,8 @@
         {
           "title": "Deutsches Startup erkennt Waldbrände mit Satelliten und KI - DW.com",
           "summary": "Deutsches Startup erkennt Waldbrände mit Satelliten und KI DW.com",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdGxFX0U3VHNVb19YeUZpUWNUWENFSXhqd0tBbUUwTFFJTk5tQkZRZXBuVHllSHlyS0JQaEdGVmNrWXZxNncyaDFWYmQ0TWFHLXBnSHFzUTV2dFA3Yko4c295OVN1Q0FIbV9wZk1qUTVsVjI3bjJ2YklBZmc5TjdjLWhKU2Z2MklabGdFYzA0Z2NtWll6Tm01WWxsWnBiRmR6VGxyaDB6YmVtZnA2X0NERW1ZcFVCVklNU1HSAboBQVVfeXFMTVVpVnlKT0dSYXRaZGtOblFMb08zcUZqNHRqdzRWTEhXTVc5U3hkb0d3NUY1ZTRTSTFXb29lYWpoOWxLa0d3WC1QaE5GalNRcVNYSkI0czV0cG9ncjRrQjdOZFZrX1lZYTZrc1dVOVlMSHhyVl90R0VxSlZENVI2UWFNT2gzc3ROdXhzbmZORll2ZEFWVjZWeDN5Q2l4QTZkVGZwTldBb181U0lIZFExeHlJcDRONHU0Yjl3?oc=5",
-          "date": "2026-07-14T08:42:31.000Z",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1ZQbnJHS28wd3NqNjNjcEUtR3N5WGhsdFJQTy1WRFVGNnZ4REhEd3BjeGpzV21pTEdZSi1BLVZwa0ItVV9taUM5ZUVDbjJSVHdNakZhNmF2bFp3ZGFNMkRpTHVld0x6OXRFbHkzSFF5Y3poamxfd2tWU1phNjRERDRPeDF4SzlhNXJZQnJyWW0xZGdxOUE3dGhtUFXSAZwBQVVfeXFMTVBrY25HYzRZblNUWmhpWkowbjNoXzQ4dmNEdzllZTQ0T2dmbmlVMWZTMWxVNVhERGhXT3dEYVMxdUE4Mk9vc2J1XzVLbWRXUUNKVDBLcXZaR21uU2ljN0NTdS1sUnNHSER5eVNWRlFQMXRuVzVCeFJWS0FhUnhFcEhWbHhzYUV6dEpkQVo1VWdFd2xrNTMtM0pRX0p4?oc=5",
+          "date": "2026-07-14T08:43:20.000Z",
           "src": "DW.com"
         },
         {
@@ -26841,6 +27163,13 @@
           "src": "Yahoo Finance UK"
         },
         {
+          "title": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu - heise online",
+          "summary": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu heise online",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVhxQlktLUFwRkQ1VDd3US1jb0RiOFlpVzEzbU1iUWt1QmdNMkY1aHlfeUFNeEw2S1M2MjlnUzNoSGwxSWhEY2dqSHlzT1lzUFFrZU9LMHo5dGRyTENjWVlscGgwam52UnMtNHYxWkJjZ2stb0Uzd1htdHJMMjVrRE5OQmt6WlBxVVo2RGQtdnpZTUxiSzRKaGwxRktGWEJwRnRv?oc=5",
+          "date": "2026-07-07T07:00:00.000Z",
+          "src": "heise online"
+        },
+        {
           "title": "Der Börsen-Tag: KI-Boom sorgt für Rekord bei Startup-Gründungen in Deutschland - n-tv.de",
           "summary": "Der Börsen-Tag: KI-Boom sorgt für Rekord bei Startup-Gründungen in Deutschland n-tv.de",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT1lwZ0hFMlUxcGYtM3docFg3Tlo0MDMtdVoyZ0ZxdjlodmVTMkhBeVZwTzJZMkZ1a0dwTlpOSTlHeEtvbmRuQTJiRUh0cTRyekx2WFVLeEZWUGlCaUJTeDNWRDFkMWUwQnVtbGo2Zklta29hc3dyUGZ6OW5YLU95enRYcmk3RE90emdNeXY2VkhOU2RFaWp4a25KaUVLNEQtRlREZG8zU1NmUmNSMnZTaWtTTlRzY0FvUXo4a1lWaDJNTjZ4NkE?oc=5",
@@ -27063,13 +27392,6 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKczNhZWVmc3lKLW1tRTVtNE9pbGRQYjhEWDFtbkswdG9oQUo1QjROZC1rRFQ2VnZYV1A4LUxhLXFPMmswUGxYcTZLd2xQakl6Q1VSRnYxajZDWEpMdFRIUDRhMF9oZnlMbHdXdExCZHZDaXhQV3ZaeHdPdnEzYUE?oc=5",
           "date": "2026-07-07T04:42:37.000Z",
           "src": "Finimize"
-        },
-        {
-          "title": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu - heise online",
-          "summary": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu heise online",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVhxQlktLUFwRkQ1VDd3US1jb0RiOFlpVzEzbU1iUWt1QmdNMkY1aHlfeUFNeEw2S1M2MjlnUzNoSGwxSWhEY2dqSHlzT1lzUFFrZU9LMHo5dGRyTENjWVlscGgwam52UnMtNHYxWkJjZ2stb0Uzd1htdHJMMjVrRE5OQmt6WlBxVVo2RGQtdnpZTUxiSzRKaGwxRktGWEJwRnRv?oc=5",
-          "date": "2026-07-07T04:30:00.000Z",
-          "src": "heise online"
         },
         {
           "title": "Illinois governor signs AI regulation bill - WQAD",
@@ -31356,11 +31678,11 @@
           "src": "Modern Diplomacy"
         },
         {
-          "title": "European shares close at record high after softer US jobs data calms rate hike fears - Reuters",
-          "summary": "European shares close at record high after softer US jobs data calms rate hike fears Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGVfM0kzS0NBdFBCcV9iYUtTMFBSM01HSWhQZ3MxN0RxWXBQTkZuNDZqR2FtYk82UE4tRXJUSjFZZzhhbHlOUzdUMllaZ0UwOS01MmxUSzBDMEJ4aEU4YmlUSDhWN1h4dEJIOW1haTkwbm5KMDcwMGVqMDY3a01jUDhsY0xHUm5ZZEtTNTZtUUtrQTEweVM5M25yOENLb2hGY0hwbXBzUzFRQQ?oc=5",
+          "title": "European shares close at record high after softer US jobs data calms rate hike fears - Yahoo Finance",
+          "summary": "European shares close at record high after softer US jobs data calms rate hike fears Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUzNGU05VQWJNWnR4LS1lQ3NPRmhSTkFicXJXdXQwdHdPR2M3S0ZxOVhuNkNycTNPYUtSZUtfd0RlclBlNUtpSVhJeTF1LUhaYUhyNncta3RiVkdfUXFGY2lCMTZXblFMMDB3d0N6dy1oOHZqWll5enFwWGlHV29PVzRnVWhqMlpGVWJnX1RxOHJ2by0ySVM0cWhNYw?oc=5",
           "date": "2026-07-02T07:00:00.000Z",
-          "src": "Reuters"
+          "src": "Yahoo Finance"
         },
         {
           "title": "EXCLUSIVE: Meta's Zuckerberg says AI agent tech progressing slower than expected - Reuters",
@@ -31706,11 +32028,11 @@
           "src": "Taylor Wessing"
         },
         {
-          "title": "EU's cloud and AI development act gets mixed reception - Euronews",
-          "summary": "EU's cloud and AI development act gets mixed reception Euronews",
+          "title": "EU's cloud and AI development act gets mixed reception - Euronews.com",
+          "summary": "EU's cloud and AI development act gets mixed reception Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVFNGOXBDXzhKVEFKcjBPT3dybk4wSUZFMk1tWW40d3J4aEx0bkR5ZngzNlpEZ095WnRzelM4MFVpeThjOHFtaVZzU25NNEVRY043bThPS0YzbjNodXE5WkVaY3hOUWlWb3NtaFpkZEJlTU9QZExmbWd5N0JsWkMtT3M5UXFhU3ZxcGM5dlktRkx6YVgta1pWZTZn?oc=5",
           "date": "2026-06-22T07:00:00.000Z",
-          "src": "Euronews"
+          "src": "Euronews.com"
         },
         {
           "title": "Europe’s ungoverned space: Military AI and the autonomy that cannot be bought - CEPR",
@@ -32322,11 +32644,11 @@
           "src": "trendingtopics.eu"
         },
         {
-          "title": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 - Euronews",
-          "summary": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 Euronews",
+          "title": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 - Euronews.com",
+          "summary": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlZtdE1lbURXUEZ5N0tpWjF4ZTc5OU9zWmhkZ2FiUmZHTWwzMk9wQXUxcFRCMmZHcjZhU3lTZmZwNWpLYWJSbTc4NDNnbWtNd1MzOTZUSjdoUkNlZzY2TlRoZkdScG5RbnNiTWx5cnRyVkdMWmp3aGNNazhwd1dqcUV1dXk3eTM5elhaZTNkMjJuNEptei1EZFVNRXF0RXR6X1E?oc=5",
           "date": "2026-05-06T07:00:00.000Z",
-          "src": "Euronews"
+          "src": "Euronews.com"
         },
         {
           "title": "Studie: Deutschland zieht mehr KI-Talente an - Forschung & Lehre",
@@ -32705,6 +33027,13 @@
           "link": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
           "date": "2026-01-13T13:00:00.000Z",
           "src": "VentureBeat AI"
+        },
+        {
+          "title": "Deutschlands einstige KI-Hoffnung Aleph Alpha entlässt 50 Mitarbeiter - Business Insider Deutschland",
+          "summary": "Deutschlands einstige KI-Hoffnung Aleph Alpha entlässt 50 Mitarbeiter Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZEl3UjhCcjZpLXlHQzRfZkhTSERCVmVCOTNqSWZVNHZVTHk4TkpBdF9pM2M3ald2QlRra29rVjgwenduaDRoeWY5WWUyYnpqTmlobE5nakZfUEplTVZrWGFrTlBPQllYdzVTMnVvNU9lV3l6dnRvcFZGZGFIRnBiN0hWQXNFd1Jla2NaUGlYUUM2WHdRaERYVk9zWlZBOGZBZzBsNndFcGNTS1N1QlVOSEtFWmNqVWFJSE5xOWxlTXh0SkU?oc=5",
+          "date": "2026-01-13T08:00:00.000Z",
+          "src": "Business Insider Deutschland"
         },
         {
           "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
@@ -37508,6 +37837,13 @@
           "src": "Google DeepMind"
         },
         {
+          "title": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "summary": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "link": "https://www.anthropic.com/research/n-days",
+          "date": "2026-06-08T00:00:00.000Z",
+          "src": "Anthropic Research"
+        },
+        {
           "title": "Jun 8, 2026SciencePaving the way for agents in biology",
           "summary": "Jun 8, 2026SciencePaving the way for agents in biology",
           "link": "https://www.anthropic.com/research/agents-in-biology",
@@ -37999,6 +38335,24 @@
       "label": "What's new in AI 🤖",
       "items": [
         {
+          "title": "Introducing Grok 4.5 - X.ai",
+          "summary": "Introducing Grok 4.5 X.ai",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?oc=5",
+          "date": "2026-07-16T19:01:11.000Z",
+          "src": "X.ai",
+          "via": "googlenews",
+          "firstSeen": "2026-07-08T22:09:52.920Z"
+        },
+        {
+          "title": "SpaceXAI Open-Sources Grok Build After Privacy Backlash - TechRepublic",
+          "summary": "SpaceXAI Open-Sources Grok Build After Privacy Backlash TechRepublic",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNVAtb1cwaDBnYjJCSzJJalowUlpEMWE2VnVDYzRuQ1JGX3NoRUN5RnJCTkFvMkVJamF6Vm05YzNuQnppcE9aZUtrRXBKVi1OdmY2SnJDSnR0WE54aVk5dVNDdnF6ZTkzcXRuXy05S1J2T0pnZlZNSzliVDJ4aTBpS0VZY0NIRHVtNVE?oc=5",
+          "date": "2026-07-16T16:49:21.000Z",
+          "src": "TechRepublic",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Why teens deserve access to safe AI",
           "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
           "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
@@ -38024,15 +38378,6 @@
           "src": "Google AI",
           "via": "rss",
           "firstSeen": "2026-07-16T16:18:54.140Z"
-        },
-        {
-          "title": "Introducing Grok 4.5 - x.ai",
-          "summary": "Introducing Grok 4.5 x.ai",
-          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE1ocVZvX1U2SU4zazFwWW5SbTZiaEhlX3FVcGh0Y2lSMXRhc1FyYnBpamVEOWtnLWctYlZjUlByOA?oc=5",
-          "date": "2026-07-16T15:50:18.000Z",
-          "src": "x.ai",
-          "via": "googlenews",
-          "firstSeen": "2026-07-08T22:09:52.920Z"
         },
         {
           "title": "X Vows Full Codebase Open Source After Grok Build Exfiltrated Dev Repos - Tech Times",
@@ -38087,15 +38432,6 @@
           "src": "Testing Catalog",
           "via": "rss",
           "firstSeen": "2026-07-16T13:59:33.345Z"
-        },
-        {
-          "title": "Robostral Navigate: single-camera AI navigation - mistral.ai",
-          "summary": "Robostral Navigate: single-camera AI navigation mistral.ai",
-          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuODdfOFZITFJmb0FyNW00TkZEdUtFYzVxWnV5bWxCY1dRc3hnVjdFUVpqNHRnWDBGVUMzYXViZ1ViVEVCR216YzNOZ0lDbXZHMGNnUW93?oc=5",
-          "date": "2026-07-16T10:29:58.000Z",
-          "src": "mistral.ai",
-          "via": "googlenews",
-          "firstSeen": "2026-07-08T19:36:32.245Z"
         },
         {
           "title": "Chinese AI start-up Moonshot to launch model challenging Anthropic’s lead - Financial Times",
@@ -38155,7 +38491,7 @@
           "title": "Ex-OpenAI CTO Mira Murati Unveils Open-Weight AI Model 'Inkling,' Incorporating DeepSeek and Kimi Tech - finance.biggo.com",
           "summary": "Ex-OpenAI CTO Mira Murati Unveils Open-Weight AI Model 'Inkling,' Incorporating DeepSeek and Kimi Tech finance.biggo.com",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hNTB4ZjZXWDJGS1N0elBhbWlBYWd0SlgtREF6MHRLNmpOMjBEYkpTa3U0cHdraWtlbTRUQ0h2U0h0RWctbGthUGhMbTBySU1RVjIydlkwejFvNW1BQk81TmlIUmoyWmVaUkhtdGVGN3pyVVd6Y1E?oc=5",
-          "date": "2026-07-16T06:05:00.000Z",
+          "date": "2026-07-16T06:09:30.000Z",
           "src": "finance.biggo.com",
           "via": "googlenews",
           "firstSeen": "2026-07-16T11:02:41.404Z"
@@ -38195,6 +38531,15 @@
           "src": "Google Developers AI",
           "via": "rss",
           "firstSeen": "2026-07-16T16:18:54.140Z"
+        },
+        {
+          "title": "How Anthropic runs large-scale code migrations with Claude Code",
+          "summary": "How Anthropic runs large-scale code migrations with Claude Code",
+          "link": "https://claude.com/blog/ai-code-migration",
+          "date": "2026-07-16T00:00:00.000Z",
+          "src": "Claude Blog",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "How Cars24 scales conversations and builds faster with OpenAI",
@@ -38330,6 +38675,15 @@
           "src": "Reuters",
           "via": "googlenews",
           "firstSeen": "2026-07-15T10:52:56.272Z"
+        },
+        {
+          "title": "American AI is expensive. Some startups are turning to cheap Chinese models - NPR",
+          "summary": "American AI is expensive. Some startups are turning to cheap Chinese models NPR",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUGlPWFM1cklNb1RseG5oN0JGbUFXZ0d5MkROVVg3eEY2UjFQdmlDT2E2dTYyUFQzeUpZWjdhMXZoWmdUanpMbWRWSUN5c2JHX0txWmswNkZSVUhWOEZBc2xSVjlyOVFHa2FYVDA0T3l3bkJzR2lGSUJaZ1EzZ2JhQTN2Yw?oc=5",
+          "date": "2026-07-15T09:00:00.000Z",
+          "src": "NPR",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Anthropic Gives Teachers Free Claude Access as AI Giants Fight for Classrooms - Startup Fortune",
@@ -39889,6 +40243,15 @@
           "firstSeen": "2026-07-08T16:41:40.899Z"
         },
         {
+          "title": "Robostral Navigate: single-camera AI navigation - mistral.ai",
+          "summary": "Robostral Navigate: single-camera AI navigation mistral.ai",
+          "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuODdfOFZITFJmb0FyNW00TkZEdUtFYzVxWnV5bWxCY1dRc3hnVjdFUVpqNHRnWDBGVUMzYXViZ1ViVEVCR216YzNOZ0lDbXZHMGNnUW93?oc=5",
+          "date": "2026-07-08T14:15:10.000Z",
+          "src": "mistral.ai",
+          "via": "googlenews",
+          "firstSeen": "2026-07-08T19:36:32.245Z"
+        },
+        {
           "title": "Anthropic brings Claude Cowork to web and mobile for Max users",
           "summary": "Anthropic expands Claude Cowork to web and mobile, allowing users to start tasks on desktop and manage them anywhere.",
           "link": "https://www.testingcatalog.com/anthropic-brings-claude-cowork-to-web-and-mobile-for-max-users/",
@@ -39997,6 +40360,15 @@
           "firstSeen": "2026-07-11T02:51:23.416Z"
         },
         {
+          "title": "China’s DeepSeek is building its own AI chip to end US reliance - Yahoo! Finance Canada",
+          "summary": "China’s DeepSeek is building its own AI chip to end US reliance Yahoo! Finance Canada",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmp4LXI3cmF4VlFtNTV6X1F6Vjc4SF90MGRjbENBWUtQYmtPRzJXb0FwUjRNXzVjN3E4azR0ZWRMT0Y2bHhYOWM4RHFycW8wc0diM2VQQ1VTUFV6cmJ1eDdvenFvQ3ZCMjhFaVZaMFZXSjJKTDNMQlpaclpDVXZJSkctXzZsQQ?oc=5",
+          "date": "2026-07-08T09:05:40.000Z",
+          "src": "Yahoo! Finance Canada",
+          "via": "googlenews",
+          "firstSeen": "2026-07-08T14:20:33.433Z"
+        },
+        {
           "title": "Elon Musk confirms Grok 4.5 public release following positive Beta feedback - The Eastleigh Voice",
           "summary": "Elon Musk confirms Grok 4.5 public release following positive Beta feedback The Eastleigh Voice",
           "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1UydnI5dUh5dXhJLUEyNWFVV1ZPODdrV1NpejBlMFBMdDBnUXh4SC02NC10NHlDdl9Tbmsybk5kX2JudkcycGRsTDR2R2dROUFKd1l6TGZIei1QT3ZKQ202Z1IxTmNqdkExN0lIaFUtakFnVEtYSUc2alpZajNzRDdMMFNIVnkzbkhzbWdwdFdXUDVUWXRIRFhETkpMcVM5NEZCMEtJZm1OM3RCdVNBS2RwZjRNNzRCbURWQTVn?oc=5",
@@ -40067,15 +40439,6 @@
           "src": "Reuters",
           "via": "googlenews",
           "firstSeen": "2026-07-09T03:34:53.976Z"
-        },
-        {
-          "title": "China’s DeepSeek is building its own AI chip to end US reliance - Yahoo Finance",
-          "summary": "China’s DeepSeek is building its own AI chip to end US reliance Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU1hpcUEyYjZWNE1pRmh6eExLZllObGNQdXhPVnJSWDEtUk5hc3hoeXMzdTBzdld6SklNcDcwcVF0TG5ENGxUQUNQWklKaDZWVGktc1NicHlkd082WVBINVB5VkpMRjhkT2ZEeUwwV213c0oxTmNabER1TzBkbExEYnZIa1dJUE94dDNtbEdLTFRxSXZGQmdCLUtB?oc=5",
-          "date": "2026-07-08T07:00:00.000Z",
-          "src": "Yahoo Finance",
-          "via": "googlenews",
-          "firstSeen": "2026-07-08T14:20:33.433Z"
         },
         {
           "title": "Mistral launches first robotics model in physical AI push - Reuters",
@@ -41059,11 +41422,11 @@
           "firstSeen": "2026-07-04T09:09:37.604Z"
         },
         {
-          "title": "Introducing the Voice Agent Builder - x.ai",
-          "summary": "Introducing the Voice Agent Builder x.ai",
+          "title": "Introducing the Voice Agent Builder - X.ai",
+          "summary": "Introducing the Voice Agent Builder X.ai",
           "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA1Z29raHh3X3JFNGRJRTJQQTRmbk5mdHRMUndpeWp4VkJfRVlydzBUMmFENDF4bWVreU9WMC1CLVdBRzRIUUphUjhzWWREeEJEdHFwWg?oc=5",
           "date": "2026-07-01T07:00:00.000Z",
-          "src": "x.ai",
+          "src": "X.ai",
           "via": "googlenews",
           "firstSeen": "2026-07-07T11:22:37.747Z"
         },
@@ -41689,6 +42052,15 @@
           "firstSeen": "2026-07-08T16:41:40.899Z"
         },
         {
+          "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
+          "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
+          "date": "2026-06-17T15:00:00.000Z",
+          "src": "Google AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say - Reuters",
           "summary": "US holds off blacklisting China's DeepSeek, more than 100 firms deemed security risks, sources say Reuters",
           "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOT1ZFS3dvdUZNbkFCNUxiU1dWc0RxNzk5bWlqVl8xQTlDTFh0c2llcU1CZHRvRHRhZllDbDhhT3Y4T21DdjNjUkFydHE5X2FwcFB1ZkQ0QjdHTWRscHM2MWNITUJsS2NiVms0RmdWbHA5SHpucXAxejJOWFd0UjNuMVhKa0Rqc290QnhZWEhEYzBJeUpERWdhVmFPQ196cjQtel83cTdFVlRhd1V6TXc4X1pkUS1KbWhJeGNhcWY3emkzMTQ?oc=5",
@@ -41714,6 +42086,15 @@
           "src": "Claude Blog",
           "via": "rss",
           "firstSeen": "2026-07-02T21:53:16.893Z"
+        },
+        {
+          "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "summary": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
+          "link": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+          "date": "2026-06-17T00:00:00.000Z",
+          "src": "Anthropic",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Grok Imagine Video 1.5 - X.ai",
@@ -41858,6 +42239,15 @@
           "src": "Nebius",
           "via": "googlenews",
           "firstSeen": "2026-07-08T05:56:27.171Z"
+        },
+        {
+          "title": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "summary": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "link": "https://www.anthropic.com/research/n-days",
+          "date": "2026-06-08T00:00:00.000Z",
+          "src": "Anthropic Research",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Jun 8, 2026SciencePaving the way for agents in biology",
@@ -43063,6 +43453,24 @@
       "label": "Competitors 👀",
       "items": [
         {
+          "title": "Harvey Deepens Private Markets Push With Acquisition of Benchmark - Benzinga",
+          "summary": "Harvey Deepens Private Markets Push With Acquisition of Benchmark Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUEhGclpKWHpCblNQNE1YQlk5bENKM3REMWNOcFJ0dzJEaWtsSDIxUExlZ0dtcTdhRVVQYjZIVlpiUXRXM0JQSHBybUR0TENHeXNKaVgtYWY1eER1Z1ZTUThLaE40dk5fV21EaUg1YzJSeTJUZkY2RTRzYW1ZaThTU1FpTU9Vb3BETVlkbXVpbjJubVUzMmFvc0ZTYWpfeFBOcHlseFdIa3dGR0tIeDBWSk5yNTNGSVBqbDVDWG5DdDZUXzM2cDdSbQ?oc=5",
+          "date": "2026-07-16T17:13:49.000Z",
+          "src": "Benzinga",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark - Law.com",
+          "summary": "Harvey Continues Acquisition Streak With Addition of Investment Platform Benchmark Law.com",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdlo5RjJFRGVkSExvd1NMb0taS1dEbXlKUGhELVNfaTloMVJKck9LV3NZV3d2dHhDelNZVmZzWnFGaWx6cFJzQXpSOGhQN0NiMlRteHhxRnBvUWxTaVVsYXduamRNOURkZ2ZYeFQ1b01PdHJ6OS1fOGl6MGhaT1lTMVpXUlJvR2swQkdJMFVyMmFEbGNjRC1tTkZyOVM5RGJBdXJGZGd2TFJTMERhSDN2UE9TQ204ZkNxa3dESGVTdWRydUFORHNjaQ?oc=5",
+          "date": "2026-07-16T15:42:00.000Z",
+          "src": "Law.com",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Jul 15, 2026",
           "summary": "",
           "link": "https://docs.lovable.dev/changelog#jul-15-2026",
@@ -43405,15 +43813,6 @@
           "firstSeen": "2026-07-09T15:16:18.679Z"
         },
         {
-          "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Yahoo Finance",
-          "summary": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzRlMWFHbjFYN25LVUk2dFdTdEtKWEJZZzZUaUFEaEZMY1hxTlhEUU1oX2Fsb29Qd2tjdTNQLVRaTDlfbkVOUWJXbXBSUTlYT2RDWmpJVkJFSThUSUUzQ0Y2MWtRV1YtZVFqb1hpOTBwcWhfdS1RRlBxOU9xOWRUZm5iblA2dmdDYXplX3ozWEJRQQ?oc=5",
-          "date": "2026-07-07T14:48:33.000Z",
-          "src": "Yahoo Finance",
-          "via": "googlenews",
-          "firstSeen": "2026-07-11T15:58:26.694Z"
-        },
-        {
           "title": "AI law startup Norm raises $120M, hits unicorn valuation - TechCrunch",
           "summary": "AI law startup Norm raises $120M, hits unicorn valuation TechCrunch",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkxSeG9MLUpVWEctU1ZhWlJJMFNYVTBuX2lqLThUNFM4b215TGEtN1hnOGZDTWZvekR6QnhUSUNmNTBzQnlQNW5HU0RSVnZkZW5abmpRVGRCU3BtY25zQjlEdS1IZFJMQnVPaUVsa280TjllZkJZeEF2cnNhRkpCZUNXaG5YdzJEN2JfWHlSbFI1SDg?oc=5",
@@ -43421,6 +43820,15 @@
           "src": "TechCrunch",
           "via": "googlenews",
           "firstSeen": "2026-07-09T22:24:50.091Z"
+        },
+        {
+          "title": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding - Yahoo Finance",
+          "summary": "Legal AI startup Norm Ai hits $1.2 billion valuation after $120 million funding Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzRlMWFHbjFYN25LVUk2dFdTdEtKWEJZZzZUaUFEaEZMY1hxTlhEUU1oX2Fsb29Qd2tjdTNQLVRaTDlfbkVOUWJXbXBSUTlYT2RDWmpJVkJFSThUSUUzQ0Y2MWtRV1YtZVFqb1hpOTBwcWhfdS1RRlBxOU9xOWRUZm5iblA2dmdDYXplX3ozWEJRQQ?oc=5",
+          "date": "2026-07-07T07:00:00.000Z",
+          "src": "Yahoo Finance",
+          "via": "googlenews",
+          "firstSeen": "2026-07-11T15:58:26.694Z"
         },
         {
           "title": "Databricks Auto Upgrades debut - StartupHub.ai",
@@ -43560,7 +43968,7 @@
         {
           "title": "Legora CFO Pledges SPAC Recusal Amid Acquisition Spree - Law360",
           "summary": "Legora CFO Pledges SPAC Recusal Amid Acquisition Spree Law360",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWlNEbHBIeDV6RzZaRnZWTTc5aGVjNURHeWEyQmRhLTViOVF1eUtYMTRJSWNSMnlMREdsaWFkU19BWjdjOTdJM19xdU9SSW13THRDbDBhWGxOV2ZpbGpraldOTFFZcXBPNFRhdm1UWDVObkZsbzBDclo3U1VSaVFxbWJSTmt2UXM1UkNtcnhnTjF3Vi1mT3lrcklB0gFWQVVfeXFMTnNOdlA0cTh3NE4tWVgtNWRCamttVWc0bHlWZFdXNEpGdzlJQmMxZ1lva1Q2X0kwTmtNWHhzWG9FU0x4YzE3NmxtYXZKME5yMU4xUE1hWWc?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYVVQM0lXNFY4dmRfTDhVUTlkUjFTcTRJeUZ5THpReEE5Njc4RFBJd2ZraVZ1LTcwRkp4SERsX3BfODR4SXlQQmxwN3Q2QWdJN1g5TUZnSXkxRXFoanJkZVJyTG1HSTlCaHZyd1gtT094eXI3NzREZjU0dWhlMnI1Qlc3SFBCR0t1T0FlM29IUWpZSldMSTg3cWdMTlNqeW5zTWfSAV5BVV95cUxOYnFtMnA4VUVFTTdFcERDMlZLYWlTYzdqeksxTFlqNTh4RV85TXN2OW44VXQzd2Q0YmhDWXllcTVmVG1PTWwxbzV2OElZVEMxTmMwV0RKRjNrdVBrSldn?oc=5",
           "date": "2026-06-30T20:43:00.000Z",
           "src": "Law360",
           "via": "googlenews",
@@ -45878,6 +46286,15 @@
           "src": "Databricks",
           "via": "googlenews",
           "firstSeen": "2026-07-07T19:16:52.538Z"
+        },
+        {
+          "title": "SaaStr AI App of the Week: Relevance AI — The Platform Where Ops Teams Build Entire AI Workforces (Without Writing a Line of Code) - saastr.com",
+          "summary": "SaaStr AI App of the Week: Relevance AI — The Platform Where Ops Teams Build Entire AI Workforces (Without Writing a Line of Code) saastr.com",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQzNHVUhoTjNpYWkxMGJJLW04WDl5Tjd4VUxYSGN4b0VRdGhNdm1WcmlUNjRwbGp2VDllbmxFSXhvcUExdExvN3VFaVlpcnRnSWd4b3d3eklJNnREejExTWtvWjI1UVotUERRQk92VGZDYlpjWVRxeExYc3RHLVAtalRMaFFKenVDeU5OaWdnX1lVUXdCZkJBUW8xMDFfejRvLXp5TEdYdDBqVy1YaEVVb0NBODE2Rzc5V1o1b0ctNnlaTVRXYlQwSTJIcWtJREJ0RGlCdTc4N3FDMDlKQVVKY3VKVQ?oc=5",
+          "date": "2026-02-06T14:10:45.000Z",
+          "src": "saastr.com",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "The company that has wiped off trillion dollars from software stocks in less than a week, releases new AI - The Times of India",
@@ -48469,6 +48886,15 @@
           "firstSeen": "2026-07-03T17:03:06.647Z"
         },
         {
+          "title": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June - Tech.eu",
+          "summary": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June Tech.eu",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZWdvWEJQdThWUmI1cEZ3S0pKeUg0TmRfSjhZMnVIYVRWWWZZMW1UTWpIOVpTNG1iTUhuTzBiMFk4SkpGajBwMG5rRGRBWk5abUhJdVJLQjZ2VmF2M2ZXX3ZPNURBX0lwbHFsZmJqdU0yUktGN0E2RkRkbHZobmlZTzluQ2Y1WUZyUnNMOUkzbUtsaUI5ZUYzMV8tYk9OVU1OdHl4ZnJyYTRNNGZQc3NhTEc0RDNLUFAxOVVTNUw0NEZxSGtiV0dlQnJMVWZkdk5Mbms1R1JmekpnMlNOZHNjMGl3TTl2UnVtLUdBaQ?oc=5",
+          "date": "2026-07-03T14:30:28.000Z",
+          "src": "Tech.eu",
+          "via": "googlenews",
+          "firstSeen": "2026-07-03T17:03:06.647Z"
+        },
+        {
           "title": "Sia joins €6 million investment round in agentic AI startup Lemrock - Consultancy.eu",
           "summary": "Sia joins €6 million investment round in agentic AI startup Lemrock Consultancy.eu",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUjY4dGtOSVV6b0lrNnpjTDlMTTMwTmNpM05RQ0t5WUNlaXZlYjhKYUFFVmVRMHgzaE9adnlzWWR1YmdVMG8zUUUtMWVlVk9FQ1hYQTJOdU83M1NTNTl4N3Q2eUU1dkwyLTU1QWdTUno1dE10YjJXVXRtN2NIeVpVTzRGYTF4T2hsTkRTRUFYaEN1aldTaGdQVElQTjl2N0dPUS1rU3g0b9IBrAFBVV95cUxQTEJkblhjVmpzRkdCbTVIenpoSElDY2lvR1lyaWNoWVZUcVhibWt2WjVxMUE5bXNGZkMzQWJtWUx2aGg3RkFKU0NrMUNFemlSR2xLYnZHRnR1TkpjY044RFJna1BsanNzcHUzbEtqZS1OVTlNOGQ2S1RBVl9kOUx1R0c1OWNBTmpGcjFmQVNYRmZ4T2dvRjNnZlRfMlBNTkIzYk0zTjZIcjBFRlpE?oc=5",
@@ -48541,15 +48967,6 @@
           "firstSeen": "2026-07-03T10:15:48.117Z"
         },
         {
-          "title": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June - Tech.eu",
-          "summary": "Quantum Systems raises $1.2B, IQM becomes first European quantum company on major US exchange, and European startup funding in June Tech.eu",
-          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOZWdvWEJQdThWUmI1cEZ3S0pKeUg0TmRfSjhZMnVIYVRWWWZZMW1UTWpIOVpTNG1iTUhuTzBiMFk4SkpGajBwMG5rRGRBWk5abUhJdVJLQjZ2VmF2M2ZXX3ZPNURBX0lwbHFsZmJqdU0yUktGN0E2RkRkbHZobmlZTzluQ2Y1WUZyUnNMOUkzbUtsaUI5ZUYzMV8tYk9OVU1OdHl4ZnJyYTRNNGZQc3NhTEc0RDNLUFAxOVVTNUw0NEZxSGtiV0dlQnJMVWZkdk5Mbms1R1JmekpnMlNOZHNjMGl3TTl2UnVtLUdBaQ?oc=5",
-          "date": "2026-07-03T07:00:00.000Z",
-          "src": "Tech.eu",
-          "via": "googlenews",
-          "firstSeen": "2026-07-03T17:03:06.647Z"
-        },
-        {
           "title": "Croatian AI startup Hypefy raises $7.2 mln in Series A - SeeNews",
           "summary": "Croatian AI startup Hypefy raises $7.2 mln in Series A SeeNews",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUE81MUM1cmU5aDhjWjRpQUlWOVBBdnZ0VHV0QkJNbUxleU9lM3VjRzBkUVZuZnVIS1hLQTVIUFR1M2Z5LTM1ZW5SYlJqRFFPNzVRbEptR0NjOE80M3VQX2JleGZiRE8yTTNDdDRiYTNtRFZnOGs5SjFTVGx4STg2ZFNPUWM2UkVMb0xsTGxaOA?oc=5",
@@ -48566,6 +48983,15 @@
           "src": "EU-Startups",
           "via": "googlenews",
           "firstSeen": "2026-07-02T21:53:16.893Z"
+        },
+        {
+          "title": "Quantum Systems lands €1 billion Series D in one of Europe’s largest DefenceTech financings",
+          "summary": "The German powerhouse for unmanned systems, Quantum Systems, has today announced the signing of its €1 billion ($1.2 billion) Series D financing round, more than doubling the company’s valuation at around €7 billion ($8…",
+          "link": "https://www.eu-startups.com/2026/07/quantum-systems-lands-e1-billion-series-d-in-one-of-europes-largest-defencetech-financings/",
+          "date": "2026-07-02T09:12:13.000Z",
+          "src": "EU-Startups Germany",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Belgian startup Visiblie raises €500K for AI search visibility",
@@ -49063,6 +49489,15 @@
           "firstSeen": "2026-07-04T09:09:37.604Z"
         },
         {
+          "title": "50 Millionen Dollar mit dieser Powerpoint eingesammelt - Business Insider Deutschland",
+          "summary": "50 Millionen Dollar mit dieser Powerpoint eingesammelt Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNelBBVFFmTmpKSW9BMEJpVXFoZk9RMTNxZDlxaDVaZTFsOHBqLWo4dlZoMDA1Szk4Um1iaVFkWVMxRFBHYWtNbW1RR21fY0NtdDQzLTBkODYwZGItWjlUU2ZBaERrX0VhdDJNdlJXRzlOT09nYmFGUGtPNTY0WVZYNDhxM1RuSmVLSlVYZFBZajFwTjZXdElfeVQtcjFYRVZET0drTlJhTQ?oc=5",
+          "date": "2026-06-18T07:00:00.000Z",
+          "src": "Business Insider Deutschland",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Cispa: Bund verdoppelt Förderung trotz China-Warnung von Verfassungsschutz - Business Insider Deutschland",
           "summary": "Cispa: Bund verdoppelt Förderung trotz China-Warnung von Verfassungsschutz Business Insider Deutschland",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdDI1QjBBV0M4VVJvSDRJVEdZNHFOcUFzSWk5aDZvc050M1loNExidHJkaXBxNmlhQTZ2NnhtR2ZDaXh2U29fal9Sc3V4cV9PUWRkaXBaeDdPSURaZGJHRnduT3Q0cUdGZjg3WFF1aFJhUVc0SzEya1ZCS3p0d2Z5cVRqRUZRdmdlcUZmXzdockR6U0VLanU4bGMteXZKVEJKZ21EZ1p3TlJORktGbWQ2enRGOWpRdVI1?oc=5",
@@ -49099,6 +49534,15 @@
           "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
+          "title": "Auszeichnung für junge Unternehmer: KI-Lösung für den Mittelstand – Start-up gewinnt Förderung in Meerbusch - RP Online",
+          "summary": "Auszeichnung für junge Unternehmer: KI-Lösung für den Mittelstand – Start-up gewinnt Förderung in Meerbusch RP Online",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRlpXdTFWaUJRUU5DZUFDTXVQOG5RYnQtbUNxWFRhMi1Dc2hUM01QOWY1aWZnYnFqNTd2V09JWDRGQ0kzNXp1c3BKLWEzVWU3dXdROGw2U1BPWVZ0RU9VbGd5c0xfNVJRdnVWUVM4dTcyRmJQRXdpN2hSb0pBTnk4bFFqbjJuaEZVbktvWDE5QUJvQzJGQVNaZzloYkN2ZWMtakdqaGxId2t0TlZhUUp3?oc=5",
+          "date": "2026-06-17T07:00:00.000Z",
+          "src": "RP Online",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Bozner KI-Start-up erhält Drei-Millionen-Finanzierung - swz.it",
           "summary": "Bozner KI-Start-up erhält Drei-Millionen-Finanzierung swz.it",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9vSENISjc1M3hMQ2ZlMS1NODZmNEg3ckhwQTYxVWFMNlFjeWprRktLRjFKWFYtSjRoRGVMamxubW4xWXBBMWZpZWdHaUxSTkl4clRrZUN6Z01vRVltbm4xUzN5OUYydGJ1aGN6alA5WU1ZaGFRb29wWnNn?oc=5",
@@ -49106,6 +49550,15 @@
           "src": "swz.it",
           "via": "googlenews",
           "firstSeen": "2026-07-02T21:53:16.893Z"
+        },
+        {
+          "title": "International consortia deemed vital for Romanian deep tech ventures - Business Review",
+          "summary": "International consortia deemed vital for Romanian deep tech ventures Business Review",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNFA5U21qMDkzYk9FVVpkWGlTbTRBMjJRekM2dy1vR1J6N1hrUVNJMnctVmZBX2NLcHRTdVp4aG5fLWtPTXVUeTJhVHh3a1o1WU5fRHpFR0xQWkxybGVXSzhmV2g1Z2FWRlVScER0NktmVmN0LXBfOTJtbDlydW95UWxnR2NNWjFUVWVqRTVvTWIwdU90SWE1eXRVeklHR0wxTllqSlhiYk5JVkFhVDRucUNzb3BkZw?oc=5",
+          "date": "2026-06-17T07:00:00.000Z",
+          "src": "Business Review",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Deutsches Roboter-Startup sammelt 1,4 Milliarden Dollar ein - Business Insider Deutschland",
@@ -49927,6 +50380,15 @@
           "firstSeen": "2026-07-10T19:37:02.101Z"
         },
         {
+          "title": "Start-ups: Deutsche Start-ups sammeln 1,7 Milliarden Euro bei Investoren ein - DIE ZEIT",
+          "summary": "Start-ups: Deutsche Start-ups sammeln 1,7 Milliarden Euro bei Investoren ein DIE ZEIT",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWpyZ01yZ1Z6U25UVi1iZTZ0dlp5WmhIZzdPMFlrQ3JOc0daYjYtNmNIUFhIUms1cXRuTjhPcEtJbktJRlJ6SzJ0WS1SLUtQdnlFU0tNMnZXU0N3cmRTZGZfdThZRmI5UGN4SVZpQ2dmTTdEcTU2RWtKYmJ2WENBSVpWRHRSVUpBNGlraTBPRUJOR1Z1aE1YQ1BCWQ?oc=5",
+          "date": "2026-05-04T07:00:00.000Z",
+          "src": "DIE ZEIT",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "SAP übernimmt KI-Startup Prior Labs, will über eine Milliarde Euro investieren - trendingtopics.eu",
           "summary": "SAP übernimmt KI-Startup Prior Labs, will über eine Milliarde Euro investieren trendingtopics.eu",
           "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBoUy1XZktSeU1KWXlZS1pSb3ZKVVNPZjZ1SFVSdWdhSkpOYjQ2M2lkcUY0aDBtT3BjcDBIX29NeGhwWlBIVXNKd1pEVERJaml6cEJMWEgyYlk?oc=5",
@@ -50114,6 +50576,15 @@
           "src": "Fierce Healthcare",
           "via": "googlenews",
           "firstSeen": "2026-07-08T02:55:59.743Z"
+        },
+        {
+          "title": "16-Jähriger baut KI-Tool für Landwirte – und lehnt 300.000-Dollar-Deal ab - Business Insider Deutschland",
+          "summary": "16-Jähriger baut KI-Tool für Landwirte – und lehnt 300.000-Dollar-Deal ab Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTjBYVFM1Z3VtUDFyaUpWRWRLSHU4cWxwQ2I5TGMwbWpRSWFMZWN2aUd0R3FYV0xnbW12LTlLYTNMaVQ4UmtOMV9uQWpoMnFZV2xHZ05pbXVvbUxMWURSYkxfb2dyay1rcGJRanU4cWNyNHdMYzB1UkcyUUROVUdTN0FOam9VOGJCWkZnQVhUejhKeGU3NkF1ZDMyeEx3cG5KNFVzNk9SYTEtZXFEdjVLXy02U0VMRjhGQk9n?oc=5",
+          "date": "2026-04-20T07:00:00.000Z",
+          "src": "Business Insider Deutschland",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Rexi raises $1.2 million in a pre-seed round and will strengthen its AI operational infrastructure - contxto.com",
@@ -50899,11 +51370,11 @@
           "firstSeen": "2026-07-11T05:43:16.573Z"
         },
         {
-          "title": "AI power play: Can Europe catch up with the US and China? - Euronews",
-          "summary": "AI power play: Can Europe catch up with the US and China? Euronews",
+          "title": "AI power play: Can Europe catch up with the US and China? - Euronews.com",
+          "summary": "AI power play: Can Europe catch up with the US and China? Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOVE3MXdmLTNmSzBzMkE0WmR2NlBERHJ3eFNRcVJsenc0d3A2OE1qMjR4MkYzbk5ZVlhyY0lCNlJMY2NyMkpfdERYOUNveHAyTkFFeE5CYTNaS0diNHIwU0VTRndLNUE2TlJwS1ZPX1V5UHFkUXdYeG4zQUVVci1fNl9WTUY0dWxDbEZSbGV1bGJXRnBTUmhhbVZ0c2lqUQ?oc=5",
           "date": "2026-01-27T08:00:00.000Z",
-          "src": "Euronews",
+          "src": "Euronews.com",
           "via": "googlenews",
           "firstSeen": "2026-07-08T02:55:59.743Z"
         },
@@ -52039,6 +52510,204 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "The agent security gap: 54% of enterprises have already had an AI agent incident, and most still let agents share credentials",
+          "summary": "Across 107 enterprises, AI agents are being given real access to systems and data while the controls meant to contain them lag behind. More than half have already had a confirmed agent security incident or a near-miss; o…",
+          "link": "https://venturebeat.com/ai/the-agent-security-gap-54-of-enterprises-have-already-had-an-ai-agent-incident-and-most-still-let-agents-share-credentials",
+          "date": "2026-07-16T19:02:38.000Z",
+          "src": "VentureBeat AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Bunkerhill Health Raises $55 Million Series B To Scale Agentic AI Platform For Health Systems - Pulse 2.0",
+          "summary": "Bunkerhill Health Raises $55 Million Series B To Scale Agentic AI Platform For Health Systems Pulse 2.0",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQXpvUXZjakZoVkotdGZBUkpmbDNPR1AxZG5CeGNEVThKX3pENHZCQTRVMlZONTh5VXhlUWtvZUJrLTJHU1ZtZVNoZENGOHg4dXkybVpJVzhJTUFEN3JHQXZ6MWhLN3pOTDVKZ3ZxSFRBaUJ5SjM1c0VHdE9FWjZSY0s0S3E4Z0M5ald3eEFFemF3Nk1uamxoY19HN0ZFWGlzV3FOTVRzR2NjcDlrRnlkVkFR0gG3AUFVX3lxTE1mS2NaRV9pdGVEaXNFaktvaU1aeFA2YWQtQTB1ZVFlRmh3dldvcVFEMlpLejN1YWRwMUJwUUJyVFJ5bEdjTDFSQW1VZ0gtRkN1aVdrTG5aeFN6YXk0NXkyVXhXZDJVMWdMVlJtQnU4cGpoUWxXU2F5LVNEWlJXN1UzenI1Z1JSTEJ3bWZqZVZEc3I0RjJTYWhJbGZsYkJRMW9EM1ZROWExQTVEbEo2M21fakFBX3Jybw?oc=5",
+          "date": "2026-07-16T18:56:15.000Z",
+          "src": "Pulse 2.0",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Americans are angry about data centers. Politicians are feeling the pressure - Reuters",
+          "summary": "Americans are angry about data centers. Politicians are feeling the pressure Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV0ZaZ2h4eFlxSTdXZ0NTRDQ1R0haZF9vLURjdVhraWdUbnVHZEVmTzJjdkw4ZHpFaDRSemxOTDN5VFRWTUNwZXNtY0E2bFdsWThQMDBrQlUtZzMwRVo2SFZyVTFKZ3lHQjlEZHM3NWFxSzNZcWFHZFMxbjRmb3p4SmVoNnN0WEZVWjVBZFkxWDd5S1FVYnBfNnFQdU9wZWVJVzJsbDhNQS1mRnhZeW1Yek52RFlWTHM?oc=5",
+          "date": "2026-07-16T18:45:34.000Z",
+          "src": "Reuters",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Most of what you do all day runs on habit, not choice — but a new study found the habits are usually working for you, not against you",
+          "summary": "Researchers tracked 105 people six times a day for a week. About two-thirds of what they did was triggered by habit, and nearly nine in ten actions were carried out on autopilot. The surprise wasn't the size of the autop…",
+          "link": "https://siliconcanals.com/s-most-of-what-you-do-all-day-runs-on-habit-not-choice-but-a-new-study-found-the-habits-are-usually-working-for-you-not-against-you/",
+          "date": "2026-07-16T18:45:00.000Z",
+          "src": "Silicon Canals",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Supermicro Stock Drops as AI Hardware Correction Triggers Massive Server Selloff - Benzinga",
+          "summary": "Supermicro Stock Drops as AI Hardware Correction Triggers Massive Server Selloff Benzinga",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV0dvNW84LXV2SW9qanRIZ2pidmlvWk42ekE1aThaejB0Q1dreGJ3aGwwUXEyenc2d2FQaFRON2VRTy1CSU1weVN2ZDMxb1A0THN1MndnVEZxWUxQNl92UzNBc3gySGc2azF6ZEFLdmt0X29SNmZzeUcyYW12cEtwdERRb3pBVDRLZXNVN25kdXAxRENCSkdTeThfa3dXdmNZdWRPS0dwNTZUYy12SlQ4eHdaRkl6MW81VWlDOFM4X3pmUmJZV2U0YmVWQWEtQVFlbjR4RHdPa3E?oc=5",
+          "date": "2026-07-16T18:36:27.000Z",
+          "src": "Benzinga",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Google Vids now lets you star in your own AI videos",
+          "summary": "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference ima…",
+          "link": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+          "date": "2026-07-16T18:32:54.000Z",
+          "src": "TechCrunch AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Episches Kino: Christopher Nolan singt Homers Odyssee neu - Golem",
+          "summary": "Episches Kino: Christopher Nolan singt Homers Odyssee neu Golem",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTXZzVHBPTV9ZZ3lGQlBTUWVpZHJ2NDZjT3NYZmplQktQYmFRUlZGNUw5YWJMMXpya3MtOGZCajQwU0tOaktUMC13WjM2Tno5UHJ4UEdDeFJDYUFGd0lzX2tIbWppYXV6VGpvOXhrTVJLUExLN00wam93cnd0QmZkbTB0cVEyR1BabklZMTJNQkdTTy1zMFdZR19rOExJLWZpdFE?oc=5",
+          "date": "2026-07-16T18:29:07.000Z",
+          "src": "Golem",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Mira Murati Drops Her First AI Model After Leaving OpenAI—And It's Fully Open Source - Decrypt",
+          "summary": "Mira Murati Drops Her First AI Model After Leaving OpenAI—And It's Fully Open Source Decrypt",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE11WEFRVVhHN1JoQkV1Vk9UbGVfQWNIa21DQWo5XzJlSUo3OGpfR2c3d085am0xVmY1ZF9COVFvcWxJeE1rRDhlTTdCZ2x2NGJjOUJLaHJjcWVGUG9GR2FHYnVJRkJvSUJoSGktOTFveWJmZThBVDJhdkpLbVROQdIBhgFBVV95cUxQNEY4OXp4MG5VUTY2RGRBRkNNVDA4RXRGSVVCS2UzMXJkNEcyUW1vSFZZSjh2RUpoN0JzUDhMUlI2NE5FR1MyZFVBQ0FPcjVDZlBVZjV4WjUxWVFDM2s2cVlJd2xrWTF0UHpCWXhzTVJIdkNHcWpHdGxzRXdXQ1loNldxZVNGZw?oc=5",
+          "date": "2026-07-16T18:27:11.000Z",
+          "src": "Decrypt",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Roblox launches an AI-powered game creation feature in its mobile app",
+          "summary": "Roblox's new \"Build\" feature lets users generate basic games using a single text prompt.",
+          "link": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+          "date": "2026-07-16T18:22:06.000Z",
+          "src": "TechCrunch AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Linux Creator Plants Foot on AI Open Source Contribution Issue - Virtualization Review",
+          "summary": "Linux Creator Plants Foot on AI Open Source Contribution Issue Virtualization Review",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNURGV1FKX2J3VHEzdVlWdkxWalBxVmVtOFZKU3FMUjRDdEctWkhvZm9sNk1WeFNOWFYtMUgyWm1WUlpBeEo5Ql9CcHJqT0VEYkh1S0xYSC1TWmFrd0V2ZTF0dTFhOTZMOEZ0b210TllrbVhhakZteWtPOEVlNmxhX3F5bXVGRC1LR0Z4VklWd3VpYW9pRXdDNWhDaXZBbnJtalBMRWdPWnFOM1RqUkJITGZDN0E3Rm8?oc=5",
+          "date": "2026-07-16T18:10:17.000Z",
+          "src": "Virtualization Review",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Illinois Board of Education Issues AI Guidance, Written With Help From AI - WTTW News",
+          "summary": "Illinois Board of Education Issues AI Guidance, Written With Help From AI WTTW News",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZEdjbzJkdjNHRlVCeHpzWld6NFQ4cXpnd1JrMjNpSFkyeGxOV0dnTWNMN19JeWhLWmpVQ0k2RWtMYm5yejNkZkV0SUZqRTNpNzFOVzNXNHg3SlBGZ1BRVHVLNHRscU1KTnM3algzRlFsbUY1aDBaRHZRNFJtdHNrR0FaQzBVNjhJSktPZlNOckV5QXljc3Iw?oc=5",
+          "date": "2026-07-16T18:08:29.000Z",
+          "src": "WTTW News",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+          "summary": "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself. During an interview with Bloomberg's Odd Lots podcast, Hochul sa…",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+          "date": "2026-07-16T17:58:37.000Z",
+          "src": "The Verge AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "AI Is Eating All The Chips Your Next Car Needs - Carscoops",
+          "summary": "AI Is Eating All The Chips Your Next Car Needs Carscoops",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LMnlFNTczMW9uaVFXR0dUX1FyYS1ab1E4clhTSTZINUVQMUFSRjhIbGdLOHBaZTJJTnUtU0xVVnlUb09iOE5SZDRZSlh0Z2w1WEJsb0tLR3BUY0syR1RhanRUekhzQU5MMTltNWdtVQ?oc=5",
+          "date": "2026-07-16T17:53:43.000Z",
+          "src": "Carscoops",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Fireworks AI raises $1.5 billion Series D at $17.5 billion valuation - qz.com",
+          "summary": "Fireworks AI raises $1.5 billion Series D at $17.5 billion valuation qz.com",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc0xUNGkxMHF2NHpDc19SRzNWZDU0RkM4MkRfVjhmbHUwdDdRcTVuWGhLWnI1WFFDX21NU0dWNm5ZQklsdElwMkcyZmxJOFVyd3JHN1R4aktjOEk4QnZRZlBoRWpVQkFVLXJiWGhVak1uLUZRVDl0WmdEbGtMbW1oNA?oc=5",
+          "date": "2026-07-16T17:46:37.000Z",
+          "src": "qz.com",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Whatnot acquires Madrona-backed AI startup Shaped to boost live shopping recommendations - GeekWire",
+          "summary": "Whatnot acquires Madrona-backed AI startup Shaped to boost live shopping recommendations GeekWire",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ3cwR1dOSEJJVFRyeEJWaVlfSzUwWUh5eFdXY0hzNHEyNC1XNUw2U2dMZ1J5RXRiT3l5Q0I0LVFubkNIOWZVVC1zc1FKTUY3SVlhVG9lVy03VlppQUxqaGNNWkxsel9KUWxYTWJrUmJrcFFLV3N3aF9XSVBOcGZRcTlDUU1IeHB2Tk1PUXgzMnBycHRfSUdWeDE0OENwRVpSdngtNTgyN19HdlB6T1RwOWhpR0MzZEdTcWZV?oc=5",
+          "date": "2026-07-16T17:34:11.000Z",
+          "src": "GeekWire",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "OpenAI employees pour nearly $250K into AI safety PAC, pushing back on firm’s president - The Hill",
+          "summary": "OpenAI employees pour nearly $250K into AI safety PAC, pushing back on firm’s president The Hill",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcmwyY2N0VnlESWh3bGFfc05KaTdOUURuaWhSMXY2WHhHUGtIWTN5WTU1QWQ0ZnVVVjFDMGdINlI3THYwWWQ3clh5NHJWb0dhSUxzSGFtNEZSZEVBRklkOWc0NUtEdTJGcmpOcmVpQVc3dENPMHI5UkVsNC1HMW9Vc1dpekFNZDF40gGOAUFVX3lxTFBuYU5kYk1vSzBsX0MyMlp3Y2J2RVVqRl9ManRnRURMSGRVMElNRUVURUNHRlI1bXFvRmhxUFRrdldCOUE1V1JBdlJsSkhuUThOdkt6Rms0eEFDb0NYbENBdUZwSkI0RjFhWE5Jd3ExTWVRYU1pbmVSaTdFczh3U1Y1ZnRpVXROSk5uT0xLZnc?oc=5",
+          "date": "2026-07-16T17:26:00.000Z",
+          "src": "The Hill",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Google rebrands NotebookLM as Gemini Notebook and opens its search app to third-party integration",
+          "summary": "Google is renaming NotebookLM to Gemini Notebook and integrating the tool more deeply into its ecosystem. A new feature gives each notebook its own cloud computer that can write and run code, initially for AI Ultra and W…",
+          "link": "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
+          "date": "2026-07-16T17:22:18.000Z",
+          "src": "The Decoder",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "The AI context gap: Enterprise AI organizations have a trust problem, not a retrieval problem — and most are still building the fix",
+          "summary": "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted. Retrieval-augmented generation is already the default context source, and provider-nati…",
+          "link": "https://venturebeat.com/ai/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+          "date": "2026-07-16T17:06:08.000Z",
+          "src": "VentureBeat AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Codex Micro: OpenAI stellt Mini-Tastatur vor",
+          "summary": "Die erste Hardware mit OpenAI-Branding ist da. Das Unternehmen hinter ChatGPT hat zusammen mit Work Loader die Mini-Tastatur Codex Micro vorgestellt. So soll sie den Nutzer:innen von Codex die Arbeit erleichtern. weiterl…",
+          "link": "https://t3n.de/news/codex-micro-openai-mini-tastatur-1753230/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-07-16T17:00:24.000Z",
+          "src": "t3n",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes - Sequoia Capital",
+          "summary": "Partnering with Bunkerhill Health: AI Agents that Improve Patient Outcomes Sequoia Capital",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUDJQTDZXaGxCUUpGYzRET0hXUTRuZU5UdFY1eERwcWZ0SmlvUmZTcnBhMzRDV2VEQkJBVE1BbUMzbzktUm9SMi1rTThTbmNiQTB6RDVCYm5YWnBfRDhYR2RDU3QydGJtdGVQOU42cGtHazZwRjg0d3JYd0hGX2hOMXpiaGh6UWkxZlc4NVFDc3pQM3ozN2ZrVW42NXhHUzdIWnY3TkN2UDE?oc=5",
+          "date": "2026-07-16T17:00:13.000Z",
+          "src": "Sequoia Capital",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "The agent evaluation gap: Enterprise AI organizations have a reality-alignment problem, not a coverage problem — and most are shipping to production anyway",
+          "summary": "Across 157 enterprises, organizations are granting AI agents more autonomy while trusting the evaluations meant to gate that autonomy less. Half have already shipped an agent that passed their internal evaluations and th…",
+          "link": "https://venturebeat.com/ai/the-agent-evaluation-gap-enterprise-ai-organizations-have-a-reality-alignment-problem-not-a-coverage-problem-and-most-are-shipping-to-production-anyway",
+          "date": "2026-07-16T16:40:48.000Z",
+          "src": "VentureBeat AI",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Sable Raises $45M to Build the First AI Employee that can Click, See, and Explain - Newswire.com",
+          "summary": "Sable Raises $45M to Build the First AI Employee that can Click, See, and Explain Newswire.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOHpucTlOc3FjVHJ3Q3NEcXFUMHNWYnZPd3RBNmdrOV9vR3pBR2JBV1RGejUxOUVpRF85X0Vnd0hTZVZLNC11azdLcVAxZjZZNThxS1RLLTZPUnI3Q21lWW1FOF9mS1l4OFlkNGkzVEd3SEhpdjMzeTdfMVptU0lRTkZJUENETXJncXdTa2M4NlBQUUVoVWdmYloyYTAtbXYzWTd4WFc4cm90Qmxl?oc=5",
+          "date": "2026-07-16T16:40:00.000Z",
+          "src": "Newswire.com",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Germany puts Google's AI Overviews and Perplexity under media law in first-of-its-kind ruling",
           "summary": "German media regulators say Google's AI Overviews are Google's own content, not neutral search results, and that they crowd out regular links. The regulators have issued their first rulings against Google and Perplexity…",
           "link": "https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/",
@@ -52055,6 +52724,24 @@
           "src": "24/7 Wall St.",
           "via": "googlenews",
           "firstSeen": "2026-07-16T16:18:54.140Z"
+        },
+        {
+          "title": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField - NVIDIA Developer",
+          "summary": "Scaling Agentic AI Factories Through Extreme Co-Design with NVIDIA BlueField NVIDIA Developer",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSWN5QXNGTU0xSHNsNEtVcVFuNW5qZFppZERjQnNYNjRQdHc5MnNqQzhIWThUazhiby0zaFBlMVJHZ2Q5ZG13MzR1TGdHQmxHMnVaTHdDdFc0ZzNCOE1ucDZjY25oSkZPeDZiVTJPV3M5TF9VUmlySjlOMy1TdEhYc2JoRkVBNzdMWlBpeTZJWjhIUFJiTGFTQ2JDdF9ncVd5X0dralFvdUhzOGQ1YzVoYw?oc=5",
+          "date": "2026-07-16T16:05:59.000Z",
+          "src": "NVIDIA Developer",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows - NVIDIA Developer",
+          "summary": "Integrating Context-Aware Video AI Agents Into Enterprise Workflows NVIDIA Developer",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWNYRVQwUG5uLTAxY1plSG1WcEJIaDZHWUZFQjB2YXVJekw5cTIwX2habVIzUzcwUGlmczUtTVRpT0VsLS13ejg4OGNpc3FpR25iLWtZcjZPenVzUDVIV3g1dmtTSWRLZDF6Z0JWMDFmb2dZSzU0djUyVXRGbktVejhhajN0ZjAzSzBTWkF2NU92ajlzX3pnZkpoZXBKR1BIaGNvUQ?oc=5",
+          "date": "2026-07-16T16:05:40.000Z",
+          "src": "NVIDIA Developer",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Regulators must focus on AI implementation, enforcement – Omdia - Light Reading",
@@ -52127,6 +52814,15 @@
           "src": "heise online",
           "via": "googlenews",
           "firstSeen": "2026-07-16T16:18:54.140Z"
+        },
+        {
+          "title": "Aufregung über Daten-Upload: SpaceXAI macht Quellcode von Grok Build öffentlich - heise online",
+          "summary": "Aufregung über Daten-Upload: SpaceXAI macht Quellcode von Grok Build öffentlich heise online",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSi14VklMTjlYNFI1ZldMajhGOHJJZHBGdWpydlBtNmM3MzJWa1dGRjBuLVJfbFMwYXZpYmZrdFctTHltSUwwSmNSRDNQUllmaWN6T3BPcVlXSTl4VmE2VThLWkZycndPQ1Z0YjZSN1RwQ21rU1F0bWhoRGxhTUYyV2dpMzlKS1phV200VmdkSEt5LUNWZEVYc1JoM3B3V2R5a3NnT3IxTFlLVzVJTVF6WHlSSGhQZ2l4VXQyeA?oc=5",
+          "date": "2026-07-16T15:55:00.000Z",
+          "src": "heise online",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Fora Raises $60 Million at $1 Billion Valuation to Expand AI-Powered Travel Advisor Platform - citybiz",
@@ -52309,6 +53005,15 @@
           "firstSeen": "2026-07-16T16:18:54.140Z"
         },
         {
+          "title": "Eye Security, founded by former Dutch intelligence-service employees, raised €60 million to build a “sovereign” European cyber defense — and two of its backers are American",
+          "summary": "A cybersecurity firm built by former employees of the Dutch intelligence services raised €60 million to sell “sovereign” European security — but part of the money behind it is American, a useful reminder of what the labe…",
+          "link": "https://siliconcanals.com/s-eye-security-founded-by-former-dutch-intelligence-service-employees-raised-e60-million-to-build-a-sovereign-european-cyber-defense-and-two-of-its-backers-are-american/",
+          "date": "2026-07-16T14:30:00.000Z",
+          "src": "Silicon Canals",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Moonshot’s upcoming Kimi 3 is expected to close the gap with Anthropic’s Opus 4.8",
           "summary": "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion.",
           "link": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
@@ -52381,6 +53086,15 @@
           "firstSeen": "2026-07-16T16:18:54.140Z"
         },
         {
+          "title": "Xpeng L03 fastback crossover, with AI features, targets Tesla Model Y - Automotive News",
+          "summary": "Xpeng L03 fastback crossover, with AI features, targets Tesla Model Y Automotive News",
+          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1VbGpWNFFFckVVaTFkTDdoSFY5d2NIQjU0eF92V1RXUk1Jc0E3NGtGWF9INWlLTkp0ektoRmptSUpBX3dZSnpNMEhBSlowcXV1OFpKTWN2aGllYUIwNDJN?oc=5",
+          "date": "2026-07-16T14:00:00.000Z",
+          "src": "Automotive News",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Food safety needs an AI upgrade - Substack",
           "summary": "Food safety needs an AI upgrade Substack",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUWd2d0EtSDNHeWJHWi1jZE0xMHFpMW5SY2x6V1BYY2dqOWx4WXBDWk4taDRTT2JlNEJxY3FDQ3dOWmw5RDVpd3Zwb0Z2czI5XzE0S3FiREgwbTEzS2wwQ1JDWWJTQzg5UndBOGNQbm9rSEdKaDh2YWlIQ3FEX2VjQQ?oc=5",
@@ -52424,15 +53138,6 @@
           "src": "t3n",
           "via": "rss",
           "firstSeen": "2026-07-16T16:18:54.140Z"
-        },
-        {
-          "title": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) - The New York Times",
-          "summary": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01aThfM3F5OXZRWEViT3k3ODFXdzdLOWZ5dDg1NjhQSlRHRUwwVWZueGxSclppNG5HSlEzSDNpVEdhOGdTdXZyaTl4Nk5NclJyRDc1RGE0OTBxWU0yUVBwd1BzUTE3UnNLdHkxOVBMdU1Gc0lXUW8xeVF2NGc?oc=5",
-          "date": "2026-07-16T13:24:23.000Z",
-          "src": "The New York Times",
-          "via": "googlenews",
-          "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
           "title": "We Can’t Monitor AI Agents at Scale. Here’s What It Will Take. - Tech Policy Press",
@@ -52498,6 +53203,24 @@
           "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
+          "title": "Micron signs deals with Qualcomm, others for AI-powered automobile chip components - Reuters",
+          "summary": "Micron signs deals with Qualcomm, others for AI-powered automobile chip components Reuters",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRktEa3YxM192SGU2U05HS204TWMtWGtXbG1sOUdyU2U0SDBjVkl1enBVeER0c1lnYTVqaGEtUjdkR0x0Q2hoZVFlVlRaaGN2NlVPWVA0aE41VXBmUkh0c1dNTDdCcVdFdllfa3ZKTkIxbmlzcTVpcTNMT2tOdUQzcWJtd1FBb3hZVzhjRU1URUNBUjNOYkllVUI3MzFWR2hsMnhpNk01RVlEYzZyeUhxbFpISXphRWwxZFZXNGxXVQ?oc=5",
+          "date": "2026-07-16T13:02:54.000Z",
+          "src": "Reuters",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
+          "title": "IDF, Oaktree to invest $1.7 billion in Bloom Energy fuel cells for AI infrastructure - Reuters",
+          "summary": "IDF, Oaktree to invest $1.7 billion in Bloom Energy fuel cells for AI infrastructure Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUVBzVlg5Sm1mN3NiaWFvb3F0NklvdFNoTkNQTEZJRHpNYXE5U0xadlpaS1VFV1FsQkIwbkVHZ3hvY2RiNkZsSmI0V1VkcTdRZngyWVZlcmZ5UkpZWXBITEd1OERVdk55N2pmdnlhSURRTlFpQUwybGhPVGczaHBlcW02QTVOc0VCazlmd0VBaFZjaHpuWFJaMEhiYm9GYjFzcXQ3TzV5QXBqWFgyTmdKQXc4NDdLdzNXdll1Z1hiNWo?oc=5",
+          "date": "2026-07-16T13:02:07.000Z",
+          "src": "Reuters",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Ledger launches Agent Stack to keep AI agents away from crypto keys - SiliconANGLE",
           "summary": "Ledger launches Agent Stack to keep AI agents away from crypto keys SiliconANGLE",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONnZtejBBZkxmQUI0dHZibVRyZU1FaUpSWHdWaDlGNC1vOXBxbW9naDlJWkdzT19nN2dFR19DWi0zakhVeDI1OFU4aHhxdFZUbFZ5RzlyNXFhdWNldXMxN2tUM2g2M2hjR3NKQVNYemlKN1FQbzN4enpoXzdvbjJrbUhvNlVDSUxnVGZvRkJVWUI5QVpNV3M4RUZDb3A?oc=5",
@@ -52516,11 +53239,11 @@
           "firstSeen": "2026-07-16T16:18:54.140Z"
         },
         {
-          "title": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model - Morningstar",
-          "summary": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model Morningstar",
-          "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPeUhnNW0xYnRNaXQ1LVpmbm13ekRQa0hteHBXSWhzREZsWDN3NkQwUm04TnJKc3pNNWt0R042b0g3N0pDT0NwZ0VGZmV1aWJ2MVlUYkRyMnlQODRsb1Qyb2dUWWRrRVZQcFl4TEs0X1ZwS1ExV294aW5Cak81bGQ4TndKRlVKcTJ6UHNscHlrZnBGY1RzU3ZSQkJUZUZSSkctY1VLYWZObkNIdFQzZkphR0NoakdpMzRDMzF6LURfR2VHc1ZXLUtEdEVRM0JnUndBVnE3QTdMdkhPYi1LQmtiQ29EclVWTWhCUUlSclRNdU93RWlKaFlQdjBlQW5SbDhLSloySWcxMEFQdU1IcjZERXpMSzd2MFExVkJCaEhMYWVKU2ZDSUYzRnVZS0ZnLWpWaG9YS1hnaw?oc=5",
+          "title": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model - Yahoo Finance",
+          "summary": "1Password and Anthropic Bring Secure Credential Access to Claude, Letting an AI Agent Use Approved Credentials Without Exposing the Secret to the Model Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVNmOTAzVW82WUIyaGtaNWVPZE13eW5ONGZudVlDMUY0SjBTeXU0UWpac3RsNExGZGRsMGhnRzlkOTFUNVdIbnIxb3dhVUwwVjFiR1BIU1hKTlNzYjhib0hySEczTmdLUlRFWnFrRHZMejJ4SFE0MTRLcDloY2R6QVJpUTFFbW1BcTdjU2xMR1pfdk9OSFJ2UkFaeVFBS0tVcE45MC1Sb3lSSDQ?oc=5",
           "date": "2026-07-16T13:00:00.000Z",
-          "src": "Morningstar",
+          "src": "Yahoo Finance",
           "via": "googlenews",
           "firstSeen": "2026-07-16T13:59:33.345Z"
         },
@@ -52984,20 +53707,20 @@
           "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
+          "title": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push - Axios",
+          "summary": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push Axios",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MG5QTmlJdzlDSmR1TDc2bF9lUmVvVE90b1Z6ZzZWZkFKaDNwNmZ4d2ZhOWJoS3BQejVEZ3JtOERDYlQ1UkYtdkhJWVB0U2lnUFZCTWhjbGpnMkI0TEplUVBFMGEzb2d4em1UbEpUSVJPaTBWWGc?oc=5",
+          "date": "2026-07-16T10:02:47.000Z",
+          "src": "Axios",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T11:02:41.404Z"
+        },
+        {
           "title": "AI: Why Europe is falling behind, and how it can catch up - DW.com",
           "summary": "AI: Why Europe is falling behind, and how it can catch up DW.com",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQby1lYzJXSWs4SThIZzZ1eUhQbDlMTUNDOTNSOV93cXZxbzNCb3pBdG9Ib0p4RkxrV0NDRjJkZVgyVV9PTHUtRkpRSE80UVotZzV3NGkxdmVEVFdBWmlkSVJwM2NuNDRhQ2UwV2pLRmZ2OVVneDJaeDVNTXRHZnZET1MwdjBiZWZxd0pQM044X2JYUQ?oc=5",
           "date": "2026-07-16T10:01:32.000Z",
           "src": "DW.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-16T11:02:41.404Z"
-        },
-        {
-          "title": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push - Axios",
-          "summary": "Exclusive: Google DeepMind expands biosecurity effort amid AI safety push Axios",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80MG5QTmlJdzlDSmR1TDc2bF9lUmVvVE90b1Z6ZzZWZkFKaDNwNmZ4d2ZhOWJoS3BQejVEZ3JtOERDYlQ1UkYtdkhJWVB0U2lnUFZCTWhjbGpnMkI0TEplUVBFMGEzb2d4em1UbEpUSVJPaTBWWGc?oc=5",
-          "date": "2026-07-16T10:00:39.000Z",
-          "src": "Axios",
           "via": "googlenews",
           "firstSeen": "2026-07-16T11:02:41.404Z"
         },
@@ -53047,6 +53770,15 @@
           "firstSeen": "2026-07-16T11:02:41.404Z"
         },
         {
+          "title": "heise meets … Julian Kramer, AI Evangelism Leader bei Adobe - Heise Business Services",
+          "summary": "heise meets … Julian Kramer, AI Evangelism Leader bei Adobe Heise Business Services",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNSFBZRjlZa1p1SlFyR1NhQllSUVh4QkQ2SU52REpieHRUNk1jNWRZTHRiNERWa1g4bUF1b3ljWTJEZmhfTDRwSUNXdy10em5CcjBtQWtnRUs4R19qdHRtdGMwV1hWMTJxR1V5UVBWSmdlVjZTakMySlJoMGhDcmcxc2IxbGRSeU4zRFJuOFpiOEstVjFXSkZHS2dZelBwM1Zxb0Z5QmRMM0lxMVFNTlc2X1g2OXZHaFZQcFpKRzBZQmFSRW94RkU5ZmdEUlFxQ21GXzA5ampTWllLSUNZUHB2d3V3?oc=5",
+          "date": "2026-07-16T09:52:06.000Z",
+          "src": "Heise Business Services",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
+        },
+        {
           "title": "Can Agentic AI Work on the Pharma Plant Floor? Pharma AI Startup Katalyze Raises $10.5M to Find Out - ERP Today",
           "summary": "Can Agentic AI Work on the Pharma Plant Floor? Pharma AI Startup Katalyze Raises $10.5M to Find Out ERP Today",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9tNUp1M1pMd1FIQ05MN1c3MVNRM3phUzNBWXkzSURqbFFTNmlBQjh0UXhBamVEVTdhbU9DN2I1NkVJWFYxMzZDV0NNc2pGQlV2eXVjUjBSN0RxMzQ0V2ZwY3dQTndOM1RYTHFHTlRoQVBBbk1KbUhzZHp3?oc=5",
@@ -53074,11 +53806,11 @@
           "firstSeen": "2026-07-16T11:02:41.404Z"
         },
         {
-          "title": "Detecting deepfakes with chips and AI - DW.com",
-          "summary": "Detecting deepfakes with chips and AI DW.com",
+          "title": "Detecting deepfakes with chips and AI - dw.com",
+          "summary": "Detecting deepfakes with chips and AI dw.com",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FZWxTcWV6cmdZUnUta2RNWGVsSS1ueWRUTkNrLWY1NFFwUHh1N0lINTVLeU82MjViTG5kX0E1VkFxaGw0UDd2V0hNcnNHS0UzRVdhM1Nab0xGVUN4VEdqQUJmMURPNGhKWXRkQlZTdkJ5VFdudU1MMkJ0RGJ2VzQ?oc=5",
           "date": "2026-07-16T09:37:20.000Z",
-          "src": "DW.com",
+          "src": "dw.com",
           "via": "googlenews",
           "firstSeen": "2026-07-16T11:02:41.404Z"
         },
@@ -53171,6 +53903,15 @@
           "src": "digitimes",
           "via": "googlenews",
           "firstSeen": "2026-07-16T16:18:54.140Z"
+        },
+        {
+          "title": "Catching up in the AI race? India gets its second AI unicorn in a month - CNBC",
+          "summary": "Catching up in the AI race? India gets its second AI unicorn in a month CNBC",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObVRwZ3NseVN3ekQtUW5QSzNCdEtPbUZaZk5FeTlMZnNzR28xdnI3RTd3UXkwNEpUU0hDUUVvaGRDbWFLdU9rUENkQWxtT0p0aXc5Qk1mV05Ocm01UTF6R3d5RUFDU1JHQ2hEYlRxVW5USTBUTDJUSzk1RjVfSjh4c3V5aUFlWlF0OTdQZUlCakVuemdGVGEwOW92Szg5cXZKM0N0eUhkNy02ZFnSAbABQVVfeXFMTmc1a1BfaFU3VU5QWDU0Qm84WXF6MC01dlRESTI5MG5yMVlNZ2szQVBIX2N2c2ZMTG01LXdLaUE1Ni1xdUVEa2tlR2xKUm01T3BGQlBISTRSaW1VeUQ3VzJDQnB5LUhIM29KazVqLUZZbUh5a2M0U0pXY1U1ZGZqZVRFalF4N01VRVhLMEFRM0k3R0VhemQ1MVN0MlRWeHVZVTlMMjREX0x3SlJLNmNtemo?oc=5",
+          "date": "2026-07-16T09:03:27.000Z",
+          "src": "CNBC",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "KI-Manager (m/w/d) in Vollzeit- M+S Transporte GmbH & Co. KG - Golem Jobs",
@@ -53713,6 +54454,15 @@
           "firstSeen": "2026-07-16T05:43:05.642Z"
         },
         {
+          "title": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns - University of Exeter News",
+          "summary": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns University of Exeter News",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDFaWTlFeTJfbDNpWTZ4ZGNXT2JMN080aEFTSy1QOXNNTGZSbk5UdWtkVWRZRXFBOHRKTWd5ZDRGWE1jbDFGVW9NbWhmS1cwMzZSUGF6eWJiQ1hhUU9aRm9BdDJrTlBTTnRfR3g0eGdiZllJRFZROHV3MnFZTE9Jc0w5azRhQkxISURxTm9lczNTYVpfMGFMZ2tKaFgxWElOZEhWQ3UyZ2c0SWJlZ1pLTUlFcndCclAwczZZMnM3RXJJemNNMm5FQVE5THVweGNVNnRXMVo4T09iRERzdVE?oc=5",
+          "date": "2026-07-16T04:39:56.000Z",
+          "src": "University of Exeter News",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T11:02:41.404Z"
+        },
+        {
           "title": "Morning Bid: This AI, it will make a profit, right? - Reuters",
           "summary": "Morning Bid: This AI, it will make a profit, right? Reuters",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DUGNxM2VZdk55OHpRdEF5dzZiMVFETmlxa3ZBaksyTHFMYWY3SkJ3WERlTTE5V2NrYm9nM25OUFNVT0dLaElpZ2ZGVVJSN0FzR2g3a29VWTJJa0JqRDFHMGxScEJ4U0dCdEkwbHJCNjB3NEplNUFfNF9MNmtZUU0?oc=5",
@@ -53731,15 +54481,6 @@
           "firstSeen": "2026-07-16T05:43:05.642Z"
         },
         {
-          "title": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns - University of Exeter News",
-          "summary": "EU’s AI “guardrails” cannot absorb rapid changes in technology, study warns University of Exeter News",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOaDFaWTlFeTJfbDNpWTZ4ZGNXT2JMN080aEFTSy1QOXNNTGZSbk5UdWtkVWRZRXFBOHRKTWd5ZDRGWE1jbDFGVW9NbWhmS1cwMzZSUGF6eWJiQ1hhUU9aRm9BdDJrTlBTTnRfR3g0eGdiZllJRFZROHV3MnFZTE9Jc0w5azRhQkxISURxTm9lczNTYVpfMGFMZ2tKaFgxWElOZEhWQ3UyZ2c0SWJlZ1pLTUlFcndCclAwczZZMnM3RXJJemNNMm5FQVE5THVweGNVNnRXMVo4T09iRERzdVE?oc=5",
-          "date": "2026-07-16T04:15:10.000Z",
-          "src": "University of Exeter News",
-          "via": "googlenews",
-          "firstSeen": "2026-07-16T11:02:41.404Z"
-        },
-        {
           "title": "Donnerstag: Schufa mit umstrittener Schattendatenbank, Klage wegen KI-Kündigung - heise online",
           "summary": "Donnerstag: Schufa mit umstrittener Schattendatenbank, Klage wegen KI-Kündigung heise online",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb2dMZ3BCdWlycGxmNXp2UTlSSVFySlAwQ1Y2ZkRfU2pYZ2hiSWZzOHRJTThvaElxcl8xMWM2ZXlNWGZpNndaTzkyd0Ezb1JNamNlV3BpU0pFb0l4TExJN1FlZnlrbjNrMFY1SzRIazBaWU9vVDAxcjB1ZzJhc0NMeG0wdGRmcUJHdl9seDJqRVFqVkNRSTdLTVNadjdjSEFjOVlVNG82ekdrUUlSUm44WEo0eExwZkdTdWc?oc=5",
@@ -53756,6 +54497,15 @@
           "src": "Reuters",
           "via": "googlenews",
           "firstSeen": "2026-07-16T05:43:05.642Z"
+        },
+        {
+          "title": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) - The New York Times",
+          "summary": "The Quest for ‘Technological Sovereignty’ in Europe (and Why It’s So Hard) The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01aThfM3F5OXZRWEViT3k3ODFXdzdLOWZ5dDg1NjhQSlRHRUwwVWZueGxSclppNG5HSlEzSDNpVEdhOGdTdXZyaTl4Nk5NclJyRDc1RGE0OTBxWU0yUVBwd1BzUTE3UnNLdHkxOVBMdU1Gc0lXUW8xeVF2NGc?oc=5",
+          "date": "2026-07-16T04:01:09.000Z",
+          "src": "The New York Times",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
           "title": "Psychology suggests we don’t reason toward truth so much as defend what we already believe: we seek out the facts that confirm us and quietly wave away the rest — the ‘confirmation bias’ baked into how we think",
@@ -55846,8 +56596,8 @@
           "firstSeen": "2026-07-15T10:52:56.272Z"
         },
         {
-          "title": "Entlassungswelle: Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben - Golem",
-          "summary": "Entlassungswelle: Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben Golem",
+          "title": "Entlassungswelle Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben - Golem",
+          "summary": "Entlassungswelle Meta soll KI für Kündigung eingeschränkt arbeitender Angestellter verwendet haben Golem",
           "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQT04wUXowa0wtdW5CbDNQRDFScVBUVjNiLU5neHEwSFlaWEV0ZE5idDVHMFI3MzFpQ1RZRDFGVE9seEF2MWhTMC1NNlViX1JvdDNrcGtrajJkSUxFc25HYXA5MUIxVUc0bUVLWldfbFY1QzEtZzVZV1BOM3BoZ3lCREhkdm5qZjFySHIzT29fQndPRDZVTXhKZHhEbXhCSFladUpWYmtGZk5hUkdzRlc4WllxT3oyUGVWWS1nM2JudGJfVFdHMXVMZVJxSjhsOGNOQ2VwTC16ejhxeHN6?oc=5",
           "date": "2026-07-15T08:19:01.000Z",
           "src": "Golem",
@@ -57124,6 +57874,15 @@
           "firstSeen": "2026-07-14T19:23:25.432Z"
         },
         {
+          "title": "Where authorities are restricting data centres amid AI boom - Reuters",
+          "summary": "Where authorities are restricting data centres amid AI boom Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFNWNVlkWG1wT2lJUzJza1JuNE9Yd3hETjg1OXFPbmREZkYyOFdKeS1JRkR3U0o1Y3pXWUZaeVRUU3ByRDRNYlYwRXBWU3dwNTZlSVdvTUs0OU5fYnp2NnR6VG4wbzRtSDk3WmpDUHR5SFdLc1NTMlpjTVpadG8xWkhReFFiMXBBRHdHZTBFMVF3OTU3Q0pFZ3RrSld1Rmc2RF95RFlmUFFlMVlWMDVkT1Z3?oc=5",
+          "date": "2026-07-14T16:59:47.000Z",
+          "src": "Reuters",
+          "via": "googlenews",
+          "firstSeen": "2026-07-14T22:00:18.332Z"
+        },
+        {
           "title": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China - CNBC",
           "summary": "U.S. trade official says 'very few' Nvidia H200 AI chips have been shipped to China CNBC",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZdWd2RUZkOHBLZ3lpeVdGMFZCT1Vpd2FiUXR6c0xWMGhUMkwxLUtVY1dSdnlJNGVKMVN2aTVpNlA4UHJNQUJQSGJiNTVsemVvZ0lEakxvOG1kU2tTeXptLW91Tm1GbmtlSjg2dWlOdkXSAXZBVV95cUxQWVdMZURKQTVEMER2bE8wTmtMczA0NzBDa3NjMGV4aUdRNVdoT1Z6QlA3cFoxYnlOak8ta282ZWU1NnZLYk9oT3lYNzlPYW8xZmh3eVE2aTRmTDFxZXByU3FueERPT0wzNDg4dGpMazA1U0RjVEJn?oc=5",
@@ -57779,15 +58538,6 @@
           "src": "Pulse 2.0",
           "via": "googlenews",
           "firstSeen": "2026-07-14T13:50:17.894Z"
-        },
-        {
-          "title": "Where authorities are restricting data centres amid AI boom - Reuters",
-          "summary": "Where authorities are restricting data centres amid AI boom Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOFNWNVlkWG1wT2lJUzJza1JuNE9Yd3hETjg1OXFPbmREZkYyOFdKeS1JRkR3U0o1Y3pXWUZaeVRUU3ByRDRNYlYwRXBWU3dwNTZlSVdvTUs0OU5fYnp2NnR6VG4wbzRtSDk3WmpDUHR5SFdLc1NTMlpjTVpadG8xWkhReFFiMXBBRHdHZTBFMVF3OTU3Q0pFZ3RrSld1Rmc2RF95RFlmUFFlMVlWMDVkT1Z3?oc=5",
-          "date": "2026-07-14T13:08:00.000Z",
-          "src": "Reuters",
-          "via": "googlenews",
-          "firstSeen": "2026-07-14T22:00:18.332Z"
         },
         {
           "title": "HTG Medical raises €450k and secures MDR certification to automate ICU urine monitoring",
@@ -58611,8 +59361,8 @@
         {
           "title": "Deutsches Startup erkennt Waldbrände mit Satelliten und KI - DW.com",
           "summary": "Deutsches Startup erkennt Waldbrände mit Satelliten und KI DW.com",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdGxFX0U3VHNVb19YeUZpUWNUWENFSXhqd0tBbUUwTFFJTk5tQkZRZXBuVHllSHlyS0JQaEdGVmNrWXZxNncyaDFWYmQ0TWFHLXBnSHFzUTV2dFA3Yko4c295OVN1Q0FIbV9wZk1qUTVsVjI3bjJ2YklBZmc5TjdjLWhKU2Z2MklabGdFYzA0Z2NtWll6Tm01WWxsWnBiRmR6VGxyaDB6YmVtZnA2X0NERW1ZcFVCVklNU1HSAboBQVVfeXFMTVVpVnlKT0dSYXRaZGtOblFMb08zcUZqNHRqdzRWTEhXTVc5U3hkb0d3NUY1ZTRTSTFXb29lYWpoOWxLa0d3WC1QaE5GalNRcVNYSkI0czV0cG9ncjRrQjdOZFZrX1lZYTZrc1dVOVlMSHhyVl90R0VxSlZENVI2UWFNT2gzc3ROdXhzbmZORll2ZEFWVjZWeDN5Q2l4QTZkVGZwTldBb181U0lIZFExeHlJcDRONHU0Yjl3?oc=5",
-          "date": "2026-07-14T08:42:31.000Z",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOa1ZQbnJHS28wd3NqNjNjcEUtR3N5WGhsdFJQTy1WRFVGNnZ4REhEd3BjeGpzV21pTEdZSi1BLVZwa0ItVV9taUM5ZUVDbjJSVHdNakZhNmF2bFp3ZGFNMkRpTHVld0x6OXRFbHkzSFF5Y3poamxfd2tWU1phNjRERDRPeDF4SzlhNXJZQnJyWW0xZGdxOUE3dGhtUFXSAZwBQVVfeXFMTVBrY25HYzRZblNUWmhpWkowbjNoXzQ4dmNEdzllZTQ0T2dmbmlVMWZTMWxVNVhERGhXT3dEYVMxdUE4Mk9vc2J1XzVLbWRXUUNKVDBLcXZaR21uU2ljN0NTdS1sUnNHSER5eVNWRlFQMXRuVzVCeFJWS0FhUnhFcEhWbHhzYUV6dEpkQVo1VWdFd2xrNTMtM0pRX0p4?oc=5",
+          "date": "2026-07-14T08:43:20.000Z",
           "src": "DW.com",
           "via": "googlenews",
           "firstSeen": "2026-07-14T10:49:27.988Z"
@@ -72496,6 +73246,15 @@
           "firstSeen": "2026-07-07T11:22:37.747Z"
         },
         {
+          "title": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu - heise online",
+          "summary": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu heise online",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVhxQlktLUFwRkQ1VDd3US1jb0RiOFlpVzEzbU1iUWt1QmdNMkY1aHlfeUFNeEw2S1M2MjlnUzNoSGwxSWhEY2dqSHlzT1lzUFFrZU9LMHo5dGRyTENjWVlscGgwam52UnMtNHYxWkJjZ2stb0Uzd1htdHJMMjVrRE5OQmt6WlBxVVo2RGQtdnpZTUxiSzRKaGwxRktGWEJwRnRv?oc=5",
+          "date": "2026-07-07T07:00:00.000Z",
+          "src": "heise online",
+          "via": "googlenews",
+          "firstSeen": "2026-07-07T11:22:37.747Z"
+        },
+        {
           "title": "Der Börsen-Tag: KI-Boom sorgt für Rekord bei Startup-Gründungen in Deutschland - n-tv.de",
           "summary": "Der Börsen-Tag: KI-Boom sorgt für Rekord bei Startup-Gründungen in Deutschland n-tv.de",
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT1lwZ0hFMlUxcGYtM3docFg3Tlo0MDMtdVoyZ0ZxdjlodmVTMkhBeVZwTzJZMkZ1a0dwTlpOSTlHeEtvbmRuQTJiRUh0cTRyekx2WFVLeEZWUGlCaUJTeDNWRDFkMWUwQnVtbGo2Zklta29hc3dyUGZ6OW5YLU95enRYcmk3RE90emdNeXY2VkhOU2RFaWp4a25KaUVLNEQtRlREZG8zU1NmUmNSMnZTaWtTTlRzY0FvUXo4a1lWaDJNTjZ4NkE?oc=5",
@@ -72780,15 +73539,6 @@
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKczNhZWVmc3lKLW1tRTVtNE9pbGRQYjhEWDFtbkswdG9oQUo1QjROZC1rRFQ2VnZYV1A4LUxhLXFPMmswUGxYcTZLd2xQakl6Q1VSRnYxajZDWEpMdFRIUDRhMF9oZnlMbHdXdExCZHZDaXhQV3ZaeHdPdnEzYUE?oc=5",
           "date": "2026-07-07T04:42:37.000Z",
           "src": "Finimize",
-          "via": "googlenews",
-          "firstSeen": "2026-07-07T11:22:37.747Z"
-        },
-        {
-          "title": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu - heise online",
-          "summary": "Start-up-Gründungen nehmen aufgrund von KI in Deutschland zu heise online",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVhxQlktLUFwRkQ1VDd3US1jb0RiOFlpVzEzbU1iUWt1QmdNMkY1aHlfeUFNeEw2S1M2MjlnUzNoSGwxSWhEY2dqSHlzT1lzUFFrZU9LMHo5dGRyTENjWVlscGgwam52UnMtNHYxWkJjZ2stb0Uzd1htdHJMMjVrRE5OQmt6WlBxVVo2RGQtdnpZTUxiSzRKaGwxRktGWEJwRnRv?oc=5",
-          "date": "2026-07-07T04:30:00.000Z",
-          "src": "heise online",
           "via": "googlenews",
           "firstSeen": "2026-07-07T11:22:37.747Z"
         },
@@ -78301,11 +79051,11 @@
           "firstSeen": "2026-07-16T13:59:33.345Z"
         },
         {
-          "title": "European shares close at record high after softer US jobs data calms rate hike fears - Reuters",
-          "summary": "European shares close at record high after softer US jobs data calms rate hike fears Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSGVfM0kzS0NBdFBCcV9iYUtTMFBSM01HSWhQZ3MxN0RxWXBQTkZuNDZqR2FtYk82UE4tRXJUSjFZZzhhbHlOUzdUMllaZ0UwOS01MmxUSzBDMEJ4aEU4YmlUSDhWN1h4dEJIOW1haTkwbm5KMDcwMGVqMDY3a01jUDhsY0xHUm5ZZEtTNTZtUUtrQTEweVM5M25yOENLb2hGY0hwbXBzUzFRQQ?oc=5",
+          "title": "European shares close at record high after softer US jobs data calms rate hike fears - Yahoo Finance",
+          "summary": "European shares close at record high after softer US jobs data calms rate hike fears Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUzNGU05VQWJNWnR4LS1lQ3NPRmhSTkFicXJXdXQwdHdPR2M3S0ZxOVhuNkNycTNPYUtSZUtfd0RlclBlNUtpSVhJeTF1LUhaYUhyNncta3RiVkdfUXFGY2lCMTZXblFMMDB3d0N6dy1oOHZqWll5enFwWGlHV29PVzRnVWhqMlpGVWJnX1RxOHJ2by0ySVM0cWhNYw?oc=5",
           "date": "2026-07-02T07:00:00.000Z",
-          "src": "Reuters",
+          "src": "Yahoo Finance",
           "via": "googlenews",
           "firstSeen": "2026-07-03T10:15:48.117Z"
         },
@@ -78751,11 +79501,11 @@
           "firstSeen": "2026-07-07T19:16:52.538Z"
         },
         {
-          "title": "EU's cloud and AI development act gets mixed reception - Euronews",
-          "summary": "EU's cloud and AI development act gets mixed reception Euronews",
+          "title": "EU's cloud and AI development act gets mixed reception - Euronews.com",
+          "summary": "EU's cloud and AI development act gets mixed reception Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVFNGOXBDXzhKVEFKcjBPT3dybk4wSUZFMk1tWW40d3J4aEx0bkR5ZngzNlpEZ095WnRzelM4MFVpeThjOHFtaVZzU25NNEVRY043bThPS0YzbjNodXE5WkVaY3hOUWlWb3NtaFpkZEJlTU9QZExmbWd5N0JsWkMtT3M5UXFhU3ZxcGM5dlktRkx6YVgta1pWZTZn?oc=5",
           "date": "2026-06-22T07:00:00.000Z",
-          "src": "Euronews",
+          "src": "Euronews.com",
           "via": "googlenews",
           "firstSeen": "2026-07-07T11:22:37.747Z"
         },
@@ -79543,11 +80293,11 @@
           "firstSeen": "2026-07-08T19:36:32.245Z"
         },
         {
-          "title": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 - Euronews",
-          "summary": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 Euronews",
+          "title": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 - Euronews.com",
+          "summary": "Beyond Nvidia: Europe's best-performing AI stocks of 2026 Euronews.com",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUlZtdE1lbURXUEZ5N0tpWjF4ZTc5OU9zWmhkZ2FiUmZHTWwzMk9wQXUxcFRCMmZHcjZhU3lTZmZwNWpLYWJSbTc4NDNnbWtNd1MzOTZUSjdoUkNlZzY2TlRoZkdScG5RbnNiTWx5cnRyVkdMWmp3aGNNazhwd1dqcUV1dXk3eTM5elhaZTNkMjJuNEptei1EZFVNRXF0RXR6X1E?oc=5",
           "date": "2026-05-06T07:00:00.000Z",
-          "src": "Euronews",
+          "src": "Euronews.com",
           "via": "googlenews",
           "firstSeen": "2026-07-07T19:16:52.538Z"
         },
@@ -80036,6 +80786,15 @@
           "src": "VentureBeat AI",
           "via": "rss",
           "firstSeen": "2026-07-07T19:16:52.538Z"
+        },
+        {
+          "title": "Deutschlands einstige KI-Hoffnung Aleph Alpha entlässt 50 Mitarbeiter - Business Insider Deutschland",
+          "summary": "Deutschlands einstige KI-Hoffnung Aleph Alpha entlässt 50 Mitarbeiter Business Insider Deutschland",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZEl3UjhCcjZpLXlHQzRfZkhTSERCVmVCOTNqSWZVNHZVTHk4TkpBdF9pM2M3ald2QlRra29rVjgwenduaDRoeWY5WWUyYnpqTmlobE5nakZfUEplTVZrWGFrTlBPQllYdzVTMnVvNU9lV3l6dnRvcFZGZGFIRnBiN0hWQXNFd1Jla2NaUGlYUUM2WHdRaERYVk9zWlZBOGZBZzBsNndFcGNTS1N1QlVOSEtFWmNqVWFJSE5xOWxlTXh0SkU?oc=5",
+          "date": "2026-01-13T08:00:00.000Z",
+          "src": "Business Insider Deutschland",
+          "via": "googlenews",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
@@ -86207,6 +86966,15 @@
           "src": "Google DeepMind",
           "via": "rss",
           "firstSeen": "2026-07-08T05:56:27.171Z"
+        },
+        {
+          "title": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "summary": "Jun 8, 2026Frontier Red TeamMeasuring LLMs’ impact on N-day exploits",
+          "link": "https://www.anthropic.com/research/n-days",
+          "date": "2026-06-08T00:00:00.000Z",
+          "src": "Anthropic Research",
+          "via": "rss",
+          "firstSeen": "2026-07-16T19:15:58.848Z"
         },
         {
           "title": "Jun 8, 2026SciencePaving the way for agents in biology",
