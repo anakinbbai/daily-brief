@@ -1,10 +1,17 @@
 {
-  "generatedAt": "2026-08-01T03:15:13.401Z",
+  "generatedAt": "2026-08-01T08:24:18.280Z",
   "categories": [
     {
       "id": "ai",
       "label": "What's new in AI 🤖",
       "items": [
+        {
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+          "link": "https://openai.com/index/ten-advances-in-mathematics",
+          "date": "2026-08-01T00:00:00.000Z",
+          "src": "OpenAI"
+        },
         {
           "title": "Anthropic Cybersecurity Evaluations Left Three Organizations Exposed - Tech My Money",
           "summary": "Anthropic Cybersecurity Evaluations Left Three Organizations Exposed Tech My Money",
@@ -1994,39 +2001,11 @@
           "src": "simplywall.st"
         },
         {
-          "title": "Anthropic Limits Claude Fable 5 Access as It Runs Out of Compute - Startup Fortune",
-          "summary": "Anthropic Limits Claude Fable 5 Access as It Runs Out of Compute Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXQwTXRDbG04V2lsc3NQLU8tX2RpRTFkZ2VqR0w4UF9qXzJnd3hWTnU4aUZwdC1lQUNPYmZLc1k2M2VvZUNjNC1LRjloUVZDSnJPR2QwN1pWNjRxcFNMNlFQV2psdW1wLVJNUFRyNHRrRjFwajNEVE1DZVkydEpaY09JUmJlY0NPYkd1T0I0cEphbndYMjhV?oc=5",
-          "date": "2026-07-18T07:21:40.000Z",
-          "src": "Startup Fortune"
-        },
-        {
           "title": "Best AI Model for Coding: DeepSeek Costs 20x Less [2026] - tech-insider.org",
           "summary": "Best AI Model for Coding: DeepSeek Costs 20x Less [2026] tech-insider.org",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9reEVDUmpRSnRrWGI5ek1WM3FVcF85cFFHdmFINkhzR3BuMmV4d2dKNmVISE4teUo1d3VDelRQTEp3MmJ2VUVSMzNXSDlhTThWSEcza3ZtTW9WenZmV3IzSGI2ekcxZw?oc=5",
           "date": "2026-07-18T07:00:00.000Z",
           "src": "tech-insider.org"
-        },
-        {
-          "title": "The White House Now Decides Who Gets Early Access to Claude and GPT - Startup Fortune",
-          "summary": "The White House Now Decides Who Gets Early Access to Claude and GPT Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTcydFBYMVFFNEZBZ1F0WS10ZEpZRDFRRzRyVkp0SDBacW1nc0NwckZuUlRjVzNNTFg5am9GenBoUkZrbm5QTzFWQ0llLXZaZ0RKU1dpbTZIMTdSNkRUcVl2UndGN0pGOGdqc05qSE5LdmZyZEpySm80OXRxRU5paTYyWDE1YlJPWS0ydFh4V2p6aXA4SFo1a3pQQQ?oc=5",
-          "date": "2026-07-18T01:36:46.000Z",
-          "src": "Startup Fortune"
-        },
-        {
-          "title": "Kimi AI Model Impact Shakes Crypto and AI Markets - The Cryptonomist",
-          "summary": "Kimi AI Model Impact Shakes Crypto and AI Markets The Cryptonomist",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Nc0tDa1J5S1EwS042RXNMb3N5ZjhZcVI3R2lybU9pRkVtQTY5U2hKc1BvcE1FVzZRRnR1RGtnb3dLYU1IbHR1VUpDM1VEM2Z1Y0FmU0xEcGppd1J6eGdnU2d2d1NIampuUWlz?oc=5",
-          "date": "2026-07-18T01:17:42.000Z",
-          "src": "The Cryptonomist"
-        },
-        {
-          "title": "China's Moonshot AI Sparks Market Jitters - StartupHub.ai",
-          "summary": "China's Moonshot AI Sparks Market Jitters StartupHub.ai",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONmJFZXBRNnI3RTZfc2JXdXlhN0hQQVRhQ1hydUY3alYwT0xIa1NzUXFhd1Y5VW9tZlNtRE5YZjYydHc4Sk5UVzBFOEZzZWdMT3pweTRZdnFGV3BQZlRvbXVSOEZ0bVBkUUFaTlcxbTVUUUNBellnX0dqRExwYkNoYzRkeTlHQ1dmZXZ3SU5Vd3FWemZ3ZkUxMmx3dHM4cFRvWE1Da21tTQ?oc=5",
-          "date": "2026-07-18T00:03:48.000Z",
-          "src": "StartupHub.ai"
         },
         {
           "title": "US Stocks End Week Lower on Fears of Another ‘DeepSeek Moment’ - Bloomberg.com",
@@ -2069,13 +2048,6 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRHhBWnZpeG8zcFZDdkhkazZnSS1OWHJJNHZNLWtULTlCR3BVSDMxRVBSSkNYNk1QMFd0UDdyRy11U0dXZFZQcWtYVWN1MHc2c01sb01lc1dVaFNxRzlvNnV5UjZic1I0eVJrZllpQnotV080clZyRkprQXlERWo5UzdETzh0WEJwS2lpMg?oc=5",
           "date": "2026-07-17T10:00:00.000Z",
           "src": "Yahoo Finance UK"
-        },
-        {
-          "title": "Grok 4.6 Confirmed: What We Know From the xAI Roadmap - BASENOR - Tesla Accessories",
-          "summary": "Grok 4.6 Confirmed: What We Know From the xAI Roadmap BASENOR - Tesla Accessories",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLW5NMzZKcWxkcHZCVjFPNEtZWWYzbHo0M2JPeU4zMHpmLTJNUnJ1Y2hLY3BmU0p3NlY5VmVVMGxuQjltZzBWSDBRUkhITXMxd1hjYTB5UVo3ZDhxd2U1YW5wOXF6UWlWRmZESDlyUGN5cUpfeWx0dllIb2Z0UFNaVGZ3djN1bmxWSlMzUGQ3eHk?oc=5",
-          "date": "2026-07-17T07:00:00.000Z",
-          "src": "BASENOR - Tesla Accessories"
         },
         {
           "title": "Nebius raises $775 million in first secured debt financing to accelerate global buildout - Business Wire",
@@ -2265,13 +2237,6 @@
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVVNCUzQtQlYtSTctLXNIUjAzRERaODhqcEplcFNkTTdxalZ3VUhhaFZzUFpYYUpoTDRZcGxjTzdNVXNENktfa1hRcENPQjZ2Qlo4V2NwMjA1Vnh1YVE4bU9sRTlwbUtLQkg1d1BjNk00cFpHSWNuMjJRSTk2MG5BLVdkTmtaZklNUW1FRmNvSmhqak5hOXB3aDBnZE5EUUR1YUY2ZlpBMVRTY1dpOWFwRkwzOG0?oc=5",
           "date": "2026-07-14T15:00:00.000Z",
           "src": "Chalkbeat"
-        },
-        {
-          "title": "Nebius lands over $1B computing power deal with Reflection AI, adding to its growing backlog - Crypto Briefing",
-          "summary": "Nebius lands over $1B computing power deal with Reflection AI, adding to its growing backlog Crypto Briefing",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nQ096RjFYZnU5bVhLazlzb1MwVFZTdkFQWTA1UFhYSnBUb1N6SzRhYmRuZXFaNUdRdnZ4d2N6bzFuWHhzcXhmQUYtSXRKTjYyVGU4NnJKcS1NWkN6dnhQUElUZk14T2dORkZCZDRLbl9JcWhxaHVuOHVTMA?oc=5",
-          "date": "2026-07-14T11:42:32.000Z",
-          "src": "Crypto Briefing"
         },
         {
           "title": "How to manage AI investments in the agentic era",
@@ -2804,13 +2769,6 @@
           "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
           "date": "2026-06-25T16:00:00.000Z",
           "src": "Google AI"
-        },
-        {
-          "title": "Mistral AI Tackles Unstructured Data Challenge With OCR 4 - AI Business",
-          "summary": "Mistral AI Tackles Unstructured Data Challenge With OCR 4 AI Business",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEctREJRQVo3NXBUUS1pWG53aG56R184Y3VUMk14RGNiWjZiNzlCZEpLaEZhcVZvcjN3Zmx2ZzA2dDhONm1hZnV5QmxVOXBCX2Q3M2JOSFRTUS1MbmVPcjNaTjV6TmpKNVVwUEVDMTM1Uk5jeEJUX3A4Vi1VN2Z3NWJiWEhqei0xSEluTHU5bnE5cjQ?oc=5",
-          "date": "2026-06-24T14:11:38.000Z",
-          "src": "AI Business"
         },
         {
           "title": "How Nebius AI Cloud 3.6 “Aether” And Echo Launch At Nebius Group (NBIS) Has Changed Its Investment Story - Yahoo Finance",
@@ -4058,41 +4016,6 @@
           "src": "Tracxn"
         },
         {
-          "title": "Databricks To Raise Strategic Funding At $188 Billion Valuation - Pulse 2.0",
-          "summary": "Databricks To Raise Strategic Funding At $188 Billion Valuation Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdnRpT0JXenQ1dWNDZFpTUVlCbnpVQzR0cENSYnhVZHlYTzVRVjBXbmQ0d3RYRXo5cjdNZWFjNXFBekVWeEF2eFMyUi1XWHBBclVUMjFxZ0dpMU5NNFRjZnhqVEx2YnA2Ukl1Y2RXd0kxTUFsYWxQNUpxNTl3RmQzekdJOFBLUlJMZlHSAY8BQVVfeXFMTlJsTkZsMG85SU5VNDE5a2JKLUtrcUFDbzcwNXpfRDZWb2xHSWtOV1doZTh0bjFRaXNvd0FpNGpPZ2o3a1QxTFE2bUtsSFIxNVZMQjFrdTRiZ05IeVJBV3VoWG96WmJQb0I4QVV0V0NRNE9BMTdGLXhSX2dpQTFJQ0h3ZGJlc1hzR3UtRmRmWkk?oc=5",
-          "date": "2026-07-18T05:33:25.000Z",
-          "src": "Pulse 2.0"
-        },
-        {
-          "title": "Harvey Acquires Benchmark To Expand AI Platform For Asset Management - Pulse 2.0",
-          "summary": "Harvey Acquires Benchmark To Expand AI Platform For Asset Management Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQkV3ZEk0aVctVjlSc1dXeUlPbjdxSFdhaGZmd0NMbll0MW9Dd2k5eHdDN0xKSHJ1R1Fyc19UQlh0bFN1Njh5WGJsT19EYk54b2tHajZSUTdiQTg2Q19VSzFIbFhPSEtWOWtPR3lXR0tWbkRVa0dNTkc3Y2psNE9pRVVORG9UMlluREdJVFYxR1cxQdIBlwFBVV95cUxQVWtmQms5SFhtZ2I5ZDdiZ0ZvMG9ib3laZGtHV2xYZVo5dDBCLWtqZFc1X3hYUkhybXJBaFBqSS16TW5YNWlqNGR3WTJEcF84U1pIUGtLakhPZ0lhSW1tXzB5akFHc3NENFl6VWNvOGtlbFhuWGt2M3BhbVlHQm1nckRId3l0NVY0SVhRTUZWd09JekxtWXZ3?oc=5",
-          "date": "2026-07-18T03:56:59.000Z",
-          "src": "Pulse 2.0"
-        },
-        {
-          "title": "Databricks Hits $188 Billion Valuation With New $3 Billion Coatue Round - Startup Fortune",
-          "summary": "Databricks Hits $188 Billion Valuation With New $3 Billion Coatue Round Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekkwQ3VNd3cySU9NVXdTRmtzREp5VWlSUDZYWWxYc0FZMVJKQ0pXWTlkSHFla25pWUdWZ1dXLVhPdkl0Yk5IZGdrckh5X21XaktfVzJlRHhlU0h3M3VqaVpPVEJFVk12RDM0eGM2SU5pTGJ1MEtNNVJZaEZ4THBhWWppS1hieC1JTEJEaGU1VE1FQl9qV29vcENyM2x3QQ?oc=5",
-          "date": "2026-07-18T03:30:59.000Z",
-          "src": "Startup Fortune"
-        },
-        {
-          "title": "Databricks Valued at $188 Billion as AI Demand Surges - The Information",
-          "summary": "Databricks Valued at $188 Billion as AI Demand Surges The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFJJclVDeG1tZ1dNLW9nV2pzZlhyazlKZ0tiR292YW16ZmVSVXZCSWRHTFhiSzh4eDBiNVNuWTlJRDRGdjZNamh6YVZpUG9CRWNOREFqTlFQM3BOLXdLZi1sbS1fNWlhaGI5NmhvS19ZUy1nSFpnWnBTdFdLc1I5T0lDZzdNZDJnWUVBWWtkNmwxN1NCUmlqVGZac3EyYzA?oc=5",
-          "date": "2026-07-17T22:11:00.000Z",
-          "src": "The Information"
-        },
-        {
-          "title": "Atropos Health Expands Partnership with Databricks with the Launc - The National Law Review",
-          "summary": "Atropos Health Expands Partnership with Databricks with the Launc The National Law Review",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVG5wcWRzNHdRVWJiSC1ZdUlvbkRFVldLTHZtbU9nOUhmUXdRM0ctRHM1WV9rUVF4YjYxbVN2RGhvdVdZNHp0NXZlSkg4TUF4Y1JacUZvQ09oVkxQMFl0aFBtT1NEZ3Iya2FxRmx6amlhN2dJcXAxX3YyTi1BSmlYNEx3S09YNFpoVEc2T3NCcTZCSGtsbGpzZUJPVDlsS09iTTB0d0xxalFfSFVMR3ppbXBGeERuQQ?oc=5",
-          "date": "2026-07-17T19:53:41.000Z",
-          "src": "The National Law Review"
-        },
-        {
           "title": "Databricks Is Now Worth $188 Billion. Its Next Move Could Reshape Enterprise AI - inc.com",
           "summary": "Databricks Is Now Worth $188 Billion. Its Next Move Could Reshape Enterprise AI inc.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUJoYzdYT1JrM29yWkNCYmRnbmNDT29VaUhpbnpuYUV1X0ZNcTdDRHlkMWJvZ3EwNk9YMUhfUEVacmxfMDlFYkJoZTdkTm1BbF9ydTlyQ2x6YkNNTkdUM2hjZlVjMVVxN2xKeHI0M29fUEtrZHF1NThfMnFzREdCdXRXeko5Tmd6OWp6WjBVZWR2dUg1V215emFBVE1ObnlhYUdGVVRjOEdmUGpQeVhabXZVbS1Vdw?oc=5",
@@ -4469,6 +4392,13 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQOXdsNzVXc3E3RnJGVG9VUmdTWkZZZFhYSll5SXF1WFQwRkZGdHJ6dE9VNkhiODFqeDZMVWFwbWxXRHpBbVR6Vng0c3BIOEpzNGFoQ2xYRk50dnNQanUzMU04d2ZIcllfQjZaZ0pwZ09sWWpRUHowNXZNZ3E3RFhjUGo2VkxsaVRuWDRWb2p6YXA1ZGZ1T3Nv?oc=5",
           "date": "2026-06-17T07:00:00.000Z",
           "src": "Techzine Global"
+        },
+        {
+          "title": "June 17, 2026",
+          "summary": "Glean release notes for admins and end users",
+          "link": "https://docs.glean.com/release-notes#june-release",
+          "date": "2026-06-17T00:00:00.000Z",
+          "src": "Glean Changelog"
         },
         {
           "title": "Harvey’s Legal Intelligence Now Lives Inside Microsoft 365 - harvey.ai",
@@ -5535,13 +5465,6 @@
           "src": "Workday"
         },
         {
-          "title": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows - MLQ.ai",
-          "summary": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows MLQ.ai",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFdmUGktTTFjY1VTOWh5YzVSckVwNTJlMk5CZWtib2hzMWpVUlRldmZWZENsSFJmbnY3bWR0S2RvZHdBZWlQRElndTNsYWZFdzA4YkEtMkF0RTA2eUpxSldzVHF5VGZzRFROd1ItSlZDTUFkV0twN2tYZ1REanpOczRIT2luZjZ4WHlPaXl3TjZ2UW9XOUE?oc=5",
-          "date": "2026-03-17T07:00:00.000Z",
-          "src": "MLQ.ai"
-        },
-        {
           "title": "Kore.ai debuts Agent Management Platform to govern enterprise AI ecosystems - Help Net Security",
           "summary": "Kore.ai debuts Agent Management Platform to govern enterprise AI ecosystems Help Net Security",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU0pYLVB0aHp6QUZLdTdpYnV2enZMTkdoM2NWVF91Z2FBWnRxclhHT2czOHluZzlqMTRDTDgyTDd1QTJaRlpjdTBPdkZobUZKa1NyUWl3cHYyZF9jakE0ZXhNdFVkSWNXazNKMHJfV2NaamU0N1lmNFBpdXZnNVRJS3pTUQ?oc=5",
@@ -5561,6 +5484,13 @@
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZ0JQbUpTWHFfMTJCTHFpcnlLNG0zSnQ2VV9hWDFzdUEydDVzZnJsbjFBNmNUdXRXcDI2ZGZuSkNXeHVHb0hPLWxSMklmRjl6eVJGYmdOTHhiUHczM0JlZTFBak5mVjE5ZC1vd205bW5WNlVzN29DSGNPMEJKVnZxelFMbXZuZ0hTLUcxSnJtOHp5SGlFRktRS21DTk9tMm1GVXFyZDBRSmpIWExhSTR3Yk0yYkVockZmOXJBeWtNSHU?oc=5",
           "date": "2026-03-17T07:00:00.000Z",
           "src": "cio.com"
+        },
+        {
+          "title": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows - MLQ.ai",
+          "summary": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows MLQ.ai",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFdmUGktTTFjY1VTOWh5YzVSckVwNTJlMk5CZWtib2hzMWpVUlRldmZWZENsSFJmbnY3bWR0S2RvZHdBZWlQRElndTNsYWZFdzA4YkEtMkF0RTA2eUpxSldzVHF5VGZzRFROd1ItSlZDTUFkV0twN2tYZ1REanpOczRIT2luZjZ4WHlPaXl3TjZ2UW9XOUE?oc=5",
+          "date": "2026-03-17T07:00:00.000Z",
+          "src": "MLQ.ai"
         },
         {
           "title": "Workday and Sana Unveil A Bold New Strategy For AI - Josh Bersin",
@@ -6247,13 +6177,6 @@
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxONnY3WnUxUnV4OS13Mms5OHlvRHpId1Z0bWYtdjdSNzBfQXRqT01FZjdFY2ttMDlRbWtBVEFrZW0zQ2lIVWZpa1c2WEVVdXlGUThXZ3lLQWl2TjQ1QmFoaUZXRC1KWWFkdmlnZi1wcU5xenZSOG5wMjlfR0xGNEM3VHZkVGo4am5mVjREdmNvUTJJc3IxVEhFUmV6N0F1RGvSAaQBQVVfeXFMTkgxRkFVRlA0UHNDbmFIS092bHgySEVydk1RYnNQSms5cWx1R3pQZFVwRWJWMDR0ZURIUGNGTVVOVEZweVk5U0dOSXN2ZjdVQUo2eW5nUDMyMmRRSUJJT2VPLWpkUmJ6RDhmWHN2dVhNa09uRGhNLXBTajRhTllYVHBlNE82WE00a2JQYmdNRTkyUHBDQXdFMFpLVXJJaTdwTUJsN1k?oc=5",
           "date": "2025-11-06T08:00:00.000Z",
           "src": "Pulse 2.0"
-        },
-        {
-          "title": "ChapsVision’s M&A Bet: Can It Challenge Palantir in Europe? - The Futurum Group",
-          "summary": "ChapsVision’s M&A Bet: Can It Challenge Palantir in Europe? The Futurum Group",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaTJfZEFEQUt6MFNVMVdxdjZ4TzRicDV3aGNueW1haXM1QlltODhpZjBPT2lpSjJQbzBETk1EdWZoSWV1bjZjSERWd0ZFeDhJb1JYM1gzOVBkUzhyOEJ2OEhwU2o2MlRtWVRQODZoVHY0U2F4MW12RDgycVZOX2l4WVY5OGd3eTZhckw5bms4WkxkRF94cFNIdG9vOA?oc=5",
-          "date": "2025-11-06T08:00:00.000Z",
-          "src": "The Futurum Group"
         },
         {
           "title": "November 05, 2025",
@@ -8164,13 +8087,6 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbzJORkI3dlBBMFVjaF9oV01LNDBsa2pQQ0UzSU5PcGpwMW53N2VfNl9uZTBBaEd3OE53Vng0cURDbUhiVDI1MFo4Rk5BNTNibHRzSWVEbzBpaXJiMURuc3NFdTk5czhUcFZiVFJyZ1dORlBLVmVQOVZRWU51Yk1MWi1ZNXNMbkd6N1VMcHM1VHZSaXcyTkt6cmxGTURDdnphN2RnM3U3c085dzlkcFNZRDdwOTZEWjNWY2Y4Y0pSZnR1c1BO?oc=5",
           "date": "2026-06-26T07:00:00.000Z",
           "src": "Business Insider Deutschland"
-        },
-        {
-          "title": "Agentic AI startup raises $107M for regulated industry automation - technical.ly",
-          "summary": "Agentic AI startup raises $107M for regulated industry automation technical.ly",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2lES0xSQlhjTExYZTY4ZUlpc0VsY3dFd2w2ZERBcDRTV3Q5bWhXWVN4Rm5QQUZPZzVSNzgzYzk1R0Q1V3JRa3luNW1SY1ZtZWJkZzJSM19vRzFheDlQcTVaT1F3SWtsSTlMVFBieTYyNXVjYjNhbGlqMDBqdzlfU04tZlJxU0FEcU1NU3RaX3VISWhrVnFWTlgxYXdtNzMzQm9sZF9hR09pN0U?oc=5",
-          "date": "2026-06-25T07:00:00.000Z",
-          "src": "technical.ly"
         },
         {
           "title": "Almetra erhält 16,3 Millionen Euro für die digitale Fabrik der Zukunft - Startbase",
@@ -10314,6 +10230,34 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "Tastaturen fürs Homeoffice: So findest du für dich das richtige Modell",
+          "summary": "Wer mehrere Tage pro Woche von zu Hause aus arbeitet, braucht die passende Grundausstattung. Dazu gehört auch eine externe Tastatur. Hier erfährst du, welche Hersteller sich lohnen – auch für kleinere Budgets. weiterlese…",
+          "link": "https://t3n.de/news/tastaturen-fuers-homeoffice-so-findest-du-fuer-dich-das-richtige-modell-1755382/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T07:00:55.000Z",
+          "src": "t3n"
+        },
+        {
+          "title": "The 5am morning routine gets sold as the habit that separates successful people from everyone else, but a genetic study of nearly 700,000 people suggests whether you are a morning person is largely written into your biology",
+          "summary": "Your chronotype might matter more than your willpower—new genetic research suggests the early-bird advantage is largely inherited, not earned.",
+          "link": "https://siliconcanals.com/t-the-5am-morning-routine-gets-sold-as-the-habit-that-separates-successful-people-from-everyone-else-but-a-genetic-study-of-nearly-700-000-people-suggests-whether-you-are-a-morning-person-is-largely-w/",
+          "date": "2026-08-01T06:42:36.000Z",
+          "src": "Silicon Canals"
+        },
+        {
+          "title": "KI-Müdigkeit: Fast drei Viertel der Wissensarbeiter wollen die Zeit vor ChatGPT zurück",
+          "summary": "Eigentlich sollte sie die Produktivität steigern – inzwischen blicken Mitarbeiter:innen aber vor allem mit Frust auf den Einsatz von KI. Viele würden die Technologie am liebsten sogar komplett abschaffen. weiterlesen auf…",
+          "link": "https://t3n.de/news/ki-muedigkeit-wissensarbeiter-studie-1755296/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T06:05:00.000Z",
+          "src": "t3n"
+        },
+        {
+          "title": "Lokale KI statt ChatGPT: Diese 4 Tools laufen komplett ohne Cloud",
+          "summary": "Kleinere Aufgaben lassen sich heute auch mit lokalen KI-Modellen erledigen – ganz ohne Cloud. Wir zeigen euch, mit welchen Tools Einsteiger, Fortgeschrittene unweiterlesen auf t3n.de",
+          "link": "https://t3n.de/news/lokale-ki-statt-chatgpt-4-tools-1751464/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T05:00:00.000Z",
+          "src": "t3n"
+        },
+        {
           "title": "Insurance ETFs Top Defensive Sector Chart In July As Investors Look To Pivot Slightly From Chips And AI - Stocktwits",
           "summary": "Insurance ETFs Top Defensive Sector Chart In July As Investors Look To Pivot Slightly From Chips And AI Stocktwits",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR2NnZmkxMzlqV3NRUEhjSExSTUwwOVBTWnY2aG00Z2N2R2lkSVRwV1ZIM3BNSWZKSTBwZ2ZaN0pYNF91dzBNYUZvZDQxRExTX1JUTk01NVNGRzdESnVVOURDOWRQWlBMc3FBdUs1d1JyRlIzb3NQbWxrdkxCNWRmMlRnX0lyNUtsbjlJdklaa2lSM2JYYkZjbWEwRFRVVWNaZHMyTXdZNmJwcDFUSHFfdFJEeEo?oc=5",
@@ -10322,7 +10266,7 @@
         },
         {
           "title": "Psychology says people who are the first to check on everyone else but the last to be checked on aren’t unlucky in their friendships — they’ve built a role in every relationship that quietly disqualifies them from ever being the one who needs something",
-          "summary": "Some people can hear a change in a friend’s voice before the friend has admitted that anything is wrong. They remember the difficult meeting, the medical appointment and the anniversary everyone else forgot. They send th…",
+          "summary": "The care you give becomes a cage: the more you show up for others, the less they can imagine you falling apart.",
           "link": "https://siliconcanals.com/t-psychology-says-people-who-are-the-first-to-check-on-everyone-else-but-the-last-to-be-checked-on-arent-unlucky-in-their-friendships-theyve-built-a-role-in-every-relationship-that-quietly/",
           "date": "2026-08-01T00:50:25.000Z",
           "src": "Silicon Canals"
@@ -10336,14 +10280,14 @@
         },
         {
           "title": "In a 2020 analysis of 43 datasets and more than 11,000 couples, individual traits explained at most 21 percent of relationship satisfaction, and even the strongest relationship-specific predictors failed to forecast whether couples happiness would rise or fall",
-          "summary": "In 2020, 86 researchers pooled 43 separate longitudinal datasets, more than 11,000 couples in total, and handed the combined data to a machine learning model with one job: find out which of over 2,000 measured variables…",
+          "summary": "The science of predicting relationship success just hit a wall: even with thousands of couples and mountains of data, the strongest predictors barely move the needle.",
           "link": "https://siliconcanals.com/g-in-a-2020-analysis-of-43-datasets-and-more-than-11000-couples-individual-traits-explained-at-most-21-percent-of-relationship-satisfaction-and-even-the-strongest-relationship-specific-predictors-fail/",
           "date": "2026-07-31T23:54:17.000Z",
           "src": "Silicon Canals"
         },
         {
           "title": "In a 2016 UCLA fMRI study, teenagers were more likely to like an Instagram photo with a high, researcher-assigned like count than the same photo with a low count, whether the image was ordinary or risky, showing how little the content itself mattered",
-          "summary": "In 2016, a team of UCLA researchers built a working replica of Instagram inside an fMRI scanner. Teenagers lay in the machine and looked at photographs, some of them their own, each stamped with a like count the research…",
+          "summary": "The brain responds to social validation the same way it responds to rewards, making the actual content almost irrelevant.",
           "link": "https://siliconcanals.com/g-in-a-2016-ucla-fmri-study-teenagers-were-more-likely-to-like-an-instagram-photo-with-a-high-researcher-assigned-like-count-than-the-same-photo-with-a-low-count-whether-the-image-was-ordinary-or-risk/",
           "date": "2026-07-31T23:40:13.000Z",
           "src": "Silicon Canals"
@@ -10476,7 +10420,7 @@
         },
         {
           "title": "Psychology says the reason the most generous person you know goes home to a silent phone isn’t bad luck — it’s that giving without ever asking for anything back reads to other people as self-sufficiency, and nobody reaches out to someone who seems fine",
-          "summary": "The generous person’s phone is rarely silent because nobody knows their number. People know it very well. They use it when the relationship ends, the parent becomes ill, the job feels impossible or the decision cannot be…",
+          "summary": "The most giving people often end up isolated not because others are ungrateful, but because their relentless availability teaches everyone around them that help isn't needed.",
           "link": "https://siliconcanals.com/t-psychology-says-the-reason-the-most-generous-person-you-know-goes-home-to-a-silent-phone-isnt-bad-luck-its-that-giving-without-ever-asking-for-anything-back-reads-to-other-people-as-self/",
           "date": "2026-07-31T20:48:49.000Z",
           "src": "Silicon Canals"
@@ -10532,7 +10476,7 @@
         },
         {
           "title": "A study recorded strangers having their first conversation and found that people consistently walked away believing they had been liked less than they really were—a “liking gap” that persisted among new college suitemates for several months.",
-          "summary": "The most agreeable person in a group often appears to fit everywhere. They are happy with either restaurant. They do not mind which weekend. They soften a disagreement before it gathers weight and laugh when somebody apo…",
+          "summary": "We consistently underestimate how much people like us when we first meet them, a miscalculation that can linger for months and reshape how we relate to one another.",
           "link": "https://siliconcanals.com/t-a-study-recorded-strangers-having-their-first-conversation-and-found-that-people-consistently-walked-away-believing-they-had-been-liked-less-than-they-really-were-a-liking-gap/",
           "date": "2026-07-31T19:46:03.000Z",
           "src": "Silicon Canals"
@@ -10777,7 +10721,7 @@
         },
         {
           "title": "Here’s the problem with putting an AI image generator in Google Earth",
-          "summary": "Now a text prompt is all it takes to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexi…",
+          "summary": "A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess tha…",
           "link": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
           "date": "2026-07-31T17:05:46.000Z",
           "src": "The Verge AI"
@@ -10798,7 +10742,7 @@
         },
         {
           "title": "A study asked pairs of strangers to skip small talk and answer deeply personal questions instead, and the conversations they had most dreaded turned out to be the ones they least wanted to end.",
-          "summary": "There is a particular moment in a conversation with someone new when you can feel a more interesting question arrive and decide not to ask it. You ask what they do instead. Or how they know the host. Or whether they have…",
+          "summary": "We're terrified of depth with strangers, so we hide behind pleasantries—but new research suggests that fear costs us far more than awkwardness.",
           "link": "https://siliconcanals.com/t-a-study-asked-pairs-of-strangers-to-skip-small-talk-and-answer-deeply-personal-questions-instead-and-the-conversations-they-had-most-dreaded-turned-out-to-be-the-ones-they-least-wanted-to-end/",
           "date": "2026-07-31T16:43:58.000Z",
           "src": "Silicon Canals"
@@ -11120,7 +11064,7 @@
         },
         {
           "title": "A study sent groups of friends and relatives to eat at a café and asked half to keep their phones on the table. Those diners used their phones for only about a tenth of the meal, yet still reported enjoying the experience less, feeling more distracted and being slightly more bored than diners who put their phones away.",
-          "summary": "A phone on a café table rarely looks like a decision. It looks practical. Someone might call. The map, payment app and family group chat all live in the same rectangle, so placing it beside the cutlery can feel no more s…",
+          "summary": "The mere presence of a phone—even untouched—degrades the quality of human connection in ways we don't consciously register.",
           "link": "https://siliconcanals.com/t-a-study-sent-groups-of-friends-and-relatives-to-eat-at-a-cafe-and-asked-half-to-keep-their-phones-on-the-table-those-diners-used-their-phones-for-only-about-a-tenth-of-the-meal-yet-still-reported-en/",
           "date": "2026-07-31T13:42:21.000Z",
           "src": "Silicon Canals"
@@ -11162,7 +11106,7 @@
         },
         {
           "title": "Psychology says the weird little habits that people have quietly judged you for your entire life may actually turn out to be the clearest signs of a highly intelligent mind",
-          "summary": "You know the ones. The muttering under your breath while you work. The chronic doodling in the margin of every notebook you have ever owned. The tendency to overthink a two-line email for the better part of an afternoon.…",
+          "summary": "The quirks people roll their eyes at—fidgeting, swearing, endless doodling—might be markers of a sharper mind than conventional wisdom suggests.",
           "link": "https://siliconcanals.com/k-psychology-says-the-weird-little-habits-that-people-have-quietly-judged-you-for-your-entire-life-may-actually-turn-out-to-be-the-clearest-signs-of-a-highly-intelligent-mind/",
           "date": "2026-07-31T13:00:49.000Z",
           "src": "Silicon Canals"
@@ -11393,7 +11337,7 @@
         },
         {
           "title": "A federal judge is about to decide whether Washington can punish AI vendors for saying no",
-          "summary": "A federal judge signaled deep skepticism this week that the Trump administration has produced enough evidence to justify designating Anthropic a supply-chain risk and barring the federal government from using its AI tech…",
+          "summary": "The Trump administration's effort to punish an AI company for refusing to work with the Pentagon may hinge on whether the First Amendment protects corporate speech.",
           "link": "https://siliconcanals.com/sc-n-a-federal-judge-is-about-to-decide-whether-washington-can-punish-ai-vendors-for-saying-no/",
           "date": "2026-07-31T10:44:38.000Z",
           "src": "Silicon Canals"
@@ -11432,13 +11376,6 @@
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTU00SG96VEVkSFY2Vk1tc3d0NVRsZnVvV1ZjVjE1Y3o5N2xORHk2amdCeG9EUmRuaThfdkJ6eUFpd0VELV9rc2VyNkxncllzdTBBRUZmWVh3U3E1NWJBUDZQRlJ5RVRhYm9fY3YxamRRVkk0bXFlM1FvcUotY1JWaw?oc=5",
           "date": "2026-07-31T10:09:34.000Z",
           "src": "WRAL"
-        },
-        {
-          "title": "EU launches €30B push to build 7 massive AI data centers - E&E News by POLITICO",
-          "summary": "EU launches €30B push to build 7 massive AI data centers E&E News by POLITICO",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYXVpdHFUZkg3cVVvcDdHcWFBLVhTR3JfZ1VMTVV3U21LNEl6T0NzSkx5NUVkYTNyS1M0R0VyQzM5ckdxNVh1T1BiT0dtWFhaOEZ3NzUzeDFxT1pmdm8yWVQ3UDI2Y3A3MnFFSVZpbFpJTERpZmJjcGZ2TWNsenF5SU14ZFZXVkdRM2k4U2ExNks2eWs?oc=5",
-          "date": "2026-07-31T10:09:00.000Z",
-          "src": "E&E News by POLITICO"
         },
         {
           "title": "Reisekasse im Check: Was du vor und nach dem Urlaub prüfen solltest",
@@ -13336,6 +13273,13 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVFVLZnJ2WEI2akpvTUVaOXFUdWhqMmRVWHNNVVlJRWFwMnRudnkzX0RjeXBZYlAydGhFYlM1S2xrNk5neWRiZEpNeHVzUzM5elZ5WUI2TjhsbkdTS3cwNFdDZHV0SXNBWmtMUzZDcmQycFNsZUlFSTN2djg0QWREWFdEejRhT1hEajdMcXNoeV9wT1NtZFRqNVVFbmo2cEZPdzhJWjJJQ3VUV3VOLXZ0aXRKWDUxbjhSZk5xMDR0YndYVVU40gHKAUFVX3lxTE1NWVA2aEdET0hEMEdjYzNKa3A0OU01V2tHdldiOWhoUHlHd256QXpkT3ZRMkdQUDBjcE10Y0x4QkNXdEE2cXQyVHVsTVZiUDN1dXFTZ0Q1VjdaeWJhdll0N0FuRjRicW5GNXhQcHB0aHd4TTRVcXFzZkdCcWVWOV85RjlQNjZKcXJtelJkUEh0MWI2YTNVOWJzdmNtTXZldDNmSDlJaC1VZDVFYjZCeGtRWVdqRWtVNXl2Y0diajNtOGRLdUh0TjBnbGc?oc=5",
           "date": "2026-07-30T10:28:33.000Z",
           "src": "indiatoday.in"
+        },
+        {
+          "title": "EU launches €30B push to build 7 massive AI data centers",
+          "summary": "Germany, Greece, Portugal, Italy and Spain are backing plans to build the largest hubs.",
+          "link": "https://www.politico.eu/article/eu-launches-e30-billion-push-build-7-giga-ai-compute-hubs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "date": "2026-07-30T10:20:11.000Z",
+          "src": "Politico EU Tech"
         },
         {
           "title": "KI-Fauxpas im Parlament: Politiker liest Chatbot-Antwort vor – und merkt es nicht",
@@ -30831,55 +30775,6 @@
           "src": "t3n"
         },
         {
-          "title": "Temu-Produkte auf Amazon: Dieses Browser-Tool entlarvt überteuerte Billigware",
-          "summary": "Bist du dir nicht sicher, ob du auf Amazon Ware von namhaften Herstellern shoppst? Dann kann dir ein Browser-Plugin dabei helfen, die Spreu vom Weizen zu trennen. Was du bei der Nutzung beachten musst. weiterlesen auf t3…",
-          "link": "https://t3n.de/news/amazon-browser-plugin-temu-produkte-billigware-1752309/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T07:20:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing",
-          "summary": "Anthropic will include Claude Fable 5 in Max and Team Premium plans starting July 20, but at just 50 percent of regular limits, which themselves drop by a third that same day. Pro users get a one-time $100 credit, then p…",
-          "link": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
-          "date": "2026-07-18T07:17:11.000Z",
-          "src": "The Decoder"
-        },
-        {
-          "title": "Internet aus 18 Kilometern Höhe: „Silberpfeil&quot; soll im August über Japan funken",
-          "summary": "Mehrere Unternehmen entwickeln Flugplattform, die Internetzugang oder Erdbeobachtung ermöglichen sollen. Ihre besondere Position dafür ist die Stratosphäre. Das hat Vorteile, stellt die Fluggeräte aber auch vor besondere…",
-          "link": "https://t3n.de/news/silberpfeil-flugplattform-internet-stratosphaere-japan-1752238/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T06:50:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "Girocards neue Funktion: Hotels und Autovermietungen brauchen bald keine Kreditkarte mehr",
-          "summary": "Kautionen und Reservierungsgarantien lassen sich mit der Girocard bislang nur schwer abwickeln, weil Beträge nicht flexibel blockiert werden können, ohne sie gleich abzubuchen. Eine technische Erweiterung des Zahlungssys…",
-          "link": "https://t3n.de/news/girocard-neue-funktion-hotels-autovermietungen-keine-kreditkarte-1752570/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T06:15:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "Hyper-vigilance isn’t a personality trait — it’s a stress response first documented in combat veterans, and researchers later found the same scanning-for-danger reflex in children raised around unpredictable moods",
-          "summary": "Hypervigilance was first catalogued by psychiatrist Abram Kardiner in combat veterans returning from the First World War. Decades later, attachment researchers found the same threat-scanning reflex in children raised aro…",
-          "link": "https://siliconcanals.com/j-v-hyper-vigilance-isnt-a-personality-trait-its-a-stress-response-first-documented-in-combat-veterans-and-researchers-later-found-the-same-scanning-for-danger-reflex-in-children-raised-around-unpredi/",
-          "date": "2026-07-18T06:03:39.000Z",
-          "src": "Silicon Canals"
-        },
-        {
-          "title": "The EU’s AI Act starts requiring chatbot and deepfake labels on August 2 — while its tougher rules on hiring, biometrics and migration are pushed back to December 2027 - Silicon Canals",
-          "summary": "The EU’s AI Act starts requiring chatbot and deepfake labels on August 2 — while its tougher rules on hiring, biometrics and migration are pushed back to December 2027 Silicon Canals",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNTklhS3RKQmJDSi1FbDZFejBTSEpqUnAySWpINVd3VzJEN3ROcG0xTFpSMWtHUXgyZFJmR1d6S0VFU0V6Zi1pTVp6X21FMzhyQkVBc3VWR3dQYjZPdGlUU3BUVHZDTDNGM0Rvb1NaVmQ0OVRJNE05Y3drMmx0Z2x0bUNsTUdjTWhOLVZrLW8tTG55YmE3aFdqa2NzX1R3VW5MZmlmLVFiZUNMb1BnT21lWUlkYjF1WGt6Sk5MSWFFOFI1VUVFSHNQZVZxQmxIS2I4Ri1SV1dMM0l2dHNpanAyQTN5S1BlWVBNZDdubi0zUnNTM29XX29UM1dSa0gzSGZCMWpKWXFZY01jYnNfcjRPYU9vSG1BdndfSUE?oc=5",
-          "date": "2026-07-18T06:00:00.000Z",
-          "src": "Silicon Canals"
-        },
-        {
-          "title": "KI am Arbeitsmarkt: Nicht nur Gen Z – auch Beschäftigte vor der Rente betroffen",
-          "summary": "Ein Forscher des Center for Retirement Research hat untersucht, wie sich der Arbeitsmarkt für ältere Mitarbeiter:innen seit der Einführung von ChatGPT verändert hat – und kommt zu einem ernüchternden Ergebnis. weiterlese…",
-          "link": "https://t3n.de/news/ki-arbeitsmarkt-gen-z-rente-jobs-verdraengt-1752438/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:45:00.000Z",
-          "src": "t3n"
-        },
-        {
           "title": "Databricks To Raise Strategic Funding At $188 Billion Valuation - Pulse 2.0",
           "summary": "Databricks To Raise Strategic Funding At $188 Billion Valuation Pulse 2.0",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdnRpT0JXenQ1dWNDZFpTUVlCbnpVQzR0cENSYnhVZHlYTzVRVjBXbmQ0d3RYRXo5cjdNZWFjNXFBekVWeEF2eFMyUi1XWHBBclVUMjFxZ0dpMU5NNFRjZnhqVEx2YnA2Ukl1Y2RXd0kxTUFsYWxQNUpxNTl3RmQzekdJOFBLUlJMZlHSAY8BQVVfeXFMTlJsTkZsMG85SU5VNDE5a2JKLUtrcUFDbzcwNXpfRDZWb2xHSWtOV1doZTh0bjFRaXNvd0FpNGpPZ2o3a1QxTFE2bUtsSFIxNVZMQjFrdTRiZ05IeVJBV3VoWG96WmJQb0I4QVV0V0NRNE9BMTdGLXhSX2dpQTFJQ0h3ZGJlc1hzR3UtRmRmWkk?oc=5",
@@ -30894,151 +30789,11 @@
           "src": "Golem"
         },
         {
-          "title": "Spotify and Revolut Backer Sounds Alarm as Europe Faces Growing US Tech Dependence and AI Sovereignty Cri - Benzinga",
-          "summary": "Spotify and Revolut Backer Sounds Alarm as Europe Faces Growing US Tech Dependence and AI Sovereignty Cri Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOVWJJWlN2bFNHSXpMM0Q0b1M3R1pkOHQtWXFPckstX2lyNEtWQTZoUFJTcEI0N3dBVERkM1hHeEwyc01QcjlQWXpSTVljSGxMMHpHWlBXVnVvemJ4MGVNVnZNdU84ZExNc0cxa2JGMUFCaUtjMjl0eDVNVDQ1X2Q0eEJNaUNGTFlIUXlTek1GMnFneGJCQUxjM1l5LWpUelVQeDhuUnhpY3RMMmhaX3pHNHN4eklESHA1OUhLODFXdk9TMXJ1RzZublhOV0JNaHE2QkV1a1NZNGhHN3B1TFpXdW45SWN6Y1htY2NrLTI1TzR2ZnpBWXQ2QzJHOUYtd1VGbzAtWWxlSHM5dTZsRGxlVk5MeEpjbmo2RWNuM0hn?oc=5",
-          "date": "2026-07-18T05:29:01.000Z",
-          "src": "Benzinga"
-        },
-        {
-          "title": "Moody's (MCO) Intapp AI Tie Up Keeps Valuation Questions In Focus - simplywall.st",
-          "summary": "Moody's (MCO) Intapp AI Tie Up Keeps Valuation Questions In Focus simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbTRsVG1WRDZmXzIyOUxmaHJoRkhWeDlFRXFKWjI2QzZwZ0lnd0FVWGNncl94RzBhaXM1bUtkYXNNQnVMMVBjOVBKejZ3djN3R3lpTW1EOUxnZExLbW1MV1NuSTlRY29xVW1NVTFlM0xJUVp6OFl0X3Yxam1mNlMzb0l5QkxBRWNOVGl4dVF0TC04R1lRMGpleEZPb3UycGlJbFdIZXhEV1lFT2hFLTZjUzJCMUlHUV90S29QSkFBelhSNUo3YVpqeGRVOGZuOTVPRGfSAdcBQVVfeXFMTlVLY2o3V18wbU5lalZza1htc19LRkktZkdlNGNTaEJlanVmcWp6MXl4VmRFRmZ2MTFhRUx5OWgxd3dNQmpfQ29RR1VZNjFydWxUQ3FNZmNGRkhyak1xRlVYdm9MQ0EyRlZyd0UyUHA1WHRKcHpNQ2pOWVh3bzVZSzBsTGlHMnJXV1VUZnZiTHZvdkFuNXZ4Wk9sandOQkpZT2JDSVZ4X0xFd0R3WXl1bXJpMXRwZWhFV045QlpwSEUzTkZkUWpyeEhGVURtMHZIVndNckZmNlE?oc=5",
-          "date": "2026-07-18T05:26:01.000Z",
-          "src": "simplywall.st"
-        },
-        {
-          "title": "25 Jahre digitales Leben einfach weg: Was ein Hack mit deinem Microsoft-Konto anrichten kann",
-          "summary": "Ein gesperrtes Microsoft-Konto sorgt aktuell für Trauer und Wut bei einem Streamer. Er hatte das Konto zunächst durch einen Hackerangriff verloren. Obwohl er beweisen konnte, dass ihm der Account gehört, wurden jetzt säm…",
-          "link": "https://t3n.de/news/streamer-verliert-microsoft-konto-hack-25-jahre-daten-1752992/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:25:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "ChatGPT auf Whatsapp: So nutzt du den KI-Chatbot ab sofort",
-          "summary": "Ein Kartellverfahren der Europäischen Kommission hat Meta dazu gezwungen, die Messaging-App wieder für KI von Drittanbietern zu öffnen. Der Tech-Konzern hat angekündigt, gegen die Entscheidung vorzugehen. weiterlesen auf…",
-          "link": "https://t3n.de/news/chatgpt-whatsapp-nutzen-1752976/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:10:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "Why has Austria become Europe's hottest AI market this year? - Yahoo Finance UK",
-          "summary": "Why has Austria become Europe's hottest AI market this year? Yahoo Finance UK",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdDVrZUx1R2xiQi00ZUt4OVF6bW41MlVLeERGakM2dkVBUm4wR1JHWVpJNHlsYXlyODNpNklZUm80SzkyTk40YklxOTJKdERtOTJTZ0dqai1NTUxzZ0phQ09xWFRVSmVhV0s4QjlKWWpoMEg3MHlqcDQtNWlzOUZrWWtwTzl1QmlpMTFN?oc=5",
-          "date": "2026-07-18T05:01:30.000Z",
-          "src": "Yahoo Finance UK"
-        },
-        {
-          "title": "Neil Rimer thinks the AI money is coming back out",
-          "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
-          "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-          "date": "2026-07-18T04:47:25.000Z",
-          "src": "TechCrunch AI"
-        },
-        {
-          "title": "Projektmanagement ohne US-Tech: 4 starke gratis Alternativen aus Europa",
-          "summary": "Der Markt für Projektmanagement-Tools wird von US-Firmen dominiert. Wir zeigen euch drei Alternativen aus Europa und ein Offline-Tool für Freelancer und kleine weiterlesen auf t3n.de",
-          "link": "https://t3n.de/news/projektmanagement-alternativen-us-tech-europa-kostenlos-1726731/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T04:35:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "KI lokal nutzen: LLMs und KI-Agenten ganz ohne OpenAI & Anthropic | c’t uplink - heise online",
-          "summary": "KI lokal nutzen: LLMs und KI-Agenten ganz ohne OpenAI & Anthropic | c’t uplink heise online",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlpuX3RpR203U3lialQ5VlBjaUhwVFBlQ0FHdi1KQ2FNVERueWpSbUNqWDBkYlkydlp6TERFNXExdkh1TkotT29mdWYyTmtGZlA4ZGJQQkkzNGQ3U2pfdUQ0RElUOTFZSWZyVFBycWczZlVLY0lqUzhoek5xa3VIdUtvWVl0amVYemFOMzRwbzJGVjBja245blZUdkRhbzRUUEJwWVpNU19aT2dlYjlZRGlINA?oc=5",
-          "date": "2026-07-18T04:30:00.000Z",
-          "src": "heise online"
-        },
-        {
-          "title": "Tardigrades can survive being boiled, frozen to near absolute zero, blasted with radiation, and shot into the vacuum of space, and they do it by dehydrating themselves into a glassy state that essentially pauses their biology until water returns",
-          "summary": "Tardigrades survive boiling, near-absolute-zero cold, radiation doses a thousand times the human lethal dose, and the vacuum of space by drying into a glassy state that pauses their biology. A protein they use to shield…",
-          "link": "https://siliconcanals.com/sc-c-tardigrades-can-survive-being-boiled-frozen-to-near-absolute-zero-blasted-with-radiation-and-shot-into-the-vacuum-of-space-and-they-do-it-by-dehydrating-themselves-into-a-glassy-state-that-essent/",
-          "date": "2026-07-18T04:17:39.000Z",
-          "src": "Silicon Canals"
-        },
-        {
-          "title": "We tend to think perceptiveness is a gift some people are born with, but for many it’s a survival skill — the ability to feel tension before a word is spoken is often a nervous system that once needed to predict the storm",
-          "summary": "Stephen Porges named the process neuroception — the pre-conscious scan the vagus nerve runs on every room you walk into. For adults who grew up needing to predict a parent's mood, that scan never really turns off.",
-          "link": "https://siliconcanals.com/j-v-we-tend-to-think-perceptiveness-is-a-gift-some-people-are-born-with-but-for-many-its-a-survival-skill-the-ability-to-feel-tension-before-a-word-is-spoken-is-often-a-nervous-system-that-once-needed/",
-          "date": "2026-07-18T04:16:05.000Z",
-          "src": "Silicon Canals"
-        },
-        {
-          "title": "Sociologist Arlie Hochschild coined the term ’emotional labor’ in 1983 to describe flight attendants — four decades on, the same unpaid work has migrated into friendships, families and Slack channels",
-          "summary": "Arlie Hochschild's 1983 concept described the paid smile in an airline cabin. Four decades later, the same unpaid work runs through friendships, families and Slack channels — and the people carrying it are the last to no…",
-          "link": "https://siliconcanals.com/sc-v-sociologist-arlie-hochschild-coined-the-term-emotional-labor-in-1983-to-describe-flight-attendants-four-decades-on-the-same-unpaid-work-has-migrated-into-friendships-families-and-slack-channels/",
-          "date": "2026-07-18T04:15:38.000Z",
-          "src": "Silicon Canals"
-        },
-        {
-          "title": "WLAN-Call im Urlaub: Warum du diese Funktion jetzt deaktivieren solltest",
-          "summary": "Wer im Urlaub Anrufe tätigt, verlässt sich dabei oft auf eine praktische WLAN-Funktion des Smartphones. Allerdings kann das zu hohen Kosten führen, sobald du wieder zu Hause bist. Wie du das vermeidest. weiterlesen auf t…",
-          "link": "https://t3n.de/news/wlan-call-urlaub-kostenfalle-deaktivieren-1752515/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T04:05:00.000Z",
-          "src": "t3n"
-        },
-        {
-          "title": "Sable Raises $45 Million To Build AI Employee For Customer Interactions - Pulse 2.0",
-          "summary": "Sable Raises $45 Million To Build AI Employee For Customer Interactions Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmxUamowOVpGS05vdGw5eEJjWjl4TmZLY0dJWGFIbWJiM2xDbzlhNHFJenRvMERjYm1EMWxYUkJTR0VEXzRDQTQ1TDg3anBPRlBXUUhnU0doOEY1bTlWbm9aNU1YaV9IQVkzY0dXWjlZUUc4RGt1d3VOT3BXaktxNjdyOUwzR01ib01ybFI3VHJSdU5r0gGaAUFVX3lxTE1kbWpHRXU5Z0JiWGZoQWc1OXJfZUs2ZDkyMnBwdVlwOXJLaWlDRDdvQkNzaGZzdGlfT29nX3RTemFlZi1yUFczWkN5ZnpXbEM0N0lvb2NtdUlQaW92cDI2RlBKXzNYY044TjVsc3RveXVRTWhKcmE1NlRZZzd3NWlDU1NUaFJJeF81RmM4U3FvZHhOUC1QTElNV3c?oc=5",
-          "date": "2026-07-18T04:03:50.000Z",
-          "src": "Pulse 2.0"
-        },
-        {
-          "title": "Sightera Biosciences Raises €3 Million In Pre-Seed Funding For AI-Driven Drug Discovery - Pulse 2.0",
-          "summary": "Sightera Biosciences Raises €3 Million In Pre-Seed Funding For AI-Driven Drug Discovery Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0llR29EZ0RqbHNldUZ3bjJEMnVOTXVtVWQySHdESFYxTGdpZHJuYnJma2ZXNWJTbmtlT2FNOXEtMkdrUXE0bF9qYlRzdk5fdmVlM05Wbl9hb3psMnFkbmRneEVaWmwwVVpiQi1nenZZZWZHbGxiRUtEN1Nsanl5RDJyZ0dhNks3dm9aVVMtMmlkb0dkZFl6U0lGNFY2bnd5bWQ4WmRoWmM1SUHSAeMBQVVfeXFMTVNPemVHU1N5UHRlTUl0VVlUS1pfa3ZEMVBscFRXRHNJSzExYlpfQy1Najdua0VMZkhkS2dGbkQya01HODBYTmRfalV4UDhWY3h2cmJ3MTVEU1BYZlZvTGRvN1lhS1RRTEwyc3B0bmZBVVVVQ21tVktZdmFLb0hmUGkzeFhSMlZTYWxPeFdwa3VYYXNXRHRhajJuck9NQzRLY25QU1d3V004QWthTTlHcXh0Vko5MXV4NlFiUEk2Z1NhZ1JuNEhwVmgyVzVaWmhSaF9RblluN3JfckE1VnRnQXk1cFk?oc=5",
-          "date": "2026-07-18T03:28:49.000Z",
-          "src": "Pulse 2.0"
-        },
-        {
-          "title": "White House Weighs Independent AI Safety Regulator - Briefs Finance",
-          "summary": "White House Weighs Independent AI Safety Regulator Briefs Finance",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTVRGWEFNTFZhV2VEeFNoVHRqVmtVbXNDQjNGSGlBN2hNS2NWS0tuNERKazVmV2RGblBMdzlaNnJueVR2SFlRM0JpcjNZT2dvSXBJYURpZUMwRnlzbUhJbi1CdFpyV1hCZkYzM3dyRy1famFUcWVoS2hrMFplUzVIWXlBMzFsdmNT?oc=5",
-          "date": "2026-07-18T03:13:53.000Z",
-          "src": "Briefs Finance"
-        },
-        {
-          "title": "Visa and Mastercard Just Joined a New Standard for AI Agent Payments - Startup Fortune",
-          "summary": "Visa and Mastercard Just Joined a New Standard for AI Agent Payments Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMmdsZHp6X1ktcUlWUmoxbEMtdnJkSTFkUldGVWNOYzBLcjhZRmdWSGpBR0xkNFYybDBfeGhBTXJDTFRZV3pjOFhXdF9oa2Myc01MVTFYS0pPMmEteC0xS0U4VVZrdVA5LUZnd1RJNUwzeXdTazZUemg3ZXhnbGg4YVRKSkhzVjZ2NVJ4UTMwREg0YzVnX2NQRTFQNUU?oc=5",
-          "date": "2026-07-18T02:19:20.000Z",
-          "src": "Startup Fortune"
-        },
-        {
           "title": "Watch Chinese AI Model Raises Pressure on US Spending - Bloomberg.com",
           "summary": "Watch Chinese AI Model Raises Pressure on US Spending Bloomberg.com",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWk9WUnZjNlUtZEJvd0VJYzZ2UnhrdnpyYmlNR2FIcUU1emFXVEpZRGRtNWEyWGl3S3ctNnN0RTVSYTV3MWFZekJzNkludHVSWWVwMVp6ZU1PX1FHaHJLSElmYm05UzlBMTVmSHlrNzdDcElWMlhUcjdYRERiN3RLR05MNEY1R2JuRWhoR0oxTHpnanNNNmUtaXNnTjVHaXdtR3ZlVw?oc=5",
           "date": "2026-07-18T00:00:00.000Z",
           "src": "Bloomberg.com"
-        },
-        {
-          "title": "Databricks Valued at $188 Billion as AI Demand Surges - The Information",
-          "summary": "Databricks Valued at $188 Billion as AI Demand Surges The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFJJclVDeG1tZ1dNLW9nV2pzZlhyazlKZ0tiR292YW16ZmVSVXZCSWRHTFhiSzh4eDBiNVNuWTlJRDRGdjZNamh6YVZpUG9CRWNOREFqTlFQM3BOLXdLZi1sbS1fNWlhaGI5NmhvS19ZUy1nSFpnWnBTdFdLc1I5T0lDZzdNZDJnWUVBWWtkNmwxN1NCUmlqVGZac3EyYzA?oc=5",
-          "date": "2026-07-17T22:11:00.000Z",
-          "src": "The Information"
-        },
-        {
-          "title": "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say - CNBC",
-          "summary": "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say CNBC",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSXNCa1F5OWZBSmxzMzlSblhsY24zVzAzQ3poZm85a3ZzM1VORXcyaF9FbEYtazE3UUhZQ2lwODR4OEE3YmtDVlN3a0dBSV96QVR0SXFwS1VIWFJlRTQ4S0sxUWpEODZNMlp1SzQ3d0FmR08wNWQzSXBTekg3SGp3d9IBhgFBVV95cUxPamJuZ0NySktUZl9VbjUtUUVFWFUwd3ZJZ3pnX2REclpHZ055SmV6cjNMS3h4ZWdGTF9qTnRPekdJZmdWVlZQZ0tTSVJGVzl2R0ZfSXRDUmx6WjNrR1BVa25fejVKejlpSmRxTzAtZFh4cXVfN2p2YjM3NTRxNkw4emxKeURLQQ?oc=5",
-          "date": "2026-07-17T22:04:13.000Z",
-          "src": "CNBC"
-        },
-        {
-          "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do - VentureBeat",
-          "summary": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do VentureBeat",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcURYeU00Nld0c0gwY0FOR25QSzkzRTZiMnJPR2Z1NnVxeUhrWkJZSFJIb2xhdGJmLURmeURFb3dVTE5ld1JaWjVQR2dDTC1rYm5RQnZFTnR6d3hCS2RSQ2MxQy14SkZoRmFXT1paejgxSDVObDNuWUlMcnl4LWJWa3ROdUdlcTJKc05jbWY0RWFIdFJRTjduSU8taFVWRG14N25VRl83SXhUU2RlZHN4S3pJTldRd1E4VHYzSVRQc0M2RnFJUTRKelhFUVJ6UQ?oc=5",
-          "date": "2026-07-17T20:51:30.000Z",
-          "src": "VentureBeat"
-        },
-        {
-          "title": "What Is an AI Agent Swarm and How These Systems Actually Coordinate - Startup Fortune",
-          "summary": "What Is an AI Agent Swarm and How These Systems Actually Coordinate Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR1NnVDZrMEFUTEpXQXZlcm5KUHJtQkRSUnFFQ1dOd09vQzJpTF9IZ2NOUzRCdnpFRzVYSTFCRk0wU1R2X1RwaEl6NUl0Rm82NWxJZUlGVWhDZXhFM05ONEs1c0dLdjdEWVNpUW9COWpCOUJVdjJyekF5YVQ2WFZGUUxGNTQzb1VBc1U1ODZqNUlmQW5hWmpTRUlEcw?oc=5",
-          "date": "2026-07-17T20:30:45.000Z",
-          "src": "Startup Fortune"
         },
         {
           "title": "Musk's SpaceX in talks to supply the Pentagon with computing power, WSJ reports - Reuters",
@@ -31151,13 +30906,6 @@
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aaG0tcUVyajVqZFJRaFQyU1M4Z09fXzYtVHJXZmN3aEs3blI0V29KbUF2MTRnZEM2OUhSdDkxM1B1YXV2Y3FzWEp2TFZZRlJqTE1jVVI1Qmd0dw?oc=5",
           "date": "2026-07-17T04:00:00.000Z",
           "src": "UN Meetings Coverage and Press Releases"
-        },
-        {
-          "title": "Einstellungsgespräch: Palantir fragt Tötungsbereitschaft der Entwickler ab - Golem",
-          "summary": "Einstellungsgespräch: Palantir fragt Tötungsbereitschaft der Entwickler ab Golem",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRkV4cjloZEJLV09EeTM2SDhqUWdXbnY2cTZDaV8wZ1pHS1VJRkpVaVJkNkxQLXBtbUhtS3l1N09BdTNra01MUTBkVDd6UkpzUU5aT3piRDZfZFZ5WFQ1TmFHZTNMNWZGSG9iRVBWMHFHLUdycEpyS2NySWI5QUlZYXBsaXgwaUwyREQxa2VINkQ3a1VmQVJnb2N4ZllVb3k2bWZuU0U3b0VyNzNEMHI2SEtzdXQ0M3JiQWc?oc=5",
-          "date": "2026-07-16T16:29:01.000Z",
-          "src": "Golem"
         },
         {
           "title": "Kostenloses Musikstreaming: Spotify bringt Premium-Funktion gratis für alle Free-Kunden - Golem",
@@ -37754,6 +37502,15 @@
       "label": "What's new in AI 🤖",
       "items": [
         {
+          "title": "Ten advances in mathematics and theoretical computer science",
+          "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+          "link": "https://openai.com/index/ten-advances-in-mathematics",
+          "date": "2026-08-01T00:00:00.000Z",
+          "src": "OpenAI",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
+        },
+        {
           "title": "Anthropic Cybersecurity Evaluations Left Three Organizations Exposed - Tech My Money",
           "summary": "Anthropic Cybersecurity Evaluations Left Three Organizations Exposed Tech My Money",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOM3pyeGVJb3ZaNkZiYWpxbUxaU09Gc1g0Qng1bktKWmVuX3pZSm5sLWllVGhXNUpfUThETDBid0UxMGxFbVdCS1YtdHRPQ2NJbUQ5LUNHMm1HM0NpWEh1TU1JRjBnNVFRaDJFVk8ycnpIc2Rla2FIYVZwT0xnM1lsOTFQZndkZ0V2UkgxUUIzcGxFX0lsZnV6MWxvMnF2ZHhBNnBTeUJnRdIBpwFBVV95cUxOM3pyeGVJb3ZaNkZiYWpxbUxaU09Gc1g0Qng1bktKWmVuX3pZSm5sLWllVGhXNUpfUThETDBid0UxMGxFbVdCS1YtdHRPQ2NJbUQ5LUNHMm1HM0NpWEh1TU1JRjBnNVFRaDJFVk8ycnpIc2Rla2FIYVZwT0xnM1lsOTFQZndkZ0V2UkgxUUIzcGxFX0lsZnV6MWxvMnF2ZHhBNnBTeUJnRQ?oc=5",
@@ -40310,15 +40067,6 @@
           "firstSeen": "2026-07-18T10:20:19.408Z"
         },
         {
-          "title": "Anthropic Limits Claude Fable 5 Access as It Runs Out of Compute - Startup Fortune",
-          "summary": "Anthropic Limits Claude Fable 5 Access as It Runs Out of Compute Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUXQwTXRDbG04V2lsc3NQLU8tX2RpRTFkZ2VqR0w4UF9qXzJnd3hWTnU4aUZwdC1lQUNPYmZLc1k2M2VvZUNjNC1LRjloUVZDSnJPR2QwN1pWNjRxcFNMNlFQV2psdW1wLVJNUFRyNHRrRjFwajNEVE1DZVkydEpaY09JUmJlY0NPYkd1T0I0cEphbndYMjhV?oc=5",
-          "date": "2026-07-18T07:21:40.000Z",
-          "src": "Startup Fortune",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
           "title": "Best AI Model for Coding: DeepSeek Costs 20x Less [2026] - tech-insider.org",
           "summary": "Best AI Model for Coding: DeepSeek Costs 20x Less [2026] tech-insider.org",
           "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9reEVDUmpRSnRrWGI5ek1WM3FVcF85cFFHdmFINkhzR3BuMmV4d2dKNmVISE4teUo1d3VDelRQTEp3MmJ2VUVSMzNXSDlhTThWSEcza3ZtTW9WenZmV3IzSGI2ekcxZw?oc=5",
@@ -40326,33 +40074,6 @@
           "src": "tech-insider.org",
           "via": "googlenews",
           "firstSeen": "2026-07-18T15:59:51.723Z"
-        },
-        {
-          "title": "The White House Now Decides Who Gets Early Access to Claude and GPT - Startup Fortune",
-          "summary": "The White House Now Decides Who Gets Early Access to Claude and GPT Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTcydFBYMVFFNEZBZ1F0WS10ZEpZRDFRRzRyVkp0SDBacW1nc0NwckZuUlRjVzNNTFg5am9GenBoUkZrbm5QTzFWQ0llLXZaZ0RKU1dpbTZIMTdSNkRUcVl2UndGN0pGOGdqc05qSE5LdmZyZEpySm80OXRxRU5paTYyWDE1YlJPWS0ydFh4V2p6aXA4SFo1a3pQQQ?oc=5",
-          "date": "2026-07-18T01:36:46.000Z",
-          "src": "Startup Fortune",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Kimi AI Model Impact Shakes Crypto and AI Markets - The Cryptonomist",
-          "summary": "Kimi AI Model Impact Shakes Crypto and AI Markets The Cryptonomist",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Nc0tDa1J5S1EwS042RXNMb3N5ZjhZcVI3R2lybU9pRkVtQTY5U2hKc1BvcE1FVzZRRnR1RGtnb3dLYU1IbHR1VUpDM1VEM2Z1Y0FmU0xEcGppd1J6eGdnU2d2d1NIampuUWlz?oc=5",
-          "date": "2026-07-18T01:17:42.000Z",
-          "src": "The Cryptonomist",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "China's Moonshot AI Sparks Market Jitters - StartupHub.ai",
-          "summary": "China's Moonshot AI Sparks Market Jitters StartupHub.ai",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONmJFZXBRNnI3RTZfc2JXdXlhN0hQQVRhQ1hydUY3alYwT0xIa1NzUXFhd1Y5VW9tZlNtRE5YZjYydHc4Sk5UVzBFOEZzZWdMT3pweTRZdnFGV3BQZlRvbXVSOEZ0bVBkUUFaTlcxbTVUUUNBellnX0dqRExwYkNoYzRkeTlHQ1dmZXZ3SU5Vd3FWemZ3ZkUxMmx3dHM4cFRvWE1Da21tTQ?oc=5",
-          "date": "2026-07-18T00:03:48.000Z",
-          "src": "StartupHub.ai",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
         },
         {
           "title": "US Stocks End Week Lower on Fears of Another ‘DeepSeek Moment’ - Bloomberg.com",
@@ -40407,15 +40128,6 @@
           "src": "Yahoo Finance UK",
           "via": "googlenews",
           "firstSeen": "2026-07-18T15:59:51.723Z"
-        },
-        {
-          "title": "Grok 4.6 Confirmed: What We Know From the xAI Roadmap - BASENOR - Tesla Accessories",
-          "summary": "Grok 4.6 Confirmed: What We Know From the xAI Roadmap BASENOR - Tesla Accessories",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLW5NMzZKcWxkcHZCVjFPNEtZWWYzbHo0M2JPeU4zMHpmLTJNUnJ1Y2hLY3BmU0p3NlY5VmVVMGxuQjltZzBWSDBRUkhITXMxd1hjYTB5UVo3ZDhxd2U1YW5wOXF6UWlWRmZESDlyUGN5cUpfeWx0dllIb2Z0UFNaVGZ3djN1bmxWSlMzUGQ3eHk?oc=5",
-          "date": "2026-07-17T07:00:00.000Z",
-          "src": "BASENOR - Tesla Accessories",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
         },
         {
           "title": "Nebius raises $775 million in first secured debt financing to accelerate global buildout - Business Wire",
@@ -40659,15 +40371,6 @@
           "src": "Chalkbeat",
           "via": "googlenews",
           "firstSeen": "2026-07-28T19:36:10.898Z"
-        },
-        {
-          "title": "Nebius lands over $1B computing power deal with Reflection AI, adding to its growing backlog - Crypto Briefing",
-          "summary": "Nebius lands over $1B computing power deal with Reflection AI, adding to its growing backlog Crypto Briefing",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nQ096RjFYZnU5bVhLazlzb1MwVFZTdkFQWTA1UFhYSnBUb1N6SzRhYmRuZXFaNUdRdnZ4d2N6bzFuWHhzcXhmQUYtSXRKTjYyVGU4NnJKcS1NWkN6dnhQUElUZk14T2dORkZCZDRLbl9JcWhxaHVuOHVTMA?oc=5",
-          "date": "2026-07-14T11:42:32.000Z",
-          "src": "Crypto Briefing",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
         },
         {
           "title": "How to manage AI investments in the agentic era",
@@ -41352,15 +41055,6 @@
           "src": "Google AI",
           "via": "rss",
           "firstSeen": "2026-07-24T05:52:22.197Z"
-        },
-        {
-          "title": "Mistral AI Tackles Unstructured Data Challenge With OCR 4 - AI Business",
-          "summary": "Mistral AI Tackles Unstructured Data Challenge With OCR 4 AI Business",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWEctREJRQVo3NXBUUS1pWG53aG56R184Y3VUMk14RGNiWjZiNzlCZEpLaEZhcVZvcjN3Zmx2ZzA2dDhONm1hZnV5QmxVOXBCX2Q3M2JOSFRTUS1MbmVPcjNaTjV6TmpKNVVwUEVDMTM1Uk5jeEJUX3A4Vi1VN2Z3NWJiWEhqei0xSEluTHU5bnE5cjQ?oc=5",
-          "date": "2026-06-24T14:11:38.000Z",
-          "src": "AI Business",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
         },
         {
           "title": "How Nebius AI Cloud 3.6 “Aether” And Echo Launch At Nebius Group (NBIS) Has Changed Its Investment Story - Yahoo Finance",
@@ -42962,51 +42656,6 @@
           "firstSeen": "2026-07-27T03:26:32.450Z"
         },
         {
-          "title": "Databricks To Raise Strategic Funding At $188 Billion Valuation - Pulse 2.0",
-          "summary": "Databricks To Raise Strategic Funding At $188 Billion Valuation Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdnRpT0JXenQ1dWNDZFpTUVlCbnpVQzR0cENSYnhVZHlYTzVRVjBXbmQ0d3RYRXo5cjdNZWFjNXFBekVWeEF2eFMyUi1XWHBBclVUMjFxZ0dpMU5NNFRjZnhqVEx2YnA2Ukl1Y2RXd0kxTUFsYWxQNUpxNTl3RmQzekdJOFBLUlJMZlHSAY8BQVVfeXFMTlJsTkZsMG85SU5VNDE5a2JKLUtrcUFDbzcwNXpfRDZWb2xHSWtOV1doZTh0bjFRaXNvd0FpNGpPZ2o3a1QxTFE2bUtsSFIxNVZMQjFrdTRiZ05IeVJBV3VoWG96WmJQb0I4QVV0V0NRNE9BMTdGLXhSX2dpQTFJQ0h3ZGJlc1hzR3UtRmRmWkk?oc=5",
-          "date": "2026-07-18T05:33:25.000Z",
-          "src": "Pulse 2.0",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Harvey Acquires Benchmark To Expand AI Platform For Asset Management - Pulse 2.0",
-          "summary": "Harvey Acquires Benchmark To Expand AI Platform For Asset Management Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQkV3ZEk0aVctVjlSc1dXeUlPbjdxSFdhaGZmd0NMbll0MW9Dd2k5eHdDN0xKSHJ1R1Fyc19UQlh0bFN1Njh5WGJsT19EYk54b2tHajZSUTdiQTg2Q19VSzFIbFhPSEtWOWtPR3lXR0tWbkRVa0dNTkc3Y2psNE9pRVVORG9UMlluREdJVFYxR1cxQdIBlwFBVV95cUxQVWtmQms5SFhtZ2I5ZDdiZ0ZvMG9ib3laZGtHV2xYZVo5dDBCLWtqZFc1X3hYUkhybXJBaFBqSS16TW5YNWlqNGR3WTJEcF84U1pIUGtLakhPZ0lhSW1tXzB5akFHc3NENFl6VWNvOGtlbFhuWGt2M3BhbVlHQm1nckRId3l0NVY0SVhRTUZWd09JekxtWXZ3?oc=5",
-          "date": "2026-07-18T03:56:59.000Z",
-          "src": "Pulse 2.0",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Databricks Hits $188 Billion Valuation With New $3 Billion Coatue Round - Startup Fortune",
-          "summary": "Databricks Hits $188 Billion Valuation With New $3 Billion Coatue Round Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOekkwQ3VNd3cySU9NVXdTRmtzREp5VWlSUDZYWWxYc0FZMVJKQ0pXWTlkSHFla25pWUdWZ1dXLVhPdkl0Yk5IZGdrckh5X21XaktfVzJlRHhlU0h3M3VqaVpPVEJFVk12RDM0eGM2SU5pTGJ1MEtNNVJZaEZ4THBhWWppS1hieC1JTEJEaGU1VE1FQl9qV29vcENyM2x3QQ?oc=5",
-          "date": "2026-07-18T03:30:59.000Z",
-          "src": "Startup Fortune",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Databricks Valued at $188 Billion as AI Demand Surges - The Information",
-          "summary": "Databricks Valued at $188 Billion as AI Demand Surges The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFJJclVDeG1tZ1dNLW9nV2pzZlhyazlKZ0tiR292YW16ZmVSVXZCSWRHTFhiSzh4eDBiNVNuWTlJRDRGdjZNamh6YVZpUG9CRWNOREFqTlFQM3BOLXdLZi1sbS1fNWlhaGI5NmhvS19ZUy1nSFpnWnBTdFdLc1I5T0lDZzdNZDJnWUVBWWtkNmwxN1NCUmlqVGZac3EyYzA?oc=5",
-          "date": "2026-07-17T22:11:00.000Z",
-          "src": "The Information",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Atropos Health Expands Partnership with Databricks with the Launc - The National Law Review",
-          "summary": "Atropos Health Expands Partnership with Databricks with the Launc The National Law Review",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVG5wcWRzNHdRVWJiSC1ZdUlvbkRFVldLTHZtbU9nOUhmUXdRM0ctRHM1WV9rUVF4YjYxbVN2RGhvdVdZNHp0NXZlSkg4TUF4Y1JacUZvQ09oVkxQMFl0aFBtT1NEZ3Iya2FxRmx6amlhN2dJcXAxX3YyTi1BSmlYNEx3S09YNFpoVEc2T3NCcTZCSGtsbGpzZUJPVDlsS09iTTB0d0xxalFfSFVMR3ppbXBGeERuQQ?oc=5",
-          "date": "2026-07-17T19:53:41.000Z",
-          "src": "The National Law Review",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
           "title": "Databricks Is Now Worth $188 Billion. Its Next Move Could Reshape Enterprise AI - inc.com",
           "summary": "Databricks Is Now Worth $188 Billion. Its Next Move Could Reshape Enterprise AI inc.com",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLUJoYzdYT1JrM29yWkNCYmRnbmNDT29VaUhpbnpuYUV1X0ZNcTdDRHlkMWJvZ3EwNk9YMUhfUEVacmxfMDlFYkJoZTdkTm1BbF9ydTlyQ2x6YkNNTkdUM2hjZlVjMVVxN2xKeHI0M29fUEtrZHF1NThfMnFzREdCdXRXeko5Tmd6OWp6WjBVZWR2dUg1V215emFBVE1ObnlhYUdGVVRjOEdmUGpQeVhabXZVbS1Vdw?oc=5",
@@ -43491,6 +43140,15 @@
           "src": "Techzine Global",
           "via": "googlenews",
           "firstSeen": "2026-07-18T19:09:04.966Z"
+        },
+        {
+          "title": "June 17, 2026",
+          "summary": "Glean release notes for admins and end users",
+          "link": "https://docs.glean.com/release-notes#june-release",
+          "date": "2026-06-17T00:00:00.000Z",
+          "src": "Glean Changelog",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
         },
         {
           "title": "Harvey’s Legal Intelligence Now Lives Inside Microsoft 365 - harvey.ai",
@@ -44861,15 +44519,6 @@
           "firstSeen": "2026-07-24T19:27:57.477Z"
         },
         {
-          "title": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows - MLQ.ai",
-          "summary": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows MLQ.ai",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFdmUGktTTFjY1VTOWh5YzVSckVwNTJlMk5CZWtib2hzMWpVUlRldmZWZENsSFJmbnY3bWR0S2RvZHdBZWlQRElndTNsYWZFdzA4YkEtMkF0RTA2eUpxSldzVHF5VGZzRFROd1ItSlZDTUFkV0twN2tYZ1REanpOczRIT2luZjZ4WHlPaXl3TjZ2UW9XOUE?oc=5",
-          "date": "2026-03-17T07:00:00.000Z",
-          "src": "MLQ.ai",
-          "via": "googlenews",
-          "firstSeen": "2026-07-20T22:02:14.324Z"
-        },
-        {
           "title": "Kore.ai debuts Agent Management Platform to govern enterprise AI ecosystems - Help Net Security",
           "summary": "Kore.ai debuts Agent Management Platform to govern enterprise AI ecosystems Help Net Security",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQU0pYLVB0aHp6QUZLdTdpYnV2enZMTkdoM2NWVF91Z2FBWnRxclhHT2czOHluZzlqMTRDTDgyTDd1QTJaRlpjdTBPdkZobUZKa1NyUWl3cHYyZF9jakE0ZXhNdFVkSWNXazNKMHJfV2NaamU0N1lmNFBpdXZnNVRJS3pTUQ?oc=5",
@@ -44895,6 +44544,15 @@
           "src": "cio.com",
           "via": "googlenews",
           "firstSeen": "2026-07-21T22:05:13.175Z"
+        },
+        {
+          "title": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows - MLQ.ai",
+          "summary": "Workday Launches Sana AI Platform to Automate HR and Finance Workflows MLQ.ai",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSFdmUGktTTFjY1VTOWh5YzVSckVwNTJlMk5CZWtib2hzMWpVUlRldmZWZENsSFJmbnY3bWR0S2RvZHdBZWlQRElndTNsYWZFdzA4YkEtMkF0RTA2eUpxSldzVHF5VGZzRFROd1ItSlZDTUFkV0twN2tYZ1REanpOczRIT2luZjZ4WHlPaXl3TjZ2UW9XOUE?oc=5",
+          "date": "2026-03-17T07:00:00.000Z",
+          "src": "MLQ.ai",
+          "via": "googlenews",
+          "firstSeen": "2026-07-20T22:02:14.324Z"
         },
         {
           "title": "Workday and Sana Unveil A Bold New Strategy For AI - Josh Bersin",
@@ -45777,15 +45435,6 @@
           "src": "Pulse 2.0",
           "via": "googlenews",
           "firstSeen": "2026-07-21T22:05:13.175Z"
-        },
-        {
-          "title": "ChapsVision’s M&A Bet: Can It Challenge Palantir in Europe? - The Futurum Group",
-          "summary": "ChapsVision’s M&A Bet: Can It Challenge Palantir in Europe? The Futurum Group",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaTJfZEFEQUt6MFNVMVdxdjZ4TzRicDV3aGNueW1haXM1QlltODhpZjBPT2lpSjJQbzBETk1EdWZoSWV1bjZjSERWd0ZFeDhJb1JYM1gzOVBkUzhyOEJ2OEhwU2o2MlRtWVRQODZoVHY0U2F4MW12RDgycVZOX2l4WVY5OGd3eTZhckw5bms4WkxkRF94cFNIdG9vOA?oc=5",
-          "date": "2025-11-06T08:00:00.000Z",
-          "src": "The Futurum Group",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
         },
         {
           "title": "November 05, 2025",
@@ -48240,15 +47889,6 @@
           "src": "Business Insider Deutschland",
           "via": "googlenews",
           "firstSeen": "2026-07-24T13:50:14.256Z"
-        },
-        {
-          "title": "Agentic AI startup raises $107M for regulated industry automation - technical.ly",
-          "summary": "Agentic AI startup raises $107M for regulated industry automation technical.ly",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2lES0xSQlhjTExYZTY4ZUlpc0VsY3dFd2w2ZERBcDRTV3Q5bWhXWVN4Rm5QQUZPZzVSNzgzYzk1R0Q1V3JRa3luNW1SY1ZtZWJkZzJSM19vRzFheDlQcTVaT1F3SWtsSTlMVFBieTYyNXVjYjNhbGlqMDBqdzlfU04tZlJxU0FEcU1NU3RaX3VISWhrVnFWTlgxYXdtNzMzQm9sZF9hR09pN0U?oc=5",
-          "date": "2026-06-25T07:00:00.000Z",
-          "src": "technical.ly",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
         },
         {
           "title": "Almetra erhält 16,3 Millionen Euro für die digitale Fabrik der Zukunft - Startbase",
@@ -51002,6 +50642,42 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "Tastaturen fürs Homeoffice: So findest du für dich das richtige Modell",
+          "summary": "Wer mehrere Tage pro Woche von zu Hause aus arbeitet, braucht die passende Grundausstattung. Dazu gehört auch eine externe Tastatur. Hier erfährst du, welche Hersteller sich lohnen – auch für kleinere Budgets. weiterlese…",
+          "link": "https://t3n.de/news/tastaturen-fuers-homeoffice-so-findest-du-fuer-dich-das-richtige-modell-1755382/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T07:00:55.000Z",
+          "src": "t3n",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
+        },
+        {
+          "title": "The 5am morning routine gets sold as the habit that separates successful people from everyone else, but a genetic study of nearly 700,000 people suggests whether you are a morning person is largely written into your biology",
+          "summary": "Your chronotype might matter more than your willpower—new genetic research suggests the early-bird advantage is largely inherited, not earned.",
+          "link": "https://siliconcanals.com/t-the-5am-morning-routine-gets-sold-as-the-habit-that-separates-successful-people-from-everyone-else-but-a-genetic-study-of-nearly-700-000-people-suggests-whether-you-are-a-morning-person-is-largely-w/",
+          "date": "2026-08-01T06:42:36.000Z",
+          "src": "Silicon Canals",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
+        },
+        {
+          "title": "KI-Müdigkeit: Fast drei Viertel der Wissensarbeiter wollen die Zeit vor ChatGPT zurück",
+          "summary": "Eigentlich sollte sie die Produktivität steigern – inzwischen blicken Mitarbeiter:innen aber vor allem mit Frust auf den Einsatz von KI. Viele würden die Technologie am liebsten sogar komplett abschaffen. weiterlesen auf…",
+          "link": "https://t3n.de/news/ki-muedigkeit-wissensarbeiter-studie-1755296/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T06:05:00.000Z",
+          "src": "t3n",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
+        },
+        {
+          "title": "Lokale KI statt ChatGPT: Diese 4 Tools laufen komplett ohne Cloud",
+          "summary": "Kleinere Aufgaben lassen sich heute auch mit lokalen KI-Modellen erledigen – ganz ohne Cloud. Wir zeigen euch, mit welchen Tools Einsteiger, Fortgeschrittene unweiterlesen auf t3n.de",
+          "link": "https://t3n.de/news/lokale-ki-statt-chatgpt-4-tools-1751464/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-01T05:00:00.000Z",
+          "src": "t3n",
+          "via": "rss",
+          "firstSeen": "2026-08-01T08:24:18.280Z"
+        },
+        {
           "title": "Insurance ETFs Top Defensive Sector Chart In July As Investors Look To Pivot Slightly From Chips And AI - Stocktwits",
           "summary": "Insurance ETFs Top Defensive Sector Chart In July As Investors Look To Pivot Slightly From Chips And AI Stocktwits",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNR2NnZmkxMzlqV3NRUEhjSExSTUwwOVBTWnY2aG00Z2N2R2lkSVRwV1ZIM3BNSWZKSTBwZ2ZaN0pYNF91dzBNYUZvZDQxRExTX1JUTk01NVNGRzdESnVVOURDOWRQWlBMc3FBdUs1d1JyRlIzb3NQbWxrdkxCNWRmMlRnX0lyNUtsbjlJdklaa2lSM2JYYkZjbWEwRFRVVWNaZHMyTXdZNmJwcDFUSHFfdFJEeEo?oc=5",
@@ -51012,7 +50688,7 @@
         },
         {
           "title": "Psychology says people who are the first to check on everyone else but the last to be checked on aren’t unlucky in their friendships — they’ve built a role in every relationship that quietly disqualifies them from ever being the one who needs something",
-          "summary": "Some people can hear a change in a friend’s voice before the friend has admitted that anything is wrong. They remember the difficult meeting, the medical appointment and the anniversary everyone else forgot. They send th…",
+          "summary": "The care you give becomes a cage: the more you show up for others, the less they can imagine you falling apart.",
           "link": "https://siliconcanals.com/t-psychology-says-people-who-are-the-first-to-check-on-everyone-else-but-the-last-to-be-checked-on-arent-unlucky-in-their-friendships-theyve-built-a-role-in-every-relationship-that-quietly/",
           "date": "2026-08-01T00:50:25.000Z",
           "src": "Silicon Canals",
@@ -51030,7 +50706,7 @@
         },
         {
           "title": "In a 2020 analysis of 43 datasets and more than 11,000 couples, individual traits explained at most 21 percent of relationship satisfaction, and even the strongest relationship-specific predictors failed to forecast whether couples happiness would rise or fall",
-          "summary": "In 2020, 86 researchers pooled 43 separate longitudinal datasets, more than 11,000 couples in total, and handed the combined data to a machine learning model with one job: find out which of over 2,000 measured variables…",
+          "summary": "The science of predicting relationship success just hit a wall: even with thousands of couples and mountains of data, the strongest predictors barely move the needle.",
           "link": "https://siliconcanals.com/g-in-a-2020-analysis-of-43-datasets-and-more-than-11000-couples-individual-traits-explained-at-most-21-percent-of-relationship-satisfaction-and-even-the-strongest-relationship-specific-predictors-fail/",
           "date": "2026-07-31T23:54:17.000Z",
           "src": "Silicon Canals",
@@ -51039,7 +50715,7 @@
         },
         {
           "title": "In a 2016 UCLA fMRI study, teenagers were more likely to like an Instagram photo with a high, researcher-assigned like count than the same photo with a low count, whether the image was ordinary or risky, showing how little the content itself mattered",
-          "summary": "In 2016, a team of UCLA researchers built a working replica of Instagram inside an fMRI scanner. Teenagers lay in the machine and looked at photographs, some of them their own, each stamped with a like count the research…",
+          "summary": "The brain responds to social validation the same way it responds to rewards, making the actual content almost irrelevant.",
           "link": "https://siliconcanals.com/g-in-a-2016-ucla-fmri-study-teenagers-were-more-likely-to-like-an-instagram-photo-with-a-high-researcher-assigned-like-count-than-the-same-photo-with-a-low-count-whether-the-image-was-ordinary-or-risk/",
           "date": "2026-07-31T23:40:13.000Z",
           "src": "Silicon Canals",
@@ -51210,7 +50886,7 @@
         },
         {
           "title": "Psychology says the reason the most generous person you know goes home to a silent phone isn’t bad luck — it’s that giving without ever asking for anything back reads to other people as self-sufficiency, and nobody reaches out to someone who seems fine",
-          "summary": "The generous person’s phone is rarely silent because nobody knows their number. People know it very well. They use it when the relationship ends, the parent becomes ill, the job feels impossible or the decision cannot be…",
+          "summary": "The most giving people often end up isolated not because others are ungrateful, but because their relentless availability teaches everyone around them that help isn't needed.",
           "link": "https://siliconcanals.com/t-psychology-says-the-reason-the-most-generous-person-you-know-goes-home-to-a-silent-phone-isnt-bad-luck-its-that-giving-without-ever-asking-for-anything-back-reads-to-other-people-as-self/",
           "date": "2026-07-31T20:48:49.000Z",
           "src": "Silicon Canals",
@@ -51282,7 +50958,7 @@
         },
         {
           "title": "A study recorded strangers having their first conversation and found that people consistently walked away believing they had been liked less than they really were—a “liking gap” that persisted among new college suitemates for several months.",
-          "summary": "The most agreeable person in a group often appears to fit everywhere. They are happy with either restaurant. They do not mind which weekend. They soften a disagreement before it gathers weight and laugh when somebody apo…",
+          "summary": "We consistently underestimate how much people like us when we first meet them, a miscalculation that can linger for months and reshape how we relate to one another.",
           "link": "https://siliconcanals.com/t-a-study-recorded-strangers-having-their-first-conversation-and-found-that-people-consistently-walked-away-believing-they-had-been-liked-less-than-they-really-were-a-liking-gap/",
           "date": "2026-07-31T19:46:03.000Z",
           "src": "Silicon Canals",
@@ -51597,7 +51273,7 @@
         },
         {
           "title": "Here’s the problem with putting an AI image generator in Google Earth",
-          "summary": "Now a text prompt is all it takes to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery, like these images generated by Digital Digging's Henk van Ess that show \"refugees near the Mexi…",
+          "summary": "A text prompt was all it took to generate reality-warping images using Google Earth's satellite, aerial, and 3D imagery with a now-rolled back AI feature, like these images generated by Digital Digging's Henk van Ess tha…",
           "link": "https://www.theverge.com/ai-artificial-intelligence/973764/google-earth-ai-satellite-images",
           "date": "2026-07-31T17:05:46.000Z",
           "src": "The Verge AI",
@@ -51624,7 +51300,7 @@
         },
         {
           "title": "A study asked pairs of strangers to skip small talk and answer deeply personal questions instead, and the conversations they had most dreaded turned out to be the ones they least wanted to end.",
-          "summary": "There is a particular moment in a conversation with someone new when you can feel a more interesting question arrive and decide not to ask it. You ask what they do instead. Or how they know the host. Or whether they have…",
+          "summary": "We're terrified of depth with strangers, so we hide behind pleasantries—but new research suggests that fear costs us far more than awkwardness.",
           "link": "https://siliconcanals.com/t-a-study-asked-pairs-of-strangers-to-skip-small-talk-and-answer-deeply-personal-questions-instead-and-the-conversations-they-had-most-dreaded-turned-out-to-be-the-ones-they-least-wanted-to-end/",
           "date": "2026-07-31T16:43:58.000Z",
           "src": "Silicon Canals",
@@ -52038,7 +51714,7 @@
         },
         {
           "title": "A study sent groups of friends and relatives to eat at a café and asked half to keep their phones on the table. Those diners used their phones for only about a tenth of the meal, yet still reported enjoying the experience less, feeling more distracted and being slightly more bored than diners who put their phones away.",
-          "summary": "A phone on a café table rarely looks like a decision. It looks practical. Someone might call. The map, payment app and family group chat all live in the same rectangle, so placing it beside the cutlery can feel no more s…",
+          "summary": "The mere presence of a phone—even untouched—degrades the quality of human connection in ways we don't consciously register.",
           "link": "https://siliconcanals.com/t-a-study-sent-groups-of-friends-and-relatives-to-eat-at-a-cafe-and-asked-half-to-keep-their-phones-on-the-table-those-diners-used-their-phones-for-only-about-a-tenth-of-the-meal-yet-still-reported-en/",
           "date": "2026-07-31T13:42:21.000Z",
           "src": "Silicon Canals",
@@ -52092,7 +51768,7 @@
         },
         {
           "title": "Psychology says the weird little habits that people have quietly judged you for your entire life may actually turn out to be the clearest signs of a highly intelligent mind",
-          "summary": "You know the ones. The muttering under your breath while you work. The chronic doodling in the margin of every notebook you have ever owned. The tendency to overthink a two-line email for the better part of an afternoon.…",
+          "summary": "The quirks people roll their eyes at—fidgeting, swearing, endless doodling—might be markers of a sharper mind than conventional wisdom suggests.",
           "link": "https://siliconcanals.com/k-psychology-says-the-weird-little-habits-that-people-have-quietly-judged-you-for-your-entire-life-may-actually-turn-out-to-be-the-clearest-signs-of-a-highly-intelligent-mind/",
           "date": "2026-07-31T13:00:49.000Z",
           "src": "Silicon Canals",
@@ -52389,7 +52065,7 @@
         },
         {
           "title": "A federal judge is about to decide whether Washington can punish AI vendors for saying no",
-          "summary": "A federal judge signaled deep skepticism this week that the Trump administration has produced enough evidence to justify designating Anthropic a supply-chain risk and barring the federal government from using its AI tech…",
+          "summary": "The Trump administration's effort to punish an AI company for refusing to work with the Pentagon may hinge on whether the First Amendment protects corporate speech.",
           "link": "https://siliconcanals.com/sc-n-a-federal-judge-is-about-to-decide-whether-washington-can-punish-ai-vendors-for-saying-no/",
           "date": "2026-07-31T10:44:38.000Z",
           "src": "Silicon Canals",
@@ -52440,15 +52116,6 @@
           "src": "WRAL",
           "via": "googlenews",
           "firstSeen": "2026-07-31T11:30:35.810Z"
-        },
-        {
-          "title": "EU launches €30B push to build 7 massive AI data centers - E&E News by POLITICO",
-          "summary": "EU launches €30B push to build 7 massive AI data centers E&E News by POLITICO",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYXVpdHFUZkg3cVVvcDdHcWFBLVhTR3JfZ1VMTVV3U21LNEl6T0NzSkx5NUVkYTNyS1M0R0VyQzM5ckdxNVh1T1BiT0dtWFhaOEZ3NzUzeDFxT1pmdm8yWVQ3UDI2Y3A3MnFFSVZpbFpJTERpZmJjcGZ2TWNsenF5SU14ZFZXVkdRM2k4U2ExNks2eWs?oc=5",
-          "date": "2026-07-31T10:09:00.000Z",
-          "src": "E&E News by POLITICO",
-          "via": "googlenews",
-          "firstSeen": "2026-07-30T14:08:08.621Z"
         },
         {
           "title": "Reisekasse im Check: Was du vor und nach dem Urlaub prüfen solltest",
@@ -54888,6 +54555,15 @@
           "src": "indiatoday.in",
           "via": "googlenews",
           "firstSeen": "2026-07-30T11:09:09.637Z"
+        },
+        {
+          "title": "EU launches €30B push to build 7 massive AI data centers",
+          "summary": "Germany, Greece, Portugal, Italy and Spain are backing plans to build the largest hubs.",
+          "link": "https://www.politico.eu/article/eu-launches-e30-billion-push-build-7-giga-ai-compute-hubs/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+          "date": "2026-07-30T10:20:11.000Z",
+          "src": "Politico EU Tech",
+          "via": "rss",
+          "firstSeen": "2026-07-30T14:08:08.621Z"
         },
         {
           "title": "KI-Fauxpas im Parlament: Politiker liest Chatbot-Antwort vor – und merkt es nicht",
@@ -77381,69 +77057,6 @@
           "firstSeen": "2026-07-18T10:20:19.408Z"
         },
         {
-          "title": "Temu-Produkte auf Amazon: Dieses Browser-Tool entlarvt überteuerte Billigware",
-          "summary": "Bist du dir nicht sicher, ob du auf Amazon Ware von namhaften Herstellern shoppst? Dann kann dir ein Browser-Plugin dabei helfen, die Spreu vom Weizen zu trennen. Was du bei der Nutzung beachten musst. weiterlesen auf t3…",
-          "link": "https://t3n.de/news/amazon-browser-plugin-temu-produkte-billigware-1752309/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T07:20:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Anthropic slashes Claude Fable 5 limits in Max and Team Premium and pushes Pro users toward API pricing",
-          "summary": "Anthropic will include Claude Fable 5 in Max and Team Premium plans starting July 20, but at just 50 percent of regular limits, which themselves drop by a third that same day. Pro users get a one-time $100 credit, then p…",
-          "link": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
-          "date": "2026-07-18T07:17:11.000Z",
-          "src": "The Decoder",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Internet aus 18 Kilometern Höhe: „Silberpfeil&quot; soll im August über Japan funken",
-          "summary": "Mehrere Unternehmen entwickeln Flugplattform, die Internetzugang oder Erdbeobachtung ermöglichen sollen. Ihre besondere Position dafür ist die Stratosphäre. Das hat Vorteile, stellt die Fluggeräte aber auch vor besondere…",
-          "link": "https://t3n.de/news/silberpfeil-flugplattform-internet-stratosphaere-japan-1752238/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T06:50:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Girocards neue Funktion: Hotels und Autovermietungen brauchen bald keine Kreditkarte mehr",
-          "summary": "Kautionen und Reservierungsgarantien lassen sich mit der Girocard bislang nur schwer abwickeln, weil Beträge nicht flexibel blockiert werden können, ohne sie gleich abzubuchen. Eine technische Erweiterung des Zahlungssys…",
-          "link": "https://t3n.de/news/girocard-neue-funktion-hotels-autovermietungen-keine-kreditkarte-1752570/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T06:15:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Hyper-vigilance isn’t a personality trait — it’s a stress response first documented in combat veterans, and researchers later found the same scanning-for-danger reflex in children raised around unpredictable moods",
-          "summary": "Hypervigilance was first catalogued by psychiatrist Abram Kardiner in combat veterans returning from the First World War. Decades later, attachment researchers found the same threat-scanning reflex in children raised aro…",
-          "link": "https://siliconcanals.com/j-v-hyper-vigilance-isnt-a-personality-trait-its-a-stress-response-first-documented-in-combat-veterans-and-researchers-later-found-the-same-scanning-for-danger-reflex-in-children-raised-around-unpredi/",
-          "date": "2026-07-18T06:03:39.000Z",
-          "src": "Silicon Canals",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "The EU’s AI Act starts requiring chatbot and deepfake labels on August 2 — while its tougher rules on hiring, biometrics and migration are pushed back to December 2027 - Silicon Canals",
-          "summary": "The EU’s AI Act starts requiring chatbot and deepfake labels on August 2 — while its tougher rules on hiring, biometrics and migration are pushed back to December 2027 Silicon Canals",
-          "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNTklhS3RKQmJDSi1FbDZFejBTSEpqUnAySWpINVd3VzJEN3ROcG0xTFpSMWtHUXgyZFJmR1d6S0VFU0V6Zi1pTVp6X21FMzhyQkVBc3VWR3dQYjZPdGlUU3BUVHZDTDNGM0Rvb1NaVmQ0OVRJNE05Y3drMmx0Z2x0bUNsTUdjTWhOLVZrLW8tTG55YmE3aFdqa2NzX1R3VW5MZmlmLVFiZUNMb1BnT21lWUlkYjF1WGt6Sk5MSWFFOFI1VUVFSHNQZVZxQmxIS2I4Ri1SV1dMM0l2dHNpanAyQTN5S1BlWVBNZDdubi0zUnNTM29XX29UM1dSa0gzSGZCMWpKWXFZY01jYnNfcjRPYU9vSG1BdndfSUE?oc=5",
-          "date": "2026-07-18T06:00:00.000Z",
-          "src": "Silicon Canals",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "KI am Arbeitsmarkt: Nicht nur Gen Z – auch Beschäftigte vor der Rente betroffen",
-          "summary": "Ein Forscher des Center for Retirement Research hat untersucht, wie sich der Arbeitsmarkt für ältere Mitarbeiter:innen seit der Einführung von ChatGPT verändert hat – und kommt zu einem ernüchternden Ergebnis. weiterlese…",
-          "link": "https://t3n.de/news/ki-arbeitsmarkt-gen-z-rente-jobs-verdraengt-1752438/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:45:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
           "title": "Databricks To Raise Strategic Funding At $188 Billion Valuation - Pulse 2.0",
           "summary": "Databricks To Raise Strategic Funding At $188 Billion Valuation Pulse 2.0",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdnRpT0JXenQ1dWNDZFpTUVlCbnpVQzR0cENSYnhVZHlYTzVRVjBXbmQ0d3RYRXo5cjdNZWFjNXFBekVWeEF2eFMyUi1XWHBBclVUMjFxZ0dpMU5NNFRjZnhqVEx2YnA2Ukl1Y2RXd0kxTUFsYWxQNUpxNTl3RmQzekdJOFBLUlJMZlHSAY8BQVVfeXFMTlJsTkZsMG85SU5VNDE5a2JKLUtrcUFDbzcwNXpfRDZWb2xHSWtOV1doZTh0bjFRaXNvd0FpNGpPZ2o3a1QxTFE2bUtsSFIxNVZMQjFrdTRiZ05IeVJBV3VoWG96WmJQb0I4QVV0V0NRNE9BMTdGLXhSX2dpQTFJQ0h3ZGJlc1hzR3UtRmRmWkk?oc=5",
@@ -77462,150 +77075,6 @@
           "firstSeen": "2026-07-19T10:36:46.601Z"
         },
         {
-          "title": "Spotify and Revolut Backer Sounds Alarm as Europe Faces Growing US Tech Dependence and AI Sovereignty Cri - Benzinga",
-          "summary": "Spotify and Revolut Backer Sounds Alarm as Europe Faces Growing US Tech Dependence and AI Sovereignty Cri Benzinga",
-          "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOVWJJWlN2bFNHSXpMM0Q0b1M3R1pkOHQtWXFPckstX2lyNEtWQTZoUFJTcEI0N3dBVERkM1hHeEwyc01QcjlQWXpSTVljSGxMMHpHWlBXVnVvemJ4MGVNVnZNdU84ZExNc0cxa2JGMUFCaUtjMjl0eDVNVDQ1X2Q0eEJNaUNGTFlIUXlTek1GMnFneGJCQUxjM1l5LWpUelVQeDhuUnhpY3RMMmhaX3pHNHN4eklESHA1OUhLODFXdk9TMXJ1RzZublhOV0JNaHE2QkV1a1NZNGhHN3B1TFpXdW45SWN6Y1htY2NrLTI1TzR2ZnpBWXQ2QzJHOUYtd1VGbzAtWWxlSHM5dTZsRGxlVk5MeEpjbmo2RWNuM0hn?oc=5",
-          "date": "2026-07-18T05:29:01.000Z",
-          "src": "Benzinga",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Moody's (MCO) Intapp AI Tie Up Keeps Valuation Questions In Focus - simplywall.st",
-          "summary": "Moody's (MCO) Intapp AI Tie Up Keeps Valuation Questions In Focus simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbTRsVG1WRDZmXzIyOUxmaHJoRkhWeDlFRXFKWjI2QzZwZ0lnd0FVWGNncl94RzBhaXM1bUtkYXNNQnVMMVBjOVBKejZ3djN3R3lpTW1EOUxnZExLbW1MV1NuSTlRY29xVW1NVTFlM0xJUVp6OFl0X3Yxam1mNlMzb0l5QkxBRWNOVGl4dVF0TC04R1lRMGpleEZPb3UycGlJbFdIZXhEV1lFT2hFLTZjUzJCMUlHUV90S29QSkFBelhSNUo3YVpqeGRVOGZuOTVPRGfSAdcBQVVfeXFMTlVLY2o3V18wbU5lalZza1htc19LRkktZkdlNGNTaEJlanVmcWp6MXl4VmRFRmZ2MTFhRUx5OWgxd3dNQmpfQ29RR1VZNjFydWxUQ3FNZmNGRkhyak1xRlVYdm9MQ0EyRlZyd0UyUHA1WHRKcHpNQ2pOWVh3bzVZSzBsTGlHMnJXV1VUZnZiTHZvdkFuNXZ4Wk9sandOQkpZT2JDSVZ4X0xFd0R3WXl1bXJpMXRwZWhFV045QlpwSEUzTkZkUWpyeEhGVURtMHZIVndNckZmNlE?oc=5",
-          "date": "2026-07-18T05:26:01.000Z",
-          "src": "simplywall.st",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "25 Jahre digitales Leben einfach weg: Was ein Hack mit deinem Microsoft-Konto anrichten kann",
-          "summary": "Ein gesperrtes Microsoft-Konto sorgt aktuell für Trauer und Wut bei einem Streamer. Er hatte das Konto zunächst durch einen Hackerangriff verloren. Obwohl er beweisen konnte, dass ihm der Account gehört, wurden jetzt säm…",
-          "link": "https://t3n.de/news/streamer-verliert-microsoft-konto-hack-25-jahre-daten-1752992/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:25:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "ChatGPT auf Whatsapp: So nutzt du den KI-Chatbot ab sofort",
-          "summary": "Ein Kartellverfahren der Europäischen Kommission hat Meta dazu gezwungen, die Messaging-App wieder für KI von Drittanbietern zu öffnen. Der Tech-Konzern hat angekündigt, gegen die Entscheidung vorzugehen. weiterlesen auf…",
-          "link": "https://t3n.de/news/chatgpt-whatsapp-nutzen-1752976/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T05:10:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Why has Austria become Europe's hottest AI market this year? - Yahoo Finance UK",
-          "summary": "Why has Austria become Europe's hottest AI market this year? Yahoo Finance UK",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdDVrZUx1R2xiQi00ZUt4OVF6bW41MlVLeERGakM2dkVBUm4wR1JHWVpJNHlsYXlyODNpNklZUm80SzkyTk40YklxOTJKdERtOTJTZ0dqai1NTUxzZ0phQ09xWFRVSmVhV0s4QjlKWWpoMEg3MHlqcDQtNWlzOUZrWWtwTzl1QmlpMTFN?oc=5",
-          "date": "2026-07-18T05:01:30.000Z",
-          "src": "Yahoo Finance UK",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Neil Rimer thinks the AI money is coming back out",
-          "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
-          "link": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
-          "date": "2026-07-18T04:47:25.000Z",
-          "src": "TechCrunch AI",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Projektmanagement ohne US-Tech: 4 starke gratis Alternativen aus Europa",
-          "summary": "Der Markt für Projektmanagement-Tools wird von US-Firmen dominiert. Wir zeigen euch drei Alternativen aus Europa und ein Offline-Tool für Freelancer und kleine weiterlesen auf t3n.de",
-          "link": "https://t3n.de/news/projektmanagement-alternativen-us-tech-europa-kostenlos-1726731/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T04:35:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "KI lokal nutzen: LLMs und KI-Agenten ganz ohne OpenAI & Anthropic | c’t uplink - heise online",
-          "summary": "KI lokal nutzen: LLMs und KI-Agenten ganz ohne OpenAI & Anthropic | c’t uplink heise online",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYlpuX3RpR203U3lialQ5VlBjaUhwVFBlQ0FHdi1KQ2FNVERueWpSbUNqWDBkYlkydlp6TERFNXExdkh1TkotT29mdWYyTmtGZlA4ZGJQQkkzNGQ3U2pfdUQ0RElUOTFZSWZyVFBycWczZlVLY0lqUzhoek5xa3VIdUtvWVl0amVYemFOMzRwbzJGVjBja245blZUdkRhbzRUUEJwWVpNU19aT2dlYjlZRGlINA?oc=5",
-          "date": "2026-07-18T04:30:00.000Z",
-          "src": "heise online",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Tardigrades can survive being boiled, frozen to near absolute zero, blasted with radiation, and shot into the vacuum of space, and they do it by dehydrating themselves into a glassy state that essentially pauses their biology until water returns",
-          "summary": "Tardigrades survive boiling, near-absolute-zero cold, radiation doses a thousand times the human lethal dose, and the vacuum of space by drying into a glassy state that pauses their biology. A protein they use to shield…",
-          "link": "https://siliconcanals.com/sc-c-tardigrades-can-survive-being-boiled-frozen-to-near-absolute-zero-blasted-with-radiation-and-shot-into-the-vacuum-of-space-and-they-do-it-by-dehydrating-themselves-into-a-glassy-state-that-essent/",
-          "date": "2026-07-18T04:17:39.000Z",
-          "src": "Silicon Canals",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "We tend to think perceptiveness is a gift some people are born with, but for many it’s a survival skill — the ability to feel tension before a word is spoken is often a nervous system that once needed to predict the storm",
-          "summary": "Stephen Porges named the process neuroception — the pre-conscious scan the vagus nerve runs on every room you walk into. For adults who grew up needing to predict a parent's mood, that scan never really turns off.",
-          "link": "https://siliconcanals.com/j-v-we-tend-to-think-perceptiveness-is-a-gift-some-people-are-born-with-but-for-many-its-a-survival-skill-the-ability-to-feel-tension-before-a-word-is-spoken-is-often-a-nervous-system-that-once-needed/",
-          "date": "2026-07-18T04:16:05.000Z",
-          "src": "Silicon Canals",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Sociologist Arlie Hochschild coined the term ’emotional labor’ in 1983 to describe flight attendants — four decades on, the same unpaid work has migrated into friendships, families and Slack channels",
-          "summary": "Arlie Hochschild's 1983 concept described the paid smile in an airline cabin. Four decades later, the same unpaid work runs through friendships, families and Slack channels — and the people carrying it are the last to no…",
-          "link": "https://siliconcanals.com/sc-v-sociologist-arlie-hochschild-coined-the-term-emotional-labor-in-1983-to-describe-flight-attendants-four-decades-on-the-same-unpaid-work-has-migrated-into-friendships-families-and-slack-channels/",
-          "date": "2026-07-18T04:15:38.000Z",
-          "src": "Silicon Canals",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "WLAN-Call im Urlaub: Warum du diese Funktion jetzt deaktivieren solltest",
-          "summary": "Wer im Urlaub Anrufe tätigt, verlässt sich dabei oft auf eine praktische WLAN-Funktion des Smartphones. Allerdings kann das zu hohen Kosten führen, sobald du wieder zu Hause bist. Wie du das vermeidest. weiterlesen auf t…",
-          "link": "https://t3n.de/news/wlan-call-urlaub-kostenfalle-deaktivieren-1752515/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
-          "date": "2026-07-18T04:05:00.000Z",
-          "src": "t3n",
-          "via": "rss",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Sable Raises $45 Million To Build AI Employee For Customer Interactions - Pulse 2.0",
-          "summary": "Sable Raises $45 Million To Build AI Employee For Customer Interactions Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWmxUamowOVpGS05vdGw5eEJjWjl4TmZLY0dJWGFIbWJiM2xDbzlhNHFJenRvMERjYm1EMWxYUkJTR0VEXzRDQTQ1TDg3anBPRlBXUUhnU0doOEY1bTlWbm9aNU1YaV9IQVkzY0dXWjlZUUc4RGt1d3VOT3BXaktxNjdyOUwzR01ib01ybFI3VHJSdU5r0gGaAUFVX3lxTE1kbWpHRXU5Z0JiWGZoQWc1OXJfZUs2ZDkyMnBwdVlwOXJLaWlDRDdvQkNzaGZzdGlfT29nX3RTemFlZi1yUFczWkN5ZnpXbEM0N0lvb2NtdUlQaW92cDI2RlBKXzNYY044TjVsc3RveXVRTWhKcmE1NlRZZzd3NWlDU1NUaFJJeF81RmM4U3FvZHhOUC1QTElNV3c?oc=5",
-          "date": "2026-07-18T04:03:50.000Z",
-          "src": "Pulse 2.0",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Sightera Biosciences Raises €3 Million In Pre-Seed Funding For AI-Driven Drug Discovery - Pulse 2.0",
-          "summary": "Sightera Biosciences Raises €3 Million In Pre-Seed Funding For AI-Driven Drug Discovery Pulse 2.0",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN0llR29EZ0RqbHNldUZ3bjJEMnVOTXVtVWQySHdESFYxTGdpZHJuYnJma2ZXNWJTbmtlT2FNOXEtMkdrUXE0bF9qYlRzdk5fdmVlM05Wbl9hb3psMnFkbmRneEVaWmwwVVpiQi1nenZZZWZHbGxiRUtEN1Nsanl5RDJyZ0dhNks3dm9aVVMtMmlkb0dkZFl6U0lGNFY2bnd5bWQ4WmRoWmM1SUHSAeMBQVVfeXFMTVNPemVHU1N5UHRlTUl0VVlUS1pfa3ZEMVBscFRXRHNJSzExYlpfQy1Najdua0VMZkhkS2dGbkQya01HODBYTmRfalV4UDhWY3h2cmJ3MTVEU1BYZlZvTGRvN1lhS1RRTEwyc3B0bmZBVVVVQ21tVktZdmFLb0hmUGkzeFhSMlZTYWxPeFdwa3VYYXNXRHRhajJuck9NQzRLY25QU1d3V004QWthTTlHcXh0Vko5MXV4NlFiUEk2Z1NhZ1JuNEhwVmgyVzVaWmhSaF9RblluN3JfckE1VnRnQXk1cFk?oc=5",
-          "date": "2026-07-18T03:28:49.000Z",
-          "src": "Pulse 2.0",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "White House Weighs Independent AI Safety Regulator - Briefs Finance",
-          "summary": "White House Weighs Independent AI Safety Regulator Briefs Finance",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTVRGWEFNTFZhV2VEeFNoVHRqVmtVbXNDQjNGSGlBN2hNS2NWS0tuNERKazVmV2RGblBMdzlaNnJueVR2SFlRM0JpcjNZT2dvSXBJYURpZUMwRnlzbUhJbi1CdFpyV1hCZkYzM3dyRy1famFUcWVoS2hrMFplUzVIWXlBMzFsdmNT?oc=5",
-          "date": "2026-07-18T03:13:53.000Z",
-          "src": "Briefs Finance",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "Visa and Mastercard Just Joined a New Standard for AI Agent Payments - Startup Fortune",
-          "summary": "Visa and Mastercard Just Joined a New Standard for AI Agent Payments Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMmdsZHp6X1ktcUlWUmoxbEMtdnJkSTFkUldGVWNOYzBLcjhZRmdWSGpBR0xkNFYybDBfeGhBTXJDTFRZV3pjOFhXdF9oa2Myc01MVTFYS0pPMmEteC0xS0U4VVZrdVA5LUZnd1RJNUwzeXdTazZUemg3ZXhnbGg4YVRKSkhzVjZ2NVJ4UTMwREg0YzVnX2NQRTFQNUU?oc=5",
-          "date": "2026-07-18T02:19:20.000Z",
-          "src": "Startup Fortune",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
           "title": "Watch Chinese AI Model Raises Pressure on US Spending - Bloomberg.com",
           "summary": "Watch Chinese AI Model Raises Pressure on US Spending Bloomberg.com",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWk9WUnZjNlUtZEJvd0VJYzZ2UnhrdnpyYmlNR2FIcUU1emFXVEpZRGRtNWEyWGl3S3ctNnN0RTVSYTV3MWFZekJzNkludHVSWWVwMVp6ZU1PX1FHaHJLSElmYm05UzlBMTVmSHlrNzdDcElWMlhUcjdYRERiN3RLR05MNEY1R2JuRWhoR0oxTHpnanNNNmUtaXNnTjVHaXdtR3ZlVw?oc=5",
@@ -77613,42 +77082,6 @@
           "src": "Bloomberg.com",
           "via": "googlenews",
           "firstSeen": "2026-07-18T13:21:37.327Z"
-        },
-        {
-          "title": "Databricks Valued at $188 Billion as AI Demand Surges - The Information",
-          "summary": "Databricks Valued at $188 Billion as AI Demand Surges The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFJJclVDeG1tZ1dNLW9nV2pzZlhyazlKZ0tiR292YW16ZmVSVXZCSWRHTFhiSzh4eDBiNVNuWTlJRDRGdjZNamh6YVZpUG9CRWNOREFqTlFQM3BOLXdLZi1sbS1fNWlhaGI5NmhvS19ZUy1nSFpnWnBTdFdLc1I5T0lDZzdNZDJnWUVBWWtkNmwxN1NCUmlqVGZac3EyYzA?oc=5",
-          "date": "2026-07-17T22:11:00.000Z",
-          "src": "The Information",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say - CNBC",
-          "summary": "The White House is dictating access to frontier AI models, shifting power from tech giants, sources say CNBC",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSXNCa1F5OWZBSmxzMzlSblhsY24zVzAzQ3poZm85a3ZzM1VORXcyaF9FbEYtazE3UUhZQ2lwODR4OEE3YmtDVlN3a0dBSV96QVR0SXFwS1VIWFJlRTQ4S0sxUWpEODZNMlp1SzQ3d0FmR08wNWQzSXBTekg3SGp3d9IBhgFBVV95cUxPamJuZ0NySktUZl9VbjUtUUVFWFUwd3ZJZ3pnX2REclpHZ055SmV6cjNMS3h4ZWdGTF9qTnRPekdJZmdWVlZQZ0tTSVJGVzl2R0ZfSXRDUmx6WjNrR1BVa25fejVKejlpSmRxTzAtZFh4cXVfN2p2YjM3NTRxNkw4emxKeURLQQ?oc=5",
-          "date": "2026-07-17T22:04:13.000Z",
-          "src": "CNBC",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
-        },
-        {
-          "title": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do - VentureBeat",
-          "summary": "Capital One releases VulnHunter, an open-source AI tool that finds software flaws before hackers do VentureBeat",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcURYeU00Nld0c0gwY0FOR25QSzkzRTZiMnJPR2Z1NnVxeUhrWkJZSFJIb2xhdGJmLURmeURFb3dVTE5ld1JaWjVQR2dDTC1rYm5RQnZFTnR6d3hCS2RSQ2MxQy14SkZoRmFXT1paejgxSDVObDNuWUlMcnl4LWJWa3ROdUdlcTJKc05jbWY0RWFIdFJRTjduSU8taFVWRG14N25VRl83SXhUU2RlZHN4S3pJTldRd1E4VHYzSVRQc0M2RnFJUTRKelhFUVJ6UQ?oc=5",
-          "date": "2026-07-17T20:51:30.000Z",
-          "src": "VentureBeat",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
-        },
-        {
-          "title": "What Is an AI Agent Swarm and How These Systems Actually Coordinate - Startup Fortune",
-          "summary": "What Is an AI Agent Swarm and How These Systems Actually Coordinate Startup Fortune",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR1NnVDZrMEFUTEpXQXZlcm5KUHJtQkRSUnFFQ1dOd09vQzJpTF9IZ2NOUzRCdnpFRzVYSTFCRk0wU1R2X1RwaEl6NUl0Rm82NWxJZUlGVWhDZXhFM05ONEs1c0dLdjdEWVNpUW9COWpCOUJVdjJyekF5YVQ2WFZGUUxGNTQzb1VBc1U1ODZqNUlmQW5hWmpTRUlEcw?oc=5",
-          "date": "2026-07-17T20:30:45.000Z",
-          "src": "Startup Fortune",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T05:29:23.800Z"
         },
         {
           "title": "Musk's SpaceX in talks to supply the Pentagon with computing power, WSJ reports - Reuters",
@@ -77793,15 +77226,6 @@
           "src": "UN Meetings Coverage and Press Releases",
           "via": "googlenews",
           "firstSeen": "2026-07-18T21:53:54.215Z"
-        },
-        {
-          "title": "Einstellungsgespräch: Palantir fragt Tötungsbereitschaft der Entwickler ab - Golem",
-          "summary": "Einstellungsgespräch: Palantir fragt Tötungsbereitschaft der Entwickler ab Golem",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRkV4cjloZEJLV09EeTM2SDhqUWdXbnY2cTZDaV8wZ1pHS1VJRkpVaVJkNkxQLXBtbUhtS3l1N09BdTNra01MUTBkVDd6UkpzUU5aT3piRDZfZFZ5WFQ1TmFHZTNMNWZGSG9iRVBWMHFHLUdycEpyS2NySWI5QUlZYXBsaXgwaUwyREQxa2VINkQ3a1VmQVJnb2N4ZllVb3k2bWZuU0U3b0VyNzNEMHI2SEtzdXQ0M3JiQWc?oc=5",
-          "date": "2026-07-16T16:29:01.000Z",
-          "src": "Golem",
-          "via": "googlenews",
-          "firstSeen": "2026-07-18T07:56:16.562Z"
         },
         {
           "title": "Kostenloses Musikstreaming: Spotify bringt Premium-Funktion gratis für alle Free-Kunden - Golem",
