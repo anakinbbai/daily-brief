@@ -1,10 +1,24 @@
 {
-  "generatedAt": "2026-08-07T15:58:24.393Z",
+  "generatedAt": "2026-08-07T19:00:27.793Z",
   "categories": [
     {
       "id": "ai",
       "label": "What's new in AI 🤖",
       "items": [
+        {
+          "title": "NoimosAI unveils Social Agent to automate content creation",
+          "summary": "NoimosAI unveils Social Agent, an AI tool that analyzes trends and top posts in your niche to generate content across 9 social channels.",
+          "link": "https://www.testingcatalog.com/noimosai-unveils-social-agent-to-automate-content-creation/",
+          "date": "2026-08-07T17:03:54.000Z",
+          "src": "Testing Catalog"
+        },
+        {
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "date": "2026-08-07T15:20:00.000Z",
+          "src": "OpenAI"
+        },
         {
           "title": "Grok Build 1.0: xAI Closes the Beta of Its Coding Agent - Pasquale Pillitteri",
           "summary": "Grok Build 1.0: xAI Closes the Beta of Its Coding Agent Pasquale Pillitteri",
@@ -1777,13 +1791,6 @@
           "src": "Transformer | Substack"
         },
         {
-          "title": "DeepSeek's legacy model names retire today, and the easy fix has a catch - techi.com",
-          "summary": "DeepSeek's legacy model names retire today, and the easy fix has a catch techi.com",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxTHRIX0g5aU9FekhQVW1Va0FJUEg4V0h0WVcxWUo1Y3RuMVZKNVZGWGZsWllibTZNS3FwZVZwejhPQmg2ZDJ3QnZnMFFEcHA2NlgwMWNvQUt5R2dfbjJDaGxnRXlXY0lzUlFKMl94M01IZjU4YXduRQ?oc=5",
-          "date": "2026-07-24T07:04:21.000Z",
-          "src": "techi.com"
-        },
-        {
           "title": "SpaceXAI Will Release Grok 4.6 in 2 Weeks and Grok 4.7 in 4 Weeks - NextBigFuture.com",
           "summary": "SpaceXAI Will Release Grok 4.6 in 2 Weeks and Grok 4.7 in 4 Weeks NextBigFuture.com",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEpvVlA5bXFPVUlSaTRtU1NMaE5XdFVsRjVpTGJfVVNYZS01LVFSak5QaXBSZEhUOUF1Vlk0WFhPMjR6dXIxdHBpbGhLVWlVcmI5eTJ0SUJLek11VHhNaTg1eUtCQllEYjNyZjF6ZzZhR3pELWdDTEMyMG5WcFdIcGNZQ1E3YkF5SF9aTFBJYV9UM2tzRy1EdjRTOFhDdHRSWjFndXZCT3llWG1l?oc=5",
@@ -1824,20 +1831,6 @@
           "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9FTG81cVNiOTRFY3RncHl5aThXSDJ3Ui1HU0ZCQWh0WFczLTQwV3lYcUNZQTRUd3pXTXkwN3piRUdTcFNRMTVaTmxtOWxiT2txUVFPNGh3RFNZcXA3X2Vjb0s2ekh2TzJ2RU5od2NYR0tlVHRV?oc=5",
           "date": "2026-07-24T01:08:33.000Z",
           "src": "tech-insider.org"
-        },
-        {
-          "title": "Run Ray on TPU, Part 2: Ray AI libraries",
-          "summary": "This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correct…",
-          "link": "https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Google Developers AI"
-        },
-        {
-          "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "summary": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "link": "https://www.anthropic.com/research/project-pilot",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Anthropic Research"
         },
         {
           "title": "The new rules of context engineering for Claude 5 generation models",
@@ -2104,13 +2097,6 @@
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UV0dRVi1ER1ZhME1RMDQ5SkxlckFEZE83RXFBRkRWZnpaVXMtY2htN01SVlcxOHU1blh6UDloTnp2b3JhbXZMc0hnTnlRZzlFUTQyLTRTMU5DZVFjSHBUS3F4d21yY0lCR09lNEtrcTM0NGtodzJHdHd5UQ?oc=5",
           "date": "2026-07-17T07:00:00.000Z",
           "src": "Fortune"
-        },
-        {
-          "title": "What's Going On With Nebius Stock Friday - Yahoo Finance",
-          "summary": "What's Going On With Nebius Stock Friday Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaW9GZjA4Z0dVTWdCUnB5ekp5QkhpVW1NeTYwZDY2d3FCVFNLa3R4QkE4ZWlCX09IYjBVeGk4YW5TVTVIdGJwV09QVkQ1eFZtczVFUG80TFVEa1hSOUlRdjM5Ui03SmVac29xSEFXZDhHV1B5QTFPTlVSNjdFS1pVTWlQTzhnM1BCMzNYWGFPaHdnTzVmNzRPV3d5UXo?oc=5",
-          "date": "2026-07-17T07:00:00.000Z",
-          "src": "Yahoo Finance"
         },
         {
           "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
@@ -5346,13 +5332,6 @@
           "src": "CryptoRank"
         },
         {
-          "title": "Legal AI startup Legora raises $550 million to speed up US expansion - Reuters",
-          "summary": "Legal AI startup Legora raises $550 million to speed up US expansion Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeERTYTlBN051aDRabHlSQ2JvcjVDWktpMU45bzBvM2FxeWhBU1VLUFBWS0FrYWpqdDNkVWhZUUw1ZzNMb1NhNTJZU2VuTHBvaXpNaGVqenhYZDhWQjF1RU5XN2Mzb3VmRUNSZHRxeGNUSGdOekJFQmRpQk44T3d0Nk5vRFhNN0lBTVRBRF90TEFsUkxEVWxXN2trd05kTmdnbHlST2tET0xBRnVSRzNnVkx5Nl9sbnBW?oc=5",
-          "date": "2026-03-11T07:00:00.000Z",
-          "src": "Reuters"
-        },
-        {
           "title": "Databricks acquires Quotient AI to power AI agent evaluations - Databricks",
           "summary": "Databricks acquires Quotient AI to power AI agent evaluations Databricks",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMlF1VV9PRzJ0MjVoN1ZEVGprWWItcnBpRmlUWlI4ZXRkUzJSMW9rNTlJd2twckw3LTBHQ1RBWTcwMEh4a2JOTUR3OHdQajk1bXlyZThOZVRjaFVCSWNSV0hGdkVqSk1HeHJEbXZPMXVrbThlc1pDWEVuM290NHBjMVZNNFU3RGFjNXJxcXZLMEVSaDJu?oc=5",
@@ -7214,25 +7193,11 @@
           "src": "Wowtale"
         },
         {
-          "title": "Weekly funding round-up! All of the European startup funding rounds we tracked this week (July 20 -July 24)",
-          "summary": "This article is visible for CLUB members only. If you are already a member but don’t see the content of this article, please login here. If you’re not a CLUB member yet, but you’d like to read members-only content like t…",
-          "link": "https://www.eu-startups.com/2026/07/weekly-funding-round-up-all-of-the-european-startup-funding-rounds-we-tracked-this-week-july-20-july-24/",
-          "date": "2026-07-24T15:02:09.000Z",
-          "src": "EU-Startups Germany"
-        },
-        {
           "title": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. - podcastnewsdaily.com",
           "summary": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. podcastnewsdaily.com",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbmZvY1lDTC02REdjb2dTQXZCcTNDMTRWcFh4bGxhRXhkblplTWVRTUM5LS1LblNQdlZEemV1c1pPVEJoOFZUTkFpTEpmNjVQeVBad2FWZmlNRHRnUU9QZ3lvQi1SNmFtRjMyLThmTmFrUnJtOEp6d05Sd0w3T0ZWMGNLMVVUY0FiLUlnT0JfaW5uRi1EYlMyX0ZSUFVxMDNJY0dnWmdxQllQa2RyMXBVVDB3eGc3djY5Z3RPbkVTdmYxSjRYdmo3U0xZVDBOekFTODVLTk5mcEpTdmhyZ21ydE1JcHI0eFBVYkotZTVEMmtJVGlrU3M1Yk9BeGdsZw?oc=5",
           "date": "2026-07-24T14:55:00.000Z",
           "src": "podcastnewsdaily.com"
-        },
-        {
-          "title": "UK government AI Taskforce chaired by Lord Vallance launches",
-          "summary": "An AI unit has been set up at the centre of the UK government to drive overall AI strategy, following a major AI shakeup inside the government this week. The unit, called the Prime Minister's AI Taskf...",
-          "link": "https://tech.eu/2026/07/24/uk-government-ai-taskforce-chaired-by-lord-vallance-launched/",
-          "date": "2026-07-24T14:40:00.000Z",
-          "src": "Tech.eu AI"
         },
         {
           "title": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed - Tech.eu",
@@ -9831,6 +9796,69 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "Watching Roku’s AI channel is like eating from a trough",
+          "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do wit…",
+          "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+          "date": "2026-08-07T18:59:46.000Z",
+          "src": "The Verge AI"
+        },
+        {
+          "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+          "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure…",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "date": "2026-08-07T18:40:34.000Z",
+          "src": "The Verge AI"
+        },
+        {
+          "title": "AI music generator Suno tightens rules to fight spam and address growing copyright concerns",
+          "summary": "Suno CEO Mikey Shulman has announced new guidelines and tighter download limits after its AI-generated music was used to game streaming platforms for profit. The company also faces pressure from a German copyright ruling…",
+          "link": "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/",
+          "date": "2026-08-07T18:35:42.000Z",
+          "src": "The Decoder"
+        },
+        {
+          "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+          "summary": "AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per…",
+          "link": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+          "date": "2026-08-07T18:01:32.000Z",
+          "src": "The Decoder"
+        },
+        {
+          "title": "Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology",
+          "summary": "Anthropic has cut false positives in its biology safety filters for Fable 5 by about 85 percent. Previously, nearly all biology-related queries got blocked and rerouted to the less capable Opus 5. The restrictions stay i…",
+          "link": "https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/",
+          "date": "2026-08-07T17:35:45.000Z",
+          "src": "The Decoder"
+        },
+        {
+          "title": "Windows 11: Warum deinstallierte Apps nicht immer Speicherplatz freigeben",
+          "summary": "Kein Bug: Wenn du Apps aus dem Microsoft Store deinstallierst, verändert das oft nichts am vollen Speicher. Microsoft erklärt nun, warum „Entfernen“ nicht immer „Deinstallieren“ bedeutet. weiterlesen auf t3n.de",
+          "link": "https://t3n.de/news/windows-apps-microsoft-store-speicherplatz-1757152/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-07T17:00:44.000Z",
+          "src": "t3n"
+        },
+        {
+          "title": "What&#8217;s behind the Google AI shake-up",
+          "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of…",
+          "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "date": "2026-08-07T16:45:14.000Z",
+          "src": "The Verge AI"
+        },
+        {
+          "title": "OpenAI's first smart speaker is expected in 2027 at over $300",
+          "summary": "OpenAI is planning a donut-shaped smart speaker for 2027, priced above $300. The screenless device has a camera, microphones, and moving parts. It's designed to learn from conversations and adapt to users, fitting Sam Al…",
+          "link": "https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/",
+          "date": "2026-08-07T16:43:16.000Z",
+          "src": "The Decoder"
+        },
+        {
+          "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+          "summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers bu…",
+          "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+          "date": "2026-08-07T16:16:09.000Z",
+          "src": "TechCrunch AI"
+        },
+        {
           "title": "Tech: Trump says lack of AI regulation not bad - Punchbowl News",
           "summary": "Tech: Trump says lack of AI regulation not bad Punchbowl News",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12NlMzRC1rMllqdVZtUUNiQWp1Y05xYkVBanUxTlo2a0JSNFRwU21zeS1mRVRwY0dPNEFBMlZoUVB5OWhiWGFiMml0cU1TbTg4TG05b0FvWTRQQ2dfOHQzWkNkR0xlMlE?oc=5",
@@ -9962,6 +9990,13 @@
           "link": "https://t3n.de/news/entwickler-gameboy-neue-spiele-1757068/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
           "date": "2026-08-07T14:00:02.000Z",
           "src": "t3n"
+        },
+        {
+          "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+          "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall i…",
+          "link": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+          "date": "2026-08-07T14:00:00.000Z",
+          "src": "TechCrunch AI"
         },
         {
           "title": "Statt Disponenten: KI-System soll Notrufe entgegennehmen - Golem.de",
@@ -29914,116 +29949,11 @@
           "src": "The Verge AI"
         },
         {
-          "title": "How do you train a new AI service agent? A lot like you would a new employee, a city CIO says. - Smart Cities Dive",
-          "summary": "How do you train a new AI service agent? A lot like you would a new employee, a city CIO says. Smart Cities Dive",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXpLdndnODJBWWNQbFQ0YmFCeHByMWF1M2ZOdVUtTDhabDJEWDFaVHVYbWJDVVNmeGY2ekVBbUgyam1yU2VuVEhMLVFEQUI0amJfQnBueXY0VnVzajNLZy05UVRtbWthSnpPMmxUOHoyQllMbDgyM1lvNkZYU29kampiRWVJS2lSTEdHRmFKVHNqdG1BZXQ5MWRVYWtwUlFP?oc=5",
-          "date": "2026-07-24T16:09:27.000Z",
-          "src": "Smart Cities Dive"
-        },
-        {
-          "title": "IBM’s Earnings Miss Tied to AI-Driven Hardware Cost Surge, CEO Says - AI Insider",
-          "summary": "IBM’s Earnings Miss Tied to AI-Driven Hardware Cost Surge, CEO Says AI Insider",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzk2UDFQMGU4Y2YtTGVCWnRDcTBENTBBZDJRZFNWdmEyaEljdWVMcFFVbmhjaHF0UkJJd2xCYmpZbkJFUzBFYzBwQXFqUUhFY0VnSzF2VGFwYlJ0ZTB1QnZBbWlGZkZhRzRYWFEzV2xTa0k1Z3dnZ29IaGFHNHNWaEdWNzlUMWtWdTVuS0tVWmgtUVdZT0d2Rmx0Y0wwM29Wck56alBR?oc=5",
-          "date": "2026-07-24T16:07:20.000Z",
-          "src": "AI Insider"
-        },
-        {
-          "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts",
-          "summary": "Microsoft, along with Meta, Nvidia, and more than 20 other companies, is pushing for open-weight AI models in an open letter. The strategic logic is simple: the more models running on Azure, the less Microsoft depends on…",
-          "link": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
-          "date": "2026-07-24T16:06:02.000Z",
-          "src": "The Decoder"
-        },
-        {
-          "title": "Tokens: SAP will Ausgaben für KI deutlich einschränken - Golem",
-          "summary": "Tokens: SAP will Ausgaben für KI deutlich einschränken Golem",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHNBRnFYYWJkcVhfbUppcXhOaUZFWWNSQUpIVWpNdDJuUDhmRUkxU0NLdXpyOG96R3N4end6WUZnenMydHZ0RnRFMnV0Rk5jcmxOOTNBdk9FTXkwYWxBbVpTUWVVcGNIQVN0aUtRT0JaYjlocFUxTFNuTzNWMWpaY3FnckxtNVI4ZGkzVGI3dzVTQ2VubEQ4eEd6WHdMcVk?oc=5",
-          "date": "2026-07-24T15:57:02.000Z",
-          "src": "Golem"
-        },
-        {
-          "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-          "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-          "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-          "date": "2026-07-24T15:51:49.000Z",
-          "src": "TechCrunch AI"
-        },
-        {
-          "title": "Tesla quietly closes its secret ~$2 billion AI hardware deal - Electrek",
-          "summary": "Tesla quietly closes its secret ~$2 billion AI hardware deal Electrek",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb29iTTBYcU5iamhreG1LalVHV3d4cUkwVXBoS2kyT09GZGNPNzhpbzJJN2hNYVRibUlnVDBEV0g5TjE2Y0JGUnlWTzIwOF8zdWZGLVZ3ZFZlMVY2elZwcjROa2xFd3FKR1FtdGE2ckEwdkVjMHlrYVN5dzZ6N3dlcnktUEloV1dFWlEyQm1n?oc=5",
-          "date": "2026-07-24T15:39:00.000Z",
-          "src": "Electrek"
-        },
-        {
           "title": "Wirtschaftsblase: Die Tesla-SpaceX-Blase platzt - Golem",
           "summary": "Wirtschaftsblase: Die Tesla-SpaceX-Blase platzt Golem",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzJ3eDVOYVN0ZVNocWZONlNxTmxCWU03RlpjRmJsaTc5TUY4X1FDVUFpNjJMeXVpQTM5Zm9FbFgwd2VMWi1sd2VneFVySW1vN05fQ2ktd29lTEowS0l2MTZYcldDdm0tNGI2QWdHNGVCYVhWQ1V1MFlYa3poN3VacXlTZlhXMXU3cGJJRW14aUpmRkk?oc=5",
           "date": "2026-07-24T15:35:02.000Z",
           "src": "Golem"
-        },
-        {
-          "title": "AMD bundles chips, racks and partners into full-stack AI push - IT Europa",
-          "summary": "AMD bundles chips, racks and partners into full-stack AI push IT Europa",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaGVHLVBZQXRZbC1lUmUzTGlEWDJMZjFYdUphR0lSY1Y0Z0RwLXFSRlcyeWpJZUNldllSaFJhZFU2ZzVtVDllVTZWNjhzYTdWR3J2T3J5Mjl0SElJUy1qUjZrOXNFT1hoS0psZUVjNUo5dG1YSXdhdjdfNThNWVJWUXhXS2kwd05pTlZ6cENR?oc=5",
-          "date": "2026-07-24T15:34:04.000Z",
-          "src": "IT Europa"
-        },
-        {
-          "title": "Tech: Tech giants underline support for open-source AI - Punchbowl News",
-          "summary": "Tech: Tech giants underline support for open-source AI Punchbowl News",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DQzkyTjNMUXduN1E5MFhpQWszSXlSd2w0dEp3bng2WUlQUEhYWGZmcEptQ2lnRkN3VWhBQmdhSFRKb1VJUkJ6ekhfd3gxbTNtbTMyMjhQQWZLY0RBZWQza0JhQl9PSHZ3RVRfajM0eXA?oc=5",
-          "date": "2026-07-24T15:33:36.000Z",
-          "src": "Punchbowl News"
-        },
-        {
-          "title": "US floats AI 'kill switch' to stop rogue AI models - DW.com",
-          "summary": "US floats AI 'kill switch' to stop rogue AI models DW.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2pmMjlWQlV5NExyWjdsSGhoUllpaGZCVjB0V3RZMlgxTzd6WERuZERRSWp1d2pLeTVjX2ExSFdxeUNSVWNJdmhvMXZKV0VMeEFKYm1teEJ3VXBCNEE3Wmdwd2ZJZlVKT056cE5YTUkzTXlfazdPQ1JIZTIxYmxJazlpWElDY1hT0gGIAUFVX3lxTE5ieUVZc0ZkWDhTdVU4Vkh0LVQ5d0V1ck9zdnRKME1WZUJObFA4SnBqMnhOT21uTVNKT2EwOEUzN2lqOVQyekJYZXc3eGNVM1hpbHBEN1JJU1BjYVRoQ0VyaHpxUzRZWmhRdEpLUGlxd1Vhck9YU25fb2lRZFRzbTBVN0ZFME5ycnc?oc=5",
-          "date": "2026-07-24T15:30:35.000Z",
-          "src": "DW.com"
-        },
-        {
-          "title": "Microsoft, tech companies throw weight behind spread of open-source AI - CyberScoop",
-          "summary": "Microsoft, tech companies throw weight behind spread of open-source AI CyberScoop",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFeDhpalBqSmY2R1pkRWRpQWFSSi1RUG11NWx6MVE5R0hzMnRQS2pVTDVCam9hUEZDeUpGdXR6NUFHQVp4dWhpcDJBR09LaUZ2dVY3ekotU3k4OVBlLTNiZUhCR3pkNjBrdmN0RloyT1Z5LVU?oc=5",
-          "date": "2026-07-24T15:24:40.000Z",
-          "src": "CyberScoop"
-        },
-        {
-          "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
-          "summary": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
-          "link": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-          "date": "2026-07-24T15:13:57.000Z",
-          "src": "TechCrunch AI"
-        },
-        {
-          "title": "How OpenAI Lost Control of an AI Model—and What Needs to Change - Time Magazine",
-          "summary": "How OpenAI Lost Control of an AI Model—and What Needs to Change Time Magazine",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2SXZ0SXhYeUpETjZ2T2N1aDNZaml2bzZYUmpSWlhnMENQZ2VZTWNCemJsT24zWHNQQnJ6UlZraVd0Wk1wdkNrUXdGLUhQeENDWjJTd0ZiSmUtcWU0aXd5V2xWbmt4cHFnMkFhaTlEaGg?oc=5",
-          "date": "2026-07-24T15:13:52.000Z",
-          "src": "Time Magazine"
-        },
-        {
-          "title": "Midjourney acquired the astrology app Co-Star",
-          "summary": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
-          "link": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-          "date": "2026-07-24T15:09:55.000Z",
-          "src": "TechCrunch AI"
-        },
-        {
-          "title": "Cisco-Studie: Deutschlands Firmennetzwerke kommen ohne Ausbau nicht mit KI klar - Golem",
-          "summary": "Cisco-Studie: Deutschlands Firmennetzwerke kommen ohne Ausbau nicht mit KI klar Golem",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmRlM3hKeWJWdFZzZTVMOGdUdVB4NjM2dkhsYU1yM3hsejlyeEpPanhyQ0ZGVmM4RU1kUkJlSi10UGMyYUxVWmZUNWZxTGZfY3VOenZnbjBncEdyZjJmcnZPQjZSbTMwRU5fdnhOM1NuQ3VVUnN0ZTNzMmVkSjNBSlk5NHB0Y1FSQkVvUTRZdzhvRHMzMjlFRmEtYWhJLUY3TlRBOHpQZEJrQ01rNUpLUkRGZnJqR2dDRXV0LVBR?oc=5",
-          "date": "2026-07-24T15:03:01.000Z",
-          "src": "Golem"
-        },
-        {
-          "title": "AI Raises New Questions About Fashion Design Ownership and Copyright - WWD",
-          "summary": "AI Raises New Questions About Fashion Design Ownership and Copyright WWD",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkNoUUhrVU1KVFJ4NFhtSE5XbDZxWllDQkdiMTRxR0RUcDJOVGJIRUx6V083OVZjeXpTZXQ1aGthRzBCYWRuTXloaE9LSFBnVWY1X2R4Vk9oRFMyX1dIU0NZQzdlVjB2Y2RfYnBlcVcyc1NZRzZSUW5CZ2RJaFVweURXd3BMSV9CZ2RFNW14Z2Z5a2hCdkVsd201NVFkcEd5aml6elIxUDIxLXJvYzhJdU9xX0xYazA?oc=5",
-          "date": "2026-07-24T14:58:33.000Z",
-          "src": "WWD"
         },
         {
           "title": "Erie native receives funding for AI platform launch - yourerie.com",
@@ -30033,13 +29963,6 @@
           "src": "yourerie.com"
         },
         {
-          "title": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. - podcastnewsdaily.com",
-          "summary": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. podcastnewsdaily.com",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbmZvY1lDTC02REdjb2dTQXZCcTNDMTRWcFh4bGxhRXhkblplTWVRTUM5LS1LblNQdlZEemV1c1pPVEJoOFZUTkFpTEpmNjVQeVBad2FWZmlNRHRnUU9QZ3lvQi1SNmFtRjMyLThmTmFrUnJtOEp6d05Sd0w3T0ZWMGNLMVVUY0FiLUlnT0JfaW5uRi1EYlMyX0ZSUFVxMDNJY0dnWmdxQllQa2RyMXBVVDB3eGc3djY5Z3RPbkVTdmYxSjRYdmo3U0xZVDBOekFTODVLTk5mcEpTdmhyZ21ydE1JcHI0eFBVYkotZTVEMmtJVGlrU3M1Yk9BeGdsZw?oc=5",
-          "date": "2026-07-24T14:55:00.000Z",
-          "src": "podcastnewsdaily.com"
-        },
-        {
           "title": "The tech-broification of American science has officially begun",
           "summary": "Trump’s science adviser Michael Kratsios has no science background. | Image: The Verge; Getty Images The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds…",
           "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
@@ -30047,74 +29970,11 @@
           "src": "The Verge AI"
         },
         {
-          "title": "Jeff Bezos persönlich beteiligt: Amazon will mehr KI in Prime Video einsetzen - Golem",
-          "summary": "Jeff Bezos persönlich beteiligt: Amazon will mehr KI in Prime Video einsetzen Golem",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN2VXRGI4TWRPdDVlQkRyVkk4SGFvdkZ2dmMtbS0xV0JPeEVGNXBhNEE5a0ZvTWlrWXRtN19VTXRpR1pIOGNGUXQ1eU1XbkhzOGRSR0MtVU5CNHRERjJleUEyUjVHRkVSUkNDR0JwaHh0emtNMEF5NC1aYnZubFRRTlA1a24yTjZibDBQalIwTWFyYzRrVVZWNVBDYTAtQk9zNy11RlhSaGhwUHhWWldWWXpqSmFISUExbDlKOQ?oc=5",
-          "date": "2026-07-24T14:43:02.000Z",
-          "src": "Golem"
-        },
-        {
-          "title": "UK government AI Taskforce chaired by Lord Vallance launches",
-          "summary": "An AI unit has been set up at the centre of the UK government to drive overall AI strategy, following a major AI shakeup inside the government this week. The unit, called the Prime Minister's AI Taskf...",
-          "link": "https://tech.eu/2026/07/24/uk-government-ai-taskforce-chaired-by-lord-vallance-launched/",
-          "date": "2026-07-24T14:40:00.000Z",
-          "src": "Tech.eu"
-        },
-        {
-          "title": "The 3 types of people who will excel in the AI agent era, according to tech leaders - ZDNET",
-          "summary": "The 3 types of people who will excel in the AI agent era, according to tech leaders ZDNET",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2ZNRTFCb1NtWnlJLXNYNUVpUlJubzJLaldPRnNDazJWR2lpdF82bWlYN2F4THJIcmJreWp3LW5CNEItYWQ0OFU3QjV6dlRmUVd5OVppemRqRmVjaXpBbGhWSHMtM3ktSnRDU0s4OFdMYmFvY2hpSFpmV2YzTDRLdTdJTm5KS3lwTXU1bTgyYlVzNW1aUUhVb2lpeXBvZEVfMjY5LTJ3?oc=5",
-          "date": "2026-07-24T14:38:00.000Z",
-          "src": "ZDNET"
-        },
-        {
-          "title": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-          "summary": "Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service rema…",
-          "link": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/",
-          "date": "2026-07-24T14:37:57.000Z",
-          "src": "The Decoder"
-        },
-        {
-          "title": "Intel (INTC) Signs Lens Technology MOU For TGV Packaging And AI Hardware - simplywall.st",
-          "summary": "Intel (INTC) Signs Lens Technology MOU For TGV Packaging And AI Hardware simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZld3aVQwRFdpOVlZb1o4eHhkX2g1cm92N3J6c2ZaQ0tkTUhJd2hZbzNtbGJZU2NuM096OEpnQUM2emNZMkRUak5fN0pqdV83UXZWWG9rZ0g1eWZuQ3VQMi1Lb1N3M29IbGlSdVRvT2RkLWEzQ3dQTEhLTzBJbjhSUkh0RGYzSXdBMDk2akhwblZOMjZ3NlgtdXZHanNNN05sOFU2al9CTEZfTHZKSkdDT21xbzEzWHZuTjR2RzFuOGhzUEtIdkF5MDdB0gHPAUFVX3lxTE9IbkZSNUJRSzEwc0xEVWRTQm5ES1ZxSnhnVG9XRGxfbldiaEZISHBRVjNET0ZYTEp0Ujk0X2hVVmVlOVVvdEI1V0Q5WV92eUxHM2pmSHk3RHhkYTlpSzZvV1g4M0s1RFlqUURpamZ5UXNSYUdwVjR4SS1fMy1rbTFtTTlnOHlEb1l1LVVENVJXYXZIa0hMcmpwa3ljRl81a2NVaGt4XzVHN3BHbHR5d203VVhZQWZweG02WjZSZ2dOVE4xN3JIakRfRmE0SG1XTQ?oc=5",
-          "date": "2026-07-24T14:35:30.000Z",
-          "src": "simplywall.st"
-        },
-        {
           "title": "60 Jahre später: Flüssigsalzreaktor in den USA erhält Sicherheitsbestätigung - Golem",
           "summary": "60 Jahre später: Flüssigsalzreaktor in den USA erhält Sicherheitsbestätigung Golem",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkZvTmJEMWRVQUlFemV3U25FUGwtcTR6T2tuTm1EZFZkRUI1Y2VYLTlsc21WclpyeTM2dVl3WWZBWnR3Z2FQSnlMd0dEWmF1amJEZ1B3cXVIYXBKMmRFd2NBSzhXakZSbUpWdERHM0V4WEd6VnltQTJHYThXTzZWWTlBanRYcjlXeDJ6d2ZzeGhZOGQ5MHFaclF4Y3VDOXNvdDlFUUphSjdpOHExWlpLTHhJVnphcmgyazcyMzdEYw?oc=5",
           "date": "2026-07-24T14:28:02.000Z",
           "src": "Golem"
-        },
-        {
-          "title": "Intel Turnaround Fueled by AI Data Centers Needing Its Chips - Advisor Perspectives",
-          "summary": "Intel Turnaround Fueled by AI Data Centers Needing Its Chips Advisor Perspectives",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXZGa3Y1TXlmS3RDODg4R3ZLR1FuUEYwMkl4UlBhMzdkZjVDVHFSRjMwV3diZHpTSnV2Qy1iN09MMHJrWDM2eVNFSHM5Zi1EU0l3OW5aV1llVW55YmUyMG1qMnFiLUpZUks3Zk5PeUFNZjB2N0R3MTQ5SVF5OWpOMW9JWElvQkdSVE81RU1VQnFjV3RwUWtCM09UMEY4Y2lIcWxHX3BPNl9FcWNZUmc?oc=5",
-          "date": "2026-07-24T14:26:52.000Z",
-          "src": "Advisor Perspectives"
-        },
-        {
-          "title": "Q1 AI Insights for Policy Makers: April 2026 - Bipartisan Policy Center",
-          "summary": "Q1 AI Insights for Policy Makers: April 2026 Bipartisan Policy Center",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjJVM0JCdFkxQXZaLU5Ebm5FSjNrMHR1R0p0RW56djlLc0E2M01DRkdOTlRIS2lNQTZqY1NycktTVFNhTmdKNkI1SU5Db3Y5Mm1kV2ZBQU1sOXZuT0FjWlNyWFRZdDJuQ3RLWHJYZXFDRDkxTTZBTzlyS09uMElWUEVfQ2k1NDJM?oc=5",
-          "date": "2026-07-24T14:25:49.000Z",
-          "src": "Bipartisan Policy Center"
-        },
-        {
-          "title": "AMD: Advancing AI Data Centres, Networks and Robots - AI Magazine",
-          "summary": "AMD: Advancing AI Data Centres, Networks and Robots AI Magazine",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EWlBlb0VCbTl3dEJzUjNMbXpHRVZhV0dmcDhrcW1Hd19PWmxxVVp6dEV5U25xMzdLSDhuaHpLWnVZWXhkTlh5bzZQRkJzczBfZXFTYkpNd3A5VEdEalJ0dkNxQ0ZWbDhTODR6X0d3VnVfdnBCbmtYcTN4YkJqUQ?oc=5",
-          "date": "2026-07-24T14:12:02.000Z",
-          "src": "AI Magazine"
-        },
-        {
-          "title": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed",
-          "summary": "This week, we tracked more than 50 tech funding deals worth over €1 billion and over 10 exits, M&A transactions, rumours, and related news stories across Europe.Alongside the week’s top funding ro...",
-          "link": "https://tech.eu/2026/07/24/cuspai-bags-450m-resist-ua-launches-50m-fund-and-dsit-axed/",
-          "date": "2026-07-24T14:10:46.000Z",
-          "src": "Tech.eu"
         },
         {
           "title": "Startup-Strategie des Bundeskabinetts: 150 Maßnahmen, KI-Absicherung und neue Wettbewerbslogik - it boltwise",
@@ -30157,13 +30017,6 @@
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcXNBdjhtTzdfODEzYnF1QldLRHltQXhIRTBLQ25RX3BtbTZpeV9hOTZZUVZDZFltQUJFZWZBNDhIRVVoQ3F3anlRTXJSLXNFMlZIVDh1Qy1HZG92T2wxX2NPSmVLS3lQeklmSk92MVViS2hiOEs4ZlRrdDNrY2lmMTlneUo1VXVnc0NlVUJqdkp4YWRJMDVTTE5ra0phYk1pWFluZnFNUktreFJuQk9KV0h1czVGN1p2RHVja2VyWmRQZkpudG5aM0szQXBEVW8?oc=5",
           "date": "2026-07-24T12:19:56.000Z",
           "src": "- Center for Democracy and Technology"
-        },
-        {
-          "title": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory - Towards Data Science",
-          "summary": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory Towards Data Science",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlhrTEhmcHEtTU1YY2NQck0zSUxETjFVR19iQ2VjbDB4b3FGUVlCR2gzanJ5ZHFzWmE2RjEtaXlSbENKeE5LOGo2YklmQjJ1ZU1YOFlLaExSYnYwZzZwem9qekJLUllqX3JOY3dPMjA1M084THd0cmNjMnB2MVNSNGVuVmJwN2lKWXRIRG9kbEtLVjVJUm00Sy1yb0t4bFE2enpPVEdjQWE3cllCRjJpVGhPcW9XdXlzT0JKQVdDcE0?oc=5",
-          "date": "2026-07-24T12:00:00.000Z",
-          "src": "Towards Data Science"
         },
         {
           "title": "The AI Digital Omnibus Regulation has been published, redefining deadlines and simplifying requirements for companies and developers - Garrigues",
@@ -30236,13 +30089,6 @@
           "src": "Golem"
         },
         {
-          "title": "India's HCLTech to invest $1.48 bln in AI data center, open 5,000-seat tech hub - Reuters",
-          "summary": "India's HCLTech to invest $1.48 bln in AI data center, open 5,000-seat tech hub Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSXhOZlF2NXRGVGtYc2JmcmlLS3dHYWJid01SNEhiakhBbmppZXZXdTQ2bmpDUDBpdzExaUZZbGNORXp5eFh3WWd0ek5xNVNmaElqMy15UG5sTUR0cEdaWXpHcFZyQk96OC0zVU14R2xVY0MtWUdZbXhDT3gzUUpYZ2taNk9GUVpTNUpzak9YRnNTNkN5MXRya2JnNVpFSmlyTHZpQW1UMXFJcGN0WGpJUDJRREJoeDQ?oc=5",
-          "date": "2026-07-24T06:50:00.000Z",
-          "src": "Reuters"
-        },
-        {
           "title": "Datenpanne: OpenAI-Crawler greift Kundendaten von Universa ab - Golem",
           "summary": "Datenpanne: OpenAI-Crawler greift Kundendaten von Universa ab Golem",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEhORnFHQTBaa2JMdWJYSC11a2JNZExSQ3Y4UGIxRUMxUExCTlZ0dXNiVm5pa002US0wcWc5S3pSakUtdzIxS3RaQ0FPaXpLWU5HSnNBRnMyOWxWRUFYMHAzaWNMN1dkSm1sY3J4WEF4MHZSZl81YWE5NVNLczk0bWx0My0tZ0c5dWpEMlZlQVRwc0prUklNTjRCcVhIWjlJWkNLaFNn?oc=5",
@@ -30262,13 +30108,6 @@
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMTFLT0padEpmMEtldVlUUWpwRFpOY3pwc1FrVDFvOHFLczRPdTY3QVlZaTQxd0htUDNoWkRrWUFEeXBlZTFXMUNZM05CT1FPR2hGTlFadTl6cHBhZXRVZEVCcHlxdEkwOGlNV1RPU0x3MENLSEVoNWFOVGc2WmhYTmdKR3FJSTZOd3RmRmxjU3hINHJsck5YbEttYzI?oc=5",
           "date": "2026-07-24T05:36:00.000Z",
           "src": "heise online"
-        },
-        {
-          "title": "Burnham Has a Narrow Window to Shape UK AI Policy - Carnegie Endowment for International Peace",
-          "summary": "Burnham Has a Narrow Window to Shape UK AI Policy Carnegie Endowment for International Peace",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xUmRJTThWQTh6VG52c2p0N1NvRTQ4OW9QODFCajNpSU8xUDVka2tPX2xuTWhuRXZVc3prSTRjZ3ExWWxxU2o0anlLUVZEOG4zdGF4NkRXZ1hRZ0tsci1Td2hMWFVsWENlbHhHOG5RNU9IUnVRMEE?oc=5",
-          "date": "2026-07-23T21:34:37.000Z",
-          "src": "Carnegie Endowment for International Peace"
         },
         {
           "title": "Wirtschaftskrimi: Prozess um 100-Millionen-Euro-Betrug an Delivery-Hero-Gründer - Golem",
@@ -30404,13 +30243,6 @@
           "src": "DW.com"
         },
         {
-          "title": "heise Security (@heisec@social.heise.de) - heise online",
-          "summary": "heise Security (@heisec@social.heise.de) heise online",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PcGtpZHhXd3p0akVQdWhINE5yVkd0cnNCSkNFa2cxXzUwbWFEZ1lWVUdfZFlLTW1kQ3BuVWt1RmZvZTlqTFBfQUtaTVJBajZEMUotbUNMMkNaU1FXQUg4?oc=5",
-          "date": "2026-07-22T11:56:07.000Z",
-          "src": "heise online"
-        },
-        {
           "title": "KI-Regulierung: Neue Gesetze für Millionen Unternehmen ab August - AD HOC NEWS",
           "summary": "KI-Regulierung: Neue Gesetze für Millionen Unternehmen ab August AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenJHbUF5d25IdjNUd0FzLU5aWEQyaVF5VzdURXRKUDVaQTlyLVZqQ0ltVFV1d2ZfWXYzM0pLT1MzY3p4UE5YVzRXUEI4bFE4SFVGMWlZVURwZGktRER2aWFmUlh0dkdiUk9FNXNpdUI5WGxTTjdDWmJoeXl4T1ZUeHZ1QWFsbnRUM3IwYUVqRmNnWkhoX052N2s3YmVDal8ySTJlZUFMdzFyRWdPd3lJVA?oc=5",
@@ -30451,13 +30283,6 @@
           "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbUlmbHJfOE1vc0U4UlVOclpaYWFRaU5HeHZUQzJPVGQ5OHNDYnh2dnZ1YXQ5cGJUMUZoMFJ5RjVuLXY5RHRSNnAyeTJfYk0xQ0RxdFhUWndWOUs2THFHZzd5X2E5QjZDNW9za1JrNk1xTmV5dkg4cjNoLVdDUTFYVHh5eHZuRnRTZUp6Um9sYjJWaFNKLTlibVVac3hPNzJOUWkwSnU5aHhsa1NmSnA5YllEQUVFZXM?oc=5",
           "date": "2026-07-21T16:30:35.000Z",
           "src": "Computer Weekly"
-        },
-        {
-          "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide - NVIDIA Blog",
-          "summary": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide NVIDIA Blog",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5odmdhWHF4alVmWF90RlBMMnEwVF8xVHBUZ2ZqakFXSE80S3hUaVJXNEtfME9tMXh2MThWVVJuMmRCYnpXSWJta1BqYWxvb2FwZURZ?oc=5",
-          "date": "2026-07-21T15:40:13.000Z",
-          "src": "NVIDIA Blog"
         },
         {
           "title": "Google updates lightweight Gemini models, but flagship still delayed - Reuters",
@@ -30614,13 +30439,6 @@
           "src": "Freshfields"
         },
         {
-          "title": "EU Banks Urged to Pool Buying Power in Deals With US Tech Giants - Bloomberg.com",
-          "summary": "EU Banks Urged to Pool Buying Power in Deals With US Tech Giants Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblZpXzl3TE5NWGhJZkRIU0dUbmJlbDQ3SHpqY2trRi13bkJMWnBMRThBN29qdzJtTlJiZlVYeEIzN0ZzSkJvR3hNT1FYWU9neDlIRzNHSVprd09qaXVrVTFMWkNEenpmLTNYeDZ2ZnBaRjRDOUhISWVMcHhPVWRic0pzLVBoWXduZEk2QlhrZnFpaTQ5NldGb0dQT0NYMkMxQVZZRlBmMl9KRWpaQ2YtTTlXNVhlQQ?oc=5",
-          "date": "2026-07-10T07:00:00.000Z",
-          "src": "Bloomberg.com"
-        },
-        {
           "title": "Fable Follies Sharpen Europe’s Sovereignty Conundrum - Center for European Policy Analysis (CEPA)",
           "summary": "Fable Follies Sharpen Europe’s Sovereignty Conundrum Center for European Policy Analysis (CEPA)",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX0tMYV9HZlZQdkR0dGZWdHNVWGNxcnJadVNYSTJ6MzVwcmpDbThtTmtSbkliVnZaNkV4RFRzTzVVOHRBaTFiZGwzZ2ZvcU9iWGo4dmRLeTU2VndXUG5RWVhjUmlOTkdNVEFvd25MQzFjY3gzOTdRd3VYVFZveG1MZTFiYw?oc=5",
@@ -30635,25 +30453,11 @@
           "src": "Data Center Dynamics"
         },
         {
-          "title": "Nvidia rival Cerebras to invest billions in Europe's AI infrastructure - TRT World",
-          "summary": "Nvidia rival Cerebras to invest billions in Europe's AI infrastructure TRT World",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80RTBfdzJkMXJRNW1XbExjSUJ6VGZGLWNnRVc5Sm03NEZOM1BGdE5LY1Z4THhCX3IwbEl5MmhQNDVQMXUwN3NBcXNMSElPc2hRTU11UjR6bXg?oc=5",
-          "date": "2026-07-09T09:28:37.000Z",
-          "src": "TRT World"
-        },
-        {
           "title": "Technoprobe’s 330% Surge Makes It a European AI Stock Standout - Yahoo Finance",
           "summary": "Technoprobe’s 330% Surge Makes It a European AI Stock Standout Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTFF6NVFNdnFrNDdOaXdvVlpFX3VpZUtCY0taNWVFWFkzUnh2endkSnFVeTFTY3ExZDgxQjlxSDZtWWtaS3lIR09yVTBJam1LVnJPQ2NNTTAwbHU4TUtqLUhwQ0dsYVBiYUM2X25Na2lMdTg4czFPOXNaS2NHZ0h3aTE0bEZvekplMFV1SGZqZFIxX3laVE85YU1sbE9zZGhlbmc?oc=5",
           "date": "2026-07-09T07:00:00.000Z",
           "src": "Yahoo Finance"
-        },
-        {
-          "title": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia - euronews.com",
-          "summary": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb24zeXZudlVZZ19nQU1GRjRtR0VZd3RFdy1OdTNtZEY3YkRkLXU1bFU4Ulh1bS0ybDR1N2lhM0F1VjhVc0IzUmg5aE5ZWW5ZTGVVa25GVkl5UkRzYW1LM2xGNURvTlM3cFFoak5sNVpDVk1GNGNjOVJKYjkzMV93ZEpRRTR2ZzM2dEt5Skk3Q3BvVmJiRDFsSnNLQWRfa2dFUGNLRDF4eGpFM25tX0VzUGpjMFl2ZnNOdUtrbU5UNFlTSDg?oc=5",
-          "date": "2026-07-09T07:00:00.000Z",
-          "src": "euronews.com"
         },
         {
           "title": "Amazon (AMZN): AWS Names NiCE a Launch Partner for Its New European Sovereign Cloud Region - Yahoo Finance",
@@ -35716,13 +35520,6 @@
           "src": "MIT News AI"
         },
         {
-          "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "summary": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "link": "https://www.anthropic.com/research/project-pilot",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Anthropic Research"
-        },
-        {
           "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents",
           "summary": "Authors: Yan Yang, Xiangru Jian, Ziyang Luo, Zirui Zhao, Yutong Dai, Ziji Shi, Hanshu Yan, Jun Hao Liew, Silvio Savarese, Junnan Li Upvotes: 53 Summary: Computer-use agents are usually improved by strengthening perceptio…",
           "link": "https://arxiv.org/abs/2607.22798",
@@ -36787,6 +36584,24 @@
       "id": "ai",
       "label": "What's new in AI 🤖",
       "items": [
+        {
+          "title": "NoimosAI unveils Social Agent to automate content creation",
+          "summary": "NoimosAI unveils Social Agent, an AI tool that analyzes trends and top posts in your niche to generate content across 9 social channels.",
+          "link": "https://www.testingcatalog.com/noimosai-unveils-social-agent-to-automate-content-creation/",
+          "date": "2026-08-07T17:03:54.000Z",
+          "src": "Testing Catalog",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "Responding to the next frontier of critical cyber capabilities",
+          "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
+          "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+          "date": "2026-08-07T15:20:00.000Z",
+          "src": "OpenAI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
         {
           "title": "Grok Build 1.0: xAI Closes the Beta of Its Coding Agent - Pasquale Pillitteri",
           "summary": "Grok Build 1.0: xAI Closes the Beta of Its Coding Agent Pasquale Pillitteri",
@@ -39065,15 +38880,6 @@
           "firstSeen": "2026-07-24T19:27:57.477Z"
         },
         {
-          "title": "DeepSeek's legacy model names retire today, and the easy fix has a catch - techi.com",
-          "summary": "DeepSeek's legacy model names retire today, and the easy fix has a catch techi.com",
-          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxTHRIX0g5aU9FekhQVW1Va0FJUEg4V0h0WVcxWUo1Y3RuMVZKNVZGWGZsWllibTZNS3FwZVZwejhPQmg2ZDJ3QnZnMFFEcHA2NlgwMWNvQUt5R2dfbjJDaGxnRXlXY0lzUlFKMl94M01IZjU4YXduRQ?oc=5",
-          "date": "2026-07-24T07:04:21.000Z",
-          "src": "techi.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "SpaceXAI Will Release Grok 4.6 in 2 Weeks and Grok 4.7 in 4 Weeks - NextBigFuture.com",
           "summary": "SpaceXAI Will Release Grok 4.6 in 2 Weeks and Grok 4.7 in 4 Weeks NextBigFuture.com",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEpvVlA5bXFPVUlSaTRtU1NMaE5XdFVsRjVpTGJfVVNYZS01LVFSak5QaXBSZEhUOUF1Vlk0WFhPMjR6dXIxdHBpbGhLVWlVcmI5eTJ0SUJLek11VHhNaTg1eUtCQllEYjNyZjF6ZzZhR3pELWdDTEMyMG5WcFdIcGNZQ1E3YkF5SF9aTFBJYV9UM2tzRy1EdjRTOFhDdHRSWjFndXZCT3llWG1l?oc=5",
@@ -39126,24 +38932,6 @@
           "src": "tech-insider.org",
           "via": "googlenews",
           "firstSeen": "2026-07-25T08:09:44.552Z"
-        },
-        {
-          "title": "Run Ray on TPU, Part 2: Ray AI libraries",
-          "summary": "This second installment explores how Ray’s higher-level libraries—Serve, Data, and Train—abstract the complexities of running AI workloads on Google's TPU slices. Ray Serve uses a simple topology configuration to correct…",
-          "link": "https://developers.googleblog.com/run-ray-on-tpu-part-2-ray-ai-libraries/",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Google Developers AI",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "summary": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "link": "https://www.anthropic.com/research/project-pilot",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Anthropic Research",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "The new rules of context engineering for Claude 5 generation models",
@@ -39486,15 +39274,6 @@
           "src": "Fortune",
           "via": "googlenews",
           "firstSeen": "2026-08-01T03:15:13.401Z"
-        },
-        {
-          "title": "What's Going On With Nebius Stock Friday - Yahoo Finance",
-          "summary": "What's Going On With Nebius Stock Friday Yahoo Finance",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaW9GZjA4Z0dVTWdCUnB5ekp5QkhpVW1NeTYwZDY2d3FCVFNLa3R4QkE4ZWlCX09IYjBVeGk4YW5TVTVIdGJwV09QVkQ1eFZtczVFUG80TFVEa1hSOUlRdjM5Ui03SmVac29xSEFXZDhHV1B5QTFPTlVSNjdFS1pVTWlQTzhnM1BCMzNYWGFPaHdnTzVmNzRPV3d5UXo?oc=5",
-          "date": "2026-07-17T07:00:00.000Z",
-          "src": "Yahoo Finance",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Working at the frontier: How Cursor knew Claude Fable 5 was ready for the hardest 1% of problems",
@@ -43652,15 +43431,6 @@
           "firstSeen": "2026-08-03T09:51:00.185Z"
         },
         {
-          "title": "Legal AI startup Legora raises $550 million to speed up US expansion - Reuters",
-          "summary": "Legal AI startup Legora raises $550 million to speed up US expansion Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeERTYTlBN051aDRabHlSQ2JvcjVDWktpMU45bzBvM2FxeWhBU1VLUFBWS0FrYWpqdDNkVWhZUUw1ZzNMb1NhNTJZU2VuTHBvaXpNaGVqenhYZDhWQjF1RU5XN2Mzb3VmRUNSZHRxeGNUSGdOekJFQmRpQk44T3d0Nk5vRFhNN0lBTVRBRF90TEFsUkxEVWxXN2trd05kTmdnbHlST2tET0xBRnVSRzNnVkx5Nl9sbnBW?oc=5",
-          "date": "2026-03-11T07:00:00.000Z",
-          "src": "Reuters",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "Databricks acquires Quotient AI to power AI agent evaluations - Databricks",
           "summary": "Databricks acquires Quotient AI to power AI agent evaluations Databricks",
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMlF1VV9PRzJ0MjVoN1ZEVGprWWItcnBpRmlUWlI4ZXRkUzJSMW9rNTlJd2twckw3LTBHQ1RBWTcwMEh4a2JOTUR3OHdQajk1bXlyZThOZVRjaFVCSWNSV0hGdkVqSk1HeHJEbXZPMXVrbThlc1pDWEVuM290NHBjMVZNNFU3RGFjNXJxcXZLMEVSaDJu?oc=5",
@@ -46052,15 +45822,6 @@
           "firstSeen": "2026-07-25T02:51:45.908Z"
         },
         {
-          "title": "Weekly funding round-up! All of the European startup funding rounds we tracked this week (July 20 -July 24)",
-          "summary": "This article is visible for CLUB members only. If you are already a member but don’t see the content of this article, please login here. If you’re not a CLUB member yet, but you’d like to read members-only content like t…",
-          "link": "https://www.eu-startups.com/2026/07/weekly-funding-round-up-all-of-the-european-startup-funding-rounds-we-tracked-this-week-july-20-july-24/",
-          "date": "2026-07-24T15:02:09.000Z",
-          "src": "EU-Startups Germany",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. - podcastnewsdaily.com",
           "summary": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. podcastnewsdaily.com",
           "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbmZvY1lDTC02REdjb2dTQXZCcTNDMTRWcFh4bGxhRXhkblplTWVRTUM5LS1LblNQdlZEemV1c1pPVEJoOFZUTkFpTEpmNjVQeVBad2FWZmlNRHRnUU9QZ3lvQi1SNmFtRjMyLThmTmFrUnJtOEp6d05Sd0w3T0ZWMGNLMVVUY0FiLUlnT0JfaW5uRi1EYlMyX0ZSUFVxMDNJY0dnWmdxQllQa2RyMXBVVDB3eGc3djY5Z3RPbkVTdmYxSjRYdmo3U0xZVDBOekFTODVLTk5mcEpTdmhyZ21ydE1JcHI0eFBVYkotZTVEMmtJVGlrU3M1Yk9BeGdsZw?oc=5",
@@ -46068,15 +45829,6 @@
           "src": "podcastnewsdaily.com",
           "via": "googlenews",
           "firstSeen": "2026-07-27T16:59:55.920Z"
-        },
-        {
-          "title": "UK government AI Taskforce chaired by Lord Vallance launches",
-          "summary": "An AI unit has been set up at the centre of the UK government to drive overall AI strategy, following a major AI shakeup inside the government this week. The unit, called the Prime Minister's AI Taskf...",
-          "link": "https://tech.eu/2026/07/24/uk-government-ai-taskforce-chaired-by-lord-vallance-launched/",
-          "date": "2026-07-24T14:40:00.000Z",
-          "src": "Tech.eu AI",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed - Tech.eu",
@@ -49415,6 +49167,87 @@
       "label": "More on AI 🪩",
       "items": [
         {
+          "title": "Watching Roku’s AI channel is like eating from a trough",
+          "summary": "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series. But Roku's latest experiment in the FAST space has less to do wit…",
+          "link": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+          "date": "2026-08-07T18:59:46.000Z",
+          "src": "The Verge AI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "OpenAI puts the brakes on a new model because it&#8217;s supposedly too powerful",
+          "summary": "OpenAI says it is pausing \"internal activities\" around an in-development AI model, Astra, because it doesn't yet meet new security standards the company is putting in place. The announcement follows its recent disclosure…",
+          "link": "https://www.theverge.com/ai-artificial-intelligence/976948/openai-astra-model-pause-critical-cyber-capabilities",
+          "date": "2026-08-07T18:40:34.000Z",
+          "src": "The Verge AI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "AI music generator Suno tightens rules to fight spam and address growing copyright concerns",
+          "summary": "Suno CEO Mikey Shulman has announced new guidelines and tighter download limits after its AI-generated music was used to game streaming platforms for profit. The company also faces pressure from a German copyright ruling…",
+          "link": "https://the-decoder.com/ai-music-generator-suno-tightens-rules-to-fight-spam-and-address-growing-copyright-concerns/",
+          "date": "2026-08-07T18:35:42.000Z",
+          "src": "The Decoder",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+          "summary": "AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per…",
+          "link": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+          "date": "2026-08-07T18:01:32.000Z",
+          "src": "The Decoder",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "Anthropic loosens Fable 5's biology restrictions but keeps the guardrails on for virology and toxicology",
+          "summary": "Anthropic has cut false positives in its biology safety filters for Fable 5 by about 85 percent. Previously, nearly all biology-related queries got blocked and rerouted to the less capable Opus 5. The restrictions stay i…",
+          "link": "https://the-decoder.com/anthropic-loosens-fable-5s-biology-restrictions-but-keeps-the-guardrails-on-for-virology-and-toxicology/",
+          "date": "2026-08-07T17:35:45.000Z",
+          "src": "The Decoder",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "Windows 11: Warum deinstallierte Apps nicht immer Speicherplatz freigeben",
+          "summary": "Kein Bug: Wenn du Apps aus dem Microsoft Store deinstallierst, verändert das oft nichts am vollen Speicher. Microsoft erklärt nun, warum „Entfernen“ nicht immer „Deinstallieren“ bedeutet. weiterlesen auf t3n.de",
+          "link": "https://t3n.de/news/windows-apps-microsoft-store-speicherplatz-1757152/?utm_source=rss&utm_medium=newsFeed&utm_campaign=newsFeed",
+          "date": "2026-08-07T17:00:44.000Z",
+          "src": "t3n",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "What&#8217;s behind the Google AI shake-up",
+          "summary": "Some of the biggest names on Google's AI team got new jobs this week. In some cases, including for legendary Googler Jeff Dean, those jobs are no longer at Google. Given that Google's models seem to be behind the best of…",
+          "link": "https://www.theverge.com/podcast/976784/google-deepmind-ai-race-vergecast",
+          "date": "2026-08-07T16:45:14.000Z",
+          "src": "The Verge AI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "OpenAI's first smart speaker is expected in 2027 at over $300",
+          "summary": "OpenAI is planning a donut-shaped smart speaker for 2027, priced above $300. The screenless device has a camera, microphones, and moving parts. It's designed to learn from conversations and adapt to users, fitting Sam Al…",
+          "link": "https://the-decoder.com/openais-first-smart-speaker-is-expected-in-2027-at-over-300/",
+          "date": "2026-08-07T16:43:16.000Z",
+          "src": "The Decoder",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
+          "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+          "summary": "Cloudflare has introduced Kitesurf, a cloud-hosted browser designed for AI agents instead of people. The company says the browser uses less computing power than Chromium for common automation tasks, helping developers bu…",
+          "link": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+          "date": "2026-08-07T16:16:09.000Z",
+          "src": "TechCrunch AI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
+        },
+        {
           "title": "Tech: Trump says lack of AI regulation not bad - Punchbowl News",
           "summary": "Tech: Trump says lack of AI regulation not bad Punchbowl News",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12NlMzRC1rMllqdVZtUUNiQWp1Y05xYkVBanUxTlo2a0JSNFRwU21zeS1mRVRwY0dPNEFBMlZoUVB5OWhiWGFiMml0cU1TbTg4TG05b0FvWTRQQ2dfOHQzWkNkR0xlMlE?oc=5",
@@ -49584,6 +49417,15 @@
           "src": "t3n",
           "via": "rss",
           "firstSeen": "2026-08-07T15:58:24.393Z"
+        },
+        {
+          "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+          "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall i…",
+          "link": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+          "date": "2026-08-07T14:00:00.000Z",
+          "src": "TechCrunch AI",
+          "via": "rss",
+          "firstSeen": "2026-08-07T19:00:27.793Z"
         },
         {
           "title": "Statt Disponenten: KI-System soll Notrufe entgegennehmen - Golem.de",
@@ -75236,60 +75078,6 @@
           "firstSeen": "2026-07-24T19:27:57.477Z"
         },
         {
-          "title": "How do you train a new AI service agent? A lot like you would a new employee, a city CIO says. - Smart Cities Dive",
-          "summary": "How do you train a new AI service agent? A lot like you would a new employee, a city CIO says. Smart Cities Dive",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXpLdndnODJBWWNQbFQ0YmFCeHByMWF1M2ZOdVUtTDhabDJEWDFaVHVYbWJDVVNmeGY2ekVBbUgyam1yU2VuVEhMLVFEQUI0amJfQnBueXY0VnVzajNLZy05UVRtbWthSnpPMmxUOHoyQllMbDgyM1lvNkZYU29kampiRWVJS2lSTEdHRmFKVHNqdG1BZXQ5MWRVYWtwUlFP?oc=5",
-          "date": "2026-07-24T16:09:27.000Z",
-          "src": "Smart Cities Dive",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "IBM’s Earnings Miss Tied to AI-Driven Hardware Cost Surge, CEO Says - AI Insider",
-          "summary": "IBM’s Earnings Miss Tied to AI-Driven Hardware Cost Surge, CEO Says AI Insider",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSzk2UDFQMGU4Y2YtTGVCWnRDcTBENTBBZDJRZFNWdmEyaEljdWVMcFFVbmhjaHF0UkJJd2xCYmpZbkJFUzBFYzBwQXFqUUhFY0VnSzF2VGFwYlJ0ZTB1QnZBbWlGZkZhRzRYWFEzV2xTa0k1Z3dnZ29IaGFHNHNWaEdWNzlUMWtWdTVuS0tVWmgtUVdZT0d2Rmx0Y0wwM29Wck56alBR?oc=5",
-          "date": "2026-07-24T16:07:20.000Z",
-          "src": "AI Insider",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts",
-          "summary": "Microsoft, along with Meta, Nvidia, and more than 20 other companies, is pushing for open-weight AI models in an open letter. The strategic logic is simple: the more models running on Azure, the less Microsoft depends on…",
-          "link": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
-          "date": "2026-07-24T16:06:02.000Z",
-          "src": "The Decoder",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Tokens: SAP will Ausgaben für KI deutlich einschränken - Golem",
-          "summary": "Tokens: SAP will Ausgaben für KI deutlich einschränken Golem",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZHNBRnFYYWJkcVhfbUppcXhOaUZFWWNSQUpIVWpNdDJuUDhmRUkxU0NLdXpyOG96R3N4end6WUZnenMydHZ0RnRFMnV0Rk5jcmxOOTNBdk9FTXkwYWxBbVpTUWVVcGNIQVN0aUtRT0JaYjlocFUxTFNuTzNWMWpaY3FnckxtNVI4ZGkzVGI3dzVTQ2VubEQ4eEd6WHdMcVk?oc=5",
-          "date": "2026-07-24T15:57:02.000Z",
-          "src": "Golem",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
-          "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
-          "link": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
-          "date": "2026-07-24T15:51:49.000Z",
-          "src": "TechCrunch AI",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Tesla quietly closes its secret ~$2 billion AI hardware deal - Electrek",
-          "summary": "Tesla quietly closes its secret ~$2 billion AI hardware deal Electrek",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb29iTTBYcU5iamhreG1LalVHV3d4cUkwVXBoS2kyT09GZGNPNzhpbzJJN2hNYVRibUlnVDBEV0g5TjE2Y0JGUnlWTzIwOF8zdWZGLVZ3ZFZlMVY2elZwcjROa2xFd3FKR1FtdGE2ckEwdkVjMHlrYVN5dzZ6N3dlcnktUEloV1dFWlEyQm1n?oc=5",
-          "date": "2026-07-24T15:39:00.000Z",
-          "src": "Electrek",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "Wirtschaftsblase: Die Tesla-SpaceX-Blase platzt - Golem",
           "summary": "Wirtschaftsblase: Die Tesla-SpaceX-Blase platzt Golem",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMzJ3eDVOYVN0ZVNocWZONlNxTmxCWU03RlpjRmJsaTc5TUY4X1FDVUFpNjJMeXVpQTM5Zm9FbFgwd2VMWi1sd2VneFVySW1vN05fQ2ktd29lTEowS0l2MTZYcldDdm0tNGI2QWdHNGVCYVhWQ1V1MFlYa3poN3VacXlTZlhXMXU3cGJJRW14aUpmRkk?oc=5",
@@ -75297,87 +75085,6 @@
           "src": "Golem",
           "via": "googlenews",
           "firstSeen": "2026-07-24T22:06:51.656Z"
-        },
-        {
-          "title": "AMD bundles chips, racks and partners into full-stack AI push - IT Europa",
-          "summary": "AMD bundles chips, racks and partners into full-stack AI push IT Europa",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQaGVHLVBZQXRZbC1lUmUzTGlEWDJMZjFYdUphR0lSY1Y0Z0RwLXFSRlcyeWpJZUNldllSaFJhZFU2ZzVtVDllVTZWNjhzYTdWR3J2T3J5Mjl0SElJUy1qUjZrOXNFT1hoS0psZUVjNUo5dG1YSXdhdjdfNThNWVJWUXhXS2kwd05pTlZ6cENR?oc=5",
-          "date": "2026-07-24T15:34:04.000Z",
-          "src": "IT Europa",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Tech: Tech giants underline support for open-source AI - Punchbowl News",
-          "summary": "Tech: Tech giants underline support for open-source AI Punchbowl News",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DQzkyTjNMUXduN1E5MFhpQWszSXlSd2w0dEp3bng2WUlQUEhYWGZmcEptQ2lnRkN3VWhBQmdhSFRKb1VJUkJ6ekhfd3gxbTNtbTMyMjhQQWZLY0RBZWQza0JhQl9PSHZ3RVRfajM0eXA?oc=5",
-          "date": "2026-07-24T15:33:36.000Z",
-          "src": "Punchbowl News",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "US floats AI 'kill switch' to stop rogue AI models - DW.com",
-          "summary": "US floats AI 'kill switch' to stop rogue AI models DW.com",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2pmMjlWQlV5NExyWjdsSGhoUllpaGZCVjB0V3RZMlgxTzd6WERuZERRSWp1d2pLeTVjX2ExSFdxeUNSVWNJdmhvMXZKV0VMeEFKYm1teEJ3VXBCNEE3Wmdwd2ZJZlVKT056cE5YTUkzTXlfazdPQ1JIZTIxYmxJazlpWElDY1hT0gGIAUFVX3lxTE5ieUVZc0ZkWDhTdVU4Vkh0LVQ5d0V1ck9zdnRKME1WZUJObFA4SnBqMnhOT21uTVNKT2EwOEUzN2lqOVQyekJYZXc3eGNVM1hpbHBEN1JJU1BjYVRoQ0VyaHpxUzRZWmhRdEpLUGlxd1Vhck9YU25fb2lRZFRzbTBVN0ZFME5ycnc?oc=5",
-          "date": "2026-07-24T15:30:35.000Z",
-          "src": "DW.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Microsoft, tech companies throw weight behind spread of open-source AI - CyberScoop",
-          "summary": "Microsoft, tech companies throw weight behind spread of open-source AI CyberScoop",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFeDhpalBqSmY2R1pkRWRpQWFSSi1RUG11NWx6MVE5R0hzMnRQS2pVTDVCam9hUEZDeUpGdXR6NUFHQVp4dWhpcDJBR09LaUZ2dVY3ekotU3k4OVBlLTNiZUhCR3pkNjBrdmN0RloyT1Z5LVU?oc=5",
-          "date": "2026-07-24T15:24:40.000Z",
-          "src": "CyberScoop",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
-          "summary": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
-          "link": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
-          "date": "2026-07-24T15:13:57.000Z",
-          "src": "TechCrunch AI",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "How OpenAI Lost Control of an AI Model—and What Needs to Change - Time Magazine",
-          "summary": "How OpenAI Lost Control of an AI Model—and What Needs to Change Time Magazine",
-          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2SXZ0SXhYeUpETjZ2T2N1aDNZaml2bzZYUmpSWlhnMENQZ2VZTWNCemJsT24zWHNQQnJ6UlZraVd0Wk1wdkNrUXdGLUhQeENDWjJTd0ZiSmUtcWU0aXd5V2xWbmt4cHFnMkFhaTlEaGg?oc=5",
-          "date": "2026-07-24T15:13:52.000Z",
-          "src": "Time Magazine",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Midjourney acquired the astrology app Co-Star",
-          "summary": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
-          "link": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
-          "date": "2026-07-24T15:09:55.000Z",
-          "src": "TechCrunch AI",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Cisco-Studie: Deutschlands Firmennetzwerke kommen ohne Ausbau nicht mit KI klar - Golem",
-          "summary": "Cisco-Studie: Deutschlands Firmennetzwerke kommen ohne Ausbau nicht mit KI klar Golem",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmRlM3hKeWJWdFZzZTVMOGdUdVB4NjM2dkhsYU1yM3hsejlyeEpPanhyQ0ZGVmM4RU1kUkJlSi10UGMyYUxVWmZUNWZxTGZfY3VOenZnbjBncEdyZjJmcnZPQjZSbTMwRU5fdnhOM1NuQ3VVUnN0ZTNzMmVkSjNBSlk5NHB0Y1FSQkVvUTRZdzhvRHMzMjlFRmEtYWhJLUY3TlRBOHpQZEJrQ01rNUpLUkRGZnJqR2dDRXV0LVBR?oc=5",
-          "date": "2026-07-24T15:03:01.000Z",
-          "src": "Golem",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "AI Raises New Questions About Fashion Design Ownership and Copyright - WWD",
-          "summary": "AI Raises New Questions About Fashion Design Ownership and Copyright WWD",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYkNoUUhrVU1KVFJ4NFhtSE5XbDZxWllDQkdiMTRxR0RUcDJOVGJIRUx6V083OVZjeXpTZXQ1aGthRzBCYWRuTXloaE9LSFBnVWY1X2R4Vk9oRFMyX1dIU0NZQzdlVjB2Y2RfYnBlcVcyc1NZRzZSUW5CZ2RJaFVweURXd3BMSV9CZ2RFNW14Z2Z5a2hCdkVsd201NVFkcEd5aml6elIxUDIxLXJvYzhJdU9xX0xYazA?oc=5",
-          "date": "2026-07-24T14:58:33.000Z",
-          "src": "WWD",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Erie native receives funding for AI platform launch - yourerie.com",
@@ -75389,15 +75096,6 @@
           "firstSeen": "2026-07-25T08:09:44.552Z"
         },
         {
-          "title": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. - podcastnewsdaily.com",
-          "summary": "AI Startup Cast Insights Lands Seed Funding To Turn Podcasts Into Searchable Data. podcastnewsdaily.com",
-          "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNbmZvY1lDTC02REdjb2dTQXZCcTNDMTRWcFh4bGxhRXhkblplTWVRTUM5LS1LblNQdlZEemV1c1pPVEJoOFZUTkFpTEpmNjVQeVBad2FWZmlNRHRnUU9QZ3lvQi1SNmFtRjMyLThmTmFrUnJtOEp6d05Sd0w3T0ZWMGNLMVVUY0FiLUlnT0JfaW5uRi1EYlMyX0ZSUFVxMDNJY0dnWmdxQllQa2RyMXBVVDB3eGc3djY5Z3RPbkVTdmYxSjRYdmo3U0xZVDBOekFTODVLTk5mcEpTdmhyZ21ydE1JcHI0eFBVYkotZTVEMmtJVGlrU3M1Yk9BeGdsZw?oc=5",
-          "date": "2026-07-24T14:55:00.000Z",
-          "src": "podcastnewsdaily.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "The tech-broification of American science has officially begun",
           "summary": "Trump’s science adviser Michael Kratsios has no science background. | Image: The Verge; Getty Images The Trump administration unveiled the first \"Genesis Mission\" grants on Thursday, directing $5 billion toward hundreds…",
           "link": "https://www.theverge.com/science/970534/genesis-mission-ai-science-funding-trump-grants",
@@ -75407,51 +75105,6 @@
           "firstSeen": "2026-07-24T19:27:57.477Z"
         },
         {
-          "title": "Jeff Bezos persönlich beteiligt: Amazon will mehr KI in Prime Video einsetzen - Golem",
-          "summary": "Jeff Bezos persönlich beteiligt: Amazon will mehr KI in Prime Video einsetzen Golem",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN2VXRGI4TWRPdDVlQkRyVkk4SGFvdkZ2dmMtbS0xV0JPeEVGNXBhNEE5a0ZvTWlrWXRtN19VTXRpR1pIOGNGUXQ1eU1XbkhzOGRSR0MtVU5CNHRERjJleUEyUjVHRkVSUkNDR0JwaHh0emtNMEF5NC1aYnZubFRRTlA1a24yTjZibDBQalIwTWFyYzRrVVZWNVBDYTAtQk9zNy11RlhSaGhwUHhWWldWWXpqSmFISUExbDlKOQ?oc=5",
-          "date": "2026-07-24T14:43:02.000Z",
-          "src": "Golem",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "UK government AI Taskforce chaired by Lord Vallance launches",
-          "summary": "An AI unit has been set up at the centre of the UK government to drive overall AI strategy, following a major AI shakeup inside the government this week. The unit, called the Prime Minister's AI Taskf...",
-          "link": "https://tech.eu/2026/07/24/uk-government-ai-taskforce-chaired-by-lord-vallance-launched/",
-          "date": "2026-07-24T14:40:00.000Z",
-          "src": "Tech.eu",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "The 3 types of people who will excel in the AI agent era, according to tech leaders - ZDNET",
-          "summary": "The 3 types of people who will excel in the AI agent era, according to tech leaders ZDNET",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNb2ZNRTFCb1NtWnlJLXNYNUVpUlJubzJLaldPRnNDazJWR2lpdF82bWlYN2F4THJIcmJreWp3LW5CNEItYWQ0OFU3QjV6dlRmUVd5OVppemRqRmVjaXpBbGhWSHMtM3ktSnRDU0s4OFdMYmFvY2hpSFpmV2YzTDRLdTdJTm5KS3lwTXU1bTgyYlVzNW1aUUhVb2lpeXBvZEVfMjY5LTJ3?oc=5",
-          "date": "2026-07-24T14:38:00.000Z",
-          "src": "ZDNET",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Sakana claims its AI model router Fugu Ultra v1.1 now beats Fable 5 without even including it in the pool",
-          "summary": "Sakana AI has updated its Fugu Ultra AI router to version 1.1, claiming gains of up to 7.9 points over v1.0. Independent verification doesn't exist yet. The update adds a Claude Code-compatible endpoint. The service rema…",
-          "link": "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/",
-          "date": "2026-07-24T14:37:57.000Z",
-          "src": "The Decoder",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Intel (INTC) Signs Lens Technology MOU For TGV Packaging And AI Hardware - simplywall.st",
-          "summary": "Intel (INTC) Signs Lens Technology MOU For TGV Packaging And AI Hardware simplywall.st",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZld3aVQwRFdpOVlZb1o4eHhkX2g1cm92N3J6c2ZaQ0tkTUhJd2hZbzNtbGJZU2NuM096OEpnQUM2emNZMkRUak5fN0pqdV83UXZWWG9rZ0g1eWZuQ3VQMi1Lb1N3M29IbGlSdVRvT2RkLWEzQ3dQTEhLTzBJbjhSUkh0RGYzSXdBMDk2akhwblZOMjZ3NlgtdXZHanNNN05sOFU2al9CTEZfTHZKSkdDT21xbzEzWHZuTjR2RzFuOGhzUEtIdkF5MDdB0gHPAUFVX3lxTE9IbkZSNUJRSzEwc0xEVWRTQm5ES1ZxSnhnVG9XRGxfbldiaEZISHBRVjNET0ZYTEp0Ujk0X2hVVmVlOVVvdEI1V0Q5WV92eUxHM2pmSHk3RHhkYTlpSzZvV1g4M0s1RFlqUURpamZ5UXNSYUdwVjR4SS1fMy1rbTFtTTlnOHlEb1l1LVVENVJXYXZIa0hMcmpwa3ljRl81a2NVaGt4XzVHN3BHbHR5d203VVhZQWZweG02WjZSZ2dOVE4xN3JIakRfRmE0SG1XTQ?oc=5",
-          "date": "2026-07-24T14:35:30.000Z",
-          "src": "simplywall.st",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "60 Jahre später: Flüssigsalzreaktor in den USA erhält Sicherheitsbestätigung - Golem",
           "summary": "60 Jahre später: Flüssigsalzreaktor in den USA erhält Sicherheitsbestätigung Golem",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkZvTmJEMWRVQUlFemV3U25FUGwtcTR6T2tuTm1EZFZkRUI1Y2VYLTlsc21WclpyeTM2dVl3WWZBWnR3Z2FQSnlMd0dEWmF1amJEZ1B3cXVIYXBKMmRFd2NBSzhXakZSbUpWdERHM0V4WEd6VnltQTJHYThXTzZWWTlBanRYcjlXeDJ6d2ZzeGhZOGQ5MHFaclF4Y3VDOXNvdDlFUUphSjdpOHExWlpLTHhJVnphcmgyazcyMzdEYw?oc=5",
@@ -75459,42 +75112,6 @@
           "src": "Golem",
           "via": "googlenews",
           "firstSeen": "2026-07-26T03:16:45.948Z"
-        },
-        {
-          "title": "Intel Turnaround Fueled by AI Data Centers Needing Its Chips - Advisor Perspectives",
-          "summary": "Intel Turnaround Fueled by AI Data Centers Needing Its Chips Advisor Perspectives",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRXZGa3Y1TXlmS3RDODg4R3ZLR1FuUEYwMkl4UlBhMzdkZjVDVHFSRjMwV3diZHpTSnV2Qy1iN09MMHJrWDM2eVNFSHM5Zi1EU0l3OW5aV1llVW55YmUyMG1qMnFiLUpZUks3Zk5PeUFNZjB2N0R3MTQ5SVF5OWpOMW9JWElvQkdSVE81RU1VQnFjV3RwUWtCM09UMEY4Y2lIcWxHX3BPNl9FcWNZUmc?oc=5",
-          "date": "2026-07-24T14:26:52.000Z",
-          "src": "Advisor Perspectives",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "Q1 AI Insights for Policy Makers: April 2026 - Bipartisan Policy Center",
-          "summary": "Q1 AI Insights for Policy Makers: April 2026 Bipartisan Policy Center",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONjJVM0JCdFkxQXZaLU5Ebm5FSjNrMHR1R0p0RW56djlLc0E2M01DRkdOTlRIS2lNQTZqY1NycktTVFNhTmdKNkI1SU5Db3Y5Mm1kV2ZBQU1sOXZuT0FjWlNyWFRZdDJuQ3RLWHJYZXFDRDkxTTZBTzlyS09uMElWUEVfQ2k1NDJM?oc=5",
-          "date": "2026-07-24T14:25:49.000Z",
-          "src": "Bipartisan Policy Center",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "AMD: Advancing AI Data Centres, Networks and Robots - AI Magazine",
-          "summary": "AMD: Advancing AI Data Centres, Networks and Robots AI Magazine",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9EWlBlb0VCbTl3dEJzUjNMbXpHRVZhV0dmcDhrcW1Hd19PWmxxVVp6dEV5U25xMzdLSDhuaHpLWnVZWXhkTlh5bzZQRkJzczBfZXFTYkpNd3A5VEdEalJ0dkNxQ0ZWbDhTODR6X0d3VnVfdnBCbmtYcTN4YkJqUQ?oc=5",
-          "date": "2026-07-24T14:12:02.000Z",
-          "src": "AI Magazine",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
-          "title": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed",
-          "summary": "This week, we tracked more than 50 tech funding deals worth over €1 billion and over 10 exits, M&A transactions, rumours, and related news stories across Europe.Alongside the week’s top funding ro...",
-          "link": "https://tech.eu/2026/07/24/cuspai-bags-450m-resist-ua-launches-50m-fund-and-dsit-axed/",
-          "date": "2026-07-24T14:10:46.000Z",
-          "src": "Tech.eu",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Startup-Strategie des Bundeskabinetts: 150 Maßnahmen, KI-Absicherung und neue Wettbewerbslogik - it boltwise",
@@ -75549,15 +75166,6 @@
           "src": "- Center for Democracy and Technology",
           "via": "googlenews",
           "firstSeen": "2026-07-24T19:27:57.477Z"
-        },
-        {
-          "title": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory - Towards Data Science",
-          "summary": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory Towards Data Science",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTlhrTEhmcHEtTU1YY2NQck0zSUxETjFVR19iQ2VjbDB4b3FGUVlCR2gzanJ5ZHFzWmE2RjEtaXlSbENKeE5LOGo2YklmQjJ1ZU1YOFlLaExSYnYwZzZwem9qekJLUllqX3JOY3dPMjA1M084THd0cmNjMnB2MVNSNGVuVmJwN2lKWXRIRG9kbEtLVjVJUm00Sy1yb0t4bFE2enpPVEdjQWE3cllCRjJpVGhPcW9XdXlzT0JKQVdDcE0?oc=5",
-          "date": "2026-07-24T12:00:00.000Z",
-          "src": "Towards Data Science",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "The AI Digital Omnibus Regulation has been published, redefining deadlines and simplifying requirements for companies and developers - Garrigues",
@@ -75650,15 +75258,6 @@
           "firstSeen": "2026-07-25T02:51:45.908Z"
         },
         {
-          "title": "India's HCLTech to invest $1.48 bln in AI data center, open 5,000-seat tech hub - Reuters",
-          "summary": "India's HCLTech to invest $1.48 bln in AI data center, open 5,000-seat tech hub Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSXhOZlF2NXRGVGtYc2JmcmlLS3dHYWJid01SNEhiakhBbmppZXZXdTQ2bmpDUDBpdzExaUZZbGNORXp5eFh3WWd0ek5xNVNmaElqMy15UG5sTUR0cEdaWXpHcFZyQk96OC0zVU14R2xVY0MtWUdZbXhDT3gzUUpYZ2taNk9GUVpTNUpzak9YRnNTNkN5MXRya2JnNVpFSmlyTHZpQW1UMXFJcGN0WGpJUDJRREJoeDQ?oc=5",
-          "date": "2026-07-24T06:50:00.000Z",
-          "src": "Reuters",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "Datenpanne: OpenAI-Crawler greift Kundendaten von Universa ab - Golem",
           "summary": "Datenpanne: OpenAI-Crawler greift Kundendaten von Universa ab Golem",
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaEhORnFHQTBaa2JMdWJYSC11a2JNZExSQ3Y4UGIxRUMxUExCTlZ0dXNiVm5pa002US0wcWc5S3pSakUtdzIxS3RaQ0FPaXpLWU5HSnNBRnMyOWxWRUFYMHAzaWNMN1dkSm1sY3J4WEF4MHZSZl81YWE5NVNLczk0bWx0My0tZ0c5dWpEMlZlQVRwc0prUklNTjRCcVhIWjlJWkNLaFNn?oc=5",
@@ -75684,15 +75283,6 @@
           "src": "heise online",
           "via": "googlenews",
           "firstSeen": "2026-07-24T19:27:57.477Z"
-        },
-        {
-          "title": "Burnham Has a Narrow Window to Shape UK AI Policy - Carnegie Endowment for International Peace",
-          "summary": "Burnham Has a Narrow Window to Shape UK AI Policy Carnegie Endowment for International Peace",
-          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9xUmRJTThWQTh6VG52c2p0N1NvRTQ4OW9QODFCajNpSU8xUDVka2tPX2xuTWhuRXZVc3prSTRjZ3ExWWxxU2o0anlLUVZEOG4zdGF4NkRXZ1hRZ0tsci1Td2hMWFVsWENlbHhHOG5RNU9IUnVRMEE?oc=5",
-          "date": "2026-07-23T21:34:37.000Z",
-          "src": "Carnegie Endowment for International Peace",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Wirtschaftskrimi: Prozess um 100-Millionen-Euro-Betrug an Delivery-Hero-Gründer - Golem",
@@ -75866,15 +75456,6 @@
           "firstSeen": "2026-07-26T03:16:45.948Z"
         },
         {
-          "title": "heise Security (@heisec@social.heise.de) - heise online",
-          "summary": "heise Security (@heisec@social.heise.de) heise online",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PcGtpZHhXd3p0akVQdWhINE5yVkd0cnNCSkNFa2cxXzUwbWFEZ1lWVUdfZFlLTW1kQ3BuVWt1RmZvZTlqTFBfQUtaTVJBajZEMUotbUNMMkNaU1FXQUg4?oc=5",
-          "date": "2026-07-22T11:56:07.000Z",
-          "src": "heise online",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "KI-Regulierung: Neue Gesetze für Millionen Unternehmen ab August - AD HOC NEWS",
           "summary": "KI-Regulierung: Neue Gesetze für Millionen Unternehmen ab August AD HOC NEWS",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPenJHbUF5d25IdjNUd0FzLU5aWEQyaVF5VzdURXRKUDVaQTlyLVZqQ0ltVFV1d2ZfWXYzM0pLT1MzY3p4UE5YVzRXUEI4bFE4SFVGMWlZVURwZGktRER2aWFmUlh0dkdiUk9FNXNpdUI5WGxTTjdDWmJoeXl4T1ZUeHZ1QWFsbnRUM3IwYUVqRmNnWkhoX052N2s3YmVDal8ySTJlZUFMdzFyRWdPd3lJVA?oc=5",
@@ -75927,15 +75508,6 @@
           "src": "Computer Weekly",
           "via": "googlenews",
           "firstSeen": "2026-08-04T22:14:45.362Z"
-        },
-        {
-          "title": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide - NVIDIA Blog",
-          "summary": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide NVIDIA Blog",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5odmdhWHF4alVmWF90RlBMMnEwVF8xVHBUZ2ZqakFXSE80S3hUaVJXNEtfME9tMXh2MThWVVJuMmRCYnpXSWJta1BqYWxvb2FwZURZ?oc=5",
-          "date": "2026-07-21T15:40:13.000Z",
-          "src": "NVIDIA Blog",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Google updates lightweight Gemini models, but flagship still delayed - Reuters",
@@ -76136,15 +75708,6 @@
           "firstSeen": "2026-07-28T05:48:53.426Z"
         },
         {
-          "title": "EU Banks Urged to Pool Buying Power in Deals With US Tech Giants - Bloomberg.com",
-          "summary": "EU Banks Urged to Pool Buying Power in Deals With US Tech Giants Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNblZpXzl3TE5NWGhJZkRIU0dUbmJlbDQ3SHpqY2trRi13bkJMWnBMRThBN29qdzJtTlJiZlVYeEIzN0ZzSkJvR3hNT1FYWU9neDlIRzNHSVprd09qaXVrVTFMWkNEenpmLTNYeDZ2ZnBaRjRDOUhISWVMcHhPVWRic0pzLVBoWXduZEk2QlhrZnFpaTQ5NldGb0dQT0NYMkMxQVZZRlBmMl9KRWpaQ2YtTTlXNVhlQQ?oc=5",
-          "date": "2026-07-10T07:00:00.000Z",
-          "src": "Bloomberg.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "Fable Follies Sharpen Europe’s Sovereignty Conundrum - Center for European Policy Analysis (CEPA)",
           "summary": "Fable Follies Sharpen Europe’s Sovereignty Conundrum Center for European Policy Analysis (CEPA)",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX0tMYV9HZlZQdkR0dGZWdHNVWGNxcnJadVNYSTJ6MzVwcmpDbThtTmtSbkliVnZaNkV4RFRzTzVVOHRBaTFiZGwzZ2ZvcU9iWGo4dmRLeTU2VndXUG5RWVhjUmlOTkdNVEFvd25MQzFjY3gzOTdRd3VYVFZveG1MZTFiYw?oc=5",
@@ -76163,15 +75726,6 @@
           "firstSeen": "2026-07-25T08:09:44.552Z"
         },
         {
-          "title": "Nvidia rival Cerebras to invest billions in Europe's AI infrastructure - TRT World",
-          "summary": "Nvidia rival Cerebras to invest billions in Europe's AI infrastructure TRT World",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE80RTBfdzJkMXJRNW1XbExjSUJ6VGZGLWNnRVc5Sm03NEZOM1BGdE5LY1Z4THhCX3IwbEl5MmhQNDVQMXUwN3NBcXNMSElPc2hRTU11UjR6bXg?oc=5",
-          "date": "2026-07-09T09:28:37.000Z",
-          "src": "TRT World",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
-        },
-        {
           "title": "Technoprobe’s 330% Surge Makes It a European AI Stock Standout - Yahoo Finance",
           "summary": "Technoprobe’s 330% Surge Makes It a European AI Stock Standout Yahoo Finance",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTFF6NVFNdnFrNDdOaXdvVlpFX3VpZUtCY0taNWVFWFkzUnh2endkSnFVeTFTY3ExZDgxQjlxSDZtWWtaS3lIR09yVTBJam1LVnJPQ2NNTTAwbHU4TUtqLUhwQ0dsYVBiYUM2X25Na2lMdTg4czFPOXNaS2NHZ0h3aTE0bEZvekplMFV1SGZqZFIxX3laVE85YU1sbE9zZGhlbmc?oc=5",
@@ -76179,15 +75733,6 @@
           "src": "Yahoo Finance",
           "via": "googlenews",
           "firstSeen": "2026-07-25T08:09:44.552Z"
-        },
-        {
-          "title": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia - euronews.com",
-          "summary": "Cerebras targets Europe with multibillion-dollar AI expansion, challenging Nvidia euronews.com",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNb24zeXZudlVZZ19nQU1GRjRtR0VZd3RFdy1OdTNtZEY3YkRkLXU1bFU4Ulh1bS0ybDR1N2lhM0F1VjhVc0IzUmg5aE5ZWW5ZTGVVa25GVkl5UkRzYW1LM2xGNURvTlM3cFFoak5sNVpDVk1GNGNjOVJKYjkzMV93ZEpRRTR2ZzM2dEt5Skk3Q3BvVmJiRDFsSnNLQWRfa2dFUGNLRDF4eGpFM25tX0VzUGpjMFl2ZnNOdUtrbU5UNFlTSDg?oc=5",
-          "date": "2026-07-09T07:00:00.000Z",
-          "src": "euronews.com",
-          "via": "googlenews",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "Amazon (AMZN): AWS Names NiCE a Launch Partner for Its New European Sovereign Cloud Region - Yahoo Finance",
@@ -82692,15 +82237,6 @@
           "src": "MIT News AI",
           "via": "rss",
           "firstSeen": "2026-08-07T10:03:03.112Z"
-        },
-        {
-          "title": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "summary": "Jul 24, 2026Frontier Red TeamProject Pilot: Can AI control a drone?",
-          "link": "https://www.anthropic.com/research/project-pilot",
-          "date": "2026-07-24T00:00:00.000Z",
-          "src": "Anthropic Research",
-          "via": "rss",
-          "firstSeen": "2026-07-24T16:44:17.891Z"
         },
         {
           "title": "StateAct: Program State, before Pixels, for Long-Horizon Computer-Use Agents",
